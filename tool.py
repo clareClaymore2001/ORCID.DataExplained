@@ -1,51 +1,34 @@
-import os
+import os,time,random
 import xml.etree.ElementTree as ET
 import pandas as pd
 import glob
-import xlsxwriter
+import csv
 
-# Set the directory path
-directory_path = "D:/ORCID_2023_10_summaries"
+import multiprocessing as mp
+import concurrent.futures
+from tqdm import tqdm
+from joblib import Parallel, delayed
 
-# Get a list of all XML files in the directory
-xml_files = glob.glob(directory_path + "/*/*.xml")
+def flatten(matrix):
+    return [item for i in tqdm(matrix) for item in i]
 
-# Create a list to store the data
-data = []
-perData = []
-perDataCount = 0
-perDataLen = len(xml_files)
-ns = {'com':'http://www.orcid.org/ns/common',
-        'act':'http://www.orcid.org/ns/activities',
-        'edu':'http://www.orcid.org/ns/education',
-        'emp':'http://www.orcid.org/ns/employment'}
-
-def sortDate(x):
-    return x['StartDate']
-
-# Iterate over each XML file
-for xml_file in xml_files:
-    perDataCount += 1
-    perDataPath = perDataCount * 100000000
-
-    # Parse the XML data file
+def perData_process(xml_file,ns):
     tree = ET.parse(xml_file)
     root = tree.getroot()
+    perDataProcess = []
 
     for actSummary in root.findall('act:activities-summary',ns):
         for edu in actSummary.findall('act:educations',ns):
             for eduAffiliationGroup in edu.findall('act:affiliation-group',ns):
                 for eduSummary in eduAffiliationGroup.findall('edu:education-summary',ns):
-                    eduStartDate = perDataPath
+                    eduStartDate = 0
                     eduOrgName = eduOrgCity = eduOrgCountry = eduOrgRegion = None
 
                     for eduStartDateElement in eduSummary.findall('com:start-date',ns):
                         for eduStartDateYearElement in eduStartDateElement.findall('com:year',ns):
                             eduStartDate += 10000 * int(eduStartDateYearElement.text)
-
                         for eduStartDateMonthElement in eduStartDateElement.findall('com:month',ns):
                             eduStartDate += 100 * int(eduStartDateMonthElement.text)
-
                         for eduStartDateDayElement in eduStartDateElement.findall('com:day',ns):
                             eduStartDate += int(eduStartDateDayElement.text)
 
@@ -59,23 +42,21 @@ for xml_file in xml_files:
                             for eduOrgRegionElement in eduAddress.findall('com:region',ns):
                                 eduOrgRegion = eduOrgRegionElement.text
 
-                    if eduStartDate != perDataPath and eduOrgName is not None:
-                        perData.append({'Count':perDataCount, 'StartDate': eduStartDate, 'OrgName': eduOrgName, 'OrgCity': eduOrgCity, 'OrgRegion': eduOrgRegion, 'OrgCountry': eduOrgCountry})
-                        print(perDataLen, perDataCount, eduOrgName)
+                    if eduStartDate != 0 and eduOrgName is not None:
+                        perDataProcess.append({'StartDate': eduStartDate,
+                            'OrgName': eduOrgName, 'OrgCity': eduOrgCity, 'OrgRegion': eduOrgRegion, 'OrgCountry': eduOrgCountry})
 
         for emp in actSummary.findall('act:employments',ns):
             for empAffiliationGroup in emp.findall('act:affiliation-group',ns):
                 for empSummary in empAffiliationGroup.findall('emp:employment-summary',ns):
-                    empStartDate = perDataPath
+                    empStartDate = 0
                     empOrgName = empOrgCity = empOrgRegion = empOrgCountry = None
 
                     for empStartDateElement in empSummary.findall('com:start-date',ns):
                         for empStartDateYearElement in empStartDateElement.findall('com:year',ns):
                             empStartDate += 10000 * int(empStartDateYearElement.text)
-
                         for empStartDateMonthElement in empStartDateElement.findall('com:month',ns):
                             empStartDate += 100 * int(empStartDateMonthElement.text)
-
                         for empStartDateDayElement in empStartDateElement.findall('com:day',ns):
                             empStartDate += int(empStartDateDayElement.text)
 
@@ -89,122 +70,206 @@ for xml_file in xml_files:
                             for empOrgRegionElement in empAddress.findall('com:region',ns):
                                 empOrgRegion = empOrgRegionElement.text
 
-                    if empStartDate != perDataPath and empOrgName is not None:
-                        perData.append({'Count':perDataCount, 'StartDate': empStartDate, 'OrgName': empOrgName, 'OrgCity': empOrgCity, 'OrgRegion': empOrgRegion, 'OrgCountry': empOrgCountry})
-                        print(perDataLen, perDataCount, empOrgName)
+                    if empStartDate != 0 and empOrgName is not None:
+                        perDataProcess.append({'StartDate': empStartDate,
+                            'OrgName': empOrgName, 'OrgCity': empOrgCity, 'OrgRegion': empOrgRegion, 'OrgCountry': empOrgCountry})
 
-perData.sort(key = sortDate)
+    return perDataProcess
 
-perDataOrgName = []
+def perData_proc_batch(batch,ns):
+  return [perData_process(xml_file,ns)
+    for xml_file in tqdm(batch)]
 
-lenPreData = len(perData)
-for x in range(1, lenPreData):
-    ori = perData[x-1]
-    des = perData[x]
+def perData_batch_file(array,n_workers):
+  file_len = len(array)
+  batch_size = round(file_len / n_workers)
+  batches = [array[ix : ix + batch_size]
+    for ix in tqdm(range(0,file_len,batch_size))]
+  return batches
+
+def dataFlow_sortDate(x):
+    return x['StartDate']
+
+def dataFlow_process(perDataElement):
+    perDataOrgName = []
+    dataFlowProcess = []
     
-    if ori['Count'] == des['Count']:
-        dataFlowOrigin = ori['OrgName']
-        dataFlowDestination = des['OrgName']
-        dataFlow = dataFlowOrigin + dataFlowDestination
+    lenPerDataElement = len(perDataElement)
+    for x in tqdm(range(lenPerDataElement)):
+        perDataElementX = perDataElement[x]
 
-        if perDataOrgName.count(dataFlow) == 0:
-            data.append({'Count': 1, 'OriOrgName': dataFlowOrigin, 'DesOrgName': dataFlowDestination,
-                        'OriCity': ori['OrgCity'], 'DesCity': des['OrgCity'], 
-                        'OriRegion': ori['OrgRegion'], 'DesRegion': des['OrgRegion'], 
-                        'OriCountry': ori['OrgCountry'], 'DesCountry': des['OrgCountry']})
-            perDataOrgName.append(perData[x-1]['OrgName'] + perData[x]['OrgName'])
+        lenPerDataElementX = len(perDataElement[x])
+        for y in range(1,lenPerDataElementX):
+            ori = perDataElementX[y-1]
+            des = perDataElementX[y]
+    
+            dataFlowOrigin = ori['OrgName']
+            dataFlowDestination = des['OrgName']
+            dataFlowName = dataFlowOrigin + ' -> ' + dataFlowDestination
+
+            if perDataOrgName.count(dataFlowName) == 0:
+                perDataOrgName.append(dataFlowName)
+                dataFlowProcess.append(
+                    {'Count': 1, 'OrgFlow': dataFlowName, 'OriOrgName': dataFlowOrigin, 'DesOrgName': dataFlowDestination,
+                    'OriCity': ori['OrgCity'], 'DesCity': des['OrgCity'], 
+                    'OriRegion': ori['OrgRegion'], 'DesRegion': des['OrgRegion'], 
+                    'OriCountry': ori['OrgCountry'], 'DesCountry': des['OrgCountry']})
+            else:
+                i = perDataOrgName.index(dataFlowName)
+                dataFlowProcess[i]['Count'] = dataFlowProcess[i]['Count'] + 1
+
+    return dataFlowProcess
+
+def dataFlow_batch_file(array,n_workers):
+  file_len = len(array)
+  batch_size = round(file_len / n_workers)
+  batches = [array[ix : ix + batch_size]
+    for ix in tqdm(range(0,file_len,batch_size))]
+  return batches
+
+def dataFlow_sortOrgFlow(x):
+    return x['OrgFlow']
+
+def dataCount_process(dataFlowElement):
+    dataFlowOrgName = []
+    dataCountProcess = []
+
+    for x in tqdm(dataFlowElement):
+        oriOrgName = x['OriOrgName']
+        desOrgName = x['DesOrgName']
+        xCount = x['Count']
+
+        i1 = dataFlowOrgName.count(oriOrgName) == 0
+        i2 = dataFlowOrgName.count(desOrgName) == 0
+
+        if i1 and i2:
+            if oriOrgName == desOrgName:
+                dataFlowOrgName.append(oriOrgName)
+                dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': 0, 'Self': xCount})
+            else:
+                dataFlowOrgName.append(oriOrgName)
+                dataFlowOrgName.append(desOrgName)
+                dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': xCount, 'Self': 0})
+                dataCountProcess.append({'OrgName': desOrgName, 'City': x['DesCity'], 'Region': x['DesRegion'], 'Country': x['DesCountry'], 'In': xCount, 'Out': 0, 'Self': 0})
+
+        elif (i1 or i2) is not True:
+            if oriOrgName == desOrgName:
+                dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Self'] += xCount
+            else:
+                dataCountProcess[dataFlowOrgName.index(desOrgName)]['In'] += xCount
+                dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Out'] += xCount
+
+        elif i1:
+            dataFlowOrgName.append(oriOrgName)
+            dataCountProcess[dataFlowOrgName.index(desOrgName)]['In'] += xCount
+            dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': xCount, 'Self': 0})
         else:
-            i = perDataOrgName.index(dataFlow)
-            dataCount = data[i]['Count'] = data[i]['Count'] + 1
-            print(lenPreData, x, des['OrgName'])    
+            dataFlowOrgName.append(desOrgName)
+            dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Out'] += xCount
+            dataCountProcess.append({'OrgName': desOrgName, 'City': x['DesCity'], 'Region': x['DesRegion'], 'Country': x['DesCountry'], 'In': xCount, 'Out': 0, 'Self': 0})
 
-# Create a DataFrame from the data
-df = pd.DataFrame(data)
+    return dataCountProcess
 
-# Specify the output file path
-output_file = os.path.join(directory_path, "Axway_Accounts.xlsx")
+def dataCount_batch_file(array,n_workers):
+  file_len = len(array)
+  batch_size = round(file_len / n_workers)
+  batches = [array[ix : ix + batch_size]
+    for ix in tqdm(range(0,file_len,batch_size))]
+  return batches
 
-# Create a Pandas Excel writer using xlsxwriter as the engine
-writer = pd.ExcelWriter(output_file, engine='xlsxwriter')
+def dataCount_sortDate(x):
+    return x['OrgName']
 
-# Write the DataFrame to the Excel file
-df.to_excel(writer, index=False, sheet_name='Sheet1')
+if __name__ == '__main__':
+    directory_path = "D:/ORCID_2023_10_summaries"
+    xml_files = glob.glob(directory_path + "/*/*.xml")
 
-# Get the xlsxwriter workbook and worksheet objects
-workbook = writer.book
-worksheet = writer.sheets['Sheet1']
+    max_workers = 2 * mp.cpu_count()
+    preDataLen = len(xml_files)
+    n_workers = preDataLen if max_workers > preDataLen else max_workers
 
-# Iterate over the columns and adjust the widths based on content
-for i, column in enumerate(df.columns):
-    # Find the maximum length of the cells in the column
-    column_width = max(df[column].astype(str).map(len).max(), len(column)) + 2
-    # Set the width of the column
-    worksheet.set_column(i, i, column_width)
+    print(f"{n_workers} workers are available")
 
-# Save and close the workbook
-writer.close()
+    ns = {'com':'http://www.orcid.org/ns/common',
+        'act':'http://www.orcid.org/ns/activities',
+        'edu':'http://www.orcid.org/ns/education',
+        'emp':'http://www.orcid.org/ns/employment'}
 
-print("Data exported to", output_file)
+    perData = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(perData_proc_batch)(batch,ns)
+        for batch in tqdm(perData_batch_file(xml_files,n_workers)))
 
-dataFinal = []
-dataOrgName = []
-lenData = len(data)
-for x in range(0, lenData):
-    dataElement = data[x]
-    oriOrgName = dataElement['OriOrgName']
-    desOrgName = dataElement['DesOrgName']
-    dataElementCount = dataElement['Count']
+    perDataFlatten = [x for x in flatten(perData) if x]
+    perDataFlattenLen = len(perDataFlatten)
+    for i in range(perDataFlattenLen):
+        perDataFlatten[i].sort(key = dataFlow_sortDate)
+        
+    print('Stage 0 cleared')
 
-    i1 = dataOrgName.count(oriOrgName) == 0
-    i2 = dataOrgName.count(desOrgName) == 0
+    max_workers = 2 * mp.cpu_count()
+    n_workers = perDataFlattenLen if max_workers > perDataFlattenLen else max_workers
 
-    if i1 and i2:
-        if oriOrgName == desOrgName:
-            dataFinal.append({'OrgName': oriOrgName, 'City': dataElement['OriCity'], 'Region': dataElement['OriRegion'], 'Country': dataElement['OriCountry'], 'In': 0, 'Out': 0, 'Self': dataElementCount})
-            dataOrgName.append(oriOrgName)
-        else:
-            dataFinal.append({'OrgName': desOrgName, 'City': dataElement['DesCity'], 'Region': dataElement['DesRegion'], 'Country': dataElement['DesCountry'], 'In': dataElementCount, 'Out': 0, 'Self': 0})
-            dataFinal.append({'OrgName': oriOrgName, 'City': dataElement['OriCity'], 'Region': dataElement['OriRegion'], 'Country': dataElement['OriCountry'], 'In': 0, 'Out': dataElementCount, 'Self': 0})
-            dataOrgName.append(oriOrgName)
-            dataOrgName.append(desOrgName)
-    elif i1:
-        dataFinal[dataOrgName.index(desOrgName)]['In'] += dataElementCount
-        dataFinal.append({'OrgName': oriOrgName, 'City': dataElement['OriCity'], 'Region': dataElement['OriRegion'], 'Country': dataElement['OriCountry'], 'In': 0, 'Out': dataElementCount, 'Self': 0})
-        dataOrgName.append(oriOrgName)
-        print(lenData, x, desOrgName)
-    elif i2:
-        dataFinal[dataOrgName.index(oriOrgName)]['Out'] += dataElementCount
-        dataFinal.append({'OrgName': desOrgName, 'City': dataElement['DesCity'], 'Region': dataElement['DesRegion'], 'Country': dataElement['DesCountry'], 'In': dataElementCount, 'Out': 0, 'Self': 0})
-        dataOrgName.append(desOrgName)
-        print(lenData, x, oriOrgName)
-    else:
-        dataFinal[dataOrgName.index(oriOrgName)]['Self'] += dataElementCount
-        print(lenData, x, oriOrgName)
+    print(f"{n_workers} workers are available")
+    
+    dataFlow = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataFlow_process)(batch)
+        for batch in tqdm(dataFlow_batch_file(perDataFlatten,n_workers)))
+    
+    dataFlowFlatten = [x for x in flatten(dataFlow) if x]
+    dataFlowFlatten.sort(key = dataFlow_sortOrgFlow)
 
-# Create a DataFrame from the data
-df = pd.DataFrame(dataFinal)
+    x = 1
+    lenDataFlow = len(dataFlowFlatten)
+    with tqdm(total = lenDataFlow - 1) as pbar:
+        while x < lenDataFlow:
+            pbar.update(1)
+            i = dataFlowFlatten[x]
 
-# Specify the output file path
-output_file = os.path.join(directory_path, "Axway_Accounts_2.xlsx")
+            if dataFlowFlatten[x-1]['OrgFlow'] == i['OrgFlow']:
+                dataFlowFlatten[x-1]['Count'] += i['Count']
+                del dataFlowFlatten[x]
+                lenDataFlow -= 1
+            else:
+                x += 1
 
-# Create a Pandas Excel writer using xlsxwriter as the engine
-writer = pd.ExcelWriter(output_file, engine='xlsxwriter')
+    df = pd.DataFrame(dataFlowFlatten)
+    output_file = os.path.join(directory_path, "dataFlow.csv")
+    df.to_csv(output_file,index=False,encoding='utf-8-sig')
 
-# Write the DataFrame to the Excel file
-df.to_excel(writer, index=False, sheet_name='Sheet1')
+    print(df)
+    print("Data exported to", output_file)
+    print('Stage 1 cleared')
 
-# Get the xlsxwriter workbook and worksheet objects
-workbook = writer.book
-worksheet = writer.sheets['Sheet1']
+    max_workers = 2 * mp.cpu_count()
+    preDataLen = len(dataFlowFlatten)
+    n_workers = preDataLen if max_workers > preDataLen else max_workers
 
-# Iterate over the columns and adjust the widths based on content
-for i, column in enumerate(df.columns):
-    # Find the maximum length of the cells in the column
-    column_width = max(df[column].astype(str).map(len).max(), len(column)) + 2
-    # Set the width of the column
-    worksheet.set_column(i, i, column_width)
+    print(f"{n_workers} workers are available")
 
-# Save and close the workbook
-writer.close()
+    dataCount = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataCount_process)(batch)
+        for batch in tqdm(dataCount_batch_file(dataFlowFlatten,n_workers)))
 
-print("Data exported to", output_file)
+    dataCountFlatten = [x for x in flatten(dataCount) if x]
+    dataCountFlatten.sort(key = dataCount_sortDate)
+
+    x = 1
+    lenDataCount = len(dataCountFlatten)
+    with tqdm(total = lenDataCount - 1) as pbar:
+        while x < lenDataCount:
+            pbar.update(1)
+            i = dataCountFlatten[x]
+
+            if dataCountFlatten[x-1]['OrgName'] == i['OrgName']:
+                dataCountFlatten[x-1]['In'] += i['In']
+                dataCountFlatten[x-1]['Out'] += i['Out']
+                dataCountFlatten[x-1]['Self'] += i['Self']
+                del dataCountFlatten[x]
+                lenDataCount -= 1
+            else:
+                x += 1
+
+    df = pd.DataFrame(dataCountFlatten)
+    output_file = os.path.join(directory_path, "dataCount.csv")
+    df.to_csv(output_file,index=False,encoding='utf-8-sig')
+
+    print(df)
+    print("Data exported to", output_file)
+    print('Stage 2 cleared')
