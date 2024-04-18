@@ -128,7 +128,47 @@ def dataFlow_batch_file(array,n_workers):
 def dataFlow_sortOrgFlow(x):
     return x['CouFlow']
 
-def dataCount_process(dataFlowElement,HDIElement):
+def dataCountOrigin_process(dataFlowElement):
+    dataFlowCouName = []
+    dataCountProcess = []
+
+    for x in tqdm(dataFlowElement):
+        oriCouName = x['OriCountry']
+        desCouName = x['DesCountry']
+        xCount = x['Count']
+
+        i1 = dataFlowCouName.count(oriCouName) == 0
+        i2 = dataFlowCouName.count(desCouName) == 0
+
+        if i1 and i2:
+            if oriCouName == desCouName:
+                dataFlowCouName.append(oriCouName)
+                dataCountProcess.append({'CouName': oriCouName, 'In': 0, 'Out': 0, 'Self': xCount})
+            else:
+                dataFlowCouName.append(oriCouName)
+                dataFlowCouName.append(desCouName)
+                dataCountProcess.append({'CouName': oriCouName, 'In': 0, 'Out': xCount, 'Self': 0})
+                dataCountProcess.append({'CouName': desCouName, 'In': xCount, 'Out': 0, 'Self': 0})
+
+        elif (i1 or i2) is not True:
+            if oriCouName == desCouName:
+                dataCountProcess[dataFlowCouName.index(oriCouName)]['Self'] += xCount
+            else:
+                dataCountProcess[dataFlowCouName.index(desCouName)]['In'] += xCount
+                dataCountProcess[dataFlowCouName.index(oriCouName)]['Out'] += xCount
+
+        elif i1:
+            dataFlowCouName.append(oriCouName)
+            dataCountProcess[dataFlowCouName.index(desCouName)]['In'] += xCount
+            dataCountProcess.append({'CouName': oriCouName, 'In': 0, 'Out': xCount, 'Self': 0})
+        else:
+            dataFlowCouName.append(desCouName)
+            dataCountProcess[dataFlowCouName.index(oriCouName)]['Out'] += xCount
+            dataCountProcess.append({'CouName': desCouName, 'In': xCount, 'Out': 0, 'Self': 0})
+
+    return dataCountProcess
+
+def dataCountAdjusted_process(dataFlowElement,HDIElement):
     dataFlowCouName = []
     dataCountProcess = []
 
@@ -140,10 +180,10 @@ def dataCount_process(dataFlowElement,HDIElement):
         yCount = 0
         for y in HDIElement:
             if y['Country'] == oriCouName:
-                h1 = float(y['AdjustedHDI'])
+                h1 = float(y['HDI'])
                 yCount += 1
             if y['Country'] == desCouName:
-                h2 = float(y['AdjustedHDI'])
+                h2 = float(y['HDI'])
                 yCount += 1
             if yCount == 2:
                 break
@@ -265,7 +305,7 @@ if __name__ == '__main__':
 
     print(f"{n_workers} workers are available")
 
-    dataCount = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataCount_process)(batch,HDI)
+    dataCount = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataCountOrigin_process)(batch)
         for batch in tqdm(dataCount_batch_file(dataFlowFlatten,n_workers)))
 
     dataCountFlatten = [x for x in flatten(dataCount) if x]
@@ -288,9 +328,45 @@ if __name__ == '__main__':
                 x += 1
 
     df = pd.DataFrame(dataCountFlatten)
-    output_file = os.path.join(directory_path, "dataCouCount.csv")
+    output_file = os.path.join(directory_path, "dataCouCountOrigin.csv")
     df.to_csv(output_file,index=False,encoding='utf-8-sig')
 
     print(df)
     print("Data exported to", output_file)
     print('Stage 2 cleared')
+
+    max_workers = 2 * mp.cpu_count()
+    preDataLen = len(dataFlowFlatten)
+    n_workers = preDataLen if max_workers > preDataLen else max_workers
+
+    print(f"{n_workers} workers are available")
+
+    dataCount = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataCountAdjusted_process)(batch,HDI)
+        for batch in tqdm(dataCount_batch_file(dataFlowFlatten,n_workers)))
+
+    dataCountFlatten = [x for x in flatten(dataCount) if x]
+    dataCountFlatten.sort(key = dataCount_sortDate)
+
+    x = 1
+    lenDataCount = len(dataCountFlatten)
+    with tqdm(total = lenDataCount - 1) as pbar:
+        while x < lenDataCount:
+            pbar.update(1)
+            i = dataCountFlatten[x]
+
+            if dataCountFlatten[x-1]['CouName'] == i['CouName']:
+                dataCountFlatten[x-1]['In'] += i['In']
+                dataCountFlatten[x-1]['Out'] += i['Out']
+                dataCountFlatten[x-1]['Self'] += i['Self']
+                del dataCountFlatten[x]
+                lenDataCount -= 1
+            else:
+                x += 1
+
+    df = pd.DataFrame(dataCountFlatten)
+    output_file = os.path.join(directory_path, "dataCouCountAdjusted.csv")
+    df.to_csv(output_file,index=False,encoding='utf-8-sig')
+
+    print(df)
+    print("Data exported to", output_file)
+    print('Stage 3 cleared')
