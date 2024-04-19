@@ -2,7 +2,11 @@
 
 This is to analyze the annual released ORCID Public Data File
 
+HDI adjusted count = Outflow country HDI / Inflow country HDI
+
 [ORCID Public Data File 2023](https://orcid.figshare.com/articles/dataset/ORCID_Public_Data_File_2023/24204912)
+
+[UNDP HDI 2022](https://hdr.undp.org/sites/default/files/2023-24_HDR/HDR23-24_Statistical_Annex_HDI_Table.xlsx)
 
 HDI 加权算法：流动数 = 流出国HDI / 流入国HDI
 
