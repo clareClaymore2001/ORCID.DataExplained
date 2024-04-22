@@ -9,11 +9,31 @@ import concurrent.futures
 from tqdm import tqdm
 from joblib import Parallel, delayed
 
+import SpringRank as sr
+import networkx as nx
+import numpy as np
+import tools as tl
+
+from rapidfuzz import process, fuzz, distance, utils
+
 def readCsv(location):
     with open(location,encoding='utf-8-sig') as file:
         csv_file = csv.reader(file)
         next(csv_file)
         return [line for line in csv_file]
+
+def readCsv_roleTitle(location):
+    result = {}
+
+    with open(location,encoding='utf-8-sig') as file:
+        csv_file = csv.reader(file)
+
+        for row in csv_file:
+            lenRow = len(row)
+            row0 = str(row[0])
+            result[row0] = [str(row[i]) for i in range(1,lenRow) if row[i] != '']
+
+    return(result)
 
 def readCsv_perData(location):
     result = []
@@ -39,6 +59,9 @@ def readCsv_perData(location):
             result.append(resultRow)
 
     return result
+
+def readCsv_asDict(location):
+    return (pd.read_csv(location)).to_dict(orient='records')
     
 def readTsv_ID_RINGGOLD_TO_ISNI(location):
     with open(location,encoding='utf-8-sig') as file:
@@ -69,7 +92,7 @@ def exportFile(array,fileName):
     output_file = os.path.join(os.getcwd(),fileName)
     df.to_csv(output_file,index=False,encoding='utf-8-sig')
 
-def perData_process(xml_file,ns):
+def perData_raw_process(xml_file,ns):
     tree = ET.parse(xml_file)
     root = tree.getroot()
     perDataProcess = []
@@ -79,7 +102,13 @@ def perData_process(xml_file,ns):
             for eduAffiliationGroup in edu.findall('act:affiliation-group',ns):
                 for eduSummary in eduAffiliationGroup.findall('edu:education-summary',ns):
                     eduStartDate = 0
-                    eduDisOrgID = eduDisSource = None
+                    eduDisOrgID = eduDisSource = eduDepartmentName = eduRoleTitle = eduOrgName = eduOrgCountry = eduOrgCity = None
+
+                    for eduRoleTitleElement in eduSummary.findall('com:role-title',ns):
+                        eduRoleTitle = eduRoleTitleElement.text
+
+                    for eduDepartmentNameElement in eduSummary.findall('com:department-name',ns):
+                        eduDepartmentName = eduDepartmentNameElement.text
 
                     for eduStartDateElement in eduSummary.findall('com:start-date',ns):
                         for eduStartDateYearElement in eduStartDateElement.findall('com:year',ns):
@@ -90,20 +119,35 @@ def perData_process(xml_file,ns):
                             eduStartDate += int(eduStartDateDayElement.text)
 
                     for eduOrg in eduSummary.findall('com:organization',ns):
+                        eduOrgName = eduOrg.find('com:name',ns).text
+
+                        for eduAddress in eduOrg.findall('com:address',ns):
+                            eduOrgCountry = eduAddress.find('com:country',ns).text
+                            eduOrgCity = eduAddress.find('com:city',ns).text
+
                         for eduDisOrg in eduOrg.findall('com:disambiguated-organization',ns):
                             for eduDisSourceElement in eduDisOrg.findall('com:disambiguation-source',ns):
                                 eduDisSource = (eduDisSourceElement.text)
                             for eduDisOrgIDElement in eduDisOrg.findall('com:disambiguated-organization-identifier',ns):
                                 eduDisOrgID = (eduDisOrgIDElement.text)
 
-                    if eduStartDate != 0 and eduDisOrgID is not None and eduDisSource is not None:
-                        perDataProcess.append({'StartDate': eduStartDate, 'DisSource': eduDisSource, 'DisOrgID': eduDisOrgID})
+                    if eduStartDate != 0 and ((eduDisOrgID is not None and eduDisSource is not None) or (eduOrgName is not None and eduOrgCountry is not None and eduOrgCity is not None)):
+                        perDataProcess.append({
+                            'StartDate': eduStartDate, 'DisSource': eduDisSource, 'DisOrgID': eduDisOrgID, 
+                            'DepartmentName': eduDepartmentName, 'RoleTitle': eduRoleTitle, 'OrgName': eduOrgName, 
+                            'OrgCountry': eduOrgCountry, 'OrgCity': eduOrgCity})
 
         for emp in actSummary.findall('act:employments',ns):
             for empAffiliationGroup in emp.findall('act:affiliation-group',ns):
                 for empSummary in empAffiliationGroup.findall('emp:employment-summary',ns):
                     empStartDate = 0
-                    empDisOrgID = empDisSource = None
+                    empDisOrgID = empDisSource = empDepartmentName = empRoleTitle = empOrgName = empOrgCity = None
+
+                    for empRoleTitleElement in empSummary.findall('com:role-title',ns):
+                        empRoleTitle = empRoleTitleElement.text
+
+                    for empDepartmentNameElement in empSummary.findall('com:department-name',ns):
+                        empDepartmentName = empDepartmentNameElement.text
 
                     for empStartDateElement in empSummary.findall('com:start-date',ns):
                         for empStartDateYearElement in empStartDateElement.findall('com:year',ns):
@@ -114,20 +158,55 @@ def perData_process(xml_file,ns):
                             empStartDate += int(empStartDateDayElement.text)
 
                     for empOrg in empSummary.findall('com:organization',ns):
+                        empOrgName = empOrg.find('com:name',ns).text
+
+                        for empAddress in empOrg.findall('com:address',ns):
+                            empOrgCountry = empAddress.find('com:country',ns).text
+                            empOrgCity = empAddress.find('com:city',ns).text
+
                         for empDisOrg in empOrg.findall('com:disambiguated-organization',ns):
                             for empDisSourceElement in empDisOrg.findall('com:disambiguation-source',ns):
                                 empDisSource = (empDisSourceElement.text)
                             for empDisOrgIDElement in empDisOrg.findall('com:disambiguated-organization-identifier',ns):
                                 empDisOrgID = (empDisOrgIDElement.text)
 
-                    if empStartDate != 0 and empDisOrgID is not None and empDisSource is not None:
-                        perDataProcess.append({'StartDate': empStartDate, 'DisSource': empDisSource, 'DisOrgID': empDisOrgID})
+                    if empStartDate != 0 and ((empDisOrgID is not None and empDisSource is not None) or (empOrgName is not None and empOrgCountry is not None and empOrgCity is not None)):
+                        perDataProcess.append({
+                            'StartDate': empStartDate, 'DisSource': empDisSource, 'DisOrgID': empDisOrgID, 
+                            'DepartmentName': empDepartmentName, 'RoleTitle': empRoleTitle, 'OrgName': empOrgName, 
+                            'OrgCountry': empOrgCountry, 'OrgCity': empOrgCity})
 
     return perDataProcess
 
-def perData_proc_batch(batch,ns):
-  return [perData_process(xml_file,ns)
+def perData_raw_proc_batch(batch,ns):
+  return [perData_raw_process(xml_file,ns)
     for xml_file in tqdm(batch)]
+
+def perData_raw_sortDate(array):
+    return array['StartDate']
+
+def perData_raw_MAIN(RTI,TR,xml_files,fileName,fileFlattenName,cleared):
+    n_workers = nWorkers(xml_files)
+
+    ns = {'com':'http://www.orcid.org/ns/common',
+        'act':'http://www.orcid.org/ns/activities',
+        'edu':'http://www.orcid.org/ns/education',
+        'emp':'http://www.orcid.org/ns/employment'}
+
+    perData = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(perData_raw_proc_batch)(batch,ns)
+        for batch in tqdm(batch_file(xml_files,n_workers)))
+
+    perDataFlatten = [x for x in flatten(perData,1) if x]
+    perDataFlattenLen = len(perDataFlatten)
+    for i in range(perDataFlattenLen):
+        perDataFlatten[i].sort(key = perData_raw_sortDate)
+
+    exportFile(perDataFlatten,fileName)
+    exportFile([x for x in flatten(perDataFlatten,1) if x],fileFlattenName)
+
+    print(cleared)
+
+    return perDataFlatten
 
 def perData_pair_FUNDREF(string,string_list):
     for item in string_list:
@@ -136,6 +215,9 @@ def perData_pair_FUNDREF(string,string_list):
     return -1
 
 def perData_pair_modify(i,array,x,y):
+    del array[x][y]['DisSource']
+    del array[x][y]['OrgCountry']
+    del array[x][y]['OrgCity']
     array[x][y]['DisOrgID'] = i[0]
     array[x][y]['OrgLocationCountry'] = i[18]
     array[x][y]['OrgLocationDetails'] = i[22]
@@ -172,7 +254,9 @@ def perData_pair_process(i,array,x,y,TR,TR_INDEX_ROR,times):
             else:
                 return perData_pair_modify(i,array,x,y)
 
-def perData_pair_MAIN(array,RTI,TR,RTI_INDEX,TR_INDEX_ROR,TR_INDEX_FUNDREF,TR_INDEX_GRID,TR_INDEX_ISNI):
+def perData_pair_proc_batch(array,RTI,TR,RTI_INDEX,TR_INDEX_ROR,TR_INDEX_FUNDREF,TR_INDEX_GRID,TR_INDEX_ISNI,TR_INDEX_NAME,fill):
+    lenTIN = len(TR_INDEX_NAME)
+
     x = 0
     lenArray = len(array)
 
@@ -191,8 +275,7 @@ def perData_pair_MAIN(array,RTI,TR,RTI_INDEX,TR_INDEX_ROR,TR_INDEX_FUNDREF,TR_IN
                 match disSource:
                     case 'ROR':
                         if TR_INDEX_ROR.count(disOrgID) == 0:
-                            del array[x][y]
-                            lenArrayX -= 1
+                            array[x][y]['DisSource'] = 'case _'
                         else:
                             array = perData_pair_process(TR[TR_INDEX_ROR.index(disOrgID)],array,x,y,TR,TR_INDEX_ROR,16)
                             y += 1
@@ -202,37 +285,108 @@ def perData_pair_MAIN(array,RTI,TR,RTI_INDEX,TR_INDEX_ROR,TR_INDEX_FUNDREF,TR_IN
                         j = perData_pair_FUNDREF(disOrgID,TR_INDEX_FUNDREF)
 
                         if j == -1:
-                            del array[x][y]
-                            lenArrayX -= 1
+                            array[x][y]['DisSource'] = 'case _'
                         else:
                             array = perData_pair_process(TR[TR_INDEX_FUNDREF.index(j)],array,x,y,TR,TR_INDEX_ROR,16)
                             y += 1
 
                     case 'GRID':
                         if TR_INDEX_GRID.count(disOrgID) == 0:
-                            del array[x][y]
-                            lenArrayX -= 1
+                            array[x][y]['DisSource'] = 'case _'
                         else:
                             array = perData_pair_process(TR[TR_INDEX_GRID.index(disOrgID)],array,x,y,TR,TR_INDEX_ROR,16)
                             y += 1
 
                     case 'RINGGOLD':
                         if RTI_INDEX.count(disOrgID) == 0:
-                            del array[x][y]
-                            lenArrayX -= 1
+                            array[x][y]['DisSource'] = 'case _'
                         else:
                             disOrgID_ISNI = RTI[RTI_INDEX.index(disOrgID)][1]
 
                             if TR_INDEX_ISNI.count(disOrgID_ISNI) == 0:
-                                del array[x][y]
-                                lenArrayX -= 1
+                                array[x][y]['DisSource'] = 'case _'
                             else:
                                 array = perData_pair_process(TR[TR_INDEX_ISNI.index(disOrgID_ISNI)],array,x,y,TR,TR_INDEX_ROR,16)
                                 y += 1
 
                     case _:
-                        del array[x][y]
-                        lenArrayX -= 1
+                        orgName = arrayXY['OrgName']
+
+                        if orgName == '':
+                            del array[x][y]
+                            lenArrayX -= 1
+                        else:
+                            if TR_INDEX_NAME.count(orgName) == 0:
+                                if fill:
+                                    pairNameQ = process.extractOne(orgName,TR_INDEX_NAME,scorer=fuzz.QRatio,processor=utils.default_process,score_cutoff=86)
+
+                                    if pairNameQ is None:
+                                        pairNameW = process.extractOne(orgName,TR_INDEX_NAME,scorer=fuzz.WRatio,processor=utils.default_process,score_cutoff=94)
+
+                                        if pairNameW is None:
+                                            del array[x][y]
+                                            lenArrayX -= 1
+                                        else:
+                                            i = pairNameW[2]
+
+                                            if arrayXY['OrgCountry'] == TR[i][18]:
+                                                array = perData_pair_process(TR[i],array,x,y,TR,TR_INDEX_ROR,16)
+                                                array[x][y]['PairType'] = 'W'
+                                                array[x][y]['PairOrgNameOri'] = orgName
+                                                array[x][y]['PairOrgNamePair'] = pairNameW[0]
+                                                array[x][y]['PairOrgNameValue'] = pairNameW[1]
+                                                y += 1
+                                            else:
+                                                del array[x][y]
+                                                lenArrayX -= 1
+
+                                    else:
+                                        v = pairNameQ[1]
+                                        i = pairNameQ[2]
+
+                                        if v > 94:
+                                            array = perData_pair_process(TR[i],array,x,y,TR,TR_INDEX_ROR,16)
+                                            array[x][y]['PairType'] = 'Q'
+                                            array[x][y]['PairOrgNameOri'] = orgName
+                                            array[x][y]['PairOrgNamePair'] = pairNameQ[0]
+                                            array[x][y]['PairOrgNameValue'] = v
+                                            y += 1
+                                        else:
+                                            if arrayXY['OrgCountry'] == TR[i][18]:
+                                                orgCity = arrayXY['OrgCity']
+                                                pairCity = fuzz.WRatio(orgCity,TR[i][22],processor=utils.default_process)
+
+                                                if v + pairCity > 173:
+                                                    array = perData_pair_process(TR[i],array,x,y,TR,TR_INDEX_ROR,16)
+                                                    array[x][y]['PairType'] = 'Q'
+                                                    array[x][y]['PairOrgNameOri'] = orgName
+                                                    array[x][y]['PairOrgNamePair'] = pairNameQ[0]
+                                                    array[x][y]['PairOrgNameValue'] = v
+                                                    array[x][y]['PairCItyOri'] = orgCity
+                                                    array[x][y]['PairCityPair'] = TR[i][22]
+                                                    array[x][y]['PairCityValue'] = pairCity
+                                                    y += 1
+                                                else:
+                                                    del array[x][y]
+                                                    lenArrayX -= 1
+
+                                            else:
+                                                del array[x][y]
+                                                lenArrayX -= 1
+
+                                else:
+                                    del array[x][y]
+                                    lenArrayX -= 1
+
+                            else:
+                                i = TR_INDEX_NAME.index(orgName)
+
+                                if arrayXY['OrgCountry'] == TR[i][18]:
+                                    array = perData_pair_process(TR[i],array,x,y,TR,TR_INDEX_ROR,16)
+                                    y += 1
+                                else:
+                                    del array[x][y]
+                                    lenArrayX -= 1
 
             if lenArrayX == 0:
                 del array[x]
@@ -242,26 +396,8 @@ def perData_pair_MAIN(array,RTI,TR,RTI_INDEX,TR_INDEX_ROR,TR_INDEX_FUNDREF,TR_IN
 
     return array
 
-def perData_sortDate(array):
-    return array['StartDate']
-
-def perData_MAIN(RTI,TR,location,fileName,fileFlattenName,cleared):
-    xml_files = glob.glob(location)
-
-    n_workers = nWorkers(xml_files)
-
-    ns = {'com':'http://www.orcid.org/ns/common',
-        'act':'http://www.orcid.org/ns/activities',
-        'edu':'http://www.orcid.org/ns/education',
-        'emp':'http://www.orcid.org/ns/employment'}
-
-    perData = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(perData_proc_batch)(batch,ns)
-        for batch in tqdm(batch_file(xml_files,n_workers)))
-
-    perDataFlatten = [x for x in flatten(perData,1) if x]
-    perDataFlattenLen = len(perDataFlatten)
-
-    n_workers = nWorkers(perDataFlatten)
+def perData_pair_MAIN(perDataElement,RTI,TR,fileName,fileFlattenName,cleared,fill):
+    n_workers = nWorkers(perDataElement)
 
     RTI_LEN = len(RTI)
     RTI_INDEX = [RTI[i][0] for i in range(0,RTI_LEN)]
@@ -271,10 +407,11 @@ def perData_MAIN(RTI,TR,location,fileName,fileFlattenName,cleared):
     TR_INDEX_FUNDREF = [TR[i][7] for i in range(0,TR_LEN)]
     TR_INDEX_GRID = [TR[i][9] for i in range(0,TR_LEN)]
     TR_INDEX_ISNI = [TR[i][11].replace(' ','') for i in range(0,TR_LEN)]
+    TR_INDEX_NAME = [TR[i][26] for i in range(0,TR_LEN)]
 
     perDataPaired = Parallel(n_jobs=n_workers,backend="multiprocessing")(
-        delayed(perData_pair_MAIN)(batch,RTI,TR,RTI_INDEX,TR_INDEX_ROR,TR_INDEX_FUNDREF,TR_INDEX_GRID,TR_INDEX_ISNI)
-            for batch in tqdm(batch_file(perDataFlatten,n_workers)))
+        delayed(perData_pair_proc_batch)(batch,RTI,TR,RTI_INDEX,TR_INDEX_ROR,TR_INDEX_FUNDREF,TR_INDEX_GRID,TR_INDEX_ISNI,TR_INDEX_NAME,fill)
+            for batch in tqdm(batch_file(perDataElement,n_workers)))
 
     perDataPairedFlatten = [x for x in flatten(perDataPaired,1) if x]
     perDataPairedFlattenLen = len(perDataPairedFlatten)
@@ -287,6 +424,63 @@ def perData_MAIN(RTI,TR,location,fileName,fileFlattenName,cleared):
     print(cleared)
 
     return perDataPairedFlatten
+
+def perDataRoleTitled_process(array,RI):
+    RI_keys = [key for key in RI.keys()]
+    lenRI = len(RI_keys)
+
+    x = 0
+    lenArray = len(array)
+
+    with tqdm(total = lenArray) as pbar:
+        while x < lenArray:
+            pbar.update(1)
+            arrayX = array[x]
+
+            y = 0
+            lenArrayX = len(arrayX)
+            while y < lenArrayX:
+                roletitle = arrayX[y]['RoleTitle']
+
+                if roletitle == '':
+                    print('Nope')
+                    del array[x][y]
+                    lenArrayX -= 1
+                else:
+                    pair = [process.extractOne(roletitle,RI[key],scorer=fuzz.QRatio,processor=utils.default_process) for key in RI_keys]
+                    pairValue = [pair[i][1] for i in range(lenRI)]
+                    max_value = max(pairValue)
+
+                    if max_value > 0:
+                        array[x][y]['RoleTitle'] = RI_keys[pairValue.index(max_value)]
+                        array[x][y]['RoleTitlePair'] = pair
+                        y += 1
+                    else:
+                        del array[x][y]
+                        lenArrayX -= 1
+
+            if lenArrayX == 0:
+                del array[x]
+                lenArray -= 1
+            else:
+                x += 1
+
+    return array
+
+def perDataRoleTitled_MAIN(array,RI,fileName,fileFlattenName,cleared):
+    n_workers = nWorkers(array)
+
+    perDataRoleTitled = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(perDataRoleTitled_process)(batch,RI)
+        for batch in tqdm(batch_file(array,n_workers)))
+
+    perDataRoleTitledFlatten = [x for x in flatten(perDataRoleTitled,1) if x]
+
+    exportFile(perDataRoleTitledFlatten,fileName)
+    exportFile([x for x in flatten(perDataRoleTitledFlatten,1) if x],fileFlattenName)
+        
+    print(cleared)
+
+    return perDataRoleTitledFlatten
 
 def dataFlow_process(perDataElement):
     perDataOrgName = []
@@ -350,200 +544,190 @@ def dataFlow_MAIN(perDataElement,fileName,cleared):
 
     return dataFlowFlatten
 
-def dataCountOrigin_process(dataFlowElement):
-    dataFlowOrgName = []
+def dataCount_process(dataFlowElement):
+    dataFlowOrgID = []
     dataCountProcess = []
 
     for x in tqdm(dataFlowElement):
-        oriOrgName = x['OriOrgName']
-        desOrgName = x['DesOrgName']
+        oriOrgID = x['OriDisOrgID']
+        desOrgID = x['DesDisOrgID']
         xCount = x['Count']
 
-        i1 = dataFlowOrgName.count(oriOrgName) == 0
-        i2 = dataFlowOrgName.count(desOrgName) == 0
+        i1 = dataFlowOrgID.count(oriOrgID) == 0
+        i2 = dataFlowOrgID.count(desOrgID) == 0
 
         if i1 and i2:
-            if oriOrgName == desOrgName:
-                dataFlowOrgName.append(oriOrgName)
-                dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': 0, 'Self': xCount})
+            if oriOrgID == desOrgID:
+                dataFlowOrgID.append(oriOrgID)
+                dataCountProcess.append({'OrgID': oriOrgID, 
+                    'OrgLocationCountry': x['OriOrgLocationCountry'], 
+                    'OrgLocationDetails': x['OriOrgLocationDetails'], 
+                    'OrgName': x['OriOrgName'], 
+                    'OrgType': x['OriOrgType'], 
+                    'In': 0, 'Out': 0, 'Self': xCount})
             else:
-                dataFlowOrgName.append(oriOrgName)
-                dataFlowOrgName.append(desOrgName)
-                dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': xCount, 'Self': 0})
-                dataCountProcess.append({'OrgName': desOrgName, 'City': x['DesCity'], 'Region': x['DesRegion'], 'Country': x['DesCountry'], 'In': xCount, 'Out': 0, 'Self': 0})
+                dataFlowOrgID.append(oriOrgID)
+                dataFlowOrgID.append(desOrgID)
+                dataCountProcess.append({'OrgID': oriOrgID, 
+                    'OrgLocationCountry': x['OriOrgLocationCountry'], 
+                    'OrgLocationDetails': x['OriOrgLocationDetails'], 
+                    'OrgName': x['OriOrgName'], 
+                    'OrgType': x['OriOrgType'], 
+                    'In': 0, 'Out': xCount, 'Self': 0})
+                dataCountProcess.append({'OrgID': desOrgID, 
+                    'OrgLocationCountry': x['DesOrgLocationCountry'], 
+                    'OrgLocationDetails': x['DesOrgLocationDetails'], 
+                    'OrgName': x['DesOrgName'], 
+                    'OrgType': x['DesOrgType'], 
+                    'In': xCount, 'Out': 0, 'Self': 0})
 
         elif (i1 or i2) is not True:
-            if oriOrgName == desOrgName:
-                dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Self'] += xCount
+            if oriOrgID == desOrgID:
+                dataCountProcess[dataFlowOrgID.index(oriOrgID)]['Self'] += xCount
             else:
-                dataCountProcess[dataFlowOrgName.index(desOrgName)]['In'] += xCount
-                dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Out'] += xCount
+                dataCountProcess[dataFlowOrgID.index(desOrgID)]['In'] += xCount
+                dataCountProcess[dataFlowOrgID.index(oriOrgID)]['Out'] += xCount
 
         elif i1:
-            dataFlowOrgName.append(oriOrgName)
-            dataCountProcess[dataFlowOrgName.index(desOrgName)]['In'] += xCount
-            dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': xCount, 'Self': 0})
+            dataFlowOrgID.append(oriOrgID)
+            dataCountProcess[dataFlowOrgID.index(desOrgID)]['In'] += xCount
+            dataCountProcess.append({'OrgID': oriOrgID, 
+                'OrgLocationCountry': x['OriOrgLocationCountry'], 
+                'OrgLocationDetails': x['OriOrgLocationDetails'], 
+                'OrgName': x['OriOrgName'], 
+                'OrgType': x['OriOrgType'], 
+                'In': 0, 'Out': xCount, 'Self': 0})
         else:
-            dataFlowOrgName.append(desOrgName)
-            dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Out'] += xCount
-            dataCountProcess.append({'OrgName': desOrgName, 'City': x['DesCity'], 'Region': x['DesRegion'], 'Country': x['DesCountry'], 'In': xCount, 'Out': 0, 'Self': 0})
+            dataFlowOrgID.append(desOrgID)
+            dataCountProcess[dataFlowOrgID.index(oriOrgID)]['Out'] += xCount
+            dataCountProcess.append({'OrgID': desOrgID, 
+                'OrgLocationCountry': x['DesOrgLocationCountry'], 
+                'OrgLocationDetails': x['DesOrgLocationDetails'], 
+                'OrgName': x['DesOrgName'], 
+                'OrgType': x['DesOrgType'], 
+                'In': xCount, 'Out': 0, 'Self': 0})
 
     return dataCountProcess
 
-def dataCountAdjusted_process(dataFlowElement,HDIElement):
-    dataFlowOrgName = []
-    dataCountProcess = []
+def dataCount_sortOrgID(array):
+    return array['OrgID']
 
-    for x in tqdm(dataFlowElement):
-        oriOrgName = x['OriOrgName']
-        desOrgName = x['DesOrgName']
-        oriCouName = x['OriCountry']
-        desCouName = x['DesCountry']
-        xCount = x['Count']
+def dataCount_MAIN(dataFlowElement,fileName,cleared):
+    n_workers = nWorkers(dataFlowElement)
 
-        yCount = 0
-        for y in HDIElement:
-            if y['Country'] == oriCouName:
-                h1 = float(y['HDI'])
-                yCount += 1
-            if y['Country'] == desCouName:
-                h2 = float(y['HDI'])
-                yCount += 1
-            if yCount == 2:
-                break
+    dataCount = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataCount_process)(batch)
+        for batch in tqdm(batch_file(dataFlowElement,n_workers)))
 
-        if yCount == 2:
-            adjustHDI = h2 / h1
-        else:
-            adjustHDI = 1
+    dataCountFlatten = [x for x in flatten(dataCount,1) if x]
+    dataCountFlatten.sort(key = dataCount_sortOrgID)
 
-        zCount = xCount * adjustHDI
+    x = 1
+    lenDataCount = len(dataCountFlatten)
+    with tqdm(total = lenDataCount - 1) as pbar:
+        while x < lenDataCount:
+            pbar.update(1)
+            i = dataCountFlatten[x]
 
-        i1 = dataFlowOrgName.count(oriOrgName) == 0
-        i2 = dataFlowOrgName.count(desOrgName) == 0
-
-        if i1 and i2:
-            if oriOrgName == desOrgName:
-                dataFlowOrgName.append(oriOrgName)
-                dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': 0, 'Self': zCount})
+            if dataCountFlatten[x-1]['OrgID'] == i['OrgID']:
+                dataCountFlatten[x-1]['In'] += i['In']
+                dataCountFlatten[x-1]['Out'] += i['Out']
+                dataCountFlatten[x-1]['Self'] += i['Self']
+                del dataCountFlatten[x]
+                lenDataCount -= 1
             else:
-                dataFlowOrgName.append(oriOrgName)
-                dataFlowOrgName.append(desOrgName)
-                dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': zCount, 'Self': 0})
-                dataCountProcess.append({'OrgName': desOrgName, 'City': x['DesCity'], 'Region': x['DesRegion'], 'Country': x['DesCountry'], 'In': zCount, 'Out': 0, 'Self': 0})
+                x += 1
 
-        elif (i1 or i2) is not True:
-            if oriOrgName == desOrgName:
-                dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Self'] += zCount
-            else:
-                dataCountProcess[dataFlowOrgName.index(desOrgName)]['In'] += zCount
-                dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Out'] += zCount
+    exportFile(dataCountFlatten,fileName)
 
-        elif i1:
-            dataFlowOrgName.append(oriOrgName)
-            dataCountProcess[dataFlowOrgName.index(desOrgName)]['In'] += zCount
-            dataCountProcess.append({'OrgName': oriOrgName, 'City': x['OriCity'], 'Region': x['OriRegion'], 'Country': x['OriCountry'], 'In': 0, 'Out': zCount, 'Self': 0})
-        else:
-            dataFlowOrgName.append(desOrgName)
-            dataCountProcess[dataFlowOrgName.index(oriOrgName)]['Out'] += zCount
-            dataCountProcess.append({'OrgName': desOrgName, 'City': x['DesCity'], 'Region': x['DesRegion'], 'Country': x['DesCountry'], 'In': zCount, 'Out': 0, 'Self': 0})
+    print(cleared)
 
-    return dataCountProcess
+def dataSpringRank_process_build_graph_from_adjacency(inadjacency,type,country):
+    edges={}
 
-def dataRankingOrigin_sortRatioOrigin(x):
-    return x['RatioOrigin (only external flow)']
+    if type is None and country is None:
+        for row in tqdm(inadjacency):
+            edges[(row['OriDisOrgID'],row['DesDisOrgID'])] = int(row['Count'])
+    elif type is not None and country is None:
+        for row in tqdm(inadjacency):
+            if row['OriOrgType'] in type and row['DesOrgType'] in type:
+                edges[(row['OriDisOrgID'],row['DesDisOrgID'])] = int(row['Count'])
+    elif type is None and country is not None:
+        for row in tqdm(inadjacency):
+            if str(row['OriOrgLocationCountry']) in country and str(row['DesOrgLocationCountry']) in country:
+                edges[(row['OriDisOrgID'],row['DesDisOrgID'])] = int(row['Count'])
+    else:
+        for row in tqdm(inadjacency):
+            if (row['OriOrgType'] in type and row['DesOrgType'] in type) and (str(row['OriOrgLocationCountry']) in country and str(row['DesOrgLocationCountry']) in country):
+                edges[(row['OriDisOrgID'],row['DesDisOrgID'])] = int(row['Count'])
 
-def dataRankingAdjusted_sortRatioAdjusted(x):
-    return x['RatioAdjusted (only external flow)']
+    G = nx.DiGraph()
+
+    for e in edges:
+        G.add_edge(e[0],e[1],weight=edges[e])
+
+    return G
+
+def dataSpringRank_process(dataFlowElement,type,country):
+    G = dataSpringRank_process_build_graph_from_adjacency(dataFlowElement,type,country)
+    nodes = list(G.nodes())
+    A = nx.to_scipy_sparse_array(G, dtype=float, nodelist=nodes)
+    rank = sr.get_ranks(A)
+
+    X = [(nodes[i],rank[i]) for i in range(G.number_of_nodes())]
+    X = sorted(X, key=lambda tup: tup[1],reverse=True)
+
+    return X
+
+def dataSpringRank_MAIN(dataFlowElement,type,country,TR,fileName,cleared):
+    dataSpringRank = dataSpringRank_process(dataFlowElement,type,country)
+
+    TR_LEN = len(TR)
+    TR_INDEX = [TR[i][0] for i in range(0,TR_LEN)]
+    
+    lenDataSpringRank = len(dataSpringRank)
+    for x in tqdm(range(lenDataSpringRank)):
+        dataSpringRankX = dataSpringRank[x]
+        dataSpringRankX0 = dataSpringRankX[0]
+        dataSpringRankX0_TR = TR[TR_INDEX.index(dataSpringRankX0)]
+        dataSpringRank[x] = {
+            'OrgSpringRank': dataSpringRankX[1], 
+            'OrgID': dataSpringRankX0, 
+            'OrgLocationCountry': dataSpringRankX0_TR[18], 
+            'OrgLocationDetails': dataSpringRankX0_TR[22], 
+            'OrgName': dataSpringRankX0_TR[26], 
+            'OrgType': dataSpringRankX0_TR[30]}
+
+    exportFile(dataSpringRank,fileName)
+
+    print(cleared)
+
+    return dataSpringRank
 
 if __name__ == '__main__':
-    ID_TO_ROR = readCsv('v1.45.1-2024-04-18-ror-data/v1.45.1-2024-04-18-ror-data_schema_v2.csv')
-    ID_RINGGOLD_TO_ISNI = readTsv_ID_RINGGOLD_TO_ISNI('aligned_ringgold_and_isni.tsv')
+    pathOrg = 'data/organization/'
+    pathOrgPer = pathOrg + 'person/'
 
-    perData = perData_MAIN(ID_RINGGOLD_TO_ISNI,ID_TO_ROR,
-        'D:/ORCID_2023_10_summaries/*/*.xml','Organization/personal_data.csv','Organization/personal_data_flatten.csv','Done perData')
+    ID_TO_ROR = readCsv('source/ROR_data.csv')
+    ID_RINGGOLD_TO_ISNI = readTsv_ID_RINGGOLD_TO_ISNI('source/aligned_ringgold_and_isni.tsv')
 
-    # perData = readCsv_perData('Organization/personal_data.csv')
+    xml_files = glob.glob('D:/ORCID_2023_10_summaries/0000/*.xml')
 
-    dataFlow = dataFlow_MAIN(perData,'Organization/organization_flow.csv','Done dataOrgFlow')
+    # perData = perData_raw_MAIN(ID_RINGGOLD_TO_ISNI,ID_TO_ROR,xml_files,pathOrgPer+'personal_data_raw.csv',pathOrgPer+'personal_data_raw_flatten.csv','Done perData')
 
-    '''
-    max_workers = 2 * mp.cpu_count()
-    preDataLen = len(dataFlowFlatten)
-    n_workers = preDataLen if max_workers > preDataLen else max_workers
+    perData = readCsv_perData(pathOrgPer+'personal_data_raw.csv')
 
-    print(f"{n_workers} workers are available")
+    perDataPaired = perData_pair_MAIN(perData,ID_RINGGOLD_TO_ISNI,ID_TO_ROR,pathOrgPer+'personal_data_raw_paired.csv',pathOrgPer+'personal_data_raw_paired_flatten.csv','Done perData',False)
 
-    dataCountOrigin = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataCountOrigin_process)(batch)
-        for batch in tqdm(dataCount_batch_file(dataFlowFlatten,n_workers)))
+    # perDataPaired = perData_pair_MAIN(perData,ID_RINGGOLD_TO_ISNI,ID_TO_ROR,pathOrgPer+'personal_data_raw_filled.csv',pathOrgPer+'personal_data_raw_filled_filled.csv','Done perData',True)
 
-    dataCountOriginFlatten = [x for x in flatten(dataCountOrigin) if x]
-    dataCountOriginFlatten.sort(key = dataCount_sortDate)
+    # ROLETITLE_INDEX = readCsv_roleTitle('source/role_title.csv')
 
-    x = 1
-    lenDataCount = len(dataCountOriginFlatten)
-    with tqdm(total = lenDataCount - 1) as pbar:
-        while x < lenDataCount:
-            pbar.update(1)
-            i = dataCountOriginFlatten[x]
+    # perDataRoleTitled = perDataRoleTitled_MAIN(perData,ROLETITLE_INDEX,pathOrgPer+'personal_data_roletitled.csv',pathOrgPer+'personal_data_roletitled_flatten.csv','Done perDataRoleTitled')
 
-            if dataCountOriginFlatten[x-1]['OrgName'] == i['OrgName']:
-                dataCountOriginFlatten[x-1]['In'] += i['In']
-                dataCountOriginFlatten[x-1]['Out'] += i['Out']
-                dataCountOriginFlatten[x-1]['Self'] += i['Self']
-                del dataCountOriginFlatten[x]
-                lenDataCount -= 1
-            else:
-                x += 1
+    # dataFlow = dataFlow_MAIN(perData,'Organization/organization_flow.csv','Done dataOrgFlow')
 
-    df = pd.DataFrame(dataCountOriginFlatten)
-    output_file = os.path.join(directory_path, "dataOrgCountOrigin.csv")
-    df.to_csv(output_file,index=False,encoding='utf-8-sig')
+    # dataFlow = readCsv_asDict('Organization/organization_flow.csv')
 
-    print(df)
-    print("Data exported to", output_file)
-    print('Stage 2 cleared')
-    '''
+    # dataCount = dataCount_MAIN(dataFlow,'Organization/organization_count.csv','Done dataOrgCount')
 
-    '''
-    with open('HDI.csv') as f:
-        HDI = [{k: v 
-            for k, v in row.items()}
-                for row in csv.DictReader(f, skipinitialspace=True)]
-
-    max_workers = 2 * mp.cpu_count()
-    preDataLen = len(dataFlowFlatten)
-    n_workers = preDataLen if max_workers > preDataLen else max_workers
-
-    print(f"{n_workers} workers are available")
-
-    dataCountAdjusted = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataCountAdjusted_process)(batch,HDI)
-        for batch in tqdm(dataCount_batch_file(dataFlowFlatten,n_workers)))
-
-    dataCountAdjustedFlatten = [x for x in flatten(dataCountAdjusted) if x]
-    dataCountAdjustedFlatten.sort(key = dataCount_sortDate)
-
-    x = 1
-    lenDataCount = len(dataCountAdjustedFlatten)
-    with tqdm(total = lenDataCount - 1) as pbar:
-        while x < lenDataCount:
-            pbar.update(1)
-            i = dataCountAdjustedFlatten[x]
-
-            if dataCountAdjustedFlatten[x-1]['OrgName'] == i['OrgName']:
-                dataCountAdjustedFlatten[x-1]['In'] += i['In']
-                dataCountAdjustedFlatten[x-1]['Out'] += i['Out']
-                dataCountAdjustedFlatten[x-1]['Self'] += i['Self']
-                del dataCountAdjustedFlatten[x]
-                lenDataCount -= 1
-            else:
-                x += 1
-
-    df = pd.DataFrame(dataCountAdjustedFlatten)
-    output_file = os.path.join(directory_path, "dataOrgCountAdjusted.csv")
-    df.to_csv(output_file,index=False,encoding='utf-8-sig')
-
-    print(df)
-    print("Data exported to", output_file)
-    print('Stage 3 cleared')
-    '''
+    # dataSpringRank_MAIN(dataFlow,'education','JP',ID_TO_ROR,'Organization/organization_SpringRank_education.csv','Done dataOrgSpringRank')
