@@ -16,6 +16,8 @@ import tools as tl
 
 from rapidfuzz import process, fuzz, distance, utils
 
+from pycirclize import Circos
+
 def readCsv(location):
     with open(location,encoding='utf-8-sig') as file:
         csv_file = csv.reader(file)
@@ -460,7 +462,7 @@ def perDataRoleTitled_process(array,RI):
 def perDataRoleTitled_MAIN(array,RI,fileName,fileFlattenName,cleared):
     n_workers = nWorkers(array)
 
-    perDataRoleTitled = perDataRoleTitled_process(array,RI)
+    perDataRoleTitledFlatten = perDataRoleTitled_process(array,RI)
 
     # perDataRoleTitled = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(perDataRoleTitled_process)(batch,RI)
     #     for batch in tqdm(batch_file(array,n_workers)))
@@ -513,6 +515,109 @@ def dataFlow_MAIN(perDataElement,fileName,cleared):
     n_workers = nWorkers(perDataElement)
     
     dataFlow = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataFlow_process)(batch)
+        for batch in tqdm(batch_file(perDataElement,n_workers)))
+    
+    dataFlowFlatten = [x for x in flatten(dataFlow,1) if x]
+    dataFlowFlatten.sort(key = dataFlow_sortOrgFlow)
+
+    x = 1
+    lenDataFlow = len(dataFlowFlatten)
+    with tqdm(total = lenDataFlow - 1) as pbar:
+        while x < lenDataFlow:
+            pbar.update(1)
+            i = dataFlowFlatten[x]
+
+            if dataFlowFlatten[x-1]['OrgFlow'] == i['OrgFlow']:
+                dataFlowFlatten[x-1]['Count'] += i['Count']
+                del dataFlowFlatten[x]
+                lenDataFlow -= 1
+            else:
+                x += 1
+
+    exportFile(dataFlowFlatten,fileName)
+
+    print(cleared)
+
+    return dataFlowFlatten
+
+def dataFlowRoleTitled_process(perDataElement,type,country,RT):
+    flowFrom = RT[0]
+    flowTo = RT[1]
+
+    perDataOrgName = []
+    dataFlowProcess = []
+
+    if type is None and country is None:
+        for perDataElementX in tqdm(perDataElement):
+            perDataFlowFrom = []
+            perDataFlowTo = []
+            lenPerDataElementX = len(perDataElementX)
+            for y in range(0,lenPerDataElementX):
+                perDataElementXY = perDataElementX[y]
+                XY_roleTitle = perDataElementXY['RoleTitle']
+                if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
+                if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+    elif type is not None and country is None:
+        for perDataElementX in tqdm(perDataElement):
+            perDataFlowFrom = []
+            perDataFlowTo = []
+            lenPerDataElementX = len(perDataElementX)
+            for y in range(0,lenPerDataElementX):
+                perDataElementXY = perDataElementX[y]
+                XY_roleTitle = perDataElementXY['RoleTitle']
+                if perDataElementXY['OrgType'] in type:
+                    if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
+                    if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+    elif type is None and country is not None:
+        for perDataElementX in tqdm(perDataElement):
+            perDataFlowFrom = []
+            perDataFlowTo = []
+            lenPerDataElementX = len(perDataElementX)
+            for y in range(0,lenPerDataElementX):
+                perDataElementXY = perDataElementX[y]
+                XY_roleTitle = perDataElementXY['RoleTitle']
+                if perDataElementXY['OrgLocationCountry'] in country:
+                    if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
+                    if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+    else:
+        for perDataElementX in tqdm(perDataElement):
+            perDataFlowFrom = []
+            perDataFlowTo = []
+            lenPerDataElementX = len(perDataElementX)
+            for y in range(0,lenPerDataElementX):
+                perDataElementXY = perDataElementX[y]
+                XY_roleTitle = perDataElementXY['RoleTitle']
+                if perDataElementXY['OrgType'] in type and perDataElementXY['OrgLocationCountry'] in country:
+                    if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
+                    if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+
+        for ori in perDataFlowFrom:
+            for des in perDataFlowTo:
+                if ori['StartDate'] < des['StartDate']:
+                    dataFlowOrigin = ori['DisOrgID']
+                    dataFlowDestination = des['DisOrgID']
+                    dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
+
+                    if perDataOrgName.count(dataFlowName) == 0:
+                        perDataOrgName.append(dataFlowName)
+                        dataFlowProcess.append(
+                            {'Count': 1, 'OrgFlow': dataFlowName, 
+                            'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
+                            'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
+                            'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
+                            'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
+                            'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType'], 
+                            'OriRoleTitle': ori['RoleTitle'], 'DesRoleTitle': des['RoleTitle']})
+                    else:
+                        i = perDataOrgName.index(dataFlowName)
+                        dataFlowProcess[i]['Count'] += 1
+
+    return dataFlowProcess
+
+def dataFlowRoleTitled_MAIN(perDataElement,type,country,RT,fileName,cleared):
+    n_workers = nWorkers(perDataElement)
+    
+    dataFlow = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataFlowRoleTitled_process)(batch,type,country,RT)
         for batch in tqdm(batch_file(perDataElement,n_workers)))
     
     dataFlowFlatten = [x for x in flatten(dataFlow,1) if x]
@@ -654,42 +759,50 @@ def dataSpringRank_process_build_graph_from_adjacency(inadjacency,type,country):
             if (row['OriOrgType'] in type and row['DesOrgType'] in type) and (str(row['OriOrgLocationCountry']) in country and str(row['DesOrgLocationCountry']) in country):
                 edges[(row['OriDisOrgID'],row['DesDisOrgID'])] = int(row['Count'])
 
-    G = nx.DiGraph()
+    if edges == {}:
+        return None
+    else:
+        G = nx.DiGraph()
 
-    for e in edges:
-        G.add_edge(e[0],e[1],weight=edges[e])
+        for e in edges:
+            G.add_edge(e[0],e[1],weight=edges[e])
 
-    return G
+        return G
 
 def dataSpringRank_process(dataFlowElement,type,country):
     G = dataSpringRank_process_build_graph_from_adjacency(dataFlowElement,type,country)
-    nodes = list(G.nodes())
-    A = nx.to_scipy_sparse_array(G, dtype=float, nodelist=nodes)
-    rank = sr.get_ranks(A)
 
-    X = [(nodes[i],rank[i]) for i in range(G.number_of_nodes())]
-    X = sorted(X, key=lambda tup: tup[1],reverse=True)
+    if G is None:
+        return []
+    else:
+        nodes = list(G.nodes())
+        A = nx.to_scipy_sparse_array(G, dtype=float, nodelist=nodes)
+        rank = sr.get_ranks(A)
 
-    return X
+        X = [(nodes[i],rank[i]) for i in range(G.number_of_nodes())]
+        X = sorted(X, key=lambda tup: tup[1],reverse=True)
+
+        return X
 
 def dataSpringRank_MAIN(dataFlowElement,type,country,TR,fileName,cleared):
     dataSpringRank = dataSpringRank_process(dataFlowElement,type,country)
 
-    TR_LEN = len(TR)
-    TR_INDEX = [TR[i][0] for i in range(0,TR_LEN)]
+    if dataSpringRank != []:
+        TR_LEN = len(TR)
+        TR_INDEX = [TR[i][0] for i in range(0,TR_LEN)]
     
-    lenDataSpringRank = len(dataSpringRank)
-    for x in tqdm(range(lenDataSpringRank)):
-        dataSpringRankX = dataSpringRank[x]
-        dataSpringRankX0 = dataSpringRankX[0]
-        dataSpringRankX0_TR = TR[TR_INDEX.index(dataSpringRankX0)]
-        dataSpringRank[x] = {
-            'OrgSpringRank': dataSpringRankX[1], 
-            'OrgID': dataSpringRankX0, 
-            'OrgLocationCountry': dataSpringRankX0_TR[18], 
-            'OrgLocationDetails': dataSpringRankX0_TR[22], 
-            'OrgName': dataSpringRankX0_TR[26], 
-            'OrgType': dataSpringRankX0_TR[30]}
+        lenDataSpringRank = len(dataSpringRank)
+        for x in tqdm(range(lenDataSpringRank)):
+            dataSpringRankX = dataSpringRank[x]
+            dataSpringRankX0 = dataSpringRankX[0]
+            dataSpringRankX0_TR = TR[TR_INDEX.index(dataSpringRankX0)]
+            dataSpringRank[x] = {
+                'OrgSpringRank': dataSpringRankX[1], 
+                'OrgID': dataSpringRankX0, 
+                'OrgLocationCountry': dataSpringRankX0_TR[18], 
+                'OrgLocationDetails': dataSpringRankX0_TR[22], 
+                'OrgName': dataSpringRankX0_TR[26], 
+                'OrgType': dataSpringRankX0_TR[30]}
 
     exportFile(dataSpringRank,fileName)
 
@@ -697,9 +810,104 @@ def dataSpringRank_MAIN(dataFlowElement,type,country,TR,fileName,cleared):
 
     return dataSpringRank
 
-if __name__ == '__main__':
+def generate_SpringRank_process(RT,type,country,perDataRoleTitled):
     pathOrg = 'data/organization/'
     pathOrgPer = pathOrg + 'person/'
+    pathOrgSpringRank = pathOrg + 'SpringRank/'
+
+    ID_TO_ROR = readCsv('source/ROR_data.csv')
+
+    path = ''
+
+    if type is None:
+        path += 'alltypes/'
+    else:
+        path += type + '/'
+
+    if RT is None:
+        path += 'allflows/'
+    else:
+        path += RT[0] + '_to_' + RT[1] + '/'
+
+    if country is None:
+        path += 'allcountries/'
+    else:
+        path += country + '/'
+
+    try:
+        os.makedirs(os.path.join(os.getcwd(),pathOrgSpringRank,path))
+    except:
+        print()
+
+    if perDataRoleTitled is None:
+        perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_roletitled.csv')
+
+    dataFlowRoleTitled = dataFlowRoleTitled_MAIN(perDataRoleTitled,type,country,RT,pathOrgSpringRank+path+'organization_flow.csv','Done dataOrgFlow')
+    dataSpringRank_MAIN(dataFlowRoleTitled,type,country,ID_TO_ROR,pathOrgSpringRank+path+'organization_SpringRank.csv','Done dataOrgSpringRank')
+
+def generate_SpringRank_MAIN(RT,type,country,R,T,C):
+    pathOrg = 'data/organization/'
+    pathOrgPer = pathOrg + 'person/'
+    pathOrgSpringRank = pathOrg + 'SpringRank/'
+
+    ID_TO_ROR = readCsv('source/ROR_data.csv')
+    RT_FROMTO = readCsv('source/role_title_fromto.csv')
+    ORG_TYPES = readCsv('source/organization_type.csv')[0]
+    ORG_COUNTRIES = readCsv('source/country.csv')[0]
+
+    perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_roletitled.csv')
+
+    if RT is None:
+        RT_list = RT_FROMTO
+    else:
+        RT_list = RT
+
+    if type is None:
+        type_list = ORG_TYPES
+    else:
+        type_list = type
+
+    if country is None:
+        country_list = ORG_COUNTRIES
+    else:
+        country_list = country
+
+    for RTElement in RT_list:
+        for typeElement in type_list:
+            for countryElement in country_list:
+                generate_SpringRank_process(RTElement,typeElement,countryElement,perDataRoleTitled)
+                print('Done',RTElement,typeElement,countryElement)
+
+            if C:
+                generate_SpringRank_process(RTElement,typeElement,None,perDataRoleTitled)
+
+        if T:
+            if C:
+                generate_SpringRank_process(RTElement,None,None,perDataRoleTitled)
+            else:
+                generate_SpringRank_process(RTElement,None,country,perDataRoleTitled)
+
+    if R:
+        if T:
+            if C:
+                generate_SpringRank_process(None,None,None,perDataRoleTitled)
+            else:
+                generate_SpringRank_process(None,None,country,perDataRoleTitled)
+        else:
+            if C:
+                generate_SpringRank_process(None,type,None,perDataRoleTitled)
+            else:
+                generate_SpringRank_process(None,type,country,perDataRoleTitled)
+
+if __name__ == '__main__':
+    # generate_SpringRank(['Ph.D','Position'],None,'JP',None)
+
+    generate_SpringRank_MAIN([['Ph.D','Position']],['education'],['AT','AU','BE','CA','CH','CN','CZ','DE','DK','EE','ES','FI','GB','HK','HU','IE','IN','IS','IT','JP','KR','NL','NO','SE','NZ','PT','SK','TW','US','PL'],True,True,True)
+
+    generate_SpringRank_MAIN(None,None,None,True,True,True)
+
+    # pathOrg = 'data/organization/'
+    # pathOrgPer = pathOrg + 'person/'
 
     # ID_TO_ROR = readCsv('source/ROR_data.csv')
     # ID_RINGGOLD_TO_ISNI = readTsv_ID_RINGGOLD_TO_ISNI('source/aligned_ringgold_and_isni.tsv')
@@ -708,20 +916,24 @@ if __name__ == '__main__':
 
     # perData = perData_raw_MAIN(ID_RINGGOLD_TO_ISNI,ID_TO_ROR,xml_files,pathOrgPer+'personal_data_raw.csv',pathOrgPer+'personal_data_raw_flatten.csv','Done perData_raw')
 
-    perData = readCsv_perData(pathOrgPer+'personal_data_raw_filled.csv')
+    # perData = readCsv_perData(pathOrgPer+'personal_data_raw_filled.csv')
 
     # perDataPaired = perData_pair_MAIN(perData,ID_RINGGOLD_TO_ISNI,ID_TO_ROR,pathOrgPer+'personal_data_raw_paired.csv',pathOrgPer+'personal_data_raw_paired_flatten.csv','Done perData_paired',False)
 
     # perDataPaired = perData_pair_MAIN(perData,ID_RINGGOLD_TO_ISNI,ID_TO_ROR,pathOrgPer+'personal_data_raw_filled.csv',pathOrgPer+'personal_data_raw_filled_flatten.csv','Done perData_filled',True)
 
-    ROLETITLE_INDEX = readCsv_roleTitle('source/role_title.csv')
+    # ROLETITLE_INDEX = readCsv_roleTitle('source/role_title.csv')
 
-    perDataRoleTitled = perDataRoleTitled_MAIN(perData,ROLETITLE_INDEX,pathOrgPer+'personal_data_roletitled.csv',pathOrgPer+'personal_data_roletitled_flatten.csv','Done perDataRoleTitled')
+    # perDataRoleTitled = perDataRoleTitled_MAIN(perData,ROLETITLE_INDEX,pathOrgPer+'personal_data_roletitled.csv',pathOrgPer+'personal_data_roletitled_flatten.csv','Done perDataRoleTitled')
 
     # dataFlow = dataFlow_MAIN(perData,'Organization/organization_flow.csv','Done dataOrgFlow')
 
-    # dataFlow = readCsv_asDict('Organization/organization_flow.csv')
+    # perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_roletitled.csv')
+
+    # dataFlowRoleTitled = dataFlowRoleTitled_MAIN(perDataRoleTitled,'education','JP',['Ph.D','Position'],pathOrg+'organization_flow_phd_to_position_education_JP.csv','Done dataOrgFlow')
+
+    # dataFlow = readCsv_asDict(pathOrg+'organization_flow_phd_to_position_education_JP.csv')
 
     # dataCount = dataCount_MAIN(dataFlow,'Organization/organization_count.csv','Done dataOrgCount')
 
-    # dataSpringRank_MAIN(dataFlow,'education','JP',ID_TO_ROR,'Organization/organization_SpringRank_education.csv','Done dataOrgSpringRank')
+    # dataSpringRank_MAIN(dataFlow,None,None,ID_TO_ROR,pathOrg+'organization_SpringRank_education.csv','Done dataOrgSpringRank')
