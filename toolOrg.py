@@ -557,6 +557,7 @@ def dataFlowRoleTitled_process(perDataElement,type,country,RT):
                 XY_roleTitle = perDataElementXY['RoleTitle']
                 if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
                 if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+
     elif type is not None and country is None:
         for perDataElementX in tqdm(perDataElement):
             perDataFlowFrom = []
@@ -568,6 +569,7 @@ def dataFlowRoleTitled_process(perDataElement,type,country,RT):
                 if perDataElementXY['OrgType'] in type:
                     if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
                     if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+
     elif type is None and country is not None:
         for perDataElementX in tqdm(perDataElement):
             perDataFlowFrom = []
@@ -579,6 +581,7 @@ def dataFlowRoleTitled_process(perDataElement,type,country,RT):
                 if perDataElementXY['OrgLocationCountry'] in country:
                     if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
                     if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+                    
     else:
         for perDataElementX in tqdm(perDataElement):
             perDataFlowFrom = []
@@ -591,26 +594,26 @@ def dataFlowRoleTitled_process(perDataElement,type,country,RT):
                     if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
                     if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
 
-        for ori in perDataFlowFrom:
-            for des in perDataFlowTo:
-                if ori['StartDate'] < des['StartDate']:
-                    dataFlowOrigin = ori['DisOrgID']
-                    dataFlowDestination = des['DisOrgID']
-                    dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
+    for ori in perDataFlowFrom:
+        for des in perDataFlowTo:
+            if ori['StartDate'] < des['StartDate']:
+                dataFlowOrigin = ori['DisOrgID']
+                dataFlowDestination = des['DisOrgID']
+                dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
 
-                    if perDataOrgName.count(dataFlowName) == 0:
-                        perDataOrgName.append(dataFlowName)
-                        dataFlowProcess.append(
-                            {'Count': 1, 'OrgFlow': dataFlowName, 
-                            'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
-                            'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
-                            'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
-                            'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
-                            'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType'], 
-                            'OriRoleTitle': ori['RoleTitle'], 'DesRoleTitle': des['RoleTitle']})
-                    else:
-                        i = perDataOrgName.index(dataFlowName)
-                        dataFlowProcess[i]['Count'] += 1
+                if perDataOrgName.count(dataFlowName) == 0:
+                    perDataOrgName.append(dataFlowName)
+                    dataFlowProcess.append(
+                        {'Count': 1, 'OrgFlow': dataFlowName, 
+                        'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
+                        'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
+                        'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
+                        'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
+                        'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType'], 
+                        'OriRoleTitle': ori['RoleTitle'], 'DesRoleTitle': des['RoleTitle']})
+                else:
+                    i = perDataOrgName.index(dataFlowName)
+                    dataFlowProcess[i]['Count'] += 1
 
     return dataFlowProcess
 
@@ -810,12 +813,10 @@ def dataSpringRank_MAIN(dataFlowElement,type,country,TR,fileName,cleared):
 
     return dataSpringRank
 
-def generate_SpringRank_process(RT,type,country,perDataRoleTitled):
+def generate_SpringRank_process(RT,type,country,ID_TO_ROR,perDataRoleTitled):
     pathOrg = 'data/organization/'
     pathOrgPer = pathOrg + 'person/'
     pathOrgSpringRank = pathOrg + 'SpringRank/'
-
-    ID_TO_ROR = readCsv('source/ROR_data.csv')
 
     path = ''
 
@@ -838,6 +839,9 @@ def generate_SpringRank_process(RT,type,country,perDataRoleTitled):
         os.makedirs(os.path.join(os.getcwd(),pathOrgSpringRank,path))
     except:
         print()
+
+    if ID_TO_ROR is None:
+        ID_TO_ROR = readCsv('source/ROR_data.csv')
 
     if perDataRoleTitled is None:
         perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_roletitled.csv')
@@ -875,32 +879,32 @@ def generate_SpringRank_MAIN(RT,type,country,R,T,C):
     for RTElement in RT_list:
         for typeElement in type_list:
             for countryElement in country_list:
-                generate_SpringRank_process(RTElement,typeElement,countryElement,perDataRoleTitled)
+                generate_SpringRank_process(RTElement,typeElement,countryElement,ID_TO_ROR,perDataRoleTitled)
                 print('Done',RTElement,typeElement,countryElement)
 
             if C:
-                generate_SpringRank_process(RTElement,typeElement,None,perDataRoleTitled)
+                generate_SpringRank_process(RTElement,typeElement,None,ID_TO_ROR,perDataRoleTitled)
 
         if T:
             if C:
-                generate_SpringRank_process(RTElement,None,None,perDataRoleTitled)
+                generate_SpringRank_process(RTElement,None,None,ID_TO_ROR,perDataRoleTitled)
             else:
-                generate_SpringRank_process(RTElement,None,country,perDataRoleTitled)
+                generate_SpringRank_process(RTElement,None,ID_TO_ROR,country,perDataRoleTitled)
 
     if R:
         if T:
             if C:
-                generate_SpringRank_process(None,None,None,perDataRoleTitled)
+                generate_SpringRank_process(None,None,None,ID_TO_ROR,perDataRoleTitled)
             else:
-                generate_SpringRank_process(None,None,country,perDataRoleTitled)
+                generate_SpringRank_process(None,None,country,ID_TO_ROR,perDataRoleTitled)
         else:
             if C:
-                generate_SpringRank_process(None,type,None,perDataRoleTitled)
+                generate_SpringRank_process(None,type,None,ID_TO_ROR,perDataRoleTitled)
             else:
-                generate_SpringRank_process(None,type,country,perDataRoleTitled)
+                generate_SpringRank_process(None,type,country,ID_TO_ROR,perDataRoleTitled)
 
 if __name__ == '__main__':
-    # generate_SpringRank(['Ph.D','Position'],None,'JP',None)
+    generate_SpringRank_process(['Ph.D','Position'],None,'JP',None,None)
 
     generate_SpringRank_MAIN([['Ph.D','Position']],['education'],['AT','AU','BE','CA','CH','CN','CZ','DE','DK','EE','ES','FI','GB','HK','HU','IE','IN','IS','IT','JP','KR','NL','NO','SE','NZ','PT','SK','TW','US','PL'],True,True,True)
 
