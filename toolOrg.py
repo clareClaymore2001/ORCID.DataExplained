@@ -551,75 +551,161 @@ def dataFlowRoleTitled_process(perDataElement,type,country,RT):
         for perDataElementX in tqdm(perDataElement):
             perDataFlowFrom = []
             perDataFlowTo = []
+
             lenPerDataElementX = len(perDataElementX)
             for y in range(0,lenPerDataElementX):
                 perDataElementXY = perDataElementX[y]
                 XY_roleTitle = perDataElementXY['RoleTitle']
-                if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
-                if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+
+                if XY_roleTitle == flowFrom:
+                    perDataFlowFrom.append(perDataElementXY)
+
+                if XY_roleTitle == flowTo:
+                    perDataFlowTo.append(perDataElementXY)
+
+            for ori in perDataFlowFrom:
+                for des in perDataFlowTo:
+                    if ori['StartDate'] < des['StartDate']:
+                        dataFlowOrigin = ori['DisOrgID']
+                        dataFlowDestination = des['DisOrgID']
+                        dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
+
+                        if perDataOrgName.count(dataFlowName) == 0:
+                            perDataOrgName.append(dataFlowName)
+                            dataFlowProcess.append(
+                                {'Count': 1, 'OrgFlow': dataFlowName, 
+                                'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
+                                'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
+                                'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
+                                'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
+                                'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType'], 
+                                'OriRoleTitle': ori['RoleTitle'], 'DesRoleTitle': des['RoleTitle']})
+                        else:
+                            i = perDataOrgName.index(dataFlowName)
+                            dataFlowProcess[i]['Count'] += 1
 
     elif type is not None and country is None:
         for perDataElementX in tqdm(perDataElement):
             perDataFlowFrom = []
             perDataFlowTo = []
+
             lenPerDataElementX = len(perDataElementX)
             for y in range(0,lenPerDataElementX):
                 perDataElementXY = perDataElementX[y]
-                XY_roleTitle = perDataElementXY['RoleTitle']
+
                 if perDataElementXY['OrgType'] in type:
-                    if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
-                    if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+                    XY_roleTitle = perDataElementXY['RoleTitle']
+
+                    if XY_roleTitle == flowFrom:
+                        perDataFlowFrom.append(perDataElementXY)
+
+                    if XY_roleTitle == flowTo:
+                        perDataFlowTo.append(perDataElementXY)
+
+            for ori in perDataFlowFrom:
+                for des in perDataFlowTo:
+                    if ori['StartDate'] < des['StartDate']:
+                        dataFlowOrigin = ori['DisOrgID']
+                        dataFlowDestination = des['DisOrgID']
+                        dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
+
+                        if perDataOrgName.count(dataFlowName) == 0:
+                            perDataOrgName.append(dataFlowName)
+                            dataFlowProcess.append(
+                                {'Count': 1, 'OrgFlow': dataFlowName, 
+                                'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
+                                'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
+                                'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
+                                'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
+                                'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType'], 
+                                'OriRoleTitle': ori['RoleTitle'], 'DesRoleTitle': des['RoleTitle']})
+                        else:
+                            i = perDataOrgName.index(dataFlowName)
+                            dataFlowProcess[i]['Count'] += 1
 
     elif type is None and country is not None:
         for perDataElementX in tqdm(perDataElement):
             perDataFlowFrom = []
             perDataFlowTo = []
+
             lenPerDataElementX = len(perDataElementX)
             for y in range(0,lenPerDataElementX):
                 perDataElementXY = perDataElementX[y]
-                XY_roleTitle = perDataElementXY['RoleTitle']
+
                 if perDataElementXY['OrgLocationCountry'] in country:
-                    if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
-                    if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
-                    
+                    XY_roleTitle = perDataElementXY['RoleTitle']
+
+                    if XY_roleTitle == flowFrom:
+                        perDataFlowFrom.append(perDataElementXY)
+
+                    if XY_roleTitle == flowTo:
+                        perDataFlowTo.append(perDataElementXY)
+
+            for ori in perDataFlowFrom:
+                for des in perDataFlowTo:
+                    if ori['StartDate'] < des['StartDate']:
+                        dataFlowOrigin = ori['DisOrgID']
+                        dataFlowDestination = des['DisOrgID']
+                        dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
+
+                        if perDataOrgName.count(dataFlowName) == 0:
+                            perDataOrgName.append(dataFlowName)
+                            dataFlowProcess.append(
+                                {'Count': 1, 'OrgFlow': dataFlowName, 
+                                'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
+                                'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
+                                'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
+                                'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
+                                'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType'], 
+                                'OriRoleTitle': ori['RoleTitle'], 'DesRoleTitle': des['RoleTitle']})
+                        else:
+                            i = perDataOrgName.index(dataFlowName)
+                            dataFlowProcess[i]['Count'] += 1
+
     else:
         for perDataElementX in tqdm(perDataElement):
             perDataFlowFrom = []
             perDataFlowTo = []
+
             lenPerDataElementX = len(perDataElementX)
             for y in range(0,lenPerDataElementX):
                 perDataElementXY = perDataElementX[y]
-                XY_roleTitle = perDataElementXY['RoleTitle']
+
                 if perDataElementXY['OrgType'] in type and perDataElementXY['OrgLocationCountry'] in country:
-                    if XY_roleTitle == flowFrom:perDataFlowFrom.append(perDataElementXY)
-                    if XY_roleTitle == flowTo:perDataFlowTo.append(perDataElementXY)
+                    XY_roleTitle = perDataElementXY['RoleTitle']
 
-    for ori in perDataFlowFrom:
-        for des in perDataFlowTo:
-            if ori['StartDate'] < des['StartDate']:
-                dataFlowOrigin = ori['DisOrgID']
-                dataFlowDestination = des['DisOrgID']
-                dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
+                    if XY_roleTitle == flowFrom:
+                        perDataFlowFrom.append(perDataElementXY)
 
-                if perDataOrgName.count(dataFlowName) == 0:
-                    perDataOrgName.append(dataFlowName)
-                    dataFlowProcess.append(
-                        {'Count': 1, 'OrgFlow': dataFlowName, 
-                        'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
-                        'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
-                        'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
-                        'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
-                        'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType'], 
-                        'OriRoleTitle': ori['RoleTitle'], 'DesRoleTitle': des['RoleTitle']})
-                else:
-                    i = perDataOrgName.index(dataFlowName)
-                    dataFlowProcess[i]['Count'] += 1
+                    if XY_roleTitle == flowTo:
+                        perDataFlowTo.append(perDataElementXY)
+
+            for ori in perDataFlowFrom:
+                for des in perDataFlowTo:
+                    if ori['StartDate'] < des['StartDate']:
+                        dataFlowOrigin = ori['DisOrgID']
+                        dataFlowDestination = des['DisOrgID']
+                        dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
+
+                        if perDataOrgName.count(dataFlowName) == 0:
+                            perDataOrgName.append(dataFlowName)
+                            dataFlowProcess.append(
+                                {'Count': 1, 'OrgFlow': dataFlowName, 
+                                'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
+                                'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
+                                'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
+                                'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
+                                'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType'], 
+                                'OriRoleTitle': ori['RoleTitle'], 'DesRoleTitle': des['RoleTitle']})
+                        else:
+                            i = perDataOrgName.index(dataFlowName)
+                            dataFlowProcess[i]['Count'] += 1
 
     return dataFlowProcess
 
 def dataFlowRoleTitled_MAIN(perDataElement,type,country,RT,fileName,cleared):
     n_workers = nWorkers(perDataElement)
-    
+
     dataFlow = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataFlowRoleTitled_process)(batch,type,country,RT)
         for batch in tqdm(batch_file(perDataElement,n_workers)))
     
