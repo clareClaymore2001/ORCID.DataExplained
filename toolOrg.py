@@ -47,14 +47,7 @@ def readCsv_perData(location):
 
             for item in row:
                 if item != '':
-                    itemSplited = item[1:-1].split(', ')
-                    resultItem = {}
-
-                    for key in itemSplited:
-                        keyFind = key.find(':')
-                        resultItem[key[1:keyFind-1]] = key[keyFind+3:-1]
-
-                    resultRow.append(resultItem)
+                    resultRow.append(eval(item))
 
             result.append(resultRow)
 
@@ -201,8 +194,8 @@ def perData_raw_MAIN(RTI,TR,xml_files,fileName,fileFlattenName,cleared):
     for i in range(perDataFlattenLen):
         perDataFlatten[i].sort(key = perData_raw_sortDate)
 
-    exportFile(perDataFlatten,fileName)
-    exportFile([x for x in flatten(perDataFlatten,1) if x],fileFlattenName)
+    # exportFile(perDataFlatten,fileName)
+    # exportFile([x for x in flatten(perDataFlatten,1) if x],fileFlattenName)
 
     print(cleared)
 
@@ -414,9 +407,6 @@ def perData_pair_MAIN(perDataElement,RTI,TR,fileName,fileFlattenName,cleared,fil
             for batch in tqdm(batch_file(perDataElement,n_workers)))
 
     perDataPairedFlatten = [x for x in flatten(perDataPaired,1) if x]
-    perDataPairedFlattenLen = len(perDataPairedFlatten)
-    for i in range(perDataPairedFlattenLen):
-        perDataPairedFlatten[i].sort(key = perData_sortDate)
 
     exportFile(perDataPairedFlatten,fileName)
     exportFile([x for x in flatten(perDataPairedFlatten,1) if x],fileFlattenName)
@@ -442,17 +432,17 @@ def perDataRoleTitled_process(array,RI):
             while y < lenArrayX:
                 roletitle = arrayX[y]['RoleTitle']
 
-                if roletitle == '':
-                    print('Nope')
+                if roletitle is None:
                     del array[x][y]
                     lenArrayX -= 1
                 else:
-                    pair = [process.extractOne(roletitle,RI[key],scorer=fuzz.QRatio,processor=utils.default_process) for key in RI_keys]
+                    pair = [process.extractOne(roletitle,RI[key],scorer=fuzz.partial_ratio) for key in RI_keys]
                     pairValue = [pair[i][1] for i in range(lenRI)]
                     max_value = max(pairValue)
 
-                    if max_value > 0:
+                    if max_value > 86:
                         array[x][y]['RoleTitle'] = RI_keys[pairValue.index(max_value)]
+                        array[x][y]['RoleTitleOri'] = roletitle
                         array[x][y]['RoleTitlePair'] = pair
                         y += 1
                     else:
@@ -470,10 +460,12 @@ def perDataRoleTitled_process(array,RI):
 def perDataRoleTitled_MAIN(array,RI,fileName,fileFlattenName,cleared):
     n_workers = nWorkers(array)
 
-    perDataRoleTitled = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(perDataRoleTitled_process)(batch,RI)
-        for batch in tqdm(batch_file(array,n_workers)))
+    perDataRoleTitled = perDataRoleTitled_process(array,RI)
 
-    perDataRoleTitledFlatten = [x for x in flatten(perDataRoleTitled,1) if x]
+    # perDataRoleTitled = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(perDataRoleTitled_process)(batch,RI)
+    #     for batch in tqdm(batch_file(array,n_workers)))
+
+    # perDataRoleTitledFlatten = [x for x in flatten(perDataRoleTitled,1) if x]
 
     exportFile(perDataRoleTitledFlatten,fileName)
     exportFile([x for x in flatten(perDataRoleTitledFlatten,1) if x],fileFlattenName)
@@ -481,6 +473,8 @@ def perDataRoleTitled_MAIN(array,RI,fileName,fileFlattenName,cleared):
     print(cleared)
 
     return perDataRoleTitledFlatten
+
+# def perDataDepted_MAIN(array,DI,fileName,fileFlattenName,cleared):
 
 def dataFlow_process(perDataElement):
     perDataOrgName = []
@@ -707,22 +701,22 @@ if __name__ == '__main__':
     pathOrg = 'data/organization/'
     pathOrgPer = pathOrg + 'person/'
 
-    ID_TO_ROR = readCsv('source/ROR_data.csv')
-    ID_RINGGOLD_TO_ISNI = readTsv_ID_RINGGOLD_TO_ISNI('source/aligned_ringgold_and_isni.tsv')
+    # ID_TO_ROR = readCsv('source/ROR_data.csv')
+    # ID_RINGGOLD_TO_ISNI = readTsv_ID_RINGGOLD_TO_ISNI('source/aligned_ringgold_and_isni.tsv')
 
-    xml_files = glob.glob('D:/ORCID_2023_10_summaries/0000/*.xml')
+    # xml_files = glob.glob('D:/ORCID_2/*.xml')
 
-    # perData = perData_raw_MAIN(ID_RINGGOLD_TO_ISNI,ID_TO_ROR,xml_files,pathOrgPer+'personal_data_raw.csv',pathOrgPer+'personal_data_raw_flatten.csv','Done perData')
+    # perData = perData_raw_MAIN(ID_RINGGOLD_TO_ISNI,ID_TO_ROR,xml_files,pathOrgPer+'personal_data_raw.csv',pathOrgPer+'personal_data_raw_flatten.csv','Done perData_raw')
 
-    perData = readCsv_perData(pathOrgPer+'personal_data_raw.csv')
+    perData = readCsv_perData(pathOrgPer+'personal_data_raw_filled.csv')
 
-    perDataPaired = perData_pair_MAIN(perData,ID_RINGGOLD_TO_ISNI,ID_TO_ROR,pathOrgPer+'personal_data_raw_paired.csv',pathOrgPer+'personal_data_raw_paired_flatten.csv','Done perData',False)
+    # perDataPaired = perData_pair_MAIN(perData,ID_RINGGOLD_TO_ISNI,ID_TO_ROR,pathOrgPer+'personal_data_raw_paired.csv',pathOrgPer+'personal_data_raw_paired_flatten.csv','Done perData_paired',False)
 
-    # perDataPaired = perData_pair_MAIN(perData,ID_RINGGOLD_TO_ISNI,ID_TO_ROR,pathOrgPer+'personal_data_raw_filled.csv',pathOrgPer+'personal_data_raw_filled_filled.csv','Done perData',True)
+    # perDataPaired = perData_pair_MAIN(perData,ID_RINGGOLD_TO_ISNI,ID_TO_ROR,pathOrgPer+'personal_data_raw_filled.csv',pathOrgPer+'personal_data_raw_filled_flatten.csv','Done perData_filled',True)
 
-    # ROLETITLE_INDEX = readCsv_roleTitle('source/role_title.csv')
+    ROLETITLE_INDEX = readCsv_roleTitle('source/role_title.csv')
 
-    # perDataRoleTitled = perDataRoleTitled_MAIN(perData,ROLETITLE_INDEX,pathOrgPer+'personal_data_roletitled.csv',pathOrgPer+'personal_data_roletitled_flatten.csv','Done perDataRoleTitled')
+    perDataRoleTitled = perDataRoleTitled_MAIN(perData,ROLETITLE_INDEX,pathOrgPer+'personal_data_roletitled.csv',pathOrgPer+'personal_data_roletitled_flatten.csv','Done perDataRoleTitled')
 
     # dataFlow = dataFlow_MAIN(perData,'Organization/organization_flow.csv','Done dataOrgFlow')
 
