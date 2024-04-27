@@ -18,6 +18,14 @@ from rapidfuzz import process, fuzz, distance, utils
 
 from pycirclize import Circos
 
+import math
+import matplotlib.pyplot as plt
+import matplotlib.scale
+from matplotlib.pyplot import figure
+from matplotlib.lines import Line2D
+from adjustText import adjust_text
+import random
+
 def readCsv(location):
     with open(location,encoding='utf-8-sig') as file:
         csv_file = csv.reader(file)
@@ -146,165 +154,6 @@ def perDataDepted_MAIN(array,DI,fileName,fileFlattenName,cleared):
 
     return perDataDeptedFlatten
 
-def dataFlow_process(perDataElement):
-    perDataOrgName = []
-    dataFlowProcess = []
-    
-    for perDataElementX in tqdm(perDataElement):
-        lenPerDataElementX = len(perDataElementX)
-
-        for y in range(1,lenPerDataElementX):
-            ori = perDataElementX[y-1]
-            des = perDataElementX[y]
-    
-            dataFlowOrigin = ori['DisOrgID']
-            dataFlowDestination = des['DisOrgID']
-            dataFlowName = ' '.join([dataFlowOrigin,'->',dataFlowDestination])
-
-            if perDataOrgName.count(dataFlowName) == 0:
-                perDataOrgName.append(dataFlowName)
-                dataFlowProcess.append(
-                    {'Count': 1, 'OrgFlow': dataFlowName, 
-                    'OriDisOrgID': dataFlowOrigin, 'DesDisOrgID': dataFlowDestination,
-                    'OriOrgLocationCountry': ori['OrgLocationCountry'], 'DesOrgLocationCountry': des['OrgLocationCountry'], 
-                    'OriOrgLocationDetails': ori['OrgLocationDetails'], 'DesOrgLocationDetails': des['OrgLocationDetails'], 
-                    'OriOrgName': ori['OrgName'], 'DesOrgName': des['OrgName'], 
-                    'OriOrgType': ori['OrgType'], 'DesOrgType': des['OrgType']})
-            else:
-                i = perDataOrgName.index(dataFlowName)
-                dataFlowProcess[i]['Count'] += 1
-
-    return dataFlowProcess
-
-def dataFlow_sortOrgFlow(array):
-    return array['OrgFlow']
-
-def dataFlow_MAIN(perDataElement,fileName,cleared):
-    n_workers = nWorkers(perDataElement)
-    
-    dataFlow = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataFlow_process)(batch)
-        for batch in tqdm(batch_file(perDataElement,n_workers)))
-    
-    dataFlowFlatten = [x for x in flatten(dataFlow,1) if x]
-    dataFlowFlatten.sort(key = dataFlow_sortOrgFlow)
-
-    x = 1
-    lenDataFlow = len(dataFlowFlatten)
-    with tqdm(total = lenDataFlow - 1) as pbar:
-        while x < lenDataFlow:
-            pbar.update(1)
-            i = dataFlowFlatten[x]
-
-            if dataFlowFlatten[x-1]['OrgFlow'] == i['OrgFlow']:
-                dataFlowFlatten[x-1]['Count'] += i['Count']
-                del dataFlowFlatten[x]
-                lenDataFlow -= 1
-            else:
-                x += 1
-
-    exportFile(dataFlowFlatten,fileName)
-
-    print(cleared)
-
-    return dataFlowFlatten
-
-def dataCount_process(dataFlowElement):
-    dataFlowOrgID = []
-    dataCountProcess = []
-
-    for x in tqdm(dataFlowElement):
-        oriOrgID = x['OriDisOrgID']
-        desOrgID = x['DesDisOrgID']
-        xCount = x['Count']
-
-        i1 = dataFlowOrgID.count(oriOrgID) == 0
-        i2 = dataFlowOrgID.count(desOrgID) == 0
-
-        if i1 and i2:
-            if oriOrgID == desOrgID:
-                dataFlowOrgID.append(oriOrgID)
-                dataCountProcess.append({'OrgID': oriOrgID, 
-                    'OrgLocationCountry': x['OriOrgLocationCountry'], 
-                    'OrgLocationDetails': x['OriOrgLocationDetails'], 
-                    'OrgName': x['OriOrgName'], 
-                    'OrgType': x['OriOrgType'], 
-                    'In': 0, 'Out': 0, 'Self': xCount})
-            else:
-                dataFlowOrgID.append(oriOrgID)
-                dataFlowOrgID.append(desOrgID)
-                dataCountProcess.append({'OrgID': oriOrgID, 
-                    'OrgLocationCountry': x['OriOrgLocationCountry'], 
-                    'OrgLocationDetails': x['OriOrgLocationDetails'], 
-                    'OrgName': x['OriOrgName'], 
-                    'OrgType': x['OriOrgType'], 
-                    'In': 0, 'Out': xCount, 'Self': 0})
-                dataCountProcess.append({'OrgID': desOrgID, 
-                    'OrgLocationCountry': x['DesOrgLocationCountry'], 
-                    'OrgLocationDetails': x['DesOrgLocationDetails'], 
-                    'OrgName': x['DesOrgName'], 
-                    'OrgType': x['DesOrgType'], 
-                    'In': xCount, 'Out': 0, 'Self': 0})
-
-        elif (i1 or i2) is not True:
-            if oriOrgID == desOrgID:
-                dataCountProcess[dataFlowOrgID.index(oriOrgID)]['Self'] += xCount
-            else:
-                dataCountProcess[dataFlowOrgID.index(desOrgID)]['In'] += xCount
-                dataCountProcess[dataFlowOrgID.index(oriOrgID)]['Out'] += xCount
-
-        elif i1:
-            dataFlowOrgID.append(oriOrgID)
-            dataCountProcess[dataFlowOrgID.index(desOrgID)]['In'] += xCount
-            dataCountProcess.append({'OrgID': oriOrgID, 
-                'OrgLocationCountry': x['OriOrgLocationCountry'], 
-                'OrgLocationDetails': x['OriOrgLocationDetails'], 
-                'OrgName': x['OriOrgName'], 
-                'OrgType': x['OriOrgType'], 
-                'In': 0, 'Out': xCount, 'Self': 0})
-        else:
-            dataFlowOrgID.append(desOrgID)
-            dataCountProcess[dataFlowOrgID.index(oriOrgID)]['Out'] += xCount
-            dataCountProcess.append({'OrgID': desOrgID, 
-                'OrgLocationCountry': x['DesOrgLocationCountry'], 
-                'OrgLocationDetails': x['DesOrgLocationDetails'], 
-                'OrgName': x['DesOrgName'], 
-                'OrgType': x['DesOrgType'], 
-                'In': xCount, 'Out': 0, 'Self': 0})
-
-    return dataCountProcess
-
-def dataCount_sortOrgID(array):
-    return array['OrgID']
-
-def dataCount_MAIN(dataFlowElement,fileName,cleared):
-    n_workers = nWorkers(dataFlowElement)
-
-    dataCount = Parallel(n_jobs=n_workers,backend="multiprocessing")(delayed(dataCount_process)(batch)
-        for batch in tqdm(batch_file(dataFlowElement,n_workers)))
-
-    dataCountFlatten = [x for x in flatten(dataCount,1) if x]
-    dataCountFlatten.sort(key = dataCount_sortOrgID)
-
-    x = 1
-    lenDataCount = len(dataCountFlatten)
-    with tqdm(total = lenDataCount - 1) as pbar:
-        while x < lenDataCount:
-            pbar.update(1)
-            i = dataCountFlatten[x]
-
-            if dataCountFlatten[x-1]['OrgID'] == i['OrgID']:
-                dataCountFlatten[x-1]['In'] += i['In']
-                dataCountFlatten[x-1]['Out'] += i['Out']
-                dataCountFlatten[x-1]['Self'] += i['Self']
-                del dataCountFlatten[x]
-                lenDataCount -= 1
-            else:
-                x += 1
-
-    exportFile(dataCountFlatten,fileName)
-
-    print(cleared)
-
 def dataFlowRunRoleTitled_process(array,country,RT):
     arrayName = []
     arrayProcess = []
@@ -319,7 +168,7 @@ def dataFlowRunRoleTitled_process(array,country,RT):
         while count0 == 0 and y < lenArrayX:
             arrayXY = arrayX[y]
 
-            if arrayXY['OrgLocationCountry'] == country:
+            if arrayXY['OrgLocationCountry'] in country:
                 count0 += 1
                 arrayStayRecord.append(arrayXY)
 
@@ -332,7 +181,7 @@ def dataFlowRunRoleTitled_process(array,country,RT):
                 arrayXY = arrayX[y]
                 stayRecord = arrayXY['OrgLocationCountry']
 
-                if stayRecord != country and arrayXY['RoleTitle'] == RT:
+                if stayRecord not in country and arrayXY['RoleTitle'] == RT:
                     count1 += 1
                     arrayStayRecord.append(arrayXY)
 
@@ -349,7 +198,7 @@ def dataFlowRunRoleTitled_process(array,country,RT):
                     stayRecord = arrayXY['OrgLocationCountry']
 
                     if stayRecord != arrayStayRecord[len(arrayStayRecord)-1]['OrgLocationCountry']:
-                        if  stayRecord != country and arrayXY['RoleTitle'] == RT:
+                        if  stayRecord not in country and arrayXY['RoleTitle'] == RT:
                             arrayStayRecord.append(arrayXY)
                             count1 += 1
 
@@ -589,6 +438,51 @@ def dataCountRunCouRoleTitled_MAIN(dataCountRunOrgRoleTitledElement,fileName,cle
 
     print(cleared)
 
+def generate_ScatterChart_org_MAIN(df,fileName,cleared):
+    # judge = []
+    '''for k,row in tqdm(df.iterrows()):
+        if judge.count(' '.join([str(row['Total']),'->',str(row['Rate'])])) == 0:
+            judge.append(' '.join([str(row['Total']),'->',str(row['Rate'])]))
+        else:
+            df = df.drop(k)'''
+
+    figure(num=None, figsize=(16, 24), dpi=400, facecolor='w', edgecolor='k')
+
+    plt.xlabel('Sample Number', fontsize=16, weight='bold')
+    plt.ylabel('Remaining Rate', fontsize=16, weight='bold')
+    plt.title('Rates of Chinese and Indians remaining in the host country after completing master\'s programs', fontsize=16, weight='bold')
+    plt.grid(True)
+
+    region_colors = {
+        'Asia':'red', 
+        'Axis power':'black', 
+        'EU/EEA/CH':'royalblue', 
+        'Five Eyes':'orange', 
+        'Middle East':'olivedrab'}
+
+    for i,j in df.iterrows():plt.scatter(df.Total[i], df.Rate[i], s=400, alpha = 0.25, color=region_colors[j['Region']])
+
+    plt.xscale('log', base=2, subs=[2**x for x in (0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9)])
+    plt.yticks([x for x in (0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0)])
+
+    textList = [plt.text(x=row['Total'], y=row['Rate']+(random.random()-0.5)/500+(random.random()-0.5)/750+(random.random()-0.5)/1000, s=row['OrgName'], fontsize=4) for k,row in df.iterrows()]
+
+    custom = [Line2D([], [], marker='.', color=i, linestyle='None', markersize=25) for i in region_colors.values()]
+    plt.legend(custom, region_colors.keys(), fontsize=15, loc="upper right")
+
+    plt.annotate('Source: https://github.com/clareClaymore2001/ORCID.DataExplained', xy = (0.002, 0.002), xycoords='axes fraction')
+
+    for i in tqdm(range(128)):
+        adjust_text(textList,avoid_self=False,explode_radius=0,only_move='y-')
+        adjust_text(textList,avoid_self=False,explode_radius=0,only_move='y+')
+        adjust_text(textList,avoid_self=False,explode_radius=0,only_move='y+')
+        adjust_text(textList,avoid_self=False,explode_radius=0,only_move='y+')
+
+    plt.savefig(fileName+'.png')
+    plt.savefig(fileName+'.svg')
+
+    print(cleared)
+
 if __name__ == '__main__':
     pathRun = 'data/run/'
     pathOrg = 'data/organization/'
@@ -604,22 +498,20 @@ if __name__ == '__main__':
 
     # perDataDepted = perDataDepted_MAIN(perDataRoleTitled,DEPT_INDEX,pathOrgPer+'personal_data_depted_EandS.csv',pathOrgPer+'personal_data_depted_EandS_flatten.csv','Done perDataDepted')
 
-    # dataFlow = dataFlow_MAIN(perData,'Organization/organization_flow.csv','Done dataOrgFlow')
-
     # perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_roletitled.csv')
 
-    # dataFlowRunRoleTitled = dataFlowRunRoleTitled_MAIN(perDataRoleTitled,'IN','Master',pathRun+'organization_flow_IN_any_to_master.csv','Done dataFlowRun')
+    # dataFlowRunRoleTitled = dataFlowRunRoleTitled_MAIN(perDataRoleTitled,['IN','CN'],'Master',pathRun+'organization_flow_CN&IN_any_to_master.csv','Done dataFlowRun')
 
     # dataFlowRunRoleTitled = readCsv_asDict(pathRun+'organization_flow_IN_bachelor_to_any.csv')
 
-    # dataCountRunOrgRoleTitled = dataCountRunOrgRoleTitled_MAIN(dataFlowRunRoleTitled,pathRun+'organization_count_IN_any_to_master.csv','Done dataCountRunOrg')
+    # dataCountRunOrgRoleTitled = dataCountRunOrgRoleTitled_MAIN(dataFlowRunRoleTitled,pathRun+'organization_count_CN&IN_any_to_master.csv','Done dataCountRunOrg')
 
-    dataCountRunOrgRoleTitled = readCsv_asDict(pathRun+'organization_count_IN_any_to_master.csv')
+    # dataCountRunOrgRoleTitled = readCsv_asDict(pathRun+'organization_count_CN&IN_any_to_master.csv')
 
-    dataCountRunCityRoleTitled = dataCountRunCityRoleTitled_MAIN(dataCountRunOrgRoleTitled,pathRun+'city_count_IN_any_to_master.csv','Done dataCountRunCity')
+    dataCountRunOrgRoleTitled = pd.read_csv(pathRun+'organization_count_CN&IN_any_to_master_1.csv')
 
-    # dataCountRunCouRoleTitled = dataCountRunCouRoleTitled_MAIN(dataCountRunOrgRoleTitled,pathRun+'country_count_CN_any_to_master.csv','Done dataCountRunCou')
+    # dataCountRunCityRoleTitled = dataCountRunCityRoleTitled_MAIN(dataCountRunOrgRoleTitled,pathRun+'city_count_CN&IN_any_to_master.csv','Done dataCountRunCity')
 
-    # dataFlow = readCsv_asDict(pathOrg+'organization_flow_phd_to_position_education_JP.csv')
+    # dataCountRunCouRoleTitled = dataCountRunCouRoleTitled_MAIN(dataCountRunOrgRoleTitled,pathRun+'country_count_CN&IN_any_to_master.csv','Done dataCountRunCou')
 
-    # dataCount = dataCount_MAIN(dataFlow,'Organization/organization_count.csv','Done dataOrgCount')
+    generate_ScatterChart_org_MAIN(dataCountRunOrgRoleTitled,pathRun+'organization_count_CN&IN_any_to_master_1','Done ScatterChart')

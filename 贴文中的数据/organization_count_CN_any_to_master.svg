@@ -1,0 +1,2642 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4126.18125pt" height="2098.19625pt" viewBox="0 0 4126.18125 2098.19625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-04-27T15:28:27.253402</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 2098.19625 
+L 4126.18125 2098.19625 
+L 4126.18125 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 72.58125 2031.84 
+L 4090.18125 2031.84 
+L 4090.18125 36 
+L 72.58125 36 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mbe00b7173e" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="1429.638812" y="126.72" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="mc10647f266" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="1310.133031" y="126.72" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="mbd1c19c715" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="1163.869774" y="126.72" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="ma083530f58" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="975.303641" y="126.72" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <defs>
+     <path id="m496cd38b41" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="709.534603" y="126.72" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <defs>
+     <path id="m1644561839" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="255.199432" y="126.72" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <defs>
+     <path id="m296d767ddd" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2622.037319" y="273.833513" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <defs>
+     <path id="mfdf0b0963a" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2916.686231" y="314.416552" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_9">
+    <defs>
+     <path id="m94015c191d" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2149.743022" y="328.32" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_10">
+    <defs>
+     <path id="mf81224a507" d="M 0 16 
+C 4.24325 16 8.313278 14.314139 11.313708 11.313708 
+C 14.314139 8.313278 16 4.24325 16 0 
+C 16 -4.24325 14.314139 -8.313278 11.313708 -11.313708 
+C 8.313278 -14.314139 4.24325 -16 0 -16 
+C -4.24325 -16 -8.313278 -14.314139 -11.313708 -11.313708 
+C -14.314139 -8.313278 -16 -4.24325 -16 0 
+C -16 4.24325 -14.314139 8.313278 -11.313708 11.313708 
+C -8.313278 14.314139 -4.24325 16 0 16 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="1695.40785" y="328.32" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_11">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2484.572411" y="368.639999" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_12">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2250.783721" y="385.92" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_13">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="1985.014683" y="385.92" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_14">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="1530.679511" y="385.92" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_15">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="3001.38027" y="401.629092" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_16">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2390.774517" y="405.858462" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_17">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="3863.76312" y="406.993171" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_18">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2750.341449" y="408.960001" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_19">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="1883.973984" y="429.120001" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_20">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2689.32374" y="436.495609" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_21">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2462.35106" y="439.547586" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_22">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2112.277562" y="446.908235" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_23">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="3110.878726" y="452.381538" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_24">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="3204.676621" y="489.6" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_25">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2585.61311" y="489.6" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_26">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="1310.133031" y="489.6" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_27">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2462.35106" y="502.113104" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_28">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="3387.757642" y="507.896471" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_29">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="3093.852649" y="508.698948" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_30">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2639.517478" y="508.698948" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_31">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2547.045098" y="511.592727" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_32">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2439.349854" y="515.519999" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_33">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="1936.439345" y="545.427693" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_34">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2112.277562" y="553.637648" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_35">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2250.783721" y="558.72" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_36">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2462.35106" y="564.67862" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_37">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2072.540117" y="580.32" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_38">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="1618.204946" y="580.32" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_39">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="3110.878726" y="591.950768" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_40">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2415.51206" y="597.12" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_41">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2185.182306" y="604.193685" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_42">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2622.037319" y="617.098378" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_43">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="2281.27606" y="621.556364" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_44">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="1826.940889" y="621.556364" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_45">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="1530.679511" y="645.120001" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_46">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2112.277562" y="660.367059" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_47">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2622.037319" y="666.136216" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_48">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2905.286516" y="667.856842" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_49">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2938.907583" y="671.04" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_50">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2218.803373" y="671.04" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_51">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2547.045098" y="676.538182" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_52">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2639.517478" y="699.688422" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_53">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="2778.844509" y="705.783829" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_54">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2365.066629" y="707.328" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_55">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2149.743022" y="731.519999" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_56">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2030.23724" y="731.519999" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_57">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="1883.973984" y="731.519999" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_58">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="1695.40785" y="731.519999" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_59">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="1429.638812" y="731.519999" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_60">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="975.303641" y="731.519999" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_61">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="3404.077168" y="751.349508" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_62">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="3365.346327" y="773.593043" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_63">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="2893.685025" y="774.72" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_64">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="3353.846609" y="785.042123" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_65">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2281.27606" y="786.501819" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_66">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="1826.940889" y="786.501819" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_67">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2970.88793" y="789.12" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_68">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2526.875289" y="807.12" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_69">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2949.741996" y="810.838032" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_70">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2462.35106" y="814.94069" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_71">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2705.118892" y="817.92" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_72">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2250.783721" y="817.92" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_73">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="2991.372944" y="824.566155" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_74">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2390.774517" y="824.566155" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_75">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="1936.439345" y="824.566155" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_76">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2506.065061" y="829.068387" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_77">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="3058.413364" y="832.32" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_78">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2604.078193" y="832.32" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_79">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2547.045098" y="841.483636" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_80">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2673.138545" y="852.48" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_81">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2218.803373" y="852.48" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_82">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="1764.468202" y="852.48" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_83">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="1310.133031" y="852.48" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_84">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2970.88793" y="875.520001" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_85">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2338.309155" y="882.720001" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_86">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2506.065061" y="887.59742" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_87">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="3508.180802" y="888.006714" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_88">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2639.517478" y="890.677896" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_89">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2185.182306" y="890.677896" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_90">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="1985.014683" y="904.320001" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_91">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="1530.679511" y="904.320001" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_92">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="3465.572275" y="912.057314" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_93">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="3414.735404" y="916.861936" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_94">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2689.32374" y="923.285853" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_95">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2149.743022" y="933.119999" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_96">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="1695.40785" y="933.119999" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_97">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2905.286516" y="954.341053" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_98">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2792.644326" y="958.319999" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_99">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="3907.563068" y="961.481978" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_100">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2845.109688" y="964.135385" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_101">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="1936.439345" y="964.135385" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_102">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2689.32374" y="967.539512" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_103">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="2484.572411" y="973.440001" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_104">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2030.23724" y="973.440001" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_105">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="3119.228738" y="976.502278" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_106">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="3135.616269" y="977.919999" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_107">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="3359.621687" y="986.172632" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_108">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2250.783721" y="990.72" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_109">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2310.412728" y="994.476523" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_110">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2365.066629" y="997.632" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_111">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="3151.604064" y="1001.129639" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_112">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2547.045098" y="1006.429091" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_113">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="3039.948281" y="1008.000001" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_114">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2689.32374" y="1011.793171" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_115">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="3644.281574" y="1013.301819" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_116">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2893.685025" y="1033.92" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_117">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2673.138545" y="1033.92" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_118">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2218.803373" y="1033.92" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_119">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="1883.973984" y="1033.92" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_120">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="1618.204946" y="1033.92" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_121">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="1163.869774" y="1033.92" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_122">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="3839.332947" y="1045.403544" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_123">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="3143.658911" y="1056.046829" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_124">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2506.065061" y="1063.184516" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_125">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2462.35106" y="1065.202758" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_126">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2639.517478" y="1081.667368" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_127">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2185.182306" y="1081.667368" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_128">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2778.844509" y="1091.826384" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_129">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2030.23724" y="1094.399999" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_130">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2689.32374" y="1100.300488" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_131">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2656.543555" y="1103.704615" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_132">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="1936.439345" y="1103.704615" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_133">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="2585.61311" y="1111.68" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_134">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2881.874488" y="1116.392726" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_135">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="1826.940889" y="1116.392726" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_136">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="3305.717319" y="1128.959999" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_137">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2970.88793" y="1134.720001" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_138">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2750.341449" y="1134.720001" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_139">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2149.743022" y="1134.720001" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_140">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="1695.40785" y="1134.720001" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_141">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2720.542359" y="1139.408372" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_142">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2365.066629" y="1142.784" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_143">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="3110.878726" y="1150.227692" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_144">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2310.412728" y="1152.250434" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_145">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2439.349854" y="1163.519999" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_146">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="1985.014683" y="1163.519999" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_147">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="1530.679511" y="1163.519999" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_148">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2415.51206" y="1201.920001" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_149">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2484.572411" y="1215.36" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_150">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2218.803373" y="1215.36" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_151">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2030.23724" y="1215.36" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_152">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="1764.468202" y="1215.36" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_153">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="1310.133031" y="1215.36" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_154">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2604.078193" y="1235.52" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_155">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="3861.09319" y="1244.982858" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_156">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="3404.077168" y="1257.001968" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_157">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2792.644326" y="1260.72" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_158">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2072.540117" y="1260.72" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_159">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2566.612733" y="1300.74353" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_160">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2673.138545" y="1306.08" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_161">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="3414.735404" y="1326.565162" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_162">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2604.078193" y="1336.320001" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_163">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="2149.743022" y="1336.320001" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_164">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="1883.973984" y="1336.320001" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_165">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="1695.40785" y="1336.320001" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_166">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="1429.638812" y="1336.320001" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_167">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="975.303641" y="1336.320001" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_168">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2639.517478" y="1368.151578" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_169">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2185.182306" y="1368.151578" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_170">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2526.875289" y="1374.12" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_171">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="3484.852109" y="1415.206957" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_172">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2927.89107" y="1418.32678" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_173">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="2439.349854" y="1422.719999" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_174">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="1985.014683" y="1422.719999" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_175">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="1530.679511" y="1422.719999" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_176">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2656.543555" y="1429.366154" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_177">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2281.27606" y="1446.283636" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_178">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2764.7479" y="1467.798261" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_179">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2310.412728" y="1467.798261" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_180">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="2720.542359" y="1476.971164" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_181">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="2673.138545" y="1487.52" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_182">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="2526.875289" y="1487.52" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_183">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="1618.204946" y="1487.52" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_184">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2566.612733" y="1514.202352" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_185">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2149.743022" y="1537.92" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_186">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2484.572411" y="1578.24" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_187">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="2218.803373" y="1578.24" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_188">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="2030.23724" y="1578.24" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_189">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="1764.468202" y="1578.24" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_190">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="1310.133031" y="1578.24" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_191">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="1826.940889" y="1611.229091" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_192">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="1985.014683" y="1681.92" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_193">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="1530.679511" y="1681.92" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_194">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="2764.7479" y="1704.45913" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_195">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="2072.540117" y="1714.32" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_196">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="2149.743022" y="1739.52" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_197">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="1695.40785" y="1739.52" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_198">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mfdf0b0963a" x="1826.940889" y="1776.174545" style="fill: #7f7f7f; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_199">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m94015c191d" x="2112.277562" y="1834.390589" style="fill: #bcbd22; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_200">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mf81224a507" x="1883.973984" y="1941.12" style="fill: #17becf; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_201">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbe00b7173e" x="1695.40785" y="1941.12" style="fill: #1f77b4; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_202">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mc10647f266" x="1429.638812" y="1941.12" style="fill: #ff7f0e; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_203">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#mbd1c19c715" x="1310.133031" y="1941.12" style="fill: #2ca02c; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_204">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#ma083530f58" x="1163.869774" y="1941.12" style="fill: #d62728; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_205">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m496cd38b41" x="975.303641" y="1941.12" style="fill: #9467bd; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_206">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m1644561839" x="709.534603" y="1941.12" style="fill: #8c564b; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="PathCollection_207">
+    <g clip-path="url(#p1143a25026)">
+     <use xlink:href="#m296d767ddd" x="255.199432" y="1941.12" style="fill: #e377c2; fill-opacity: 0.25"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m5c80e55571" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5c80e55571" x="255.199432" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- $\mathdefault{2^{0}}$ -->
+      <g transform="translate(249.599432 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.9765625">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-4.8046875">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m5c80e55571" x="709.534603" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- $\mathdefault{2^{1}}$ -->
+      <g transform="translate(703.934603 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.06406250000000036">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-3.8921875000000004">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m5c80e55571" x="1163.869774" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- $\mathdefault{2^{2}}$ -->
+      <g transform="translate(1158.269774 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.9765625">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-4.8046875">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m5c80e55571" x="1618.204946" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- $\mathdefault{2^{3}}$ -->
+      <g transform="translate(1612.604946 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.9765625">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-4.8046875">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m5c80e55571" x="2072.540117" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- $\mathdefault{2^{4}}$ -->
+      <g transform="translate(2066.940117 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.06406250000000036">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-3.8921875000000004">4</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m5c80e55571" x="2526.875289" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- $\mathdefault{2^{5}}$ -->
+      <g transform="translate(2521.275289 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.06406250000000036">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-3.8921875000000004">5</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m5c80e55571" x="2981.21046" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- $\mathdefault{2^{6}}$ -->
+      <g transform="translate(2975.61046 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.9765625">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-4.8046875">6</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5c80e55571" x="3435.545631" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- $\mathdefault{2^{7}}$ -->
+      <g transform="translate(3429.945631 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.06406250000000036">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-3.8921875000000004">7</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m5c80e55571" x="3889.880803" y="2031.84" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- $\mathdefault{2^{8}}$ -->
+      <g transform="translate(3884.280803 2046.438437)">
+       <text>
+        <tspan style="font: 10px 'DejaVu Sans'" x="0" y="-0.9765625">2</tspan>
+        <tspan style="font: 7px 'DejaVu Sans'" x="6.458008" y="-4.8046875">8</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <defs>
+       <path id="m927395dd65" d="M 0 0 
+L 0 2 
+" style="stroke: #000000; stroke-width: 0.6"/>
+      </defs>
+      <g>
+       <use xlink:href="#m927395dd65" x="73.465363" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m927395dd65" x="118.89888" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m927395dd65" x="164.332398" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m927395dd65" x="209.765915" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m927395dd65" x="300.632949" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m927395dd65" x="346.066466" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m927395dd65" x="391.499983" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m927395dd65" x="436.9335" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m927395dd65" x="482.367017" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m927395dd65" x="527.800535" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m927395dd65" x="573.234052" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m927395dd65" x="618.667569" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m927395dd65" x="664.101086" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m927395dd65" x="754.96812" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m927395dd65" x="800.401637" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m927395dd65" x="845.835155" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m927395dd65" x="891.268672" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m927395dd65" x="936.702189" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m927395dd65" x="982.135706" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m927395dd65" x="1027.569223" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_30">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m927395dd65" x="1073.00274" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_31">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m927395dd65" x="1118.436257" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_32">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m927395dd65" x="1209.303292" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_33">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m927395dd65" x="1254.736809" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_34">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m927395dd65" x="1300.170326" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_35">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m927395dd65" x="1345.603843" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_36">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m927395dd65" x="1391.03736" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_37">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m927395dd65" x="1436.470877" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_38">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m927395dd65" x="1481.904394" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_39">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m927395dd65" x="1527.337912" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_40">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m927395dd65" x="1572.771429" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_41">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m927395dd65" x="1663.638463" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_42">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m927395dd65" x="1709.07198" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_43">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#m927395dd65" x="1754.505497" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_44">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m927395dd65" x="1799.939014" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_45">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#m927395dd65" x="1845.372531" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_46">
+     <g id="line2d_46">
+      <g>
+       <use xlink:href="#m927395dd65" x="1890.806049" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_47">
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#m927395dd65" x="1936.239566" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_48">
+     <g id="line2d_48">
+      <g>
+       <use xlink:href="#m927395dd65" x="1981.673083" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_49">
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#m927395dd65" x="2027.1066" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_50">
+     <g id="line2d_50">
+      <g>
+       <use xlink:href="#m927395dd65" x="2117.973634" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_51">
+     <g id="line2d_51">
+      <g>
+       <use xlink:href="#m927395dd65" x="2163.407151" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_52">
+     <g id="line2d_52">
+      <g>
+       <use xlink:href="#m927395dd65" x="2208.840669" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_53">
+     <g id="line2d_53">
+      <g>
+       <use xlink:href="#m927395dd65" x="2254.274186" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_54">
+     <g id="line2d_54">
+      <g>
+       <use xlink:href="#m927395dd65" x="2299.707703" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_55">
+     <g id="line2d_55">
+      <g>
+       <use xlink:href="#m927395dd65" x="2345.14122" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_56">
+     <g id="line2d_56">
+      <g>
+       <use xlink:href="#m927395dd65" x="2390.574737" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_57">
+     <g id="line2d_57">
+      <g>
+       <use xlink:href="#m927395dd65" x="2436.008254" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_58">
+     <g id="line2d_58">
+      <g>
+       <use xlink:href="#m927395dd65" x="2481.441771" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_59">
+     <g id="line2d_59">
+      <g>
+       <use xlink:href="#m927395dd65" x="2572.308806" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_60">
+     <g id="line2d_60">
+      <g>
+       <use xlink:href="#m927395dd65" x="2617.742323" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_61">
+     <g id="line2d_61">
+      <g>
+       <use xlink:href="#m927395dd65" x="2663.17584" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_62">
+     <g id="line2d_62">
+      <g>
+       <use xlink:href="#m927395dd65" x="2708.609357" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_63">
+     <g id="line2d_63">
+      <g>
+       <use xlink:href="#m927395dd65" x="2754.042874" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_64">
+     <g id="line2d_64">
+      <g>
+       <use xlink:href="#m927395dd65" x="2799.476391" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_65">
+     <g id="line2d_65">
+      <g>
+       <use xlink:href="#m927395dd65" x="2844.909908" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_66">
+     <g id="line2d_66">
+      <g>
+       <use xlink:href="#m927395dd65" x="2890.343426" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_67">
+     <g id="line2d_67">
+      <g>
+       <use xlink:href="#m927395dd65" x="2935.776943" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_68">
+     <g id="line2d_68">
+      <g>
+       <use xlink:href="#m927395dd65" x="3026.643977" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_69">
+     <g id="line2d_69">
+      <g>
+       <use xlink:href="#m927395dd65" x="3072.077494" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_70">
+     <g id="line2d_70">
+      <g>
+       <use xlink:href="#m927395dd65" x="3117.511011" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_71">
+     <g id="line2d_71">
+      <g>
+       <use xlink:href="#m927395dd65" x="3162.944528" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_72">
+     <g id="line2d_72">
+      <g>
+       <use xlink:href="#m927395dd65" x="3208.378046" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_73">
+     <g id="line2d_73">
+      <g>
+       <use xlink:href="#m927395dd65" x="3253.811563" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_74">
+     <g id="line2d_74">
+      <g>
+       <use xlink:href="#m927395dd65" x="3299.24508" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_75">
+     <g id="line2d_75">
+      <g>
+       <use xlink:href="#m927395dd65" x="3344.678597" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_76">
+     <g id="line2d_76">
+      <g>
+       <use xlink:href="#m927395dd65" x="3390.112114" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_77">
+     <g id="line2d_77">
+      <g>
+       <use xlink:href="#m927395dd65" x="3480.979148" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_78">
+     <g id="line2d_78">
+      <g>
+       <use xlink:href="#m927395dd65" x="3526.412665" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_79">
+     <g id="line2d_79">
+      <g>
+       <use xlink:href="#m927395dd65" x="3571.846183" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_80">
+     <g id="line2d_80">
+      <g>
+       <use xlink:href="#m927395dd65" x="3617.2797" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_81">
+     <g id="line2d_81">
+      <g>
+       <use xlink:href="#m927395dd65" x="3662.713217" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_82">
+     <g id="line2d_82">
+      <g>
+       <use xlink:href="#m927395dd65" x="3708.146734" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_83">
+     <g id="line2d_83">
+      <g>
+       <use xlink:href="#m927395dd65" x="3753.580251" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_84">
+     <g id="line2d_84">
+      <g>
+       <use xlink:href="#m927395dd65" x="3799.013768" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_85">
+     <g id="line2d_85">
+      <g>
+       <use xlink:href="#m927395dd65" x="3844.447285" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_86">
+     <g id="line2d_86">
+      <g>
+       <use xlink:href="#m927395dd65" x="3935.31432" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_87">
+     <g id="line2d_87">
+      <g>
+       <use xlink:href="#m927395dd65" x="3980.747837" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_88">
+     <g id="line2d_88">
+      <g>
+       <use xlink:href="#m927395dd65" x="4026.181354" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_89">
+     <g id="line2d_89">
+      <g>
+       <use xlink:href="#m927395dd65" x="4071.614871" y="2031.84" style="stroke: #000000; stroke-width: 0.6"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2081.38125" y="2060.116562" transform="rotate(-0 2081.38125 2060.116562)">Sample Number</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_90">
+      <defs>
+       <path id="m28d342978e" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m28d342978e" x="72.58125" y="1941.12" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="65.58125" y="1944.919219" transform="rotate(-0 65.58125 1944.919219)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_91">
+      <g>
+       <use xlink:href="#m28d342978e" x="72.58125" y="1578.24" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="65.58125" y="1582.039219" transform="rotate(-0 65.58125 1582.039219)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_92">
+      <g>
+       <use xlink:href="#m28d342978e" x="72.58125" y="1215.36" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="65.58125" y="1219.159219" transform="rotate(-0 65.58125 1219.159219)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_93">
+      <g>
+       <use xlink:href="#m28d342978e" x="72.58125" y="852.48" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="65.58125" y="856.279219" transform="rotate(-0 65.58125 856.279219)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_94">
+      <g>
+       <use xlink:href="#m28d342978e" x="72.58125" y="489.6" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="65.58125" y="493.399219" transform="rotate(-0 65.58125 493.399219)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_95">
+      <g>
+       <use xlink:href="#m28d342978e" x="72.58125" y="126.72" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="65.58125" y="130.519219" transform="rotate(-0 65.58125 130.519219)">1.0</text>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="43.598438" y="1033.92" transform="rotate(-90 43.598438 1033.92)">Stay Rate</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 72.58125 2031.84 
+L 72.58125 36 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 4090.18125 2031.84 
+L 4090.18125 36 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 72.58125 2031.84 
+L 4090.18125 2031.84 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 72.58125 36 
+L 4090.18125 36 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1499.883812" y="135.239375" transform="rotate(-0 1499.883812 135.239375)">University of North Dakota</text>
+   </g>
+   <g id="text_19">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1464.258031" y="117.959375" transform="rotate(-0 1464.258031 117.959375)">New Mexico Institute of Mining and Technology</text>
+   </g>
+   <g id="text_20">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1232.989774" y="122.999375" transform="rotate(-0 1232.989774 122.999375)">University System of New Hampshire</text>
+   </g>
+   <g id="text_21">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1035.963641" y="122.999375" transform="rotate(-0 1035.963641 122.999375)">University of South Dakota</text>
+   </g>
+   <g id="text_22">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="766.864603" y="123.719375" transform="rotate(-0 766.864603 123.719375)">University of Limerick</text>
+   </g>
+   <g id="text_23">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="304.564432" y="123.719375" transform="rotate(-0 304.564432 123.719375)">Dalarna University</text>
+   </g>
+   <g id="text_24">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2682.202319" y="270.832888" transform="rotate(-0 2682.202319 270.832888)">Georgetown University</text>
+   </g>
+   <g id="text_25">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2979.011231" y="310.695927" transform="rotate(-0 2979.011231 310.695927)">University of Pittsburgh</text>
+   </g>
+   <g id="text_26">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2236.593022" y="324.599375" transform="rotate(-0 2236.593022 324.599375)">University of Michigan–Ann Arbor</text>
+   </g>
+   <g id="text_27">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1768.80285" y="324.599375" transform="rotate(-0 1768.80285 324.599375)">Eastern Michigan University</text>
+   </g>
+   <g id="text_28">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2546.897411" y="364.919374" transform="rotate(-0 2546.897411 364.919374)">University of Oklahoma</text>
+   </g>
+   <g id="text_29">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2297.088721" y="382.919375" transform="rotate(-0 2297.088721 382.919375)">Lehigh University</text>
+   </g>
+   <g id="text_30">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2036.269683" y="382.919375" transform="rotate(-0 2036.269683 382.919375)">Clemson University</text>
+   </g>
+   <g id="text_31">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1577.794511" y="382.919375" transform="rotate(-0 1577.794511 382.919375)">Griffith University</text>
+   </g>
+   <g id="text_32">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3052.45527" y="398.628467" transform="rotate(-0 3052.45527 398.628467)">Stanford University</text>
+   </g>
+   <g id="text_33">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2459.354517" y="402.137837" transform="rotate(-0 2459.354517 402.137837)">Auburn University System</text>
+   </g>
+   <g id="text_34">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3932.25312" y="403.272546" transform="rotate(-0 3932.25312 403.272546)">University System of Ohio</text>
+   </g>
+   <g id="text_35">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2816.536449" y="405.239376" transform="rotate(-0 2816.536449 405.239376)">University of Washington</text>
+   </g>
+   <g id="text_36">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1943.553984" y="426.119376" transform="rotate(-0 1943.553984 426.119376)">University of Wyoming</text>
+   </g>
+   <g id="text_37">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2745.61874" y="433.494984" transform="rotate(-0 2745.61874 433.494984)">University of Tsukuba</text>
+   </g>
+   <g id="text_38">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2542.99106" y="435.826961" transform="rotate(-0 2542.99106 435.826961)">University of Nebraska System</text>
+   </g>
+   <g id="text_39">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2201.287562" y="443.18761" transform="rotate(-0 2201.287562 443.18761)">Louisiana State University System</text>
+   </g>
+   <g id="text_40">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3163.393726" y="449.380913" transform="rotate(-0 3163.393726 449.380913)">New York University</text>
+   </g>
+   <g id="text_41">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3270.016621" y="485.879375" transform="rotate(-0 3270.016621 485.879375)">Johns Hopkins University</text>
+   </g>
+   <g id="text_42">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2701.03811" y="485.879375" transform="rotate(-0 2701.03811 485.879375)">Rutgers, The State University of New Jersey</text>
+   </g>
+   <g id="text_43">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1362.513031" y="486.599375" transform="rotate(-0 1362.513031 486.599375)">Royal College of Art</text>
+   </g>
+   <g id="text_44">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2525.75606" y="499.112479" transform="rotate(-0 2525.75606 499.112479)">Washington University in St. Louis</text>
+   </g>
+   <g id="text_45">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3450.937642" y="504.175846" transform="rotate(-0 3450.937642 504.175846)">University of Melbourne</text>
+   </g>
+   <g id="text_46">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3161.847649" y="504.978323" transform="rotate(-0 3161.847649 504.978323)">Purdue University System</text>
+   </g>
+   <g id="text_47">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2697.972478" y="505.698323" transform="rotate(-0 2697.972478 505.698323)">University of Waterloo</text>
+   </g>
+   <g id="text_48">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2591.730098" y="511.472102" transform="rotate(-0 2591.730098 511.472102)">Brown University</text>
+   </g>
+   <g id="text_49">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2492.314854" y="512.519374" transform="rotate(-0 2492.314854 512.519374)">Hokkaido University</text>
+   </g>
+   <g id="text_50">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1983.869345" y="542.427068" transform="rotate(-0 1983.869345 542.427068)">Temple University</text>
+   </g>
+   <g id="text_51">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2167.312562" y="550.637023" transform="rotate(-0 2167.312562 550.637023)">University of Virginia</text>
+   </g>
+   <g id="text_52">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2305.053721" y="555.719375" transform="rotate(-0 2305.053721 555.719375)">University of Ottawa</text>
+   </g>
+   <g id="text_53">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2509.28606" y="561.677995" transform="rotate(-0 2509.28606 561.677995)">Boston University</text>
+   </g>
+   <g id="text_54">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2112.140117" y="578.039375" transform="rotate(-0 2112.140117 578.039375)">Rice University</text>
+   </g>
+   <g id="text_55">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1671.934946" y="577.319375" transform="rotate(-0 1671.934946 577.319375)">University of Kansas</text>
+   </g>
+   <g id="text_56">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3192.508726" y="588.230143" transform="rotate(-0 3192.508726 588.230143)">The University of Texas System</text>
+   </g>
+   <g id="text_57">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2482.24706" y="593.399375" transform="rotate(-0 2482.24706 593.399375)">University of Connecticut</text>
+   </g>
+   <g id="text_58">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2251.197306" y="600.47306" transform="rotate(-0 2251.197306 600.47306)">Pompeu Fabra University</text>
+   </g>
+   <g id="text_59">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2678.242319" y="614.097753" transform="rotate(-0 2678.242319 614.097753)">Iowa State University</text>
+   </g>
+   <g id="text_60">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2329.47106" y="618.555739" transform="rotate(-0 2329.47106 618.555739)">Indiana University</text>
+   </g>
+   <g id="text_61">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1883.100889" y="618.555739" transform="rotate(-0 1883.100889 618.555739)">Trinity College Dublin</text>
+   </g>
+   <g id="text_62">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1592.824511" y="641.399376" transform="rotate(-0 1592.824511 641.399376)">Wayne State University</text>
+   </g>
+   <g id="text_63">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2164.657562" y="657.366434" transform="rotate(-0 2164.657562 657.366434)">University of Surrey</text>
+   </g>
+   <g id="text_64">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2665.057319" y="659.535591" transform="rotate(-0 2665.057319 659.535591)">Osaka University</text>
+   </g>
+   <g id="text_65">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2946.596516" y="662.696217" transform="rotate(-0 2946.596516 662.696217)">University of Leeds</text>
+   </g>
+   <g id="text_66">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3019.322583" y="675.239375" transform="rotate(-0 3019.322583 675.239375)">Texas A&amp;M University System</text>
+   </g>
+   <g id="text_67">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2278.563373" y="668.039375" transform="rotate(-0 2278.563373 668.039375)">University of Delaware</text>
+   </g>
+   <g id="text_68">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2632.680098" y="677.137557" transform="rotate(-0 2632.680098 677.137557)">University of Minnesota System</text>
+   </g>
+   <g id="text_69">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2698.602478" y="693.807797" transform="rotate(-0 2698.602478 693.807797)">Technical University of Munich</text>
+   </g>
+   <g id="text_70">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2873.614509" y="708.543204" transform="rotate(-0 2873.614509 708.543204)">Australian National University</text>
+   </g>
+   <g id="text_71">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2451.331629" y="703.607375" transform="rotate(-0 2451.331629 703.607375)">Case Western Reserve University</text>
+   </g>
+   <g id="text_72">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2202.933022" y="738.599374" transform="rotate(-0 2202.933022 738.599374)">Princeton University</text>
+   </g>
+   <g id="text_73">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2212.62224" y="722.759374" transform="rotate(-0 2212.62224 722.759374)">Macau University of Science and Technology Foundation</text>
+   </g>
+   <g id="text_74">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1942.833984" y="728.519374" transform="rotate(-0 1942.833984 728.519374)">University of Kentucky</text>
+   </g>
+   <g id="text_75">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1774.33785" y="727.799374" transform="rotate(-0 1774.33785 727.799374)">Polytechnic University of Turin</text>
+   </g>
+   <g id="text_76">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1492.953812" y="727.799374" transform="rotate(-0 1492.953812 727.799374)">University of Greenwich</text>
+   </g>
+   <g id="text_77">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1026.738641" y="728.519374" transform="rotate(-0 1026.738641 728.519374)">University of Padua</text>
+   </g>
+   <g id="text_78">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3466.447168" y="747.628883" transform="rotate(-0 3466.447168 747.628883)">University of Edinburgh</text>
+   </g>
+   <g id="text_79">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3428.166327" y="769.872418" transform="rotate(-0 3428.166327 769.872418)">Imperial College London</text>
+   </g>
+   <g id="text_80">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2986.925025" y="770.999375" transform="rotate(-0 2986.925025 770.999375)">University of North Carolina System</text>
+   </g>
+   <g id="text_81">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3442.091609" y="782.761498" transform="rotate(-0 3442.091609 782.761498)">Hong Kong Polytechnic University</text>
+   </g>
+   <g id="text_82">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2350.89106" y="782.781194" transform="rotate(-0 2350.89106 782.781194)">Queen's University Belfast</text>
+   </g>
+   <g id="text_83">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1871.985889" y="784.221194" transform="rotate(-0 1871.985889 784.221194)">Drexel University</text>
+   </g>
+   <g id="text_84">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3036.49793" y="785.399375" transform="rotate(-0 3036.49793 785.399375)">RWTH Aachen University</text>
+   </g>
+   <g id="text_85">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2609.180289" y="798.359375" transform="rotate(-0 2609.180289 798.359375)">University of Adelaide</text>
+   </g>
+   <g id="text_86">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2999.286996" y="807.117407" transform="rotate(-0 2999.286996 807.117407)">University of Sydney</text>
+   </g>
+   <g id="text_87">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2480.89106" y="813.380065" transform="rotate(-0 2480.89106 813.380065)">McMaster University</text>
+   </g>
+   <g id="text_88">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2748.003892" y="815.639375" transform="rotate(-0 2748.003892 815.639375)">Kyoto University</text>
+   </g>
+   <g id="text_89">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2325.888721" y="813.479375" transform="rotate(-0 2325.888721 813.479375)">University of Massachusetts System</text>
+   </g>
+   <g id="text_90">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3124.392944" y="820.84553" transform="rotate(-0 3124.392944 820.84553)">Board of the Swiss Federal Institutes of Technology</text>
+   </g>
+   <g id="text_91">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2431.949517" y="833.82553" transform="rotate(-0 2431.949517 833.82553)">Université de Lyon</text>
+   </g>
+   <g id="text_92">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2017.484345" y="820.84553" transform="rotate(-0 2017.484345 820.84553)">University of Western Australia</text>
+   </g>
+   <g id="text_93">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2576.535061" y="826.787762" transform="rotate(-0 2576.535061 826.787762)">Illinois Institute of Technology</text>
+   </g>
+   <g id="text_94">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3110.928364" y="836.519375" transform="rotate(-0 3110.928364 836.519375)">University of Macau</text>
+   </g>
+   <g id="text_95">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2756.448193" y="830.759375" transform="rotate(-0 2756.448193 830.759375)">Stevens Institute of Technology</text>
+   </g>
+   <g id="text_96">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2581.560098" y="839.923011" transform="rotate(-0 2581.560098 839.923011)">Newcastle University</text>
+   </g>
+   <g id="text_97">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2717.193545" y="850.199375" transform="rotate(-0 2717.193545 850.199375)">McGill University</text>
+   </g>
+   <g id="text_98">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2281.623373" y="848.759375" transform="rotate(-0 2281.623373 848.759375)">University of Groningen</text>
+   </g>
+   <g id="text_99">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1835.568202" y="848.759375" transform="rotate(-0 1835.568202 848.759375)">City University of New York</text>
+   </g>
+   <g id="text_100">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1406.568031" y="848.759375" transform="rotate(-0 1406.568031 848.759375)">Technische Universität Braunschweig</text>
+   </g>
+   <g id="text_101">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3035.14793" y="871.799376" transform="rotate(-0 3035.14793 871.799376)">Northwestern University</text>
+   </g>
+   <g id="text_102">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2418.949155" y="877.559376" transform="rotate(-0 2418.949155 877.559376)">Michigan State University</text>
+   </g>
+   <g id="text_103">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2552.505061" y="884.596795" transform="rotate(-0 2552.505061 884.596795)">Cardiff University</text>
+   </g>
+   <g id="text_104">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3597.100802" y="884.286089" transform="rotate(-0 3597.100802 884.286089)">State University System of Florida</text>
+   </g>
+   <g id="text_105">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2696.577478" y="887.677271" transform="rotate(-0 2696.577478 887.677271)">University of Warwick</text>
+   </g>
+   <g id="text_106">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2256.957306" y="886.957271" transform="rotate(-0 2256.957306 886.957271)">Worcester Polytechnic Institute</text>
+   </g>
+   <g id="text_107">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2067.859683" y="900.599376" transform="rotate(-0 2067.859683 900.599376)">University of Tennessee System</text>
+   </g>
+   <g id="text_108">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1580.044511" y="901.319376" transform="rotate(-0 1580.044511 901.319376)">Flinders University</text>
+   </g>
+   <g id="text_109">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3546.977275" y="904.736689" transform="rotate(-0 3546.977275 904.736689)">University of Illinois System</text>
+   </g>
+   <g id="text_110">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3458.700404" y="926.101311" transform="rotate(-0 3458.700404 926.101311)">Columbia University</text>
+   </g>
+   <g id="text_111">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2751.06374" y="919.565228" transform="rotate(-0 2751.06374 919.565228)">University of Rochester</text>
+   </g>
+   <g id="text_112">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2204.913022" y="930.119374" transform="rotate(-0 2204.913022 930.119374)">University of Victoria</text>
+   </g>
+   <g id="text_113">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1736.04285" y="930.839374" transform="rotate(-0 1736.04285 930.839374)">Tufts University</text>
+   </g>
+   <g id="text_114">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2972.561516" y="951.340428" transform="rotate(-0 2972.561516 951.340428)">University of Queensland</text>
+   </g>
+   <g id="text_115">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2830.489326" y="953.159374" transform="rotate(-0 2830.489326 953.159374)">Cornell University</text>
+   </g>
+   <g id="text_116">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3961.968068" y="958.481353" transform="rotate(-0 3961.968068 958.481353)">University of London</text>
+   </g>
+   <g id="text_117">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2926.379688" y="968.33476" transform="rotate(-0 2926.379688 968.33476)">Delft University of Technology</text>
+   </g>
+   <g id="text_118">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2011.274345" y="960.41476" transform="rotate(-0 2011.274345 960.41476)">University of Louisiana System</text>
+   </g>
+   <g id="text_119">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2712.13874" y="963.098887" transform="rotate(-0 2712.13874 963.098887)">KU Leuven</text>
+   </g>
+   <g id="text_120">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2620.742411" y="981.959376" transform="rotate(-0 2620.742411 981.959376)">Tokai National Higher Education and Research System</text>
+   </g>
+   <g id="text_121">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2078.47724" y="974.759376" transform="rotate(-0 2078.47724 974.759376)">Kyushu University</text>
+   </g>
+   <g id="text_122">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3167.963738" y="967.741653" transform="rotate(-0 3167.963738 967.741653)">University of Sheffield</text>
+   </g>
+   <g id="text_123">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3211.441269" y="982.119374" transform="rotate(-0 3211.441269 982.119374)">Carnegie Mellon University</text>
+   </g>
+   <g id="text_124">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3444.581687" y="982.452007" transform="rotate(-0 3444.581687 982.452007)">University of Southern California</text>
+   </g>
+   <g id="text_125">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2257.893721" y="981.959375" transform="rotate(-0 2257.893721 981.959375)">Syracuse University</text>
+   </g>
+   <g id="text_126">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2361.802728" y="988.595898" transform="rotate(-0 2361.802728 988.595898)">University of Bath</text>
+   </g>
+   <g id="text_127">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2433.421629" y="1001.831375" transform="rotate(-0 2433.421629 1001.831375)">Yale University</text>
+   </g>
+   <g id="text_128">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3237.644064" y="996.689014" transform="rotate(-0 3237.644064 996.689014)">State University of New York</text>
+   </g>
+   <g id="text_129">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2596.860098" y="1003.428466" transform="rotate(-0 2596.860098 1003.428466)">Harvard University</text>
+   </g>
+   <g id="text_130">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3102.408281" y="1016.519376" transform="rotate(-0 3102.408281 1016.519376)">University of Pennsylvania</text>
+   </g>
+   <g id="text_131">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2769.60374" y="1008.072546" transform="rotate(-0 2769.60374 1008.072546)">University System of Maryland</text>
+   </g>
+   <g id="text_132">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3708.181574" y="1009.581194" transform="rotate(-0 3708.181574 1009.581194)">University of Hong Kong</text>
+   </g>
+   <g id="text_133">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2971.760025" y="1030.199375" transform="rotate(-0 2971.760025 1030.199375)">University of British Columbia</text>
+   </g>
+   <g id="text_134">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2750.628545" y="1030.199375" transform="rotate(-0 2750.628545 1030.199375)">University of Missouri System</text>
+   </g>
+   <g id="text_135">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2311.458373" y="1030.199375" transform="rotate(-0 2311.458373 1030.199375)">Eindhoven University of Technology</text>
+   </g>
+   <g id="text_136">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1923.663984" y="1031.639375" transform="rotate(-0 1923.663984 1031.639375)">Boston College</text>
+   </g>
+   <g id="text_137">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1683.274946" y="1030.199375" transform="rotate(-0 1683.274946 1030.199375)">Vrije Universiteit Brussel</text>
+   </g>
+   <g id="text_138">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1320.289774" y="1030.199375" transform="rotate(-0 1320.289774 1030.199375)">Graduate Institute of International and Development Studies</text>
+   </g>
+   <g id="text_139">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3920.197947" y="1041.682919" transform="rotate(-0 3920.197947 1041.682919)">University of California System</text>
+   </g>
+   <g id="text_140">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3225.513911" y="1052.326204" transform="rotate(-0 3225.513911 1052.326204)">University of Wisconsin System</text>
+   </g>
+   <g id="text_141">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2615.100061" y="1048.663891" transform="rotate(-0 2615.100061 1048.663891)">Tokyo Institute of Technology</text>
+   </g>
+   <g id="text_142">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2613.19106" y="1065.082133" transform="rotate(-0 2613.19106 1065.082133)">King Abdullah University of Science and Technology</text>
+   </g>
+   <g id="text_143">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2706.072478" y="1077.946743" transform="rotate(-0 2706.072478 1077.946743)">National University of Ireland</text>
+   </g>
+   <g id="text_144">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2265.732306" y="1077.946743" transform="rotate(-0 2265.732306 1077.946743)">University of Houston System</text>
+   </g>
+   <g id="text_145">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2835.184509" y="1090.985759" transform="rotate(-0 2835.184509 1090.985759)">Uppsala University</text>
+   </g>
+   <g id="text_146">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2110.29224" y="1090.679374" transform="rotate(-0 2110.29224 1090.679374)">University of Saskatchewan</text>
+   </g>
+   <g id="text_147">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2730.36374" y="1091.539863" transform="rotate(-0 2730.36374 1091.539863)">Duke University</text>
+   </g>
+   <g id="text_148">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2732.728555" y="1108.62399" transform="rotate(-0 2732.728555 1108.62399)">University of Toronto</text>
+   </g>
+   <g id="text_149">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1983.059345" y="1101.42399" transform="rotate(-0 1983.059345 1101.42399)">Stockholm University</text>
+   </g>
+   <g id="text_150">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2627.05811" y="1120.199375" transform="rotate(-0 2627.05811 1120.199375)">University of York</text>
+   </g>
+   <g id="text_151">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2955.494488" y="1112.672101" transform="rotate(-0 2955.494488 1112.672101)">Arizona's Public Universities</text>
+   </g>
+   <g id="text_152">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1868.160889" y="1114.112101" transform="rotate(-0 1868.160889 1114.112101)">Kobe University</text>
+   </g>
+   <g id="text_153">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3367.412319" y="1125.239374" transform="rotate(-0 3367.412319 1125.239374)">The University of Tokyo</text>
+   </g>
+   <g id="text_154">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3027.13793" y="1131.719376" transform="rotate(-0 3027.13793 1131.719376)">University of Chicago</text>
+   </g>
+   <g id="text_155">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2811.316449" y="1127.399376" transform="rotate(-0 2811.316449 1127.399376)">University of Glasgow</text>
+   </g>
+   <g id="text_156">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2226.828022" y="1130.999376" transform="rotate(-0 2226.828022 1130.999376)">Texas Tech University System</text>
+   </g>
+   <g id="text_157">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1780.27785" y="1130.999376" transform="rotate(-0 1780.27785 1130.999376)">University of Technology Sydney</text>
+   </g>
+   <g id="text_158">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2767.612359" y="1143.607747" transform="rotate(-0 2767.612359 1143.607747)">Tohoku University</text>
+   </g>
+   <g id="text_159">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2418.436629" y="1136.903375" transform="rotate(-0 2418.436629 1136.903375)">Durham University</text>
+   </g>
+   <g id="text_160">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3186.208726" y="1146.507067" transform="rotate(-0 3186.208726 1146.507067)">City University of Hong Kong</text>
+   </g>
+   <g id="text_161">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2337.772728" y="1150.689809" transform="rotate(-0 2337.772728 1150.689809)">University of Paris-Saclay</text>
+   </g>
+   <g id="text_162">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2526.604854" y="1165.559374" transform="rotate(-0 2526.604854 1165.559374)">Technical University of Denmark</text>
+   </g>
+   <g id="text_163">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2038.699683" y="1160.519374" transform="rotate(-0 2038.699683 1160.519374)">University of Twente</text>
+   </g>
+   <g id="text_164">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1582.609511" y="1160.519374" transform="rotate(-0 1582.609511 1160.519374)">Saarland University</text>
+   </g>
+   <g id="text_165">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2449.35206" y="1199.639376" transform="rotate(-0 2449.35206 1199.639376)">Virginia Tech</text>
+   </g>
+   <g id="text_166">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2533.577411" y="1212.359375" transform="rotate(-0 2533.577411 1212.359375)">Monash University</text>
+   </g>
+   <g id="text_167">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2298.228373" y="1211.639375" transform="rotate(-0 2298.228373 1211.639375)">University of Colorado System</text>
+   </g>
+   <g id="text_168">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2086.03724" y="1212.359375" transform="rotate(-0 2086.03724 1212.359375)">Macquarie University</text>
+   </g>
+   <g id="text_169">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1835.703202" y="1211.639375" transform="rotate(-0 1835.703202 1211.639375)">University of Kuala Lumpur</text>
+   </g>
+   <g id="text_170">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1376.688031" y="1211.639375" transform="rotate(-0 1376.688031 1211.639375)">Brunel University London</text>
+   </g>
+   <g id="text_171">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2674.728193" y="1231.799375" transform="rotate(-0 2674.728193 1231.799375)">University of Southampton</text>
+   </g>
+   <g id="text_172">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3945.69319" y="1241.262233" transform="rotate(-0 3945.69319 1241.262233)">National University of Singapore</text>
+   </g>
+   <g id="text_173">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3480.712168" y="1253.281343" transform="rotate(-0 3480.712168 1253.281343)">University System of Georgia</text>
+   </g>
+   <g id="text_174">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2879.494326" y="1256.999375" transform="rotate(-0 2879.494326 1256.999375)">KTH Royal Institute of Technology</text>
+   </g>
+   <g id="text_175">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2135.495117" y="1256.999375" transform="rotate(-0 2135.495117 1256.999375)">Simon Fraser University</text>
+   </g>
+   <g id="text_176">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2618.137733" y="1296.302905" transform="rotate(-0 2618.137733 1296.302905)">University of Birmingham</text>
+   </g>
+   <g id="text_177">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2762.013545" y="1308.839375" transform="rotate(-0 2762.013545 1308.839375)">Pennsylvania State University</text>
+   </g>
+   <g id="text_178">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3480.750404" y="1322.844537" transform="rotate(-0 3480.750404 1322.844537)">University of Manchester</text>
+   </g>
+   <g id="text_179">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2694.168193" y="1332.599376" transform="rotate(-0 2694.168193 1332.599376)">Chalmers University of Technology</text>
+   </g>
+   <g id="text_180">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2203.608022" y="1333.319376" transform="rotate(-0 2203.608022 1333.319376)">Politecnico di Milano</text>
+   </g>
+   <g id="text_181">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1933.518984" y="1333.319376" transform="rotate(-0 1933.518984 1333.319376)">University of Turku</text>
+   </g>
+   <g id="text_182">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1755.61785" y="1333.319376" transform="rotate(-0 1755.61785 1333.319376)">University of Aberdeen</text>
+   </g>
+   <g id="text_183">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1489.803812" y="1333.319376" transform="rotate(-0 1489.803812 1333.319376)">Università di Camerino</text>
+   </g>
+   <g id="text_184">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1032.363641" y="1333.319376" transform="rotate(-0 1032.363641 1333.319376)">University of Antwerp</text>
+   </g>
+   <g id="text_185">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2698.197478" y="1365.150953" transform="rotate(-0 2698.197478 1365.150953)">University of Stuttgart</text>
+   </g>
+   <g id="text_186">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2264.472306" y="1364.430953" transform="rotate(-0 2264.472306 1364.430953)">Institut Polytechnique de Paris</text>
+   </g>
+   <g id="text_187">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2576.195289" y="1371.119375" transform="rotate(-0 2576.195289 1371.119375)">Waseda University</text>
+   </g>
+   <g id="text_188">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="3572.872109" y="1411.486332" transform="rotate(-0 3572.872109 1411.486332)">Nanyang Technological University</text>
+   </g>
+   <g id="text_189">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2994.31107" y="1414.606155" transform="rotate(-0 2994.31107 1414.606155)">University of Nottingham</text>
+   </g>
+   <g id="text_190">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2489.479854" y="1419.719374" transform="rotate(-0 2489.479854 1419.719374)">Western University</text>
+   </g>
+   <g id="text_191">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2075.419683" y="1418.999374" transform="rotate(-0 2075.419683 1418.999374)">Education University of Hong Kong</text>
+   </g>
+   <g id="text_192">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1650.289511" y="1418.999374" transform="rotate(-0 1650.289511 1418.999374)">Associazione Malattie Autoimmuni Mario Rossi</text>
+   </g>
+   <g id="text_193">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2747.938555" y="1425.645529" transform="rotate(-0 2747.938555 1425.645529)">Wageningen University &amp; Research</text>
+   </g>
+   <g id="text_194">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2345.53606" y="1442.563011" transform="rotate(-0 2345.53606 1442.563011)">University of Strasbourg</text>
+   </g>
+   <g id="text_195">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2819.7829" y="1459.037636" transform="rotate(-0 2819.7829 1459.037636)">University of Alberta</text>
+   </g>
+   <g id="text_196">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2376.247728" y="1464.077636" transform="rotate(-0 2376.247728 1464.077636)">University of Amsterdam</text>
+   </g>
+   <g id="text_197">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2804.107359" y="1477.570539" transform="rotate(-0 2804.107359 1477.570539)">University of Copenhagen</text>
+   </g>
+   <g id="text_198">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2727.183545" y="1496.759375" transform="rotate(-0 2727.183545 1496.759375)">University of Liverpool</text>
+   </g>
+   <g id="text_199">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2568.005289" y="1485.239375" transform="rotate(-0 2568.005289 1485.239375)">Lund University</text>
+   </g>
+   <g id="text_200">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1677.424946" y="1484.519375" transform="rotate(-0 1677.424946 1484.519375)">Université de Toulouse</text>
+   </g>
+   <g id="text_201">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2622.322733" y="1511.201727" transform="rotate(-0 2622.322733 1511.201727)">University of Helsinki</text>
+   </g>
+   <g id="text_202">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2193.888022" y="1535.639375" transform="rotate(-0 2193.888022 1535.639375)">Ghent University</text>
+   </g>
+   <g id="text_203">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2548.967411" y="1574.519375" transform="rotate(-0 2548.967411 1574.519375)">University of Cambridge</text>
+   </g>
+   <g id="text_204">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2343.948373" y="1574.519375" transform="rotate(-0 2343.948373 1574.519375)">Norwegian University of Science and Technology</text>
+   </g>
+   <g id="text_205">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2096.38724" y="1574.519375" transform="rotate(-0 2096.38724 1574.519375)">University of Wollongong</text>
+   </g>
+   <g id="text_206">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1815.588202" y="1575.239375" transform="rotate(-0 1815.588202 1575.239375)">Max Planck Society</text>
+   </g>
+   <g id="text_207">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1381.233031" y="1574.519375" transform="rotate(-0 1381.233031 1574.519375)">Rutgers University–Newark</text>
+   </g>
+   <g id="text_208">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1902.765889" y="1607.508466" transform="rotate(-0 1902.765889 1607.508466)">Technische Universität Berlin</text>
+   </g>
+   <g id="text_209">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2071.999683" y="1678.199375" transform="rotate(-0 2071.999683 1678.199375)">Government of Western Australia</text>
+   </g>
+   <g id="text_210">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1584.454511" y="1678.919375" transform="rotate(-0 1584.454511 1678.919375)">University of Salford</text>
+   </g>
+   <g id="text_211">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2817.7579" y="1701.458505" transform="rotate(-0 2817.7579 1701.458505)">University of Oxford</text>
+   </g>
+   <g id="text_212">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2119.565117" y="1711.319375" transform="rotate(-0 2119.565117 1711.319375)">University of Oslo</text>
+   </g>
+   <g id="text_213">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2219.718022" y="1735.799375" transform="rotate(-0 2219.718022 1735.799375)">National Taiwan University</text>
+   </g>
+   <g id="text_214">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1783.47285" y="1735.799375" transform="rotate(-0 1783.47285 1735.799375)">Michigan Technological University</text>
+   </g>
+   <g id="text_215">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1889.220889" y="1772.45392" transform="rotate(-0 1889.220889 1772.45392)">Aix-Marseille University</text>
+   </g>
+   <g id="text_216">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="2232.157562" y="1830.669964" transform="rotate(-0 2232.157562 1830.669964)">Alexander S Onassis Public Benefit Foundation</text>
+   </g>
+   <g id="text_217">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1941.798984" y="1940.279375" transform="rotate(-0 1941.798984 1940.279375)">Lancaster University</text>
+   </g>
+   <g id="text_218">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1784.59785" y="1937.399375" transform="rotate(-0 1784.59785 1937.399375)">Université Paris 1 Panthéon-Sorbonne</text>
+   </g>
+   <g id="text_219">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1507.353812" y="1945.319375" transform="rotate(-0 1507.353812 1945.319375)">China Medical University</text>
+   </g>
+   <g id="text_220">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1340.238031" y="1941.719375" transform="rotate(-0 1340.238031 1941.719375)">Perimeter Institute</text>
+   </g>
+   <g id="text_221">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1359.484774" y="1925.159375" transform="rotate(-0 1359.484774 1925.159375)">Istituto Nazionale per l'Assicurazione Contro gli Infortuni sul Lavoro</text>
+   </g>
+   <g id="text_222">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="1053.423641" y="1937.399375" transform="rotate(-0 1053.423641 1937.399375)">Toulouse School of Economics</text>
+   </g>
+   <g id="text_223">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="802.009603" y="1937.399375" transform="rotate(-0 802.009603 1937.399375)">Charité - Universitätsmedizin Berlin</text>
+   </g>
+   <g id="text_224">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="341.869432" y="1937.399375" transform="rotate(-0 341.869432 1937.399375)">National Chung Cheng University</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1143a25026">
+   <rect x="72.58125" y="36" width="4017.6" height="1995.84"/>
+  </clipPath>
+ </defs>
+</svg>

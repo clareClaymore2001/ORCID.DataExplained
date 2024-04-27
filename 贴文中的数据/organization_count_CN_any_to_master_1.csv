@@ -1,0 +1,926 @@
+﻿OrgID,OrgLocationCountry,OrgLocationDetails,OrgName,OrgType,Stay,Leave,Total,Rate
+https://ror.org/04a5szx83,US,Grand Forks,University of North Dakota,education,6,0,6,1
+https://ror.org/05fs6jp91,US,Albuquerque,University of New Mexico,education,6,0,6,1
+https://ror.org/005p9kw61,US,Socorro,New Mexico Institute of Mining and Technology,education,5,0,5,1
+https://ror.org/01v1m2411,JP,Kyoto,The Ritsumeikan Trust,education,5,0,5,1
+https://ror.org/0061x0487,US,Durham,University System of New Hampshire,education,4,0,4,1
+https://ror.org/00a208s56,DE,Chemnitz,Chemnitz University of Technology,education,4,0,4,1
+https://ror.org/036c9yv20,US,Kansas City,University of Kansas Medical Center,healthcare,4,0,4,1
+https://ror.org/03czfpz43,US,Atlanta,Emory University,education,4,0,4,1
+https://ror.org/03yxnpp24,ES,Seville,Universidad de Sevilla,education,4,0,4,1
+https://ror.org/04xtx5t16,US,Chicago,DePaul University,education,4,0,4,1
+https://ror.org/05gxnyn08,US,Indianapolis,Indiana University – Purdue University Indianapolis,education,4,0,4,1
+https://ror.org/0043h8f16,US,Vermillion,University of South Dakota,education,3,0,3,1
+https://ror.org/00rcxh774,DE,Cologne,University of Cologne,education,3,0,3,1
+https://ror.org/015jmes13,US,Brookings,South Dakota State University,education,3,0,3,1
+https://ror.org/01rxfrp27,AU,Melbourne,La Trobe University,education,3,0,3,1
+https://ror.org/01tgmhj36,GB,Coventry,Coventry University,education,3,0,3,1
+https://ror.org/0207ad724,US,Winston-Salem,Wake Forest University,education,3,0,3,1
+https://ror.org/047yk3s18,US,"Washington, D.C.",Catholic University of America,education,3,0,3,1
+https://ror.org/049e6bc10,GB,Newcastle upon Tyne,Northumbria University,education,3,0,3,1
+https://ror.org/04m8z4n60,US,Houston,Harris Health System,healthcare,3,0,3,1
+https://ror.org/04v76ef78,DE,Kiel,Kiel University,education,3,0,3,1
+https://ror.org/04w7skc03,US,Denver,University of Denver,education,3,0,3,1
+https://ror.org/05n3dz165,FI,Jyväskylä,University of Jyväskylä,education,3,0,3,1
+https://ror.org/00a0n9e72,IE,Limerick,University of Limerick,education,2,0,2,1
+https://ror.org/00cn92c09,TW,Taipei,National Taipei University of Technology,education,2,0,2,1
+https://ror.org/00hs7dr46,RU,Yekaterinburg,Ural Federal University,education,2,0,2,1
+https://ror.org/00msqp585,JP,Fukui-shi,University of Fukui,education,2,0,2,1
+https://ror.org/00thqtb16,US,Omaha,University of Nebraska Medical Center,healthcare,2,0,2,1
+https://ror.org/0155zta11,US,Burlington,University of Vermont,education,2,0,2,1
+https://ror.org/01f5wp925,ES,Barcelona,Universitat Oberta de Catalunya,education,2,0,2,1
+https://ror.org/0210dff90,US,Salt Lake City,Western Governors University,education,2,0,2,1
+https://ror.org/02dn9h927,RU,Moscow,Peoples' Friendship University of Russia,education,2,0,2,1
+https://ror.org/02skfsw40,JP,Osaka,Osaka City University,education,2,0,2,1
+https://ror.org/02wnxgj78,KR,Cheongju-si,Chungbuk National University,education,2,0,2,1
+https://ror.org/03q0vrn42,KZ,Almaty,Al-Farabi Kazakh National University,education,2,0,2,1
+https://ror.org/03qvtpc38,KR,Busan,Dong-A University,education,2,0,2,1
+https://ror.org/03sfk2504,RU,Chelyabinsk,South Ural State University,education,2,0,2,1
+https://ror.org/03xxxrq06,GB,Manchester,Manchester School of Architecture,education,2,0,2,1
+https://ror.org/0433kqc49,KR,Busan,Pukyong National University,education,2,0,2,1
+https://ror.org/04cvxnb49,DE,Frankfurt am Main,Goethe University Frankfurt,education,2,0,2,1
+https://ror.org/04gr4te78,US,Milwaukee,Marquette University,education,2,0,2,1
+https://ror.org/04jqj7p05,JP,Tokyo,Hitotsubashi University,education,2,0,2,1
+https://ror.org/04mxsc976,US,Providence,Rhode Island School of Design,education,2,0,2,1
+https://ror.org/04w3d2v20,GB,Paisley,University of the West of Scotland,education,2,0,2,1
+https://ror.org/055f7t516,RU,Moscow,National Research University Higher School of Economics,education,2,0,2,1
+https://ror.org/057q6n778,KR,Seoul,Dongguk University,education,2,0,2,1
+https://ror.org/05ch0aw77,US,Houston,Texas Southern University,education,2,0,2,1
+https://ror.org/05hnb4n85,KR,Jeju City,Jeju National University,education,2,0,2,1
+https://ror.org/05wthjx48,US,New York,New York University School of Medicine,education,2,0,2,1
+https://ror.org/000hdh770,SE,Falun,Dalarna University,education,1,0,1,1
+https://ror.org/000qzf213,KR,Daejeon,Korea University of Science and Technology,education,1,0,1,1
+https://ror.org/000xsnr85,ES,Leioa,University of the Basque Country,education,1,0,1,1
+https://ror.org/00268wk31,IQ,Erbil,University of Kurdistan Hewler,education,1,0,1,1
+https://ror.org/002qeva03,TH,Bangkok,Bangkok University,education,1,0,1,1
+https://ror.org/002rw7y37,JP,Tokyo,Aoyama Gakuin University,education,1,0,1,1
+https://ror.org/0037qsh65,US,Detroit,University of Detroit Mercy,education,1,0,1,1
+https://ror.org/0067fqk38,GB,London,St Mary's University Twickenham London,education,1,0,1,1
+https://ror.org/006jb1a24,GB,Bangor,Bangor University,education,1,0,1,1
+https://ror.org/006x4sc24,PL,Gdansk,Gdańsk University of Technology,education,1,0,1,1
+https://ror.org/0091d4119,AR,José María Ezeiza,Chemotecnica (Argentina),company,1,0,1,1
+https://ror.org/00ae33288,GB,London,London Metropolitan University,education,1,0,1,1
+https://ror.org/00aft1q37,KR,Seoul,Sejong University,education,1,0,1,1
+https://ror.org/00bgtad15,US,New York,St. John's University,education,1,0,1,1
+https://ror.org/00bmxak18,JP,Fukuoka,Fukuoka Institute of Technology,education,1,0,1,1
+https://ror.org/00cyydd11,FI,Kuopio,University of Eastern Finland,education,1,0,1,1
+https://ror.org/00d6k8y35,GB,Stoke-on-Trent,Staffordshire University,education,1,0,1,1
+https://ror.org/00ftxzd18,US,Harrisburg,Penn State Harrisburg,education,1,0,1,1
+https://ror.org/00gcpds33,MN,Ulaanbaatar,Mongolian National University of Medical Sciences,education,1,0,1,1
+https://ror.org/00gjv5s24,UA,Kharkiv,H.S. Skovoroda Kharkiv National Pedagogical University,education,1,0,1,1
+https://ror.org/00hjz7x27,US,"Washington, D.C.",Georgetown University Medical Center,healthcare,1,0,1,1
+https://ror.org/00kxjcd28,NO,Molde,Molde University College,education,1,0,1,1
+https://ror.org/00mwhaw71,TH,Chiang Rai,Mae Fah Luang University,education,1,0,1,1
+https://ror.org/00nt41z93,PT,Aveiro,University of Aveiro,education,1,0,1,1
+https://ror.org/00pb8h375,RU,Moscow,Bauman Moscow State Technical University,education,1,0,1,1
+https://ror.org/00qaa6j11,VN,Huế,Hue University,education,1,0,1,1
+https://ror.org/00rfy7667,IT,Milan,Brera Academy,education,1,0,1,1
+https://ror.org/00t67pt25,GB,Birmingham,Birmingham City University,education,1,0,1,1
+https://ror.org/00tsqex91,NZ,Hamilton,Te Pūkenga,education,1,0,1,1
+https://ror.org/00v4yb702,US,Rochester,Rochester Institute of Technology,education,1,0,1,1
+https://ror.org/00vs8d940,GB,Bradford,University of Bradford,education,1,0,1,1
+https://ror.org/00wygsf57,KR,Busan,Dongseo University,education,1,0,1,1
+https://ror.org/00x5je630,RU,Rostov-na-Donu,Don State Technical University,education,1,0,1,1
+https://ror.org/00xy44n04,JP,Yamagata,Yamagata University,education,1,0,1,1
+https://ror.org/00yn2fy02,US,Portland,Portland State University,education,1,0,1,1
+https://ror.org/00ys1hz88,JP,Nagaoka,Nagaoka University of Technology,education,1,0,1,1
+https://ror.org/0104rcc94,PL,Katowice,University of Silesia,education,1,0,1,1
+https://ror.org/010g30191,TH,Bangkok,National Institute of Development Administration,education,1,0,1,1
+https://ror.org/011xz5b94,US,Boston,Emerson College,education,1,0,1,1
+https://ror.org/0161xgx34,CA,Montreal,Université de Montréal,education,1,0,1,1
+https://ror.org/016gb9e15,AU,Sunshine Coast,University of the Sunshine Coast,education,1,0,1,1
+https://ror.org/017hkng22,JP,Matsuyama,Ehime University,education,1,0,1,1
+https://ror.org/017xnm587,KR,Seoul,Soongsil University,education,1,0,1,1
+https://ror.org/018yta094,US,Morehead,Morehead State University,education,1,0,1,1
+https://ror.org/01dg47b60,BR,Rio de Janeiro,Pontifical Catholic University of Rio de Janeiro,education,1,0,1,1
+https://ror.org/01eq8c489,PK,Peshawar,Lady Reading Hospital,healthcare,1,0,1,1
+https://ror.org/01favr389,RU,Saint Petersburg,Saint Petersburg State University of Architecture and Civil Engineering,education,1,0,1,1
+https://ror.org/01gyxrk03,FR,Amiens,University of Picardie Jules Verne,education,1,0,1,1
+https://ror.org/01h4fxd96,FR,Grenoble,Grenoble Ecole de Management,education,1,0,1,1
+https://ror.org/01jmxt844,NZ,Dunedin,University of Otago,education,1,0,1,1
+https://ror.org/01k2y1055,GB,Wolverhampton,University of Wolverhampton,education,1,0,1,1
+https://ror.org/01mrvbd33,JP,Tokyo,Hoshi University,education,1,0,1,1
+https://ror.org/01n9kga30,US,Durham,Duke University School of Medicine,other,1,0,1,1
+https://ror.org/01p7jjy08,US,St Louis,Saint Louis University,education,1,0,1,1
+https://ror.org/01pkeax38,JP,Fukayachō,Saitama Institute of Technology,education,1,0,1,1
+https://ror.org/01r9htc13,BE,Brussels,Université Libre de Bruxelles,education,1,0,1,1
+https://ror.org/01rn0fp76,KZ,Almaty,Kazakh-British Technical University,education,1,0,1,1
+https://ror.org/01rq8ck58,US,Los Angeles,Keck Hospital of USC,healthcare,1,0,1,1
+https://ror.org/01swzsf04,CH,Geneva,University of Geneva,education,1,0,1,1
+https://ror.org/01t4pxy10,DE,Dresden,Dresden International University,education,1,0,1,1
+https://ror.org/01vxt3d40,PL,Katowice,University of Economics in Katowice,education,1,0,1,1
+https://ror.org/01w6wtk13,JP,Shizuoka,Shizuoka University,education,1,0,1,1
+https://ror.org/0217hb928,US,Middlebury (village),Middlebury College,education,1,0,1,1
+https://ror.org/021n14p32,US,Round Rock,Texas State University,education,1,0,1,1
+https://ror.org/022gstf70,GB,Falmouth,Falmouth University,education,1,0,1,1
+https://ror.org/023b0x485,DE,Mainz,Johannes Gutenberg University Mainz,education,1,0,1,1
+https://ror.org/023jsyh61,KR,Mokpo,Mokpo National Maritime University,education,1,0,1,1
+https://ror.org/023q4bk22,AU,Rockhampton,Central Queensland University,education,1,0,1,1
+https://ror.org/023qmza96,US,Salem,Salem State University,education,1,0,1,1
+https://ror.org/025n13r50,US,Garden City,Adelphi University,education,1,0,1,1
+https://ror.org/025y36b60,TR,Ankara,Ankara Sosyal Bilimler Üniversitesi,education,1,0,1,1
+https://ror.org/026086s92,FI,Helsinki,Hanken School of Economics,education,1,0,1,1
+https://ror.org/02aj0kh94,FR,Grenoble,Joseph Fourier University,education,1,0,1,1
+https://ror.org/02be6w209,IT,Rome,Sapienza University of Rome,education,1,0,1,1
+https://ror.org/02cwbgy35,US,Marshall,East Texas Baptist University,education,1,0,1,1
+https://ror.org/02dvjfw95,JP,Hikone,University of Shiga Prefecture,education,1,0,1,1
+https://ror.org/02dxx6824,US,San Diego,Scripps Research Institute,nonprofit,1,0,1,1
+https://ror.org/02f40zc51,ES,Salamanca,Universidad de Salamanca,education,1,0,1,1
+https://ror.org/02feahw73,FR,Paris,French National Centre for Scientific Research,government,1,0,1,1
+https://ror.org/02gdzyx04,CA,Winnipeg,University of Winnipeg,education,1,0,1,1
+https://ror.org/02h2x0161,DE,Kiel,GEOMAR Helmholtz Centre for Ocean Research Kiel,facility,1,0,1,1
+https://ror.org/02jzgtq86,US,Boston,Dana-Farber Cancer Institute,facility,1,0,1,1
+https://ror.org/02k7v4d05,CH,Bern,University of Bern,education,1,0,1,1
+https://ror.org/02kswqa67,TR,Istanbul,Marmara University,education,1,0,1,1
+https://ror.org/02n1hzn07,US,Murfreesboro,Middle Tennessee State University,education,1,0,1,1
+https://ror.org/02n455404,US,Edmond,University of Central Oklahoma,education,1,0,1,1
+https://ror.org/02pg0e883,JP,Fukushima,University of Aizu,education,1,0,1,1
+https://ror.org/02pgvzy25,TW,Taoyuan,Ming Chuan University,education,1,0,1,1
+https://ror.org/02qp15436,UA,Kyiv,Kyiv National University of Construction and Architecture,education,1,0,1,1
+https://ror.org/02qte9q33,NO,Stavanger,University of Stavanger,education,1,0,1,1
+https://ror.org/02w42ss30,HU,Budapest,Budapest University of Technology and Economics,education,1,0,1,1
+https://ror.org/02xzjn598,CA,Vancouver,Regent College,education,1,0,1,1
+https://ror.org/0312pnr83,GB,Leicester,De Montfort University,education,1,0,1,1
+https://ror.org/033003e23,FI,Tampere,Tampere University,education,1,0,1,1
+https://ror.org/0343myz07,US,Bozeman,Montana State University System,education,1,0,1,1
+https://ror.org/0360g3z42,VN,Hanoi,Hanoi National University of Education,education,1,0,1,1
+https://ror.org/037zgn354,US,Baltimore,Johns Hopkins Medicine,healthcare,1,0,1,1
+https://ror.org/038483r84,IT,Rome,Eni (Italy),company,1,0,1,1
+https://ror.org/03b9snr86,PT,Lisbon,Universidade Católica Portuguesa,education,1,0,1,1
+https://ror.org/03bvvnt49,TW,Keelung,National Taiwan Ocean University,education,1,0,1,1
+https://ror.org/03eqd4a41,EE,Tallinn,National Institute of Chemical Physics and Biophysics,facility,1,0,1,1
+https://ror.org/03f5avr03,PL,Wrocław,Electrotechnical Institute,facility,1,0,1,1
+https://ror.org/03g35dg18,US,Dover,Delaware State University,education,1,0,1,1
+https://ror.org/03g4hym73,IR,Bīrjand,University of Birjand,education,1,0,1,1
+https://ror.org/03gz5xp73,JP,Tokyo,National Graduate Institute for Policy Studies,education,1,0,1,1
+https://ror.org/03h0qfp10,SE,Halmstad,Halmstad University,education,1,0,1,1
+https://ror.org/03hv1ad10,JP,Akita,Akita University,education,1,0,1,1
+https://ror.org/03hw5e041,FR,Nancy,École Nationale Supérieure d'Architecture de Nancy,education,1,0,1,1
+https://ror.org/03kgsv495,IL,Ramat Gan,Bar-Ilan University,education,1,0,1,1
+https://ror.org/03n6nwv02,ES,Madrid,Universidad Politécnica de Madrid,education,1,0,1,1
+https://ror.org/03prydq77,AT,Vienna,University of Vienna,education,1,0,1,1
+https://ror.org/03r6hpz93,UA,Kyiv,State University of Trade and Economics,education,1,0,1,1
+https://ror.org/03rcwtr18,CA,Sudbury,Laurentian University,education,1,0,1,1
+https://ror.org/03rp50x72,ZA,Johannesburg,University of the Witwatersrand,education,1,0,1,1
+https://ror.org/03rqk8h36,TW,Taipei,National Chengchi University,education,1,0,1,1
+https://ror.org/03t6vm274,KR,Iksan,Wonkwang Digital University,education,1,0,1,1
+https://ror.org/03tth1e03,PL,Poznań,University of Life Sciences in Poznań,education,1,0,1,1
+https://ror.org/03vr22992,US,Hartford,Connecticut State Colleges and Universities,government,1,0,1,1
+https://ror.org/03wmf1y16,US,Aurora,University of Colorado Anschutz Medical Campus,education,1,0,1,1
+https://ror.org/03xez1567,US,La Jolla,Salk Institute for Biological Studies,nonprofit,1,0,1,1
+https://ror.org/03xjacd83,US,Cleveland,Cleveland Clinic,healthcare,1,0,1,1
+https://ror.org/03y7q9t39,NZ,Christchurch,University of Canterbury,education,1,0,1,1
+https://ror.org/03z28gk75,GB,Middlesbrough,Teesside University,education,1,0,1,1
+https://ror.org/03z6jp965,FR,Paris,Université Sorbonne Nouvelle,education,1,0,1,1
+https://ror.org/03zmqc707,TH,Bangkok,Assumption University,education,1,0,1,1
+https://ror.org/0400avk24,GB,Luton,University of Bedfordshire,education,1,0,1,1
+https://ror.org/040r8fr65,DK,Århus,Aarhus University Hospital,healthcare,1,0,1,1
+https://ror.org/04123ky43,US,Worcester,Clark University,education,1,0,1,1
+https://ror.org/0412y9z21,RU,Vladivostok,Far Eastern Federal University,education,1,0,1,1
+https://ror.org/041nas322,DE,Bonn,University of Bonn,education,1,0,1,1
+https://ror.org/0445phv87,JP,Toyama,University of Toyama,education,1,0,1,1
+https://ror.org/047908t24,BR,Recife,Universidade Federal de Pernambuco,education,1,0,1,1
+https://ror.org/047ypym59,RU,Saint Petersburg,Saint Petersburg Stieglitz State Academy of Art and Design,education,1,0,1,1
+https://ror.org/048g2sh07,MY,Ipoh,Universiti Teknologi Petronas,education,1,0,1,1
+https://ror.org/048kc0s52,GB,Wrexham,Wrexham University,education,1,0,1,1
+https://ror.org/048nxq511,JP,Tokyo,Tokyo University of Marine Science and Technology,education,1,0,1,1
+https://ror.org/048rj2z13,JP,Tokyo,"Ministry of Education, Culture, Sports, Science and Technology",government,1,0,1,1
+https://ror.org/04a1a1e81,IE,Dublin,Dublin City University,education,1,0,1,1
+https://ror.org/04cxm4j25,AU,Brisbane,Australian Catholic University,education,1,0,1,1
+https://ror.org/04e6r1478,US,Emporia,Emporia State University,education,1,0,1,1
+https://ror.org/04eeqc889,US,Gloucester Point,Virginia Institute of Marine Science,education,1,0,1,1
+https://ror.org/04f4wg107,JP,Saga,Saga University,education,1,0,1,1
+https://ror.org/04hm9pd03,GB,London,Association of Anaesthetists of Great Britain and Ireland,education,1,0,1,1
+https://ror.org/04hteea03,US,Pittsburg,Pittsburg State University,education,1,0,1,1
+https://ror.org/04j757h98,AU,Melbourne,Victoria University,education,1,0,1,1
+https://ror.org/04je98850,TW,Taipei,Fu Jen Catholic University,education,1,0,1,1
+https://ror.org/04jnypc35,SE,Mölndal,Integrum (Sweden),company,1,0,1,1
+https://ror.org/04k83g518,US,Mequon,Concordia University Wisconsin,education,1,0,1,1
+https://ror.org/04mz5ra38,DE,Essen,University of Duisburg-Essen,education,1,0,1,1
+https://ror.org/04q12yn84,NO,Oslo,OsloMet – Oslo Metropolitan University,education,1,0,1,1
+https://ror.org/04s1nv328,AU,Canberra,University of Canberra,education,1,0,1,1
+https://ror.org/04s2jm085,CA,Barrie,Georgian College,education,1,0,1,1
+https://ror.org/04sjbnx57,AU,Toowoomba,University of Southern Queensland,education,1,0,1,1
+https://ror.org/04v2twj65,GB,Oxford,Oxford Brookes University,education,1,0,1,1
+https://ror.org/04w8xa018,US,San Jose,Cadence Design Systems (United States),company,1,0,1,1
+https://ror.org/04xyxjd90,GB,Nottingham,Nottingham Trent University,education,1,0,1,1
+https://ror.org/04zn7jb34,RU,Moscow,Moscow State Institute of International Relations,education,1,0,1,1
+https://ror.org/04zy9j617,FI,Rovaniemi,University of the Arctic,education,1,0,1,1
+https://ror.org/050kcr883,US,Normal,Illinois State University,education,1,0,1,1
+https://ror.org/050z03n93,UA,Kharkiv,Kharkiv National Kotlyarevsky University of Arts,education,1,0,1,1
+https://ror.org/0516ah480,JP,Hayama,"The Graduate University for Advanced Studies, SOKENDAI",education,1,0,1,1
+https://ror.org/053d3tv41,JP,Ōtawara,International University of Health and Welfare,education,1,0,1,1
+https://ror.org/054b0b564,US,Fort Worth,Texas Christian University,education,1,0,1,1
+https://ror.org/0561a3s31,CH,Saint Gallen,University of St. Gallen,education,1,0,1,1
+https://ror.org/058h74p94,JP,Nagasaki,Nagasaki University,education,1,0,1,1
+https://ror.org/05a1qpv97,BD,Dhaka,Bangladesh University of Engineering and Technology,education,1,0,1,1
+https://ror.org/05b1kx621,JP,Akita,Akita Prefectural University,education,1,0,1,1
+https://ror.org/05drcjw53,KR,Daejeon,Pai Chai University,education,1,0,1,1
+https://ror.org/05drmrq39,US,Cookeville,Tennessee Technological University,education,1,0,1,1
+https://ror.org/05f82e368,FR,Paris,Université Paris Cité,education,1,0,1,1
+https://ror.org/05g13zd79,CA,Toronto,Toronto Metropolitan University,education,1,0,1,1
+https://ror.org/05g1rjn35,US,Riverside,La Sierra University,education,1,0,1,1
+https://ror.org/05gqaka33,DE,Halle,Martin Luther University Halle-Wittenberg,education,1,0,1,1
+https://ror.org/05ht0mh31,IT,Udine,University of Udine,education,1,0,1,1
+https://ror.org/05ksgvj69,RU,Moscow,Institute of Contemporary Art,education,1,0,1,1
+https://ror.org/05ma4gw77,US,Stockton,University of the Pacific,education,1,0,1,1
+https://ror.org/05n8t2628,US,Tacoma,University of Washington Tacoma,education,1,0,1,1
+https://ror.org/05ngeh012,US,Bridgeview,Northwestern College - Illinois,education,1,0,1,1
+https://ror.org/05p2kf948,IT,Siena,University for Foreigners of Siena,education,1,0,1,1
+https://ror.org/05q87sg56,US,Philadelphia,Saint Joseph's University,education,1,0,1,1
+https://ror.org/05qkp7h42,US,Santa Cruz,Five Branches University,education,1,0,1,1
+https://ror.org/05sdyjv16,PL,Warsaw,Cardinal Stefan Wyszyński University in Warsaw,education,1,0,1,1
+https://ror.org/05sj3n476,JP,Tokyo,Tokyo University of Science,education,1,0,1,1
+https://ror.org/05vf56z40,IR,Tehran,University of Tehran,education,1,0,1,1
+https://ror.org/05vzafd60,US,Washington,Georgetown University,education,34,3,37,0.918918919
+https://ror.org/01an3r305,US,Pittsburgh,University of Pittsburgh,education,52,6,58,0.896551724
+https://ror.org/00jmfr291,US,Ann Arbor,University of Michigan–Ann Arbor,education,16,2,18,0.888888889
+https://ror.org/02ehshm78,US,Ypsilanti,Eastern Michigan University,education,8,1,9,0.888888889
+https://ror.org/02aqsxs83,US,Norman,University of Oklahoma,education,26,4,30,0.866666667
+https://ror.org/012afjb06,US,Bethlehem,Lehigh University,education,18,3,21,0.857142857
+https://ror.org/037s24f05,US,Clemson,Clemson University,education,12,2,14,0.857142857
+https://ror.org/02sc3r913,AU,Brisbane,Griffith University,education,6,1,7,0.857142857
+https://ror.org/03hsf0573,US,Williamsburg,William & Mary,education,6,1,7,0.857142857
+https://ror.org/03pnv4752,AU,Brisbane,Queensland University of Technology,education,6,1,7,0.857142857
+https://ror.org/05dxps055,US,Pasadena,California Institute of Technology,education,6,1,7,0.857142857
+https://ror.org/00f54p054,US,Stanford,Stanford University,education,56,10,66,0.848484848
+https://ror.org/03pwcc270,US,Auburn,Auburn University System,education,22,4,26,0.846153846
+https://ror.org/0561zqn56,US,Columbus,University System of Ohio,education,208,38,246,0.845528455
+https://ror.org/00cvxb145,US,Seattle,University of Washington,education,38,7,45,0.844444444
+https://ror.org/01485tq96,US,Laramie,University of Wyoming,education,10,2,12,0.833333333
+https://ror.org/020qm1538,US,Long Beach,California State University System,education,10,2,12,0.833333333
+https://ror.org/045ntgf29,US,Stillwater,Oklahoma State University System,education,10,2,12,0.833333333
+https://ror.org/02956yf07,JP,Tsukuba,University of Tsukuba,education,34,7,41,0.829268293
+https://ror.org/0238rvs44,US,Lincoln,University of Nebraska System,education,24,5,29,0.827586207
+https://ror.org/022gnbj15,US,Baton Rouge,Louisiana State University System,education,14,3,17,0.823529412
+https://ror.org/0190ak572,US,New York,New York University,education,64,14,78,0.820512821
+https://ror.org/00za53h95,US,Baltimore,Johns Hopkins University,education,72,18,90,0.8
+https://ror.org/05vt9qd57,US,New Brunswick,"Rutgers, The State University of New Jersey",education,28,7,35,0.8
+https://ror.org/01egahc47,GB,London,Royal College of Art,education,4,1,5,0.8
+https://ror.org/02czsnj07,AU,Burwood,Deakin University,education,4,1,5,0.8
+https://ror.org/045wgfr59,GB,Stirling,University of Stirling,education,4,1,5,0.8
+https://ror.org/01yc7t268,US,St Louis,Washington University in St. Louis,education,23,6,29,0.793103448
+https://ror.org/01ej9dk98,AU,Melbourne,University of Melbourne,education,94,25,119,0.789915966
+https://ror.org/05p8z3f47,US,West Lafayette,Purdue University System,education,60,16,76,0.789473684
+https://ror.org/01aff2v68,CA,Waterloo,University of Waterloo,education,30,8,38,0.789473684
+https://ror.org/05gq02987,US,Providence,Brown University,education,26,7,33,0.787878788
+https://ror.org/02e16g702,JP,Sapporo,Hokkaido University,education,22,6,28,0.785714286
+https://ror.org/00kx1jb78,US,Philadelphia,Temple University,education,10,3,13,0.769230769
+https://ror.org/0153tk833,US,Charlottesville,University of Virginia,education,13,4,17,0.764705882
+https://ror.org/03c4mmv16,CA,Ottawa,University of Ottawa,education,16,5,21,0.761904762
+https://ror.org/05qwgg493,US,Boston,Boston University,education,22,7,29,0.75862069
+https://ror.org/008zs3103,US,Houston,Rice University,education,12,4,16,0.75
+https://ror.org/00ysfqy60,US,Corvallis,Oregon State University,education,12,4,16,0.75
+https://ror.org/0281dp749,DE,Berlin,Helmholtz Association of German Research Centres,government,12,4,16,0.75
+https://ror.org/001tmjg57,US,Lawrence,University of Kansas,education,6,2,8,0.75
+https://ror.org/00hpz7z43,US,Las Cruces,New Mexico State University,education,6,2,8,0.75
+https://ror.org/00mkhxb43,US,Notre Dame,University of Notre Dame,education,6,2,8,0.75
+https://ror.org/012wxa772,US,DeKalb,Northern Illinois University,education,6,2,8,0.75
+https://ror.org/01gw3d370,CA,Windsor,University of Windsor,education,6,2,8,0.75
+https://ror.org/02jqj7156,US,Fairfax,George Mason University,education,6,2,8,0.75
+https://ror.org/036jqmy94,US,Iowa City,University of Iowa,education,6,2,8,0.75
+https://ror.org/05e74xb87,US,Newark,New Jersey Institute of Technology,education,6,2,8,0.75
+https://ror.org/01gek1696,US,Austin,The University of Texas System,education,58,20,78,0.743589744
+https://ror.org/02der9h97,US,Storrs,University of Connecticut,education,20,7,27,0.740740741
+https://ror.org/04n0g0b29,ES,Barcelona,Pompeu Fabra University,education,14,5,19,0.736842105
+https://ror.org/04rswrd78,US,Ames,Iowa State University,education,27,10,37,0.72972973
+https://ror.org/01kg8sb98,US,Bloomington,Indiana University,education,16,6,22,0.727272727
+https://ror.org/04kqgqa72,US,Jackson,Mississippi Institutions of Higher Learning,education,16,6,22,0.727272727
+https://ror.org/051fvmk98,US,Tuscaloosa,University of Alabama System,education,16,6,22,0.727272727
+https://ror.org/02tyrky19,IE,Dublin,Trinity College Dublin,education,8,3,11,0.727272727
+https://ror.org/01070mq45,US,Detroit,Wayne State University,education,5,2,7,0.714285714
+https://ror.org/01hcx6992,DE,Berlin,Humboldt-Universität zu Berlin,education,5,2,7,0.714285714
+https://ror.org/01rtyzb94,US,Troy,Rensselaer Polytechnic Institute,education,5,2,7,0.714285714
+https://ror.org/03tzaeb71,US,Honolulu,University of Hawaii System,education,5,2,7,0.714285714
+https://ror.org/00ks66431,GB,Guildford,University of Surrey,education,12,5,17,0.705882353
+https://ror.org/035t8zc32,JP,Osaka,Osaka University,education,26,11,37,0.702702703
+https://ror.org/024mrxd33,GB,Leeds,University of Leeds,education,40,17,57,0.701754386
+https://ror.org/0034eay46,US,College Station,Texas A&M University System,education,42,18,60,0.7
+https://ror.org/01sbq1a82,US,Newark,University of Delaware,education,14,6,20,0.7
+https://ror.org/027bh9e22,NL,Leiden,Leiden University,education,14,6,20,0.7
+https://ror.org/05v62cm79,GB,Reading,University of Reading,education,14,6,20,0.7
+https://ror.org/03grvy078,US,Minneapolis,University of Minnesota System,education,23,10,33,0.696969697
+https://ror.org/02kkvpp62,DE,Munich,Technical University of Munich,education,26,12,38,0.684210526
+https://ror.org/019wvm592,AU,Canberra,Australian National University,education,32,15,47,0.680851064
+https://ror.org/051fd9666,US,Cleveland,Case Western Reserve University,education,17,8,25,0.68
+https://ror.org/00hx57361,US,Princeton,Princeton University,education,12,6,18,0.666666667
+https://ror.org/03r8z3t63,AU,Sydney,UNSW Sydney,education,12,6,18,0.666666667
+https://ror.org/03yjb2x39,CA,Calgary,University of Calgary,education,12,6,18,0.666666667
+https://ror.org/053fq8t95,GB,Swansea,Swansea University,education,12,6,18,0.666666667
+https://ror.org/02avx9m34,MO,Taipa,Macau University of Science and Technology Foundation,nonprofit,10,5,15,0.666666667
+https://ror.org/05cncd958,GB,Cranfield,Cranfield University,education,10,5,15,0.666666667
+https://ror.org/02k3smh20,US,Lexington,University of Kentucky,education,8,4,12,0.666666667
+https://ror.org/00bgk9508,IT,Turin,Polytechnic University of Turin,education,6,3,9,0.666666667
+https://ror.org/013ckk937,US,Kingston,University of Rhode Island,education,6,3,9,0.666666667
+https://ror.org/021v3qy27,US,Dayton,University of Dayton,education,6,3,9,0.666666667
+https://ror.org/02y72wh86,CA,Kingston,Queen's University,education,6,3,9,0.666666667
+https://ror.org/0420zvk78,CA,Montréal,Concordia University,education,6,3,9,0.666666667
+https://ror.org/00bmj0a71,GB,London,University of Greenwich,education,4,2,6,0.666666667
+https://ror.org/01hjzeq58,JP,Chiba,Chiba University,education,4,2,6,0.666666667
+https://ror.org/02en5vm52,FR,Paris,Sorbonne Université,education,4,2,6,0.666666667
+https://ror.org/02rgb2k63,MY,George Town,Universiti Sains Malaysia,education,4,2,6,0.666666667
+https://ror.org/056am2717,CA,St. Catharines,Brock University,education,4,2,6,0.666666667
+https://ror.org/05abbep66,US,Waltham,Brandeis University,education,4,2,6,0.666666667
+https://ror.org/05bhada84,JP,Ikoma,Nara Institute of Science and Technology,education,4,2,6,0.666666667
+https://ror.org/00240q980,IT,Padua,University of Padua,education,2,1,3,0.666666667
+https://ror.org/005781934,US,Waco,Baylor University,education,2,1,3,0.666666667
+https://ror.org/007m3p006,US,Brooklyn,Pratt Institute,nonprofit,2,1,3,0.666666667
+https://ror.org/008xxew50,NL,Amsterdam,Vrije Universiteit Amsterdam,education,2,1,3,0.666666667
+https://ror.org/019wt1929,GB,Sheffield,Sheffield Hallam University,education,2,1,3,0.666666667
+https://ror.org/01b8kcc49,TW,Tainan,National Cheng Kung University,education,2,1,3,0.666666667
+https://ror.org/01r7awg59,CA,Guelph,University of Guelph,education,2,1,3,0.666666667
+https://ror.org/01znkr924,TH,Bangkok,Mahidol University,education,2,1,3,0.666666667
+https://ror.org/02ba3pt07,FI,Tampere,Tampere University of Technology,education,2,1,3,0.666666667
+https://ror.org/02bbqcn27,GB,London,King's College School,education,2,1,3,0.666666667
+https://ror.org/02cgbcj98,MY,Kuala Selangor,Limkokwing University of Creative Technology,education,2,1,3,0.666666667
+https://ror.org/02n742c10,IT,Trieste,University of Trieste,education,2,1,3,0.666666667
+https://ror.org/02yy8x990,SE,Uppsala,Swedish University of Agricultural Sciences,education,2,1,3,0.666666667
+https://ror.org/03h7r5v07,IT,Milan,Università Cattolica del Sacro Cuore,education,2,1,3,0.666666667
+https://ror.org/03xg1f311,JP,Suita,Kansai University,education,2,1,3,0.666666667
+https://ror.org/04atsbb87,US,Melbourne,Florida Institute of Technology,education,2,1,3,0.666666667
+https://ror.org/04cd75h10,JP,Morioka,Iwate University,education,2,1,3,0.666666667
+https://ror.org/04njjy449,ES,Granada,Universidad de Granada,education,2,1,3,0.666666667
+https://ror.org/04p55hr04,GB,Sunderland,University of Sunderland,education,2,1,3,0.666666667
+https://ror.org/0546v5182,FR,Villeneuve-d'Ascq,Université de Lille,education,2,1,3,0.666666667
+https://ror.org/058pdbn81,KR,Cheonan,Dankook University,education,2,1,3,0.666666667
+https://ror.org/05kb8h459,SE,Umeå,Umeå University,education,2,1,3,0.666666667
+https://ror.org/05wvagp91,UA,Odessa,South Ukrainian National Pedagogical University named after K. D. Ushynsky,education,2,1,3,0.666666667
+https://ror.org/01nrxwf90,GB,Edinburgh,University of Edinburgh,education,80,42,122,0.655737705
+https://ror.org/041kmwe10,GB,London,Imperial College London,education,74,41,115,0.643478261
+https://ror.org/0566a8c54,US,Chapel Hill,University of North Carolina System,education,36,20,56,0.642857143
+https://ror.org/0030zas98,HK,Hong Kong,Hong Kong Polytechnic University,education,72,41,113,0.637168142
+https://ror.org/00hswnk62,GB,Belfast,Queen's University Belfast,education,14,8,22,0.636363636
+https://ror.org/04bdffz58,US,Philadelphia,Drexel University,education,7,4,11,0.636363636
+https://ror.org/04xfq0f34,DE,Aachen,RWTH Aachen University,education,40,23,63,0.634920635
+https://ror.org/00892tw58,AU,Adelaide,University of Adelaide,education,20,12,32,0.625
+https://ror.org/00y4zzh67,US,Washington,George Washington University,education,20,12,32,0.625
+https://ror.org/0384j8v12,AU,Sydney,University of Sydney,education,38,23,61,0.62295082
+https://ror.org/0524sp257,GB,Bristol,University of Bristol,education,38,23,61,0.62295082
+https://ror.org/02fa3aq29,CA,Hamilton,McMaster University,education,18,11,29,0.620689655
+https://ror.org/02kpeqv85,JP,Kyoto,Kyoto University,education,26,16,42,0.619047619
+https://ror.org/04t5xt781,US,Boston,Northeastern University,education,26,16,42,0.619047619
+https://ror.org/0260j1g46,US,Boston,University of Massachusetts System,education,13,8,21,0.619047619
+https://ror.org/01rvn4p91,CH,Zurich,Board of the Swiss Federal Institutes of Technology,government,40,25,65,0.615384615
+https://ror.org/01rk35k63,FR,Lyon,Université de Lyon,education,16,10,26,0.615384615
+https://ror.org/047272k79,AU,Perth,University of Western Australia,education,8,5,13,0.615384615
+https://ror.org/037t3ry66,US,Chicago,Illinois Institute of Technology,education,19,12,31,0.612903226
+https://ror.org/01r4q9n85,MO,Macao,University of Macau,education,44,28,72,0.611111111
+https://ror.org/02z43xh36,US,Hoboken,Stevens Institute of Technology,education,22,14,36,0.611111111
+https://ror.org/01kj2bm70,GB,Newcastle upon Tyne,Newcastle University,education,20,13,33,0.606060606
+https://ror.org/01pxwe438,CA,Montreal,McGill University,education,24,16,40,0.6
+https://ror.org/012p63287,NL,Groningen,University of Groningen,education,12,8,20,0.6
+https://ror.org/05p1j8758,US,Manhattan,Kansas State University,education,12,8,20,0.6
+https://ror.org/00453a208,US,New York,City University of New York,education,6,4,10,0.6
+https://ror.org/01e6qks80,CA,Halifax,Dalhousie University,education,6,4,10,0.6
+https://ror.org/02crff812,CH,Zurich,University of Zurich,education,6,4,10,0.6
+https://ror.org/02mv6r745,US,Salt Lake City,Utah System of Higher Education,education,6,4,10,0.6
+https://ror.org/03rtgjq94,US,Columbia,University of South Carolina System,education,6,4,10,0.6
+https://ror.org/03ths8210,ES,Madrid,Universidad Carlos III de Madrid,education,6,4,10,0.6
+https://ror.org/03xj0x983,US,Denver,Colorado State University System,education,6,4,10,0.6
+https://ror.org/05vz28418,US,Carbondale,Southern Illinois University System,education,6,4,10,0.6
+https://ror.org/010nsgg66,DE,Braunschweig,Technische Universität Braunschweig,education,3,2,5,0.6
+https://ror.org/01ckdn478,US,Louisville,University of Louisville,education,3,2,5,0.6
+https://ror.org/01d2sez20,US,Springfield,Missouri State University,education,3,2,5,0.6
+https://ror.org/020hwjq30,FI,Espoo,Aalto University,education,3,2,5,0.6
+https://ror.org/02nkdxk79,US,Richmond,Virginia Commonwealth University,education,3,2,5,0.6
+https://ror.org/03frj4r98,JP,Nomi Shi,Japan Advanced Institute of Science and Technology,education,3,2,5,0.6
+https://ror.org/042aqky30,DE,Dresden,TU Dresden,education,3,2,5,0.6
+https://ror.org/044vy1d05,JP,Tokushima,Tokushima University,education,3,2,5,0.6
+https://ror.org/04j198w64,US,Kalamazoo,Western Michigan University,education,3,2,5,0.6
+https://ror.org/05h1bnb22,US,Fargo,North Dakota State University,education,3,2,5,0.6
+https://ror.org/05q92br09,KR,Jeonju,Jeonbuk National University,education,3,2,5,0.6
+https://ror.org/000e0be47,US,Evanston,Northwestern University,education,37,26,63,0.587301587
+https://ror.org/05hs6h993,US,East Lansing,Michigan State University,education,14,10,24,0.583333333
+https://ror.org/03kk7td41,GB,Cardiff,Cardiff University,education,18,13,31,0.580645161
+https://ror.org/05sqd3t97,US,Tallahassee,State University System of Florida,education,83,60,143,0.58041958
+https://ror.org/01a77tt86,GB,Coventry,University of Warwick,education,22,16,38,0.578947368
+https://ror.org/05ejpqr48,US,Worcester,Worcester Polytechnic Institute,education,11,8,19,0.578947368
+https://ror.org/00xzqjh13,US,Knoxville,University of Tennessee System,education,8,6,14,0.571428571
+https://ror.org/011vxgd24,US,Morgantown,West Virginia University,education,8,6,14,0.571428571
+https://ror.org/01nfmeh72,AU,Hobart,University of Tasmania,education,8,6,14,0.571428571
+https://ror.org/03b94tp07,NZ,Auckland,University of Auckland,education,8,6,14,0.571428571
+https://ror.org/04b8v1s79,NL,Tilburg,Tilburg University,education,8,6,14,0.571428571
+https://ror.org/056d84691,SE,Stockholm,Karolinska Institutet,education,8,6,14,0.571428571
+https://ror.org/01kpzv902,AU,Adelaide,Flinders University,education,4,3,7,0.571428571
+https://ror.org/0227as991,KR,Daejeon,Chungnam National University,education,4,3,7,0.571428571
+https://ror.org/05e94g991,US,Urbana,University of Illinois System,education,76,58,134,0.567164179
+https://ror.org/00hj8s172,US,New York,Columbia University,education,70,54,124,0.564516129
+https://ror.org/022kthw22,US,Rochester,University of Rochester,education,23,18,41,0.56097561
+https://ror.org/04s5mat29,CA,Victoria,University of Victoria,education,10,8,18,0.555555556
+https://ror.org/05wvpxv85,US,Medford,Tufts University,education,5,4,9,0.555555556
+https://ror.org/00rqy9422,AU,Brisbane,University of Queensland,education,31,26,57,0.543859649
+https://ror.org/05bnh6r87,US,Ithaca,Cornell University,education,26,22,48,0.541666667
+https://ror.org/04cw6st05,GB,London,University of London,education,142,121,263,0.539923954
+https://ror.org/02e2c7k09,NL,Delft,Delft University of Technology,education,28,24,52,0.538461538
+https://ror.org/02sqt9870,US,Baton Rouge,University of Louisiana System,education,7,6,13,0.538461538
+https://ror.org/0304hq317,DE,Hanover,Leibniz University Hannover,education,7,6,13,0.538461538
+https://ror.org/05f950310,BE,Leuven,KU Leuven,education,22,19,41,0.536585366
+https://ror.org/04d139241,JP,Nagoya,Tokai National Higher Education and Research System,education,16,14,30,0.533333333
+https://ror.org/00p4k0j84,JP,Fukuoka,Kyushu University,education,8,7,15,0.533333333
+https://ror.org/05krs5044,GB,Sheffield,University of Sheffield,education,42,37,79,0.53164557
+https://ror.org/05x2bcf33,US,Pittsburgh,Carnegie Mellon University,education,43,38,81,0.530864198
+https://ror.org/03taz7m60,US,Los Angeles,University of Southern California,education,60,54,114,0.526315789
+https://ror.org/025r5qe02,US,Syracuse,Syracuse University,education,11,10,21,0.523809524
+https://ror.org/002h8g185,GB,Bath,University of Bath,education,12,11,23,0.52173913
+https://ror.org/03v76x132,US,New Haven,Yale University,education,13,12,25,0.52
+https://ror.org/01q1z8k08,US,Albany,State University of New York,education,43,40,83,0.518072289
+https://ror.org/03vek6s52,US,Cambridge,Harvard University,education,17,16,33,0.515151515
+https://ror.org/00b30xv10,US,Philadelphia,University of Pennsylvania,education,36,34,70,0.514285714
+https://ror.org/01r0c1p88,US,Adelphi,University System of Maryland,education,21,20,41,0.512195122
+https://ror.org/02zhqgq86,HK,Hong Kong,University of Hong Kong,education,90,86,176,0.511363636
+https://ror.org/03rmrcq20,CA,Vancouver,University of British Columbia,education,28,28,56,0.5
+https://ror.org/032va1j59,US,Columbia,University of Missouri System,education,20,20,40,0.5
+https://ror.org/042nb2s44,US,Cambridge,Massachusetts Institute of Technology,education,20,20,40,0.5
+https://ror.org/02c2kyt77,NL,Eindhoven,Eindhoven University of Technology,education,10,10,20,0.5
+https://ror.org/03h2bxq36,GB,Dundee,University of Dundee,education,10,10,20,0.5
+https://ror.org/02n2fzt79,US,Boston,Boston College,education,6,6,12,0.5
+https://ror.org/03dzc0485,CA,Regina,University of Regina,education,6,6,12,0.5
+https://ror.org/03yghzc09,GB,Exeter,University of Exeter,education,6,6,12,0.5
+https://ror.org/006e5kg04,BE,Brussels,Vrije Universiteit Brussel,education,4,4,8,0.5
+https://ror.org/010pmpe69,RU,Moscow,Lomonosov Moscow State University,education,4,4,8,0.5
+https://ror.org/02n415q13,AU,Perth,Curtin University,education,4,4,8,0.5
+https://ror.org/02vm5rt34,US,Nashville,Vanderbilt University,education,4,4,8,0.5
+https://ror.org/037rt4a55,KR,Wanju,National Academy of Agricultural Science,facility,4,4,8,0.5
+https://ror.org/03t78wx29,JP,Hiroshima,Hiroshima University,education,4,4,8,0.5
+https://ror.org/04mghma93,GB,Edinburgh,Heriot-Watt University,education,4,4,8,0.5
+https://ror.org/05fq50484,CA,Toronto,York University,education,4,4,8,0.5
+https://ror.org/007ygn379,CH,Genève,Graduate Institute of International and Development Studies,education,2,2,4,0.5
+https://ror.org/00bas1c41,PL,Krakow,AGH University of Krakow,education,2,2,4,0.5
+https://ror.org/00ch7yk27,US,Rapid City,South Dakota School of Mines and Technology,education,2,2,4,0.5
+https://ror.org/00ggpsq73,DE,Magdeburg,Otto-von-Guericke University Magdeburg,education,2,2,4,0.5
+https://ror.org/00qg0kr10,JP,Tokyo,Tokyo University of Agriculture and Technology,education,2,2,4,0.5
+https://ror.org/00rzspn62,MY,Kuala Lumpur,University of Malaya,education,2,2,4,0.5
+https://ror.org/00xkeyj56,GB,Canterbury,University of Kent,education,2,2,4,0.5
+https://ror.org/016xsfp80,NL,Nijmegen,Radboud University Nijmegen,education,2,2,4,0.5
+https://ror.org/01an57a31,KR,Busan,Pusan National University,education,2,2,4,0.5
+https://ror.org/01cq23130,US,Memphis,University of Memphis,education,2,2,4,0.5
+https://ror.org/01drpwb22,GB,Chester,University of Chester,education,2,2,4,0.5
+https://ror.org/01rdrb571,DE,Marburg,Philipps University of Marburg,education,2,2,4,0.5
+https://ror.org/01y9bpm73,DE,Göttingen,University of Göttingen,education,2,2,4,0.5
+https://ror.org/024yc3q36,JP,Tottori,Tottori University,education,2,2,4,0.5
+https://ror.org/02jz4aj89,NL,Maastricht,Maastricht University,education,2,2,4,0.5
+https://ror.org/02qtvee93,CA,Ottawa,Carleton University,education,2,2,4,0.5
+https://ror.org/038t36y30,DE,Heidelberg,Heidelberg University,education,2,2,4,0.5
+https://ror.org/042949r55,FR,Paris,HESAM Université,education,2,2,4,0.5
+https://ror.org/046ak2485,DE,Berlin,Freie Universität Berlin,education,2,2,4,0.5
+https://ror.org/04ps1r162,NZ,Lincoln,Lincoln University,education,2,2,4,0.5
+https://ror.org/050qj5m48,US,Bangor,University of Maine System,education,2,2,4,0.5
+https://ror.org/052w4zt36,US,"Washington, D.C.",American University,education,2,2,4,0.5
+https://ror.org/057qpr032,FR,Bordeaux,University of Bordeaux,education,2,2,4,0.5
+https://ror.org/057w15z03,NL,Rotterdam,Erasmus University Rotterdam,education,2,2,4,0.5
+https://ror.org/059x21724,JP,Kōfu,University of Yamanashi,education,2,2,4,0.5
+https://ror.org/05c2qg481,FR,Paris,ParisTech,education,2,2,4,0.5
+https://ror.org/05ecg5h20,NO,Kongsberg,University of South-Eastern Norway,education,2,2,4,0.5
+https://ror.org/05hffr360,AE,Abu Dhabi,Khalifa University of Science and Technology,education,2,2,4,0.5
+https://ror.org/05nkf0n29,CA,Fredericton,University of New Brunswick,education,2,2,4,0.5
+https://ror.org/00pjdza24,US,Oakland,University of California System,education,117,120,237,0.493670886
+https://ror.org/03ydkyb10,US,Madison,University of Wisconsin System,education,40,42,82,0.487804878
+https://ror.org/0112mx960,JP,Tokyo,Tokyo Institute of Technology,education,15,16,31,0.483870968
+https://ror.org/01q3tbs38,SA,Jeddah,King Abdullah University of Science and Technology,education,14,15,29,0.482758621
+https://ror.org/00shsf120,IE,Dublin,National University of Ireland,education,18,20,38,0.473684211
+https://ror.org/040vwpm13,US,Houston,University of Houston System,education,9,10,19,0.473684211
+https://ror.org/05n911h24,DE,Darmstadt,Technical University of Darmstadt,education,9,10,19,0.473684211
+https://ror.org/048a87296,SE,Uppsala,Uppsala University,education,22,25,47,0.468085106
+https://ror.org/010x8gc63,CA,Saskatoon,University of Saskatchewan,education,7,8,15,0.466666667
+https://ror.org/00py81415,US,Durham,Duke University,education,19,22,41,0.463414634
+https://ror.org/03dbr7087,CA,Toronto,University of Toronto,education,18,21,39,0.461538462
+https://ror.org/05f0yaq80,SE,Stockholm,Stockholm University,education,6,7,13,0.461538462
+https://ror.org/04m01e293,GB,York,University of York,education,16,19,35,0.457142857
+https://ror.org/0054f1w39,US,Phoenix,Arizona's Public Universities,government,25,30,55,0.454545455
+https://ror.org/03tgsfw79,JP,Kobe,Kobe University,education,5,6,11,0.454545455
+https://ror.org/04m5j1k67,DK,Aalborg,Aalborg University,education,5,6,11,0.454545455
+https://ror.org/04ttjf776,AU,Melbourne,RMIT University,education,5,6,11,0.454545455
+https://ror.org/052g8jq94,ES,Cerdanyola del Vallès,Universitat Autònoma de Barcelona,education,5,6,11,0.454545455
+https://ror.org/057zh3y96,JP,Tokyo,The University of Tokyo,education,47,58,105,0.447619048
+https://ror.org/024mw5h28,US,Chicago,University of Chicago,education,28,35,63,0.444444444
+https://ror.org/00vtgdb53,GB,Glasgow,University of Glasgow,education,20,25,45,0.444444444
+https://ror.org/0082ybm03,US,Lubbock,Texas Tech University System,education,8,10,18,0.444444444
+https://ror.org/01aj84f44,DK,Aarhus,Aarhus University,education,8,10,18,0.444444444
+https://ror.org/028rypz17,FR,Orsay,University of Paris-Sud,education,8,10,18,0.444444444
+https://ror.org/05dk0ce17,US,Pullman,Washington State University,education,8,10,18,0.444444444
+https://ror.org/03f0f6041,AU,Sydney,University of Technology Sydney,education,4,5,9,0.444444444
+https://ror.org/03mb6wj31,ES,Barcelona,Universitat Politècnica de Catalunya,education,4,5,9,0.444444444
+https://ror.org/05qpz1x62,DE,Jena,Friedrich Schiller University Jena,education,4,5,9,0.444444444
+https://ror.org/01dq60k83,JP,Sendai,Tohoku University,education,19,24,43,0.441860465
+https://ror.org/01v29qb04,GB,Durham,Durham University,education,11,14,25,0.44
+https://ror.org/03q8dnn23,HK,Hong Kong,City University of Hong Kong,education,34,44,78,0.435897436
+https://ror.org/03xjwb503,FR,Gif-sur-Yvette,University of Paris-Saclay,education,10,13,23,0.434782609
+https://ror.org/04qtj9h94,DK,Kongens Lyngby,Technical University of Denmark,education,12,16,28,0.428571429
+https://ror.org/006hf6230,NL,Enschede,University of Twente,education,6,8,14,0.428571429
+https://ror.org/01jdpyv68,DE,Saarbrücken,Saarland University,education,3,4,7,0.428571429
+https://ror.org/01zvqw119,NZ,Auckland,Auckland University of Technology,education,3,4,7,0.428571429
+https://ror.org/02gfys938,CA,Winnipeg,University of Manitoba,education,3,4,7,0.428571429
+https://ror.org/03sxdvx36,US,Reno,Nevada System of Higher Education,education,3,4,7,0.428571429
+https://ror.org/03yrrjy16,DK,Odense,University of Southern Denmark,education,3,4,7,0.428571429
+https://ror.org/040c17130,KR,Daegu,Kyungpook National University,education,3,4,7,0.428571429
+https://ror.org/04raf6v53,US,Golden,Colorado School of Mines,education,3,4,7,0.428571429
+https://ror.org/02smfhw86,US,Blacksburg,Virginia Tech,education,11,16,27,0.407407407
+https://ror.org/02bfwt286,AU,Melbourne,Monash University,education,12,18,30,0.4
+https://ror.org/00jc20583,US,Boulder,University of Colorado System,education,8,12,20,0.4
+https://ror.org/01sf06y89,AU,Sydney,Macquarie University,education,6,9,15,0.4
+https://ror.org/02wn5qz54,GB,St Andrews,University of St Andrews,education,6,9,15,0.4
+https://ror.org/026wwrx19,MY,Kuala Lumpur,University of Kuala Lumpur,education,4,6,10,0.4
+https://ror.org/02nkf1q06,GB,Colchester,University of Essex,education,4,6,10,0.4
+https://ror.org/04pp8hn57,NL,Utrecht,Utrecht University,education,4,6,10,0.4
+https://ror.org/04tsk2644,DE,Bochum,Ruhr University Bochum,education,4,6,10,0.4
+https://ror.org/00dn4t376,GB,London,Brunel University London,education,2,3,5,0.4
+https://ror.org/00g30e956,DE,Hamburg,Universität Hamburg,education,2,3,5,0.4
+https://ror.org/01111rn36,IT,Bologna,University of Bologna,education,2,3,5,0.4
+https://ror.org/015m7wh34,FR,Rennes,University of Rennes,education,2,3,5,0.4
+https://ror.org/01c27hj86,PT,Lisbon,University of Lisbon,education,2,3,5,0.4
+https://ror.org/01easw929,KR,Incheon,Inha University,education,2,3,5,0.4
+https://ror.org/02dgjyy92,US,Coral Gables,University of Miami,education,2,3,5,0.4
+https://ror.org/037wpkx04,PT,Braga,University of Minho,education,2,3,5,0.4
+https://ror.org/03rwgpn18,US,Potsdam,Clarkson University,education,2,3,5,0.4
+https://ror.org/0403qcr87,TH,Pathum Thani,Asian Institute of Technology,education,2,3,5,0.4
+https://ror.org/046865y68,KR,Seoul,Hanyang University,education,2,3,5,0.4
+https://ror.org/04cnfrn26,GB,London,University of the Arts London,education,2,3,5,0.4
+https://ror.org/01ryk1543,GB,Southampton,University of Southampton,education,14,22,36,0.388888889
+https://ror.org/01tgyzw49,SG,Singapore,National University of Singapore,education,94,151,245,0.383673469
+https://ror.org/017wcm924,US,Atlanta,University System of Georgia,education,46,76,122,0.37704918
+https://ror.org/026vcq606,SE,Stockholm,KTH Royal Institute of Technology,education,18,30,48,0.375
+https://ror.org/0213rcc28,CA,Burnaby,Simon Fraser University,education,6,10,16,0.375
+https://ror.org/04h9pn542,KR,Seoul,Seoul National University,education,6,10,16,0.375
+https://ror.org/03angcq70,GB,Birmingham,University of Birmingham,education,12,22,34,0.352941176
+https://ror.org/04p491231,US,State College,Pennsylvania State University,education,14,26,40,0.35
+https://ror.org/027m9bs27,GB,Manchester,University of Manchester,education,42,82,124,0.338709677
+https://ror.org/040wg7k59,SE,Gothenburg,Chalmers University of Technology,education,12,24,36,0.333333333
+https://ror.org/01nffqt88,IT,Milan,Politecnico di Milano,education,6,12,18,0.333333333
+https://ror.org/04h699437,GB,Leicester,University of Leicester,education,6,12,18,0.333333333
+https://ror.org/05vghhr25,FI,Turku,University of Turku,education,4,8,12,0.333333333
+https://ror.org/016476m91,GB,Aberdeen,University of Aberdeen,education,3,6,9,0.333333333
+https://ror.org/02rx3b187,FR,Saint-Martin-d'Hères,Université Grenoble Alpes,education,3,6,9,0.333333333
+https://ror.org/04vmvtb21,US,New Orleans,Tulane University,education,3,6,9,0.333333333
+https://ror.org/05vvhh982,US,Little Rock,University of Arkansas System,education,3,6,9,0.333333333
+https://ror.org/0005w8d69,IT,Camerino,Università di Camerino,education,2,4,6,0.333333333
+https://ror.org/00n3w3b69,GB,Glasgow,University of Strathclyde,education,2,4,6,0.333333333
+https://ror.org/00saywf64,KR,Chinju,Gyeongsang National University,education,2,4,6,0.333333333
+https://ror.org/01p93h210,AU,Adelaide,University of South Australia,education,2,4,6,0.333333333
+https://ror.org/021018s57,ES,Barcelona,Universitat de Barcelona,education,2,4,6,0.333333333
+https://ror.org/02azyry73,DE,Siegen,University of Siegen,education,2,4,6,0.333333333
+https://ror.org/02kn6nx58,JP,Tokyo,Keio University,education,2,4,6,0.333333333
+https://ror.org/02xawj266,US,Mount Pleasant,Central Michigan University,education,2,4,6,0.333333333
+https://ror.org/03qnxaf80,US,New York,Fordham University,education,2,4,6,0.333333333
+https://ror.org/042tdr378,US,Dallas,Southern Methodist University,education,2,4,6,0.333333333
+https://ror.org/054pv6659,AT,Innsbruck,Universität Innsbruck,education,2,4,6,0.333333333
+https://ror.org/008x57b05,BE,Antwerpen,University of Antwerp,education,1,2,3,0.333333333
+https://ror.org/009ey6w22,US,Austin,Texas State University System,education,1,2,3,0.333333333
+https://ror.org/00bx6dj65,JP,Tokyo,Hosei University,education,1,2,3,0.333333333
+https://ror.org/00q09pe49,TW,Taipei,National Taiwan University of Science and Technology,education,1,2,3,0.333333333
+https://ror.org/00r4sry34,AU,Perth,Murdoch University,education,1,2,3,0.333333333
+https://ror.org/00zm4rq24,US,West Haven,University of New Haven,education,1,2,3,0.333333333
+https://ror.org/010gxg263,CA,Québec,Université du Québec,education,1,2,3,0.333333333
+https://ror.org/014qpa824,US,Saint Paul,Minnesota State Colleges and Universities System,education,1,2,3,0.333333333
+https://ror.org/0197qh103,US,Anaheim,South Baylo University,education,1,2,3,0.333333333
+https://ror.org/01hcyya48,US,Cincinnati,Cincinnati Children's Hospital Medical Center,healthcare,1,2,3,0.333333333
+https://ror.org/029m7xn54,US,San Francisco,University of San Francisco,education,1,2,3,0.333333333
+https://ror.org/029pk6x14,FI,Turku,Åbo Akademi University,education,1,2,3,0.333333333
+https://ror.org/02zw4ef94,ZW,Harare,Sam Moyo African Institute for Agrarian Studies,nonprofit,1,2,3,0.333333333
+https://ror.org/036x5ad56,LU,Luxembourg,University of Luxembourg,education,1,2,3,0.333333333
+https://ror.org/039bjqg32,PL,Warsaw,University of Warsaw,education,1,2,3,0.333333333
+https://ror.org/03hbp5t65,US,Moscow,University of Idaho,education,1,2,3,0.333333333
+https://ror.org/03mcx2558,IR,Gorgān,Golestan University of Medical Sciences,education,1,2,3,0.333333333
+https://ror.org/03qbxj466,US,Dallas,University of North Texas System,education,1,2,3,0.333333333
+https://ror.org/03t52dk35,AU,Richmond,Western Sydney University,education,1,2,3,0.333333333
+https://ror.org/03yj89h83,FI,Oulu,University of Oulu,education,1,2,3,0.333333333
+https://ror.org/045x93337,US,New York,Yeshiva University,education,1,2,3,0.333333333
+https://ror.org/04j7mzp05,JP,Takamatsu,Kagawa University,education,1,2,3,0.333333333
+https://ror.org/04p4y6r60,US,Brookville,LIU Post,education,1,2,3,0.333333333
+https://ror.org/04r659a56,AU,Armidale,University of New England,education,1,2,3,0.333333333
+https://ror.org/052bx8q98,KZ,Nur-Sultan,Nazarbayev University,education,1,2,3,0.333333333
+https://ror.org/052czxv31,NZ,Palmerston North,Massey University,education,1,2,3,0.333333333
+https://ror.org/059dkdx38,TW,Taipei,National Taiwan Normal University,education,1,2,3,0.333333333
+https://ror.org/05gvnxz63,US,Lemont,Argonne National Laboratory,facility,1,2,3,0.333333333
+https://ror.org/05t1h8f27,GB,Huddersfield,University of Huddersfield,education,1,2,3,0.333333333
+https://ror.org/05yc6p159,KR,Daegu,Yeungnam University,education,1,2,3,0.333333333
+https://ror.org/04vnq7t77,DE,Stuttgart,University of Stuttgart,education,12,26,38,0.315789474
+https://ror.org/042tfbd02,FR,Palaiseau,Institut Polytechnique de Paris,education,6,13,19,0.315789474
+https://ror.org/00ntfnx83,JP,Tokyo,Waseda University,education,10,22,32,0.3125
+https://ror.org/02e7b5302,SG,Singapore,Nanyang Technological University,education,40,98,138,0.289855072
+https://ror.org/01ee9ar58,GB,Nottingham,University of Nottingham,education,17,42,59,0.288135593
+https://ror.org/02grkyz14,CA,London,Western University,education,8,20,28,0.285714286
+https://ror.org/04vg4w365,GB,Loughborough,Loughborough University,education,8,20,28,0.285714286
+https://ror.org/05591te55,DE,Munich,Ludwig-Maximilians-Universität München,education,8,20,28,0.285714286
+https://ror.org/000t0f062,HK,Tai Po,Education University of Hong Kong,education,4,10,14,0.285714286
+https://ror.org/04haebc03,CA,St. John's,Memorial University of Newfoundland,education,4,10,14,0.285714286
+https://ror.org/03q170s02,IT,Florence,Associazione Malattie Autoimmuni Mario Rossi,other,2,5,7,0.285714286
+https://ror.org/04qw24q55,NL,Wageningen,Wageningen University & Research,education,11,28,39,0.282051282
+https://ror.org/00pg6eq24,FR,Strasbourg,University of Strasbourg,education,6,16,22,0.272727273
+https://ror.org/05apxxy63,KR,Daejeon,Korea Advanced Institute of Science and Technology,education,6,16,22,0.272727273
+https://ror.org/0160cpw27,CA,Edmonton,University of Alberta,education,12,34,46,0.260869565
+https://ror.org/04dkp9463,NL,Amsterdam,University of Amsterdam,education,6,17,23,0.260869565
+https://ror.org/035b05819,DK,Copenhagen,University of Copenhagen,education,11,32,43,0.255813953
+https://ror.org/04xs57h96,GB,Liverpool,University of Liverpool,education,10,30,40,0.25
+https://ror.org/012a77v79,SE,Lund,Lund University,education,8,24,32,0.25
+https://ror.org/004raaa70,FR,Toulouse,Université de Toulouse,education,2,6,8,0.25
+https://ror.org/00ayhx656,GB,Brighton,University of Sussex,education,2,6,8,0.25
+https://ror.org/00f7hpc57,DE,Erlangen,Friedrich-Alexander-Universität Erlangen-Nürnberg,education,2,6,8,0.25
+https://ror.org/00g5sqv46,ES,Tarragona,Universidad Rovira i Virgili,education,2,6,8,0.25
+https://ror.org/0293rh119,US,Eugene,University of Oregon,education,2,6,8,0.25
+https://ror.org/02p0gd045,ES,Madrid,Universidad Complutense de Madrid,education,2,6,8,0.25
+https://ror.org/03zyp6p76,JP,Yokohama,Yokohama National University,education,2,6,8,0.25
+https://ror.org/040af2s02,FI,Helsinki,University of Helsinki,education,8,26,34,0.235294118
+https://ror.org/00cv9y106,BE,Ghent,Ghent University,education,4,14,18,0.222222222
+https://ror.org/013meh722,GB,Cambridge,University of Cambridge,education,6,24,30,0.2
+https://ror.org/05xg72x27,NO,Trondheim,Norwegian University of Science and Technology,education,4,16,20,0.2
+https://ror.org/00jtmb277,AU,Wollongong,University of Wollongong,education,3,12,15,0.2
+https://ror.org/01hhn8329,DE,Munich,Max Planck Society,nonprofit,2,8,10,0.2
+https://ror.org/023p7mg82,CA,Thunder Bay,Lakehead University,education,2,8,10,0.2
+https://ror.org/03gnr7b55,FR,Nantes,Nantes Université,education,2,8,10,0.2
+https://ror.org/05ynxx418,SE,Linköping,Linköping University,education,2,8,10,0.2
+https://ror.org/011vh9z64,US,Newark,Rutgers University–Newark,education,1,4,5,0.2
+https://ror.org/023znxa73,RU,Saint Petersburg,St Petersburg University,education,1,4,5,0.2
+https://ror.org/0245cg223,DE,Freiburg im Breisgau,University of Freiburg,education,1,4,5,0.2
+https://ror.org/030deh410,NL,Delft,IHE Delft Institute for Water Education,education,1,4,5,0.2
+https://ror.org/03qqbe534,KR,Chungju-si,Korea National University of Transportation,education,1,4,5,0.2
+https://ror.org/04f6hmf16,FR,Montpellier,Languedoc-Roussillon Universities,other,1,4,5,0.2
+https://ror.org/04y8cs423,FR,Paris,Mines Paris - PSL,education,1,4,5,0.2
+https://ror.org/0504dfg48,JP,Sendai,Tohoku Gakuin University,education,1,4,5,0.2
+https://ror.org/05kzjxq56,KR,Gwangju,Chonnam National University,education,1,4,5,0.2
+https://ror.org/03v4gjf40,DE,Berlin,Technische Universität Berlin,education,2,9,11,0.181818182
+https://ror.org/00wqdbc63,AU,Perth,Government of Western Australia,government,2,12,14,0.142857143
+https://ror.org/01tmqtf75,GB,Salford,University of Salford,education,1,6,7,0.142857143
+https://ror.org/049s0rh22,US,Hanover,Dartmouth College,education,1,6,7,0.142857143
+https://ror.org/04xysgw12,KR,Pohang,Pohang University of Science and Technology,education,1,6,7,0.142857143
+https://ror.org/052gg0110,GB,Oxford,University of Oxford,education,6,40,46,0.130434783
+https://ror.org/01xtthb56,NO,Oslo,University of Oslo,education,2,14,16,0.125
+https://ror.org/05bqach95,TW,Taipei,National Taiwan University,education,2,16,18,0.111111111
+https://ror.org/0036rpn28,US,Houghton,Michigan Technological University,education,1,8,9,0.111111111
+https://ror.org/00y0xnp53,PL,Warsaw,Warsaw University of Technology,education,1,8,9,0.111111111
+https://ror.org/035xkbk20,FR,Marseille,Aix-Marseille University,education,1,10,11,0.090909091
+https://ror.org/017nq0d63,GR,Athens,Alexander S Onassis Public Benefit Foundation,other,1,16,17,0.058823529
+https://ror.org/04f2nsd36,GB,Lancaster,Lancaster University,education,0,12,12,0
+https://ror.org/002t25c44,FR,Paris,Université Paris 1 Panthéon-Sorbonne,education,0,9,9,0
+https://ror.org/054kvr030,TW,Taipei,University System of Taiwan,education,0,9,9,0
+https://ror.org/00v408z34,TW,Taichung,China Medical University,education,0,6,6,0
+https://ror.org/04cwrbc27,BR,São Paulo,Hospital Israelita Albert Einstein,healthcare,0,6,6,0
+https://ror.org/013m0ej23,CA,Waterloo,Perimeter Institute,facility,0,5,5,0
+https://ror.org/05dkjfz60,KR,Gumi,Kumoh National Institute of Technology,education,0,5,5,0
+https://ror.org/01t264m74,IT,Rome,Istituto Nazionale per l'Assicurazione Contro gli Infortuni sul Lavoro,facility,0,4,4,0
+https://ror.org/02hqkr514,PH,Quezon City,University of the Philippines System,education,0,4,4,0
+https://ror.org/05tkyf982,IL,Beersheba,Ben-Gurion University of the Negev,education,0,4,4,0
+https://ror.org/00ff5f522,FR,Toulouse,Toulouse School of Economics,education,0,3,3,0
+https://ror.org/00z20c921,GB,Newport,Harper Adams University,education,0,3,3,0
+https://ror.org/01qhqcj41,FR,Troyes,University of Technology of Troyes,education,0,3,3,0
+https://ror.org/02d9dg697,FR,Villejuif,School for Advanced Studies in the Social Sciences,facility,0,3,3,0
+https://ror.org/02hwp6a56,JP,Kanazawa,Kanazawa University,education,0,3,3,0
+https://ror.org/02jmfj006,VN,Hanoi,"Vietnam National University, Hanoi",education,0,3,3,0
+https://ror.org/033bb5z47,DE,Weimar,Bauhaus-Universität Weimar,education,0,3,3,0
+https://ror.org/03bqmcz70,PL,Krakow,Jagiellonian University,education,0,3,3,0
+https://ror.org/03ryywt80,KR,Seongnam-si,Gachon University,education,0,3,3,0
+https://ror.org/04jr1s763,IT,Florence,University of Florence,education,0,3,3,0
+https://ror.org/052bz7812,FR,Paris,Université Paris Dauphine-PSL,education,0,3,3,0
+https://ror.org/056tn4839,KR,Seoul,Sogang University,education,0,3,3,0
+https://ror.org/05yb3w112,SG,Singapore,Singapore-MIT Alliance for Research and Technology,education,0,3,3,0
+https://ror.org/001w7jn25,DE,Berlin,Charité - Universitätsmedizin Berlin,healthcare,0,2,2,0
+https://ror.org/006776986,KR,Iksan,Wonkwang University,education,0,2,2,0
+https://ror.org/009gmrj52,FR,Écully,EMLYON Business School,education,0,2,2,0
+https://ror.org/00sjd5653,JP,Ibaraki,Ibaraki University,education,0,2,2,0
+https://ror.org/013fsnh78,NZ,Hamilton,University of Waikato,education,0,2,2,0
+https://ror.org/016st3p78,SE,Luleå,Luleå University of Technology,education,0,2,2,0
+https://ror.org/01cby8j38,ES,Madrid,Autonomous University of Madrid,education,0,2,2,0
+https://ror.org/01fpnj063,KR,Seoul,Catholic University of Korea,education,0,2,2,0
+https://ror.org/01fxdkm29,JP,Kyoto,Doshisha University,education,0,2,2,0
+https://ror.org/01mh5ph17,KR,Chuncheon,Kangwon National University,education,0,2,2,0
+https://ror.org/01tm6cn81,SE,Gothenburg,University of Gothenburg,education,0,2,2,0
+https://ror.org/01vxg3438,BD,Pābna,Pabna University of Science and Technology,education,0,2,2,0
+https://ror.org/01zqcg218,KR,Seoul,Kyung Hee University,education,0,2,2,0
+https://ror.org/02278tr80,JP,Kitakyushu,Kyushu Institute of Technology,education,0,2,2,0
+https://ror.org/024kbgz78,KR,Gwangju,Gwangju Institute of Science and Technology,education,0,2,2,0
+https://ror.org/026w31v75,MY,Johor Bahru,University of Technology Malaysia,education,0,2,2,0
+https://ror.org/02xf7p935,KR,Incheon,Incheon National University,education,0,2,2,0
+https://ror.org/02z1n9q24,JP,Okinawa,University of the Ryukyus,education,0,2,2,0
+https://ror.org/02zx40v98,AT,Vienna,Central European University,education,0,2,2,0
+https://ror.org/03ad39j10,IT,Pisa,University of Pisa,education,0,2,2,0
+https://ror.org/03aky0p13,DE,Berlin,Mediadesign Hochschule für Design und Informatik,education,0,2,2,0
+https://ror.org/03e29r284,TW,Taipei,National Taipei University,education,0,2,2,0
+https://ror.org/03pm18j10,US,Hempstead,Hofstra University,education,0,2,2,0
+https://ror.org/03ykbk197,GB,Portsmouth,University of Portsmouth,education,0,2,2,0
+https://ror.org/03zga2b32,NO,Bergen,University of Bergen,education,0,2,2,0
+https://ror.org/047dqcg40,KR,Seoul,Korea University,education,0,2,2,0
+https://ror.org/04dx32582,FR,Vandœuvre-lès-Nancy,"Adaptation, mesure et évaluation en santé. Approches interdisciplinaires",facility,0,2,2,0
+https://ror.org/04sk34n56,FR,Paris,Total (France),company,0,2,2,0
+https://ror.org/04wffgt70,BR,Campinas,Universidade Estadual de Campinas (UNICAMP),education,0,2,2,0
+https://ror.org/04ycpbx82,GB,London,University of Westminster,education,0,2,2,0
+https://ror.org/0563pg902,HK,Tuen Mun,Lingnan University,education,0,2,2,0
+https://ror.org/05ate2e14,FR,Douai,École des Mines de Douai,education,0,2,2,0
+https://ror.org/05m2fqn25,TH,Chiang Mai,Chiang Mai University,education,0,2,2,0
+https://ror.org/0028v3876,TW,Minxiong,National Chung Cheng University,education,0,1,1,0
+https://ror.org/00376bg92,GU,Mangilao Village,University of Guam,education,0,1,1,0
+https://ror.org/004fze387,IT,Trieste,Scuola Internazionale Superiore di Studi Avanzati,education,0,1,1,0
+https://ror.org/005cqv449,IT,Busto Arsizio,Associazione Bianca Garavaglia Onlus,other,0,1,1,0
+https://ror.org/005gkfa10,TW,Changhua,National Changhua University of Education,education,0,1,1,0
+https://ror.org/006ffhv52,IT,Trieste,International School of Trieste,education,0,1,1,0
+https://ror.org/006jxzx88,AU,Gold Coast,Bond University,education,0,1,1,0
+https://ror.org/0076zct58,DE,Köthen,Anhalt University of Applied Sciences,education,0,1,1,0
+https://ror.org/0097mbe50,UA,Kharkiv,Kharkiv National University of Construction and Architecture,education,0,1,1,0
+https://ror.org/00b3mhg89,IN,Chennai,Tamil Nadu Dr. M.G.R. Medical University,education,0,1,1,0
+https://ror.org/00bw4x405,KR,Seongnam-si,Academy of Korean Studies,education,0,1,1,0
+https://ror.org/00bw8d226,MY,Bangi,National University of Malaysia,education,0,1,1,0
+https://ror.org/00cg1ev32,US,Big Rapids,Ferris State University,education,0,1,1,0
+https://ror.org/00excyz84,CY,Famagusta,Eastern Mediterranean University,education,0,1,1,0
+https://ror.org/00f2yqf98,DE,Hanover,Medizinische Hochschule Hannover,education,0,1,1,0
+https://ror.org/00frst980,CA,Vancouver,University of British Columbia Hospital,healthcare,0,1,1,0
+https://ror.org/00m2s0z68,US,Harrisburg,Pennsylvania State System of Higher Education,education,0,1,1,0
+https://ror.org/00m6w7z96,PH,Laoag,Northwestern University,education,0,1,1,0
+https://ror.org/00mc18523,AE,Dubai,British University in Dubai,education,0,1,1,0
+https://ror.org/00mjawt10,TW,Kaohsiung,National Sun Yat-sen University,education,0,1,1,0
+https://ror.org/00mp1mt27,US,Skokie,Knowledge Systems Institute,education,0,1,1,0
+https://ror.org/00mp6e841,US,Terre Haute,Rose–Hulman Institute of Technology,education,0,1,1,0
+https://ror.org/00mx91s63,DE,Eichstätt,Catholic University of Eichstätt-Ingolstadt,education,0,1,1,0
+https://ror.org/00ndx3g44,JP,Hamamatsu,Hamamatsu University School of Medicine,education,0,1,1,0
+https://ror.org/00pdej676,PL,Krakow,Cracow University of Technology,education,0,1,1,0
+https://ror.org/00pv45a02,DE,Münster,FH Münster,education,0,1,1,0
+https://ror.org/00qwnam72,JP,Narashino,Chiba Institute of Technology,education,0,1,1,0
+https://ror.org/00rwzgx62,US,Hays,Fort Hays State University,education,0,1,1,0
+https://ror.org/00s6t1f81,IT,Pavia,University of Pavia,education,0,1,1,0
+https://ror.org/00tkrft03,SE,Kristianstad,Kristianstad University,education,0,1,1,0
+https://ror.org/00v0ean07,FR,Nantes,French Society of Periodontology,healthcare,0,1,1,0
+https://ror.org/00v542r37,SE,Malmö,World Maritime University,education,0,1,1,0
+https://ror.org/00vnaf984,UA,Sumy,Sumy National Agrarian University,education,0,1,1,0
+https://ror.org/00vq1d511,JP,Fukuroi,Shizuoka Institute of Science and Technology,education,0,1,1,0
+https://ror.org/00wfvh315,AU,Bathurst,Charles Sturt University,education,0,1,1,0
+https://ror.org/00wk3s644,FR,Talence,Kedge Business School,education,0,1,1,0
+https://ror.org/00wqtx630,US,Columbia,South Carolina Technical College System,education,0,1,1,0
+https://ror.org/00wy14q17,TW,Taipei,National Taiwan University of Arts,education,0,1,1,0
+https://ror.org/00wyq5s37,TW,Taipei,St. John's University,education,0,1,1,0
+https://ror.org/01044vd48,JP,Tokyo,Tama Art University,education,0,1,1,0
+https://ror.org/0107c5v14,IT,Genoa,University of Genoa,education,0,1,1,0
+https://ror.org/010f1sq29,ZA,Potchefstroom,North-West University,education,0,1,1,0
+https://ror.org/010n41y16,US,Cape Girardeau,Southeast Missouri State University,education,0,1,1,0
+https://ror.org/010zh7098,CA,Halifax,Saint Mary's University,education,0,1,1,0
+https://ror.org/012a91z28,ES,Zaragoza,Universidad de Zaragoza,education,0,1,1,0
+https://ror.org/012jban78,US,Charleston,Medical University of South Carolina,education,0,1,1,0
+https://ror.org/012tqgb57,JP,Kyoto,Ryukoku University,education,0,1,1,0
+https://ror.org/013bkhk48,FR,Paris,Université Paris Nanterre,education,0,1,1,0
+https://ror.org/013cjyk83,FR,Paris,Université Paris Sciences et Lettres,education,0,1,1,0
+https://ror.org/014nnvj65,DE,Köln,TH Köln - University of Applied Sciences,education,0,1,1,0
+https://ror.org/014x8q810,DE,Ulm,Zentrum für Sonnenenergie- und Wasserstoff-Forschung Baden-Württemberg,nonprofit,0,1,1,0
+https://ror.org/015m2p889,GB,Aberystwyth,Aberystwyth University,education,0,1,1,0
+https://ror.org/0168zcn11,KR,Seoul,Korea National University of Arts,education,0,1,1,0
+https://ror.org/01a28zg77,ES,Donostia / San Sebastián,"Basque Center on Cognition, Brain and Language",facility,0,1,1,0
+https://ror.org/01b25wz12,US,Lakeland,Southeastern University,education,0,1,1,0
+https://ror.org/01b6kha49,AU,Melbourne,Walter and Eliza Hall Institute of Medical Research,nonprofit,0,1,1,0
+https://ror.org/01bbs6821,US,Nashville,Fisk University,education,0,1,1,0
+https://ror.org/01cf8y887,IT,Venice,Accademia di Belle Arti di Venezia,education,0,1,1,0
+https://ror.org/01db6h964,IS,Reykjavik,University of Iceland,education,0,1,1,0
+https://ror.org/01dp7jr64,BI,Bujumbura,École Normale Supérieure,education,0,1,1,0
+https://ror.org/01eyjev41,MX,Puebla,Universidad Europea,education,0,1,1,0
+https://ror.org/01fmwcn13,US,Murray,Murray State University,education,0,1,1,0
+https://ror.org/01fv1ds98,TW,Taoyuan,Yuan Ze University,education,0,1,1,0
+https://ror.org/01g1pe685,FR,Mont-Saint-Aignan,NEOMA Business School,education,0,1,1,0
+https://ror.org/01hxy9878,IE,Dublin,Royal College of Surgeons in Ireland,education,0,1,1,0
+https://ror.org/01jaaym28,JP,Matsue,Shimane University,education,0,1,1,0
+https://ror.org/01jsq2704,HU,Budapest,Eötvös Loránd University,education,0,1,1,0
+https://ror.org/01k40cz91,FR,Caen,Normandie Université,education,0,1,1,0
+https://ror.org/01k6b9k02,US,Pasadena,Fuller Theological Seminary,other,0,1,1,0
+https://ror.org/01mmcf932,US,San Francisco,California College of the Arts,education,0,1,1,0
+https://ror.org/01mtcc283,FR,Le Mans,Le Mans Université,education,0,1,1,0
+https://ror.org/01p6yxw64,FR,Paris,Groupe des Écoles Nationales d'Économie et Statistique,facility,0,1,1,0
+https://ror.org/01pp0fx48,US,Valparaiso,Valparaiso University,education,0,1,1,0
+https://ror.org/01s033b11,GB,Glasgow,Glasgow School of Art,education,0,1,1,0
+https://ror.org/01s5zad14,SE,Stockholm,Skanska (Sweden),company,0,1,1,0
+https://ror.org/01v2m4n16,BE,Brussels,Erasmus+,other,0,1,1,0
+https://ror.org/01wjejq96,KR,Seoul,Yonsei University,education,0,1,1,0
+https://ror.org/01wntqw50,TR,Ankara,Ankara University,education,0,1,1,0
+https://ror.org/01x441g73,FR,Villeneuve-d'Ascq,École Centrale de Lille,education,0,1,1,0
+https://ror.org/01yp9g959,GB,Coleraine,University of Ulster,education,0,1,1,0
+https://ror.org/01ythxj32,US,Rochester,Oakland University,education,0,1,1,0
+https://ror.org/020pqc882,TW,Tainan City,National University of Tainan,education,0,1,1,0
+https://ror.org/020z26690,RU,Moscow,Moscow State Linguistic University,education,0,1,1,0
+https://ror.org/021036w13,BY,Minsk,Belarusian State University,education,0,1,1,0
+https://ror.org/021kg9v06,AT,Innsbruck,Management Center Innsbruck,education,0,1,1,0
+https://ror.org/0234wmv40,DE,Bayreuth,University of Bayreuth,education,0,1,1,0
+https://ror.org/02376g836,HU,Budapest,Franz Liszt Academy of Music,archive,0,1,1,0
+https://ror.org/023ffhx15,FR,Compiègne,Laboratoire Roberval,facility,0,1,1,0
+https://ror.org/024d6js02,CZ,Prague,Charles University,education,0,1,1,0
+https://ror.org/025h1m602,KR,Seoul,Konkuk University,education,0,1,1,0
+https://ror.org/0267vjk41,GB,Hatfield,University of Hertfordshire,education,0,1,1,0
+https://ror.org/026k5mg93,GB,Norwich,University of East Anglia,education,0,1,1,0
+https://ror.org/0274e5q02,US,Boston,Boston Conservatory,education,0,1,1,0
+https://ror.org/027b9qx26,DE,Krefeld,Hochschule Niederrhein,education,0,1,1,0
+https://ror.org/027tyzk91,JP,Tokyo,Tokyo University of Foreign Studies,education,0,1,1,0
+https://ror.org/0290wsh42,IT,Pavia,Istituto Universitario di Studi Superiori di Pavia,education,0,1,1,0
+https://ror.org/02at53m79,PK,Nowshera,Northern University,education,0,1,1,0
+https://ror.org/02az5b805,FR,Montigny-le-Bretonneux,École Supérieure des Techniques Aéronautiques et de Construction Automobile,education,0,1,1,0
+https://ror.org/02cgss904,JP,Kumamoto,Kumamoto University,education,0,1,1,0
+https://ror.org/02db9yt31,AU,Sydney,Cure Brain Cancer Foundation,nonprofit,0,1,1,0
+https://ror.org/02e3zdp86,US,Boise,Boise State University,education,0,1,1,0
+https://ror.org/02eqchk86,KR,Daejeon,Daejeon University,education,0,1,1,0
+https://ror.org/02f009v59,IL,Haifa,University of Haifa,education,0,1,1,0
+https://ror.org/02f08fz18,FR,Rennes,Rennes School of Business,education,0,1,1,0
+https://ror.org/02fzfx471,IN,New Delhi,Indira Gandhi National Open University,education,0,1,1,0
+https://ror.org/02g7kd627,US,Radnor,Villanova University,education,0,1,1,0
+https://ror.org/02h7vzs32,KR,Seoul,Korea Development Institute,facility,0,1,1,0
+https://ror.org/02hpadn98,DE,Bielefeld,Bielefeld University,education,0,1,1,0
+https://ror.org/02kaerj47,AE,Ajman City,Gulf Medical University,education,0,1,1,0
+https://ror.org/02kbmgc12,FR,Paris,AgroParisTech,education,0,1,1,0
+https://ror.org/02kq26x23,GR,Pátra,Hellenic Open University,education,0,1,1,0
+https://ror.org/02m5dy175,FR,Metz,Georgia Tech Lorraine,education,0,1,1,0
+https://ror.org/02p2msn36,US,Adrian,Siena Heights University,education,0,1,1,0
+https://ror.org/02qsmb048,RS,Belgrade,University of Belgrade,education,0,1,1,0
+https://ror.org/02rcrvv70,US,"Washington, D.C.",Government of the United States of America,government,0,1,1,0
+https://ror.org/02rg1r889,NP,Kathmandu,Tribhuvan University,education,0,1,1,0
+https://ror.org/02sf5td35,MO,Macao,Macao Polytechnic University,education,0,1,1,0
+https://ror.org/02srty072,KR,Daejeon,Woosong University,education,0,1,1,0
+https://ror.org/02sshz518,US,Macomb,Western Illinois University,education,0,1,1,0
+https://ror.org/02t9fsj94,JP,Obihiro,Obihiro University of Agriculture and Veterinary Medicine,education,0,1,1,0
+https://ror.org/02vwnat91,GB,London,London South Bank University,education,0,1,1,0
+https://ror.org/02w7vnb60,IN,Tiruchirappalli,Bharathidasan University,education,0,1,1,0
+https://ror.org/02x6r5976,FI,Vihti,Hengityssairauksien Tutkimussäätiö,nonprofit,0,1,1,0
+https://ror.org/02xankh89,PT,Lisbon,Universidade Nova de Lisboa,education,0,1,1,0
+https://ror.org/02xf66n48,HU,Debrecen,University of Debrecen,education,0,1,1,0
+https://ror.org/02yrs2n53,DE,Bremen,Constructor University,education,0,1,1,0
+https://ror.org/02znffm54,JP,Osaka,Osaka Institute of Technology,education,0,1,1,0
+https://ror.org/030m18266,TW,Taipei,Tatung University,education,0,1,1,0
+https://ror.org/0316ej306,IL,Rehovot,Weizmann Institute of Science,education,0,1,1,0
+https://ror.org/03490as77,BR,Rio de Janeiro,Universidade Federal do Rio de Janeiro,education,0,1,1,0
+https://ror.org/035h6g182,ES,Madrid,Centro de Estudios Monetarios y Financieros,education,0,1,1,0
+https://ror.org/036qcm975,US,San Francisco,San Francisco Art Institute,education,0,1,1,0
+https://ror.org/036rp1748,BR,São Paulo,Universidade de São Paulo,education,0,1,1,0
+https://ror.org/037b5pv06,HU,Pécs,University of Pecs,education,0,1,1,0
+https://ror.org/038z5mp14,US,"Washington, D.C.",Organization of American States,other,0,1,1,0
+https://ror.org/03a1kwz48,DE,Tübingen,University of Tübingen,education,0,1,1,0
+https://ror.org/03a9mf398,RU,Moscow,Moscow State Pedagogical University,education,0,1,1,0
+https://ror.org/03b6cpn03,UA,Odesa,Odesa I. I. Mechnikov National University,education,0,1,1,0
+https://ror.org/03bnmw459,DE,Potsdam,University of Potsdam,education,0,1,1,0
+https://ror.org/03c4atk17,CH,Lugano,Università della Svizzera italiana,education,0,1,1,0
+https://ror.org/03cg7cp61,EG,Cairo,Nile University,education,0,1,1,0
+https://ror.org/03cxys317,JP,Yamaguchi,Yamaguchi University,education,0,1,1,0
+https://ror.org/03erkev52,MA,Ifrane,Al Akhawayn University,education,0,1,1,0
+https://ror.org/03eznrw16,DE,Berlin,Berlin University of the Arts,education,0,1,1,0
+https://ror.org/03gk81f96,TW,Kaohsiung,Kaohsiung Medical University,education,0,1,1,0
+https://ror.org/03hn03h23,LB,Beirut,Université La Sagesse,education,0,1,1,0
+https://ror.org/03hx4fx74,US,Keuka Park,Keuka College,education,0,1,1,0
+https://ror.org/03k1bsr36,FR,Dijon,University of Burgundy,education,0,1,1,0
+https://ror.org/03mt6tt39,PH,Makati City,Asian Institute of Management,education,0,1,1,0
+https://ror.org/03p14d497,DE,Augsburg,University of Augsburg,education,0,1,1,0
+https://ror.org/03pcc9z86,FR,Besançon,University of Franche-Comté,education,0,1,1,0
+https://ror.org/03q1dcf42,US,Belton,University of Mary Hardin–Baylor,education,0,1,1,0
+https://ror.org/03q201b69,BY,Minsk,Belarussian State Pedagogical University Named After Maxim Tank,education,0,1,1,0
+https://ror.org/03qvqb743,JP,Hachiōji,Chuo University,education,0,1,1,0
+https://ror.org/03qxff017,IL,Jerusalem,Hebrew University of Jerusalem,education,0,1,1,0
+https://ror.org/03qzktr95,ES,Barcelona,EAE Business School,education,0,1,1,0
+https://ror.org/03rkmps36,DE,Berlin,Berlin School of Economics and Law,education,0,1,1,0
+https://ror.org/03sygwm20,PH,Manila,Emilio Aguinaldo College,education,0,1,1,0
+https://ror.org/03v4jhb18,US,Bloomfield Hills,Cranbrook Academy of Art,other,0,1,1,0
+https://ror.org/03wevmz92,US,Boston,Harvard Medical School,education,0,1,1,0
+https://ror.org/040baw385,FR,Marseille,Centrale Marseille,education,0,1,1,0
+https://ror.org/040hhjv66,FR,Paris,ESCP Business School,education,0,1,1,0
+https://ror.org/041yk2d64,BR,Porto Alegre,Universidade Federal do Rio Grande do Sul,education,0,1,1,0
+https://ror.org/041zkgm14,IT,Ferrara,University of Ferrara,education,0,1,1,0
+https://ror.org/042t93s57,IT,Genoa,Italian Institute of Technology,facility,0,1,1,0
+https://ror.org/043kppn11,SE,Kiruna,Swedish Institute of Space Physics,education,0,1,1,0
+https://ror.org/043pwc612,PT,Porto,Universidade do Porto,education,0,1,1,0
+https://ror.org/043rtjx90,UA,Odessa,Odessa National A. V. Nezhdanova Academy of Music,education,0,1,1,0
+https://ror.org/0440znq24,SE,Stockholm,Foundation Blanceflor,other,0,1,1,0
+https://ror.org/0446vnd56,US,Bowling Green,Western Kentucky University,education,0,1,1,0
+https://ror.org/045vxh980,PK,Islamabad,National Defence University,education,0,1,1,0
+https://ror.org/046wvt864,PL,Łódź,Academy of Music in Łódź,education,0,1,1,0
+https://ror.org/047rhhm47,US,Provo,Brigham Young University,education,0,1,1,0
+https://ror.org/048j5n646,UA,Kharkiv,National Aerospace University – Kharkiv Aviation Institute,education,0,1,1,0
+https://ror.org/04agqs597,FR,Pessac,Institut Européen de Chimie et Biologie,facility,0,1,1,0
+https://ror.org/04b6x2g63,US,Chicago,Loyola University Chicago,education,0,1,1,0
+https://ror.org/04bgbsx11,LB,Tripoli,Jinan University,education,0,1,1,0
+https://ror.org/04cf69335,US,St Louis,Washington University in St. Louis School of Medicine,other,0,1,1,0
+https://ror.org/04cqj5759,US,Camden,Rutgers University–Camden,education,0,1,1,0
+https://ror.org/04dp46240,ES,Madrid,Universidad Europea de Madrid,education,0,1,1,0
+https://ror.org/04ers2y35,DE,Bremen,University of Bremen,education,0,1,1,0
+https://ror.org/04fegvg32,US,North Chicago,Rosalind Franklin University of Medicine and Science,education,0,1,1,0
+https://ror.org/04gnjpq42,GR,Athens,National and Kapodistrian University of Athens,education,0,1,1,0
+https://ror.org/04kwvgz42,TR,Ankara,Hacettepe University,education,0,1,1,0
+https://ror.org/04mjt7f73,MY,Petaling Jaya,Sunway University,education,0,1,1,0
+https://ror.org/04mwwnx67,GB,Dundee,Abertay University,education,0,1,1,0
+https://ror.org/04q78tk20,KR,Seoul,Sungkyunkwan University,education,0,1,1,0
+https://ror.org/04qkq2m54,TW,Douliu,National Yunlin University of Science and Technology,education,0,1,1,0
+https://ror.org/04qxnmv42,CZ,Olomouc,Palacký University Olomouc,education,0,1,1,0
+https://ror.org/04rymkk69,JP,Muroran,Muroran Institute of Technology,education,0,1,1,0
+https://ror.org/04s346m05,PH,Quezon City,Commission on Higher Education,education,0,1,1,0
+https://ror.org/04tp6pr14,ID,Bandung,Bandung Islamic University,education,0,1,1,0
+https://ror.org/04ts4qa58,KR,Changwon,Changwon National University,education,0,1,1,0
+https://ror.org/04vjfp916,DE,Magdeburg,Hochschule Magdeburg-Stendal,education,0,1,1,0
+https://ror.org/04vxr4k74,KR,Seoul,Sahmyook University,education,0,1,1,0
+https://ror.org/04wn7wc95,JP,Nagoya,Nagoya City University,education,0,1,1,0
+https://ror.org/04ww21r56,JP,Niigata,Niigata University,education,0,1,1,0
+https://ror.org/04z6c2n17,ZA,Johannesburg,University of Johannesburg,education,0,1,1,0
+https://ror.org/04ze6rb18,ZW,Harare,University of Zimbabwe,education,0,1,1,0
+https://ror.org/051vt5y84,TR,Istanbul,Turkcell (Turkey),company,0,1,1,0
+https://ror.org/05355vt65,BR,Belo Horizonte,Secretaria Municipal de Saúde,government,0,1,1,0
+https://ror.org/053fp5c05,KR,Seoul,Ewha Womans University,education,0,1,1,0
+https://ror.org/053nycv62,KR,Cheonan,Korea University of Technology and Education,education,0,1,1,0
+https://ror.org/0546hnb39,DE,Konstanz,University of Konstanz,education,0,1,1,0
+https://ror.org/0551qsw90,BY,Mahilyow,Belarusian Russian University,education,0,1,1,0
+https://ror.org/056xse072,PL,Rzeszów,Rzeszów University of Technology,education,0,1,1,0
+https://ror.org/0570s7p64,SE,Göteborg,Göteborgs Tandläkare Sällskap,other,0,1,1,0
+https://ror.org/0575ycz84,TH,Songkhla,Prince of Songkla University,education,0,1,1,0
+https://ror.org/057gnqw22,BD,Dhaka,Islamic University of Technology,education,0,1,1,0
+https://ror.org/05a0dhs15,FR,Paris,École Normale Supérieure - PSL,other,0,1,1,0
+https://ror.org/05ddxpg43,FR,Pessac,"École Nationale Supérieure de Chimie, de Biologie et de Physique",education,0,1,1,0
+https://ror.org/05fde5z47,US,Hampton,Hampton University,education,0,1,1,0
+https://ror.org/05fe7ax82,FR,Paris,Sciences Po,facility,0,1,1,0
+https://ror.org/05gt1vc06,US,Washington,Howard University,education,0,1,1,0
+https://ror.org/05h9pgm95,KR,Busan,Kyungsung University,education,0,1,1,0
+https://ror.org/05p40t847,GB,Newcastle upon Tyne,Newcastle upon Tyne Hospitals NHS Foundation Trust,healthcare,0,1,1,0
+https://ror.org/05trd4x28,IT,Trento,University of Trento,education,0,1,1,0
+https://ror.org/05wwcw481,GB,Poole,Bournemouth University,education,0,1,1,0
+https://ror.org/05xydav19,GB,Southampton,Southampton Solent University,education,0,1,1,0

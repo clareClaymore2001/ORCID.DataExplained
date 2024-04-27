@@ -1,0 +1,844 @@
+﻿Country,City,Stay,Leave
+US,Grand Forks,7,0
+DE,Kiel,7,0
+US,Kansas City,6,0
+US,Vermillion,5,0
+US,Socorro,5,0
+DE,Cologne,4,0
+US,Portland,4,0
+US,Pocatello,4,0
+US,Winston-Salem,4,0
+ES,Seville,4,0
+GB,Paisley,4,0
+US,Norfolk,4,0
+AU,Ballarat,3,0
+KZ,Almaty,3,0
+UA,Kyiv,3,0
+ES,Leioa,2,0
+IE,Limerick,2,0
+RU,Yekaterinburg,2,0
+JP,Fukui-shi,2,0
+JP,Matsuyama,2,0
+LT,Kaunas,2,0
+DE,Mainz,2,0
+US,Garden City,2,0
+DE,Ingolstadt,2,0
+SE,Västerås,2,0
+IR,Bīrjand,2,0
+RU,Chelyabinsk,2,0
+DE,Frankfurt am Main,2,0
+US,Pittsburg,2,0
+AU,Toowoomba,2,0
+US,Normal,2,0
+JP,Hayama,2,0
+DE,Paderborn,2,0
+US,Cookeville,2,0
+US,Johnson City,2,0
+MN,Ulaanbaatar,2,0
+PL,Katowice,2,0
+US,Fort Worth,2,0
+US,San Jose,2,0
+JP,Akita,2,0
+IR,Tehran,2,0
+SE,Falun,1,0
+GB,Swindon,1,0
+AE,Sharjah,1,0
+US,Allendale,1,0
+AU,Lismore,1,0
+IQ,Erbil,1,0
+ES,Oviedo,1,0
+US,Livonia,1,0
+US,South Orange,1,0
+AR,José María Ezeiza,1,0
+KE,Limuru,1,0
+US,New Castle,1,0
+NO,Molde,1,0
+TH,Chiang Rai,1,0
+PT,Aveiro,1,0
+VN,Huế,1,0
+US,Idaho Falls,1,0
+GB,Bradford,1,0
+RU,Rostov-na-Donu,1,0
+JP,Yamagata,1,0
+MY,Subang Jaya,1,0
+JP,Nagaoka,1,0
+PK,Malakand,1,0
+US,Tuskegee,1,0
+ES,Valencia,1,0
+AU,Sunshine Coast,1,0
+ZA,Grahamstown,1,0
+US,Morehead,1,0
+SI,Maribor,1,0
+DE,Regensburg,1,0
+PK,Peshawar,1,0
+FR,Amiens,1,0
+IT,L'Aquila,1,0
+AE,Al Ain City,1,0
+US,Montclair,1,0
+JP,Fukayachō,1,0
+US,Saint Charles,1,0
+RO,Bucharest,1,0
+US,Mobile,1,0
+MY,Jitra,1,0
+TW,Jiayi Shi,1,0
+US,Bronx,1,0
+US,Webster Groves,1,0
+US,Middlebury (village),1,0
+US,Round Rock,1,0
+GB,Falmouth,1,0
+KR,Mokpo,1,0
+US,Salem,1,0
+DE,Mittweida,1,0
+TZ,Dar es Salaam,1,0
+US,Oklahoma City,1,0
+US,Marshall,1,0
+JP,Hikone,1,0
+IQ,Najaf,1,0
+US,San Diego,1,0
+JP,Saitama,1,0
+ZW,Bulawayo,1,0
+US,Farmington,1,0
+US,Murfreesboro,1,0
+US,Edmond,1,0
+JP,Fukushima,1,0
+AU,Fremantle,1,0
+DE,Lüneburg,1,0
+FR,Tours,1,0
+DE,Cottbus,1,0
+US,Portales,1,0
+CA,Charlottetown,1,0
+US,Erie,1,0
+FR,Brest,1,0
+US,Bozeman,1,0
+HU,Miskolc,1,0
+IT,Catania,1,0
+TW,Keelung,1,0
+PL,Wrocław,1,0
+US,Valhalla,1,0
+US,Dover,1,0
+AT,Klosterneuburg,1,0
+DE,Rosenheim,1,0
+FR,Nancy,1,0
+ZA,Rondebosch,1,0
+CA,Sudbury,1,0
+PL,Poznań,1,0
+US,Hartford,1,0
+BE,Kontich,1,0
+US,Aurora,1,0
+US,Claremont,1,0
+US,La Jolla,1,0
+FR,Blois,1,0
+RU,Vladivostok,1,0
+BR,Florianópolis,1,0
+US,Valencia,1,0
+SE,Gävle,1,0
+JP,Toyama,1,0
+CA,Lethbridge,1,0
+BR,Recife,1,0
+CL,Santiago,1,0
+US,New York City,1,0
+MY,Ipoh,1,0
+GB,Wrexham,1,0
+EG,Aswān,1,0
+ET,Dīla,1,0
+US,Mankato,1,0
+US,Loma Linda,1,0
+US,Southfield,1,0
+US,Emporia,1,0
+US,Gloucester Point,1,0
+JP,Saga,1,0
+DE,Aalen,1,0
+SE,Mölndal,1,0
+FR,Chasseneuil-du-Poitou,1,0
+US,Mequon,1,0
+US,Peoria,1,0
+IE,Letterkenny,1,0
+ET,Awasa,1,0
+CA,Barrie,1,0
+DE,Hagen,1,0
+PS,Hebron,1,0
+US,Poughkeepsie,1,0
+BR,Juiz de Fora,1,0
+DE,Kassel,1,0
+US,Valdosta,1,0
+DE,Kaiserslautern,1,0
+FI,Rovaniemi,1,0
+US,Pomona,1,0
+US,Orangeburg,1,0
+JP,Ōtawara,1,0
+CH,Saint Gallen,1,0
+US,Florence,1,0
+ET,Gondar,1,0
+US,Forest Grove,1,0
+IT,Messina,1,0
+MU,Moka,1,0
+US,Riverside,1,0
+GB,Carlisle,1,0
+IT,Udine,1,0
+NG,Gusau,1,0
+US,Stockton,1,0
+US,Tacoma,1,0
+US,Bridgeview,1,0
+IT,Siena,1,0
+US,Santa Cruz,1,0
+NG,Lagos,1,0
+US,Indianapolis,11,1
+US,Ypsilanti,10,1
+US,Melbourne,10,1
+US,Laramie,18,2
+US,Clemson,42,5
+US,Las Cruces,16,2
+US,Bethlehem,21,3
+DE,Bonn,20,3
+US,Stanford,93,14
+JP,Shizuoka,6,1
+US,Williamsburg,6,1
+US,Tallahassee,289,49
+US,Columbus,348,65
+US,Norman,32,6
+US,Kingston,16,3
+US,Seattle,52,10
+US,Albany,161,31
+US,Auburn,40,8
+US,Albuquerque,10,2
+US,Austin,188,38
+US,Blacksburg,72,15
+US,Troy,24,5
+US,Baltimore,110,24
+US,Notre Dame,9,2
+JP,Tsukuba,34,8
+US,Princeton,28,7
+JP,Sapporo,28,7
+US,Burlington,4,1
+SE,Trollhättan,4,1
+US,Warrensburg,4,1
+US,Providence,39,10
+US,Ithaca,90,24
+US,Corvallis,18,5
+US,Washington,67,19
+US,Long Beach,20,6
+US,DeKalb,10,3
+US,Durham,48,15
+GB,Swansea,19,6
+US,Charlottesville,19,6
+DE,Chemnitz,6,2
+US,Louisville,6,2
+US,Richmond,6,2
+US,Kalamazoo,6,2
+US,Bangor,6,2
+US,Waltham,6,2
+GB,Guildford,20,7
+US,Ann Arbor,22,8
+US,Boston,139,51
+FI,Tampere,8,3
+CA,Guelph,8,3
+US,Dayton,8,3
+US,Lexington,20,8
+US,Salt Lake City,15,6
+AU,Hobart,15,6
+AU,Burwood,10,4
+US,Omaha,5,2
+NZ,Lincoln,5,2
+JP,Ikoma,5,2
+JP,Osaka,32,13
+US,Denver,14,6
+US,Ames,45,20
+US,Fargo,9,4
+US,Chapel Hill,66,30
+US,St Louis,24,11
+US,Storrs,24,11
+US,College Station,89,42
+AU,Melbourne,156,74
+US,Cleveland,21,10
+CA,Ottawa,21,10
+US,New York,182,88
+AU,Canberra,45,22
+DE,Aachen,63,31
+US,Houston,52,26
+GB,Cranfield,18,9
+DE,Bochum,16,8
+US,Pasadena,14,7
+IT,Turin,12,6
+KR,Busan,10,5
+MO,Taipa,10,5
+FI,Oulu,10,5
+SE,Umeå,8,4
+US,Coral Gables,6,3
+GB,Stirling,6,3
+BD,Dhaka,4,2
+AU,Gold Coast,4,2
+DE,Braunschweig,4,2
+US,Brookings,4,2
+JP,Chiba,4,2
+JP,Kitakyushu,4,2
+US,Radnor,4,2
+GB,Luton,4,2
+AU,Townsville,4,2
+DE,Essen,4,2
+GB,Sunderland,4,2
+CA,St. Catharines,4,2
+KR,Jeonju,4,2
+FR,Villeneuve-d'Ascq,4,2
+IL,Ramat Gan,2,1
+US,Brooklyn,2,1
+US,Wichita,2,1
+AU,Bathurst,2,1
+TW,Tainan,2,1
+MY,Kuala Selangor,2,1
+ES,Salamanca,2,1
+RU,Tomsk,2,1
+US,Cold Spring Harbor,2,1
+KE,Nairobi,2,1
+ET,Addis Ababa,2,1
+JP,Suita,2,1
+JP,Morioka,2,1
+ES,Granada,2,1
+RU,St Petersburg,2,1
+US,Teaneck,2,1
+JP,Nagasaki,2,1
+CH,Zurich,87,47
+GB,Nottingham,66,36
+US,Stillwater,11,6
+US,Little Rock,11,6
+AU,Adelaide,40,22
+NL,Groningen,18,10
+GB,Reading,16,9
+US,Lincoln,21,12
+CA,Windsor,7,4
+US,Medford,7,4
+JP,Nomi Shi,12,7
+US,Detroit,17,10
+US,Minneapolis,37,22
+US,Bloomington,20,12
+GB,Loughborough,20,12
+US,Dallas,10,6
+US,Honolulu,5,3
+GB,Belfast,18,11
+US,Baton Rouge,26,16
+US,Morgantown,13,8
+AU,Sydney,79,49
+DE,Hanover,16,10
+US,Manhattan,16,10
+US,Nashville,8,5
+CA,Kingston,8,5
+JP,Kyoto,33,21
+CA,Hamilton,22,14
+US,Jackson,22,14
+MO,Macao,44,29
+US,Philadelphia,87,58
+US,Evanston,42,28
+US,Hoboken,24,16
+US,Tuscaloosa,24,16
+US,East Lansing,18,12
+US,Worcester,15,10
+US,Fairfax,6,4
+GB,Bangor,6,4
+US,Harrisburg,3,2
+FR,Grenoble,3,2
+TR,Ankara,3,2
+US,Milwaukee,3,2
+US,Waco,3,2
+US,Rapid City,3,2
+US,Macomb,3,2
+KR,Cheongju-si,3,2
+LU,Luxembourg,3,2
+US,Bowling Green,3,2
+JP,Tokushima,3,2
+AU,Armidale,3,2
+US,Lemont,3,2
+US,Adelphi,38,26
+US,Urbana,116,80
+AU,Brisbane,71,49
+DE,Erlangen,10,7
+US,Pittsburgh,114,81
+US,Knoxville,14,10
+NL,Leiden,18,13
+GB,Newcastle upon Tyne,29,21
+GB,Coventry,34,25
+CA,Winnipeg,8,6
+IT,Padua,4,3
+NL,Nijmegen,4,3
+SE,Halmstad,4,3
+US,New Brunswick,26,20
+US,Rochester,44,34
+US,West Lafayette,69,54
+CA,Halifax,10,8
+CA,Victoria,10,8
+MY,George Town,5,4
+US,Reno,5,4
+JP,Hiroshima,5,4
+FR,Lyon,16,13
+US,Madison,60,50
+US,New Orleans,6,5
+US,Los Angeles,80,68
+HK,Hong Kong,204,174
+CA,Vancouver,47,41
+US,Lubbock,16,14
+US,Pullman,16,14
+CH,Genève,8,7
+NL,Tilburg,8,7
+IE,Dublin,70,62
+JP,Fukuoka,9,8
+FI,Espoo,9,8
+US,Carbondale,9,8
+GB,Cardiff,20,18
+US,Chicago,73,66
+US,Newark,22,20
+US,Houghton,11,10
+CA,Saskatoon,11,10
+GB,London,287,262
+GB,Brighton,12,11
+GB,Sheffield,65,60
+US,Phoenix,49,46
+SE,Uppsala,43,41
+US,Cambridge,56,54
+NL,Eindhoven,18,18
+JP,Nagoya,17,17
+US,"Washington, D.C.",11,11
+DE,Saarbrücken,8,8
+DE,Dresden,6,6
+CA,Montréal,6,6
+EE,Tallinn,4,4
+NZ,Hamilton,4,4
+GB,Canterbury,4,4
+US,West Haven,4,4
+US,Eugene,4,4
+DE,Siegen,4,4
+KR,Wanju,4,4
+US,Golden,4,4
+FI,Jyväskylä,4,4
+UA,Kharkiv,2,2
+BW,Gaborone,2,2
+PK,Islamabad,2,2
+KR,Cheonan,2,2
+UA,Odessa,2,2
+GB,Chester,2,2
+US,Fairbanks,2,2
+DE,Marburg,2,2
+JP,Tottori,2,2
+DE,Tübingen,2,2
+US,Hempstead,2,2
+US,Provo,2,2
+FR,Vandœuvre-lès-Nancy,2,2
+JP,Toyohashi,2,2
+BR,Campinas,2,2
+MY,Malacca,2,2
+JP,Kōfu,2,2
+AE,Abu Dhabi,2,2
+KR,Jeju City,2,2
+QA,Doha,1,1
+BR,Rio de Janeiro,1,1
+ZA,Johannesburg,1,1
+DK,Århus,1,1
+MY,Petaling Jaya,1,1
+PK,Lahore,1,1
+US,Atlanta,85,88
+ES,Barcelona,28,29
+GB,York,22,23
+CA,Toronto,37,39
+US,New Haven,17,18
+US,Oakland,150,162
+GB,Bath,12,13
+RU,Moscow,11,12
+US,Boulder,11,12
+US,Columbia,39,43
+GB,Colchester,9,10
+GB,St Andrews,8,9
+GB,Glasgow,54,61
+US,Brookville,7,8
+SE,Stockholm,48,56
+FI,Kuopio,6,7
+DE,Halle,6,7
+GB,Cambridge,22,26
+JP,Tokyo,94,112
+US,Syracuse,15,18
+US,Iowa City,10,12
+IT,Bologna,5,6
+GB,Wolverhampton,5,6
+JP,Kobe,5,6
+SA,Jeddah,14,17
+NL,Amsterdam,18,22
+DE,Berlin,31,38
+US,Lawrence,8,10
+DE,Heidelberg,4,5
+GB,Dundee,15,19
+GB,Exeter,6,8
+RU,Saint Petersburg,3,4
+US,Memphis,3,4
+IT,Milan,14,19
+DK,Aarhus,8,11
+NL,Enschede,18,25
+SG,Singapore,176,245
+BE,Brussels,5,7
+KR,Daegu,5,7
+CA,Calgary,14,20
+DE,Munich,60,86
+US,Fort Wayne,10,15
+US,Springfield,4,6
+CH,Geneva,4,6
+NL,Maastricht,4,6
+US,Mount Pleasant,4,6
+US,Potsdam,4,6
+US,Moscow,2,3
+NO,Kongsberg,2,3
+NZ,Auckland,15,23
+MY,Kuala Lumpur,13,20
+DK,Kongens Lyngby,12,19
+JP,Sendai,20,32
+DE,Jena,5,8
+GB,Durham,11,18
+GB,Aberdeen,9,15
+LK,Colombo,6,10
+CA,Regina,6,10
+DE,Göttingen,3,5
+FI,Turku,10,17
+CA,Burnaby,7,12
+DE,Bremen,4,7
+BE,Leuven,25,44
+GB,Southampton,20,37
+GB,Leicester,20,38
+CA,Waterloo,20,38
+AU,Perth,18,35
+FR,Orsay,8,16
+ES,Cerdanyola del Vallès,6,12
+TH,Bangkok,5,10
+PT,Lisbon,4,8
+NL,Utrecht,4,8
+DK,Odense,3,6
+NZ,Palmerston North,3,6
+HU,Budapest,2,4
+KR,Iksan,2,4
+IT,Camerino,2,4
+CA,Québec,2,4
+NZ,Dunedin,2,4
+DE,Dortmund,2,4
+GB,Hatfield,2,4
+IL,Rehovot,2,4
+KR,Chungju-si,2,4
+AU,Richmond,2,4
+NO,Bergen,2,4
+PT,Coimbra,2,4
+TW,Taoyuan,1,2
+PL,Gdansk,1,2
+BE,Antwerpen,1,2
+SE,Malmö,1,2
+US,Saint Paul,1,2
+US,Anaheim,1,2
+CH,Basel,1,2
+US,Cincinnati,1,2
+NG,Nsukka,1,2
+AU,Rockhampton,1,2
+CH,Bern,1,2
+NO,Stavanger,1,2
+HU,Debrecen,1,2
+DE,Gießen,1,2
+IR,Gorgān,1,2
+GB,Middlesbrough,1,2
+PL,Poznan,1,2
+JP,Takamatsu,1,2
+KZ,Nur-Sultan,1,2
+SE,Gothenburg,18,37
+KR,Seoul,17,35
+KR,Daejeon,12,25
+US,State College,21,44
+TH,Pathum Thani,10,22
+DE,Darmstadt,14,31
+GB,Manchester,51,119
+FR,Rennes,3,7
+IT,Rome,3,7
+GB,Bristol,23,55
+DK,Aalborg,5,12
+ES,Madrid,9,22
+GB,Leeds,29,72
+FR,Nantes,6,15
+IT,Trieste,2,5
+GB,Huddersfield,2,5
+IL,Beersheba,2,5
+GB,Edinburgh,53,134
+CA,Edmonton,21,54
+CA,Montreal,20,52
+DE,Stuttgart,20,52
+CA,London,10,26
+NP,Kathmandu,5,13
+FI,Helsinki,12,32
+FR,Toulouse,6,16
+GB,Salford,3,8
+CA,Thunder Bay,3,8
+DE,Freiburg im Breisgau,3,8
+FR,Bordeaux,3,8
+SE,Lund,13,35
+DK,Copenhagen,13,36
+FR,Paris,14,39
+NL,Wageningen,14,40
+FR,Gif-sur-Yvette,7,20
+AU,Wollongong,6,18
+FR,Strasbourg,6,18
+PL,Warsaw,4,12
+HK,Tai Po,4,12
+CA,St. John's,4,12
+SE,Linköping,4,12
+PL,Krakow,2,6
+KR,Incheon,2,6
+KR,Chinju,2,6
+IQ,Basra,2,6
+SA,Dhahran,2,6
+VN,Hanoi,1,3
+US,Terre Haute,1,3
+ZW,Harare,1,3
+GB,Liverpool,13,42
+GB,Oxford,20,65
+NO,Trondheim,6,20
+DE,Hamburg,3,10
+JP,Yokohama,3,10
+TW,Taipei,14,47
+NO,Oslo,6,21
+AT,Vienna,2,7
+PT,Braga,2,7
+NL,Delft,31,109
+DE,Magdeburg,3,11
+IT,Florence,2,8
+GB,Norwich,2,8
+US,Hanover,2,8
+SE,Skövde,2,8
+CA,Fredericton,2,8
+TR,Istanbul,1,4
+US,San Francisco,1,4
+NZ,Wellington,1,4
+GB,Stoke-on-Trent,1,4
+DE,Würzburg,1,4
+KR,Ulsan,1,4
+MY,Seri Kembangan,1,4
+NZ,Christchurch,1,4
+DE,Rostock,1,4
+FR,Saint-Martin-d'Hères,4,17
+GB,Birmingham,14,60
+LK,Kandy,4,18
+AT,Innsbruck,2,9
+FR,Palaiseau,7,36
+NL,Rotterdam,2,11
+ES,Tarragona,2,12
+GB,Lancaster,2,12
+BE,Ghent,6,38
+FR,Montpellier,2,13
+SE,Luleå,2,15
+FR,Marseille,2,16
+KR,Pohang,1,8
+KR,Gwangju,1,9
+GR,Athens,1,19
+DE,Bremerhaven,0,1
+TW,Minxiong,0,1
+TM,Ashgabat,0,1
+GU,Mangilao Village,0,1
+IT,Busto Arsizio,0,1
+TW,Changhua,0,1
+DE,Köthen,0,1
+PK,Sargodha,0,1
+PL,Wroclaw,0,3
+GB,Plymouth,0,1
+FR,Écully,0,2
+KR,Seongnam-si,0,4
+MY,Bangi,0,1
+US,Big Rapids,0,1
+GR,Rethymno,0,1
+CY,Famagusta,0,1
+US,Muncie,0,1
+NI,Managua,0,1
+PH,Laoag,0,1
+AE,Dubai,0,2
+TW,Kaohsiung,0,2
+US,Skokie,0,1
+DE,Eichstätt,0,1
+BR,Brasília,0,1
+DE,Freiburg,0,1
+JP,Hamamatsu,0,1
+DE,Münster,0,2
+JP,Narashino,0,1
+US,Hays,0,1
+IT,Pavia,0,3
+JP,Ibaraki,0,2
+FR,Valbonne,0,3
+SE,Kristianstad,0,1
+FR,Châtenay-Malabry,0,2
+RU,Dolgoprudnyy,0,1
+TW,Taichung,0,6
+US,Beverly Hills,0,1
+UA,Sumy,0,1
+JP,Fukuroi,0,1
+FR,Talence,0,1
+RO,Oradea,0,1
+GB,Newport,0,3
+IT,Genoa,0,4
+ZA,Potchefstroom,0,1
+GB,Preston,0,3
+US,Cape Girardeau,0,1
+ES,Jaén,0,1
+ES,Zaragoza,0,4
+US,Charleston,0,1
+DE,Köln,0,1
+DE,Ulm,0,2
+GB,Aberystwyth,0,1
+ET,Bahir Dar,0,1
+MY,Pekan,0,1
+ES,Donostia / San Sebastián,0,1
+US,Lakeland,0,1
+PL,Śródmieście,0,1
+DE,Bamberg,0,2
+IT,Venice,0,2
+IS,Reykjavik,0,1
+BI,Bujumbura,0,1
+US,Santa Clara,0,2
+MX,Puebla,0,1
+SE,Borås,0,1
+US,Murray,0,1
+FR,Pau,0,1
+FR,Mont-Saint-Aignan,0,1
+JP,Matsue,0,1
+FR,Caen,0,2
+KR,Chuncheon,0,3
+FR,Le Mans,0,1
+US,Valparaiso,0,1
+FR,Troyes,0,3
+PA,Panamá,0,1
+GB,Southend-on-Sea,0,1
+DE,Karlsruhe,0,1
+BD,Pābna,0,2
+GB,Epsom,0,1
+JP,Kochi,0,1
+GB,Coleraine,0,2
+FI,Lappeenranta,0,1
+BG,Burgas,0,1
+TW,Tainan City,0,1
+BY,Minsk,0,2
+DE,Bayreuth,0,1
+CH,Luzern,0,1
+GH,Accra,0,1
+FR,Compiègne,0,1
+BE,Louvain-la-Neuve,0,1
+CZ,Prague,0,13
+MY,Johor Bahru,0,4
+DE,Krefeld,0,1
+BG,Sofia,0,1
+PK,Nowshera,0,1
+FR,Montigny-le-Bretonneux,0,1
+US,Miami Gardens,0,1
+ET,Nazrēt,0,1
+JP,Kumamoto,0,1
+FR,Villejuif,0,3
+US,Boise,0,1
+IL,Haifa,0,1
+GB,Chelmsford,0,1
+DE,Bielefeld,0,1
+PH,Quezon City,0,7
+JP,Kanazawa,0,3
+AE,Ajman City,0,1
+GR,Pátra,0,1
+FR,Lille,0,3
+FR,Metz,0,1
+US,Framingham,0,1
+US,Adrian,0,1
+JP,Okayama,0,1
+RS,Belgrade,0,4
+MP,Saipan,0,1
+LK,Kelaniya,0,1
+US,Dobbs Ferry,0,1
+US,The Bronx,0,1
+JP,Obihiro,0,1
+RU,Ulyanovsk,0,1
+FI,Vihti,0,1
+PA,Panama City,0,2
+JP,Okinawa,0,2
+NO,Bodø,0,1
+DE,Freiberg,0,1
+DE,Weimar,0,4
+CZ,České Budějovice,0,1
+US,West Hartford,0,1
+BR,São Paulo,0,8
+HU,Pécs,0,1
+MT,Imsida,0,1
+IT,Pisa,0,2
+UA,Odesa,0,1
+DE,Potsdam,0,1
+CH,Lugano,0,1
+EG,Cairo,0,1
+JP,Yamaguchi,0,1
+US,Annapolis,0,1
+UG,Kampala,0,1
+MA,Ifrane,0,1
+RU,Skolkovo,0,1
+US,Spearfish,0,1
+LB,Beirut,0,1
+BT,Thimphu,0,1
+US,Keuka Park,0,1
+FR,Dijon,0,7
+ID,Yogyakarta,0,1
+PH,Makati City,0,2
+DE,Augsburg,0,2
+FR,Besançon,0,1
+US,Belton,0,1
+JP,Hachiōji,0,1
+IL,Jerusalem,0,2
+DE,Leipzig,0,1
+PH,Manila,0,1
+DE,Denkendorf,0,1
+US,Bloomfield Hills,0,1
+RW,Kigali,0,1
+BE,Antwerp,0,1
+HU,Veszprém,0,1
+GB,Portsmouth,0,3
+EE,Tartu,0,3
+GR,Mytilene,0,1
+BR,Porto Alegre,0,2
+IT,Ferrara,0,2
+UG,Gulu,0,1
+KR,Suncheon,0,1
+SE,Kiruna,0,1
+PT,Porto,0,1
+DE,Hannover,0,1
+GB,Redditch,0,1
+PL,Łódź,0,1
+ZA,Pretoria,0,1
+ID,Jember,0,9
+US,Berrien Springs,0,1
+FR,Pessac,0,2
+LB,Tripoli,0,1
+US,Camden,0,1
+US,North Chicago,0,2
+DE,Sankt Augustin,0,1
+NL,Breda,0,1
+IL,Tel Aviv,0,1
+TW,Douliu,0,1
+DE,Osnabrück,0,1
+CZ,Olomouc,0,1
+ZA,Durban,0,1
+US,Montvale,0,1
+JP,Muroran,0,1
+NG,Ilesa,0,1
+FR,Illkirch-Graffenstaden,0,2
+ID,Bandung,0,1
+KR,Changwon,0,1
+YE,Dhamār,0,2
+GR,Volos,0,1
+JP,Niigata,0,1
+FR,Poitiers,0,5
+MX,Chihuahua City,0,1
+BR,Belo Horizonte,0,1
+DE,Konstanz,0,1
+BY,Mahilyow,0,1
+HK,Tuen Mun,0,2
+PL,Rzeszów,0,1
+SE,Göteborg,0,2
+TH,Songkhla,0,2
+FR,Douai,0,2
+YE,Aden,0,1
+KR,Gumi,0,5
+US,Hampton,0,1
+SA,Riyadh,0,2
+US,Middletown,0,1
+SE,Örebro,0,1
+TH,Chiang Mai,0,4
+SI,Ljubljana,0,3
+BD,Khulna,0,1
+AT,Klagenfurt,0,1
+IT,Trento,0,5
+JP,Kitami,0,2
+GB,Poole,0,1
