@@ -656,7 +656,7 @@ def dataFlowRoleTitled_process(perDataElement,type,country,RT):
             itemTo = flowTo[RT_item]
             itemReverse = flowReverse[RT_item]
 
-            for y in range(0,lenPerDataElementX):
+            for y in range(lenPerDataElementX):
                 perDataElementXY = perDataElementX[y]
 
                 if perDataElementXY['OrgType'] in type and perDataElementXY['OrgLocationCountry'] in country:
@@ -891,10 +891,10 @@ def generate_SpringRank_process(RT,type,country,ID_TO_ROR,perDataRoleTitled,R,T,
 
     if ID_TO_ROR is None:ID_TO_ROR = readCsv('source/ROR_data.csv')
 
-    if perDataRoleTitled is None:perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_depted.csv')
+    if perDataRoleTitled is None:perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_depted_cog.csv')
 
-    dataFlowRoleTitled = dataFlowRoleTitled_MAIN(perDataRoleTitled,type,country,RT,pathOrgSpringRank+path+'organization_flow_depted.csv','Done dataOrgFlow')
-    dataSpringRank_MAIN(dataFlowRoleTitled,type,country,ID_TO_ROR,pathOrgSpringRank+path+'organization_SpringRank_depted.csv','Done dataOrgSpringRank')
+    dataFlowRoleTitled = dataFlowRoleTitled_MAIN(perDataRoleTitled,type,country,RT,pathOrgSpringRank+path+'organization_flow_cog.csv','Done dataOrgFlow')
+    dataSpringRank_MAIN(dataFlowRoleTitled,type,country,ID_TO_ROR,pathOrgSpringRank+path+'organization_SpringRank_cog.csv','Done dataOrgSpringRank')
     generate_chordDiagram_MAIN(pathOrgSpringRank+path,'Done chordDiagram')
 
 def generate_SpringRank_MAIN(RT,type,country,R,T,C):
@@ -911,7 +911,7 @@ def generate_SpringRank_MAIN(RT,type,country,R,T,C):
     if type == 'All': type = ORG_TYPES
     if country == 'All': country = ORG_COUNTRIES
 
-    perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_depted.csv')
+    perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_depted_cog.csv')
 
     for RTElement in RT:
         for typeElement in type:
@@ -952,77 +952,82 @@ def generate_chordDiagram_cut(cutFrom,cutTo,flow,SpringRank):
 
             if i1 != i2: matrix_data[i1][i2] = int(row[0])
 
-    return [names,matrix_data]
+    matrix_sum = [[],[]]
 
-def generate_chordDiagram_process(pieces,lenNames,names,matrix_data):
+    row = [0,0]
+    rowSum = [0,0]
+    i = 0
+    lenNames = len(names)
+    with tqdm(total = lenNames) as pbar:
+        while i < len(names):
+            for j in range(2):
+                row[j] = matrix_data[i]
+                rowSum[j] = sum(row[j])
+                matrix_data = matrix_data.T
+
+            if rowSum[0] + rowSum[1] > 0:
+                matrix_sum[0].append(rowSum[0])
+                matrix_sum[1].append(rowSum[1])
+                i += 1
+            else:
+                del names[i]
+
+                for j in range(2):
+                    matrix_data = np.delete(matrix_data,i,0)
+                    matrix_data = matrix_data.T
+
+            pbar.update(1)
+
+    return [names,matrix_data,matrix_sum]
+
+def generate_chordDiagram_process(pieces,lenNames,names,matrix_data,matrix_sum):
     if lenNames > pieces:
-        matrix_sum = [[],[]]
-
-        for i in range(2):
-            for row in tqdm(matrix_data):
-                matrix_sum[i].append(sum(row))
-
-            matrix_data.T
-
         initial = 0
         limit = 1
-        lenNamesFiltered = len(names)
+        lenNamesFiltered = lenNames
+        matrix_sum = matrix_sum.T
 
         with tqdm(total = lenNames - pieces) as pbar:
             while lenNamesFiltered > pieces:
                 limit += 1
                 initial = lenNamesFiltered
-                lenNamesFiltered1 = len(list(filter(lambda x:x>=limit,matrix_sum[0])))
-                lenNamesFiltered2 = len(list(filter(lambda x:x>=limit,matrix_sum[1])))
-                lenNamesFiltered = max(lenNamesFiltered1,lenNamesFiltered2)
+                lenNamesFiltered = len(list(filter(lambda x:x[0]>=limit and x[1]>=limit,matrix_sum)))
                 pbar.update(initial-lenNamesFiltered)
-
             if lenNamesFiltered < 2:
                 limit -= 1
-                lenNamesFiltered1 = len(list(filter(lambda x:x>=limit,matrix_sum[0])))
-                lenNamesFiltered2 = len(list(filter(lambda x:x>=limit,matrix_sum[1])))
-                lenNamesFiltered = max(lenNamesFiltered1,lenNamesFiltered2)
+                lenNamesFiltered = len(list(filter(lambda x:x[0]>=limit and x[1]>=limit,matrix_sum)))
 
         print('Limit:',limit)
         print('Filtered:',lenNamesFiltered)
 
-        names_final = []
-        matrix_data_final = np.array([[0 for i in range(lenNamesFiltered)] for j in tqdm(range(lenNamesFiltered))])
-
-        with tqdm(total = lenNamesFiltered ** 2) as pbar:
+        with tqdm(total = lenNamesFiltered) as pbar:
             x = 0
-
-            for i in range(lenNames):
-                if matrix_sum[0][i] >= limit and matrix_sum[1][i] >= limit:
-                    names_final.append(names[i])
-                    y = 0
-
-                    for j in range(lenNames):
-                        if matrix_sum[0][j] >= limit and matrix_sum[1][j] >= limit:
-                            matrix_data_final[x][y] = matrix_data[i][j]
-                            y += 1
-                            pbar.update(1)
-                    
+            while x < len(names):
+                if matrix_sum[x][0]<limit or matrix_sum[x][1]<limit:
+                    del names[x]
+                    for y in range(2):
+                        matrix_data = np.delete(matrix_data,x,0)
+                        matrix_data = matrix_data.T
+                    matrix_sum = np.delete(matrix_sum,x,0)
+                else:
                     x += 1
+                    pbar.update(1)
 
-    else:
-        names_final = names
-        matrix_data_final = matrix_data
-
-    return [names_final,matrix_data_final]
+    return [names,matrix_data]
 
 def generate_chordDiagram_MAIN(path,cleared):
-    flow = readCsv(path+'organization_flow_depted.csv')
-    SpringRank = readCsv(path+'organization_SpringRank_depted.csv')
+    flow = readCsv(path+'organization_flow.csv')
+    SpringRank = readCsv(path+'organization_SpringRank.csv')
 
-    retult = generate_chordDiagram_cut(0,15,flow,SpringRank)
+    result = generate_chordDiagram_cut(0,10,flow,SpringRank)
 
-    names = retult[0]
-    matrix_data = retult[1]
+    names = result[0]
+    matrix_data = result[1]
+    matrix_sum = np.array(result[2])
 
     lenNames = len(names)
 
-    result = generate_chordDiagram_process(90,lenNames,names,matrix_data)
+    result = generate_chordDiagram_process(100,lenNames,names,matrix_data,matrix_sum)
 
     names = result[0]
     matrix_data = result[1]
@@ -1036,16 +1041,20 @@ def generate_chordDiagram_MAIN(path,cleared):
         cmap = 'jet',
         label_kws=dict(r=101, size=4, color="black", orientation="vertical"),)
 
-    circos.savefig(path+'chordDiagram_depted.svg')
+    circos.savefig(path+'chordDiagram.svg')
 
     print(cleared)
 
 if __name__ == '__main__':
-    # generate_SpringRank_process(None,None,['JP'],None,None,True,True,False)
+    # generate_SpringRank_process([['Ph.D','Position','N']],None,None,None,None,False,True,True)
 
     # generate_SpringRank_MAIN([],[],[],True,True,True)
 
     # generate_SpringRank_MAIN(None,None,None,True,True,True)
+
+    '''test = [[0,5,10,15,20,25,30],[0,5,10,15,20,25,30]]
+                lenNamesFiltered = len(list(filter(lambda x:x>=12,test[0])))
+                print(lenNamesFiltered)'''
 
     pathOrg = 'data/organization/'
     pathOrgSpringRank = pathOrg + 'SpringRank/'
@@ -1075,7 +1084,7 @@ if __name__ == '__main__':
 
     # perDataRoleTitled = readCsv_perData(pathOrgPer+'personal_data_roletitled.csv')
 
-    # perDataDepted = perDataDepted_MAIN(perDataRoleTitled,DEPT_INDEX,pathOrgPer+'personal_data_depted.csv',pathOrgPer+'personal_data_depted_flatten.csv','Done perDataDepted')
+    # perDataDepted = perDataDepted_MAIN(perDataRoleTitled,DEPT_INDEX,pathOrgPer+'personal_data_depted_cog.csv',pathOrgPer+'personal_data_depted_cog_flatten.csv','Done perDataDepted')
 
     # dataFlow = dataFlow_MAIN(perData,'Organization/organization_flow.csv','Done dataOrgFlow')
 
