@@ -1,0 +1,102 @@
+﻿OrgSpringRank,OrgID,OrgLocationCountry,OrgLocationDetails,OrgName,OrgType
+1.952422270323841,https://ror.org/04cd75h10,JP,Morioka,Iwate University,education
+1.8707195753953014,https://ror.org/054dx8336,JP,Takizawa,Iwate Prefectural University,education
+1.7958522129578116,https://ror.org/00ntfnx83,JP,Tokyo,Waseda University,education
+1.222308535873693,https://ror.org/035t8zc32,JP,Osaka,Osaka University,education
+1.1325201138857268,https://ror.org/0516ah480,JP,Hayama,"The Graduate University for Advanced Studies, SOKENDAI",education
+0.9524101050783007,https://ror.org/057zh3y96,JP,Tokyo,The University of Tokyo,education
+0.8707749442126689,https://ror.org/02278tr80,JP,Kitakyushu,Kyushu Institute of Technology,education
+0.8692582094304232,https://ror.org/04rymkk69,JP,Muroran,Muroran Institute of Technology,education
+0.7959224587033707,https://ror.org/021a26605,JP,Tokyo,Tokyo University of Technology,education
+0.7958827354372965,https://ror.org/020wjcq07,JP,Tokyo,Shibaura Institute of Technology,education
+0.7958827354372965,https://ror.org/022yhjq53,JP,Tokyo,Meisei University,education
+0.7955845543403685,https://ror.org/02x73b849,JP,Tokyo,University of Electro-Communications,education
+0.7520916780465715,https://ror.org/04d139241,JP,Nagoya,Tokai National Higher Education and Research System,education
+0.7449870596289019,https://ror.org/02evnh647,JP,Saitama,Saitama University,education
+0.7449547542104388,https://ror.org/05bhada84,JP,Ikoma,Nara Institute of Science and Technology,education
+0.6973529553140143,https://ror.org/0112mx960,JP,Tokyo,Tokyo Institute of Technology,education
+0.5648223143562353,https://ror.org/01wqrpc44,JP,Fukuoka,Kyushu Sangyo University,education
+0.5392140073126989,https://ror.org/01dq60k83,JP,Sendai,Tohoku University,education
+0.5077686732805468,https://ror.org/02e16g702,JP,Sapporo,Hokkaido University,education
+0.5000000003712154,https://ror.org/03tgsfw79,JP,Kobe,Kobe University,education
+0.4999997355243703,https://ror.org/02cgss904,JP,Kumamoto,Kumamoto University,education
+0.4037770725334773,https://ror.org/00qg0kr10,JP,Tokyo,Tokyo University of Agriculture and Technology,education
+0.3358825088957238,https://ror.org/01w6wtk13,JP,Shizuoka,Shizuoka University,education
+0.28528672230192115,https://ror.org/02znffm54,JP,Osaka,Osaka Institute of Technology,education
+0.28515391973457516,https://ror.org/03zyp6p76,JP,Yokohama,Yokohama National University,education
+0.2304040519823436,https://ror.org/02kpeqv85,JP,Kyoto,Kyoto University,education
+0.22231888133987984,https://ror.org/02hcx7n63,JP,Tokyo,Toho University,education
+0.22231888133987984,https://ror.org/04wzv3n59,JP,Tokyo,Sony (Japan),company
+0.22231376772678363,https://ror.org/04k6gr834,JP,Kyoto,Kyoto University Hospital,healthcare
+0.13251538729272266,https://ror.org/02956yf07,JP,Tsukuba,University of Tsukuba,education
+0.11746360803322138,https://ror.org/03frj4r98,JP,Nomi Shi,Japan Advanced Institute of Science and Technology,education
+0.09593371243249973,https://ror.org/02kn6nx58,JP,Tokyo,Keio University,education
+0.07762130023935075,https://ror.org/00p4k0j84,JP,Fukuoka,Kyushu University,education
+0.042379864142395356,https://ror.org/05jk51a88,JP,Tokyo,Nihon University,education
+0.0,https://ror.org/003qdfg20,JP,Tokyo,Soka University,education
+0.0,https://ror.org/00bmxak18,JP,Fukuoka,Fukuoka Institute of Technology,education
+0.0,https://ror.org/00xy44n04,JP,Yamagata,Yamagata University,education
+0.0,https://ror.org/00ys1hz88,JP,Nagaoka,Nagaoka University of Technology,education
+0.0,https://ror.org/01fxdkm29,JP,Kyoto,Doshisha University,education
+0.0,https://ror.org/01pa62v70,JP,Tokyo,Tokyo Denki University,education
+0.0,https://ror.org/02cf1je33,JP,Sakai,Osaka Prefecture University,education
+0.0,https://ror.org/02pc6pc55,JP,Okayama,Okayama University,education
+0.0,https://ror.org/02pg0e883,JP,Fukushima,University of Aizu,education
+0.0,https://ror.org/02rqvrp93,JP,Tokyo,Meiji University,education
+0.0,https://ror.org/02sps0775,JP,Kasugai,Chubu University,education
+0.0,https://ror.org/03ss88z23,JP,Kagoshima,Kagoshima University,education
+0.0,https://ror.org/03xg1f311,JP,Suita,Kansai University,education
+0.0,https://ror.org/03xgh2v50,JP,Imizu,Toyama Prefectural University,education
+0.0,https://ror.org/0445phv87,JP,Toyama,University of Toyama,education
+0.0,https://ror.org/051k3eh31,JP,Tokyo,Tokyo Medical and Dental University,education
+0.0,https://ror.org/051smb947,JP,Nagasaki,Nagasaki Institute of Applied Science,education
+-0.025593007833139694,https://ror.org/04ezg6d83,JP,Toyohashi,Toyohashi University of Technology,education
+-0.04757772546326085,https://ror.org/03rmfrm44,JP,Yokohama,Institute of Information Security,education
+-0.04757772546326085,https://ror.org/05szw2z23,JP,Hakodate,Future University Hakodate,education
+-0.04758438543180551,https://ror.org/00vq1d511,JP,Fukuroi,Shizuoka Institute of Science and Technology,education
+-0.12598298690263093,https://ror.org/02hwp6a56,JP,Kanazawa,Kanazawa University,education
+-0.13007802979047967,https://ror.org/017hkng22,JP,Matsuyama,Ehime University,education
+-0.13110393492271966,https://ror.org/02xqkcw08,JP,Hachiōji,National Institute of Technology,education
+-0.14774521010779018,https://ror.org/05sj3n476,JP,Tokyo,Tokyo University of Science,education
+-0.15758732031153014,https://ror.org/048rj2z13,JP,Tokyo,"Ministry of Education, Culture, Sports, Science and Technology",government
+-0.2043622768111586,https://ror.org/0244rem06,JP,Matsumoto,Shinshu University,education
+-0.20439375288802114,https://ror.org/05f8a4p63,JP,Tokyo,Tamagawa University,education
+-0.24790083696511953,https://ror.org/01nw25822,JP,Toyota,"National Institute of Technology, Toyota College",education
+-0.24790083696511953,https://ror.org/01r4khx38,JP,Okazaki,Aichi Prefectural University of Fine Arts and Music,education
+-0.24790083696511953,https://ror.org/042b6j696,JP,Nagoya,Nanzan University,education
+-0.24790083696511953,https://ror.org/059x21724,JP,Kōfu,University of Yamanashi,education
+-0.24790603478377513,https://ror.org/00qwnam72,JP,Narashino,Chiba Institute of Technology,education
+-0.24790603478377513,https://ror.org/047n0b268,JP,Nagoya,Aichi Prefectural University,education
+-0.24792838620898516,https://ror.org/03t78wx29,JP,Hiroshima,Hiroshima University,education
+-0.25352329197498297,https://ror.org/03jzxkg37,JP,Tokyo,Senshu University,education
+-0.25501687199329887,https://ror.org/00ws30h19,JP,Tokyo,Tokyo Metropolitan University,education
+-0.2550351675104797,https://ror.org/0326v3z14,JP,Tokyo,Toshiba (Japan),company
+-0.2550351675104797,https://ror.org/034jd0m14,JP,Yamatokōriyama,"National Institute of Technology, Nara College",education
+-0.2764350127447283,https://ror.org/001et4e78,JP,Hiroshima,Hiroshima City University,education
+-0.30263676932004246,https://ror.org/00rghrr56,JP,Kochi,Kochi University of Technology,education
+-0.30263676932004246,https://ror.org/02ws33e43,JP,Nonoichi,Kanazawa Institute of Technology,education
+-0.3026445489981614,https://ror.org/05qh38f12,JP,Tokyo,Takushoku University,education
+-0.3580910592870365,https://ror.org/016bgq349,JP,Tokyo,National Institute of Information and Communications Technology,facility
+-0.3843582143168275,https://ror.org/01sjwvz98,JP,Wako,RIKEN,facility
+-0.3885596553273664,https://ror.org/05t70xh16,JP,Kyoto,Kyoto Sangyo University,education
+-0.39743993550994666,https://ror.org/002rw7y37,JP,Tokyo,Aoyama Gakuin University,education
+-0.4295677290548358,https://ror.org/01703db54,JP,Tsukuba,National Institute of Advanced Industrial Science and Technology,government
+-0.46077291882098786,https://ror.org/05wj18248,JP,Hachinohe,Hachinohe Institute of Technology,education
+-0.48493748755731075,https://ror.org/01pe1d703,JP,Kyoto,Advanced Telecommunications Research Institute International,facility
+-0.49224388506333727,https://ror.org/051j8zv27,JP,Kashihara,Osaka Kyoiku University,education
+-0.4999997355243703,https://ror.org/03xbq6057,JP,Kobe,Kobe Institute Of Computing,education
+-0.5000000003712154,https://ror.org/01v1m2411,JP,Kyoto,The Ritsumeikan Trust,education
+-0.5092219607167829,https://ror.org/02j6c0d67,JP,Yokohama,Kanagawa University,education
+-0.517096028852537,https://ror.org/055yf1005,JP,Nagoya,Nagoya Institute of Technology,education
+-0.5962151631013995,https://ror.org/00bx6dj65,JP,Tokyo,Hosei University,education
+-0.6915773308698377,https://ror.org/03ppx1p25,JP,Sasebo,University of Nagasaki,education
+-0.7147606155460203,https://ror.org/03ptaj492,JP,Musashino,Seikei University,education
+-0.7695914389133408,https://ror.org/02e2wvy23,JP,Kyoto,Kyoto Tachibana University,education
+-0.8674731291974053,https://ror.org/03c6bf397,JP,Tokyo,Institute of Behavioral Sciences,facility
+-0.8825261336946627,https://ror.org/0504dfg48,JP,Sendai,Tohoku Gakuin University,education
+-0.9040548535907434,https://ror.org/01529vy56,JP,Tsu,Mie University,education
+-0.9223764161868536,https://ror.org/024yc3q36,JP,Tottori,Tottori University,education
+-1.1259632614298347,https://ror.org/02cntp233,JP,Nagoya,Daido University,education
+-1.204348552424142,https://ror.org/044vy1d05,JP,Tokushima,Tokushima University,education
+-1.2479414493132042,https://ror.org/058h74p94,JP,Nagasaki,Nagasaki University,education
+-1.5170885935107097,https://ror.org/02qsepw74,JP,Toyota,Aichi Institute of Technology,education

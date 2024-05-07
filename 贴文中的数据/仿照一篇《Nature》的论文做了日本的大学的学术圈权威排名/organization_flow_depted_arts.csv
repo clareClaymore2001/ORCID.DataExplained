@@ -1,0 +1,452 @@
+﻿Count,OrgFlow,OriDisOrgID,DesDisOrgID,OriOrgLocationCountry,DesOrgLocationCountry,OriOrgLocationDetails,DesOrgLocationDetails,OriOrgName,DesOrgName,OriOrgType,DesOrgType
+1,https://ror.org/001xjdh50 -> https://ror.org/001xjdh50,https://ror.org/001xjdh50,https://ror.org/001xjdh50,JP,JP,Osaka,Osaka,Kansai Medical University,Kansai Medical University,education,education
+1,https://ror.org/001xjdh50 -> https://ror.org/04j7mzp05,https://ror.org/001xjdh50,https://ror.org/04j7mzp05,JP,JP,Osaka,Takamatsu,Kansai Medical University,Kagawa University,education,education
+1,https://ror.org/002rw7y37 -> https://ror.org/002rw7y37,https://ror.org/002rw7y37,https://ror.org/002rw7y37,JP,JP,Tokyo,Tokyo,Aoyama Gakuin University,Aoyama Gakuin University,education,education
+1,https://ror.org/002rw7y37 -> https://ror.org/00ntfnx83,https://ror.org/002rw7y37,https://ror.org/00ntfnx83,JP,JP,Tokyo,Tokyo,Aoyama Gakuin University,Waseda University,education,education
+1,https://ror.org/002rw7y37 -> https://ror.org/01v1m2411,https://ror.org/002rw7y37,https://ror.org/01v1m2411,JP,JP,Tokyo,Kyoto,Aoyama Gakuin University,The Ritsumeikan Trust,education,education
+1,https://ror.org/002rw7y37 -> https://ror.org/03thzz813,https://ror.org/002rw7y37,https://ror.org/03thzz813,JP,JP,Tokyo,Saitama,Aoyama Gakuin University,Meikai University,education,education
+1,https://ror.org/002rw7y37 -> https://ror.org/04j8wth34,https://ror.org/002rw7y37,https://ror.org/04j8wth34,JP,JP,Tokyo,Yokohama,Aoyama Gakuin University,Tsurumi University,education,education
+2,https://ror.org/002rw7y37 -> https://ror.org/05n7t1e46,https://ror.org/002rw7y37,https://ror.org/05n7t1e46,JP,JP,Tokyo,Machida,Aoyama Gakuin University,Wako University,education,education
+1,https://ror.org/00bx6dj65 -> https://ror.org/001et4e78,https://ror.org/00bx6dj65,https://ror.org/001et4e78,JP,JP,Tokyo,Hiroshima,Hosei University,Hiroshima City University,education,education
+5,https://ror.org/00bx6dj65 -> https://ror.org/00bx6dj65,https://ror.org/00bx6dj65,https://ror.org/00bx6dj65,JP,JP,Tokyo,Tokyo,Hosei University,Hosei University,education,education
+1,https://ror.org/00bx6dj65 -> https://ror.org/00p4k0j84,https://ror.org/00bx6dj65,https://ror.org/00p4k0j84,JP,JP,Tokyo,Fukuoka,Hosei University,Kyushu University,education,education
+1,https://ror.org/00bx6dj65 -> https://ror.org/0136tgd19,https://ror.org/00bx6dj65,https://ror.org/0136tgd19,JP,JP,Tokyo,Tokyo,Hosei University,Tokyo College of Welfare,education,education
+1,https://ror.org/00d8gp927 -> https://ror.org/00d8gp927,https://ror.org/00d8gp927,https://ror.org/00d8gp927,JP,JP,Ōtsu,Ōtsu,Shiga University of Medical Science,Shiga University of Medical Science,education,education
+1,https://ror.org/00khh5r84 -> https://ror.org/03qvqb743,https://ror.org/00khh5r84,https://ror.org/03qvqb743,JP,JP,Tokyo,Hachiōji,Tokyo Gakugei University,Chuo University,education,education
+2,https://ror.org/00ktqrd38 -> https://ror.org/00ktqrd38,https://ror.org/00ktqrd38,https://ror.org/00ktqrd38,JP,JP,Kyoto,Kyoto,Kyoto Prefectural University,Kyoto Prefectural University,education,education
+2,https://ror.org/00ktqrd38 -> https://ror.org/024yc3q36,https://ror.org/00ktqrd38,https://ror.org/024yc3q36,JP,JP,Kyoto,Tottori,Kyoto Prefectural University,Tottori University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/009mysd22,https://ror.org/00ntfnx83,https://ror.org/009mysd22,JP,JP,Tokyo,Ibaraki,Waseda University,Otemon Gakuin University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/00nqcp204,https://ror.org/00ntfnx83,https://ror.org/00nqcp204,JP,JP,Tokyo,Niigata,Waseda University,Niigata Seiryo University,education,education
+35,https://ror.org/00ntfnx83 -> https://ror.org/00ntfnx83,https://ror.org/00ntfnx83,https://ror.org/00ntfnx83,JP,JP,Tokyo,Tokyo,Waseda University,Waseda University,education,education
+2,https://ror.org/00ntfnx83 -> https://ror.org/00x194q47,https://ror.org/00ntfnx83,https://ror.org/00x194q47,JP,JP,Tokyo,Tokyo,Waseda University,Rikkyo University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/01vj3cz23,https://ror.org/00ntfnx83,https://ror.org/01vj3cz23,JP,JP,Tokyo,Saitama,Waseda University,Dokkyo University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/01zwcys39,https://ror.org/00ntfnx83,https://ror.org/01zwcys39,JP,JP,Tokyo,Tokyo,Waseda University,Meiji Gakuin University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/020peey21,https://ror.org/00ntfnx83,https://ror.org/020peey21,JP,JP,Tokyo,Kobe,Waseda University,Kobe City University of Foreign Studies,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/02956yf07,https://ror.org/00ntfnx83,https://ror.org/02956yf07,JP,JP,Tokyo,Tsukuba,Waseda University,University of Tsukuba,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/02s5jck73,https://ror.org/00ntfnx83,https://ror.org/02s5jck73,JP,JP,Tokyo,Machida,Waseda University,J. F. Oberlin University,education,education
+3,https://ror.org/00ntfnx83 -> https://ror.org/03599d813,https://ror.org/00ntfnx83,https://ror.org/03599d813,JP,JP,Tokyo,Tokyo,Waseda University,Ochanomizu University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/035t8zc32,https://ror.org/00ntfnx83,https://ror.org/035t8zc32,JP,JP,Tokyo,Osaka,Waseda University,Osaka University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/03qvqb743,https://ror.org/00ntfnx83,https://ror.org/03qvqb743,JP,JP,Tokyo,Hachiōji,Waseda University,Chuo University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/03x874836,https://ror.org/00ntfnx83,https://ror.org/03x874836,JP,JP,Tokyo,Tahara,Waseda University,Tsuru University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/03xg1f311,https://ror.org/00ntfnx83,https://ror.org/03xg1f311,JP,JP,Tokyo,Suita,Waseda University,Kansai University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/03zyp6p76,https://ror.org/00ntfnx83,https://ror.org/03zyp6p76,JP,JP,Tokyo,Yokohama,Waseda University,Yokohama National University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/0445phv87,https://ror.org/00ntfnx83,https://ror.org/0445phv87,JP,JP,Tokyo,Toyama,Waseda University,University of Toyama,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/048nxq511,https://ror.org/00ntfnx83,https://ror.org/048nxq511,JP,JP,Tokyo,Tokyo,Waseda University,Tokyo University of Marine Science and Technology,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/04bcbax71,https://ror.org/00ntfnx83,https://ror.org/04bcbax71,JP,JP,Tokyo,Tokyo,Waseda University,Musashino University,education,education
+1,https://ror.org/00ntfnx83 -> https://ror.org/05n7t1e46,https://ror.org/00ntfnx83,https://ror.org/05n7t1e46,JP,JP,Tokyo,Machida,Waseda University,Wako University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/0037an472,https://ror.org/00p4k0j84,https://ror.org/0037an472,JP,JP,Fukuoka,Uji,Kyushu University,Kyoto Bunkyo University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/00ntfnx83,https://ror.org/00p4k0j84,https://ror.org/00ntfnx83,JP,JP,Fukuoka,Tokyo,Kyushu University,Waseda University,education,education
+22,https://ror.org/00p4k0j84 -> https://ror.org/00p4k0j84,https://ror.org/00p4k0j84,https://ror.org/00p4k0j84,JP,JP,Fukuoka,Fukuoka,Kyushu University,Kyushu University,education,education
+2,https://ror.org/00p4k0j84 -> https://ror.org/00qg0kr10,https://ror.org/00p4k0j84,https://ror.org/00qg0kr10,JP,JP,Fukuoka,Tokyo,Kyushu University,Tokyo University of Agriculture and Technology,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/00skwgg83,https://ror.org/00p4k0j84,https://ror.org/00skwgg83,JP,JP,Fukuoka,Fukuoka,Kyushu University,Fukuoka Women's University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/01jaaym28,https://ror.org/00p4k0j84,https://ror.org/01jaaym28,JP,JP,Fukuoka,Matsue,Kyushu University,Shimane University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/023v4bd62,https://ror.org/00p4k0j84,https://ror.org/023v4bd62,JP,JP,Fukuoka,Tsukuba,Kyushu University,National Agriculture and Food Research Organization,education,government
+2,https://ror.org/00p4k0j84 -> https://ror.org/024yc3q36,https://ror.org/00p4k0j84,https://ror.org/024yc3q36,JP,JP,Fukuoka,Tottori,Kyushu University,Tottori University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/02mqbt594,https://ror.org/00p4k0j84,https://ror.org/02mqbt594,JP,JP,Fukuoka,Sapporo,Kyushu University,Hokusei Gakuen University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/02sqfdy44,https://ror.org/00p4k0j84,https://ror.org/02sqfdy44,JP,JP,Fukuoka,Satsumasendai,Kyushu University,Kagoshima Immaculate Heart University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/02z1n9q24,https://ror.org/00p4k0j84,https://ror.org/02z1n9q24,JP,JP,Fukuoka,Okinawa,Kyushu University,University of the Ryukyus,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/03mfefw72,https://ror.org/00p4k0j84,https://ror.org/03mfefw72,JP,JP,Fukuoka,Kitakyushu,Kyushu University,The University of Kitakyushu,education,education
+8,https://ror.org/00p4k0j84 -> https://ror.org/03ss88z23,https://ror.org/00p4k0j84,https://ror.org/03ss88z23,JP,JP,Fukuoka,Kagoshima,Kyushu University,Kagoshima University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/03t78wx29,https://ror.org/00p4k0j84,https://ror.org/03t78wx29,JP,JP,Fukuoka,Hiroshima,Kyushu University,Hiroshima University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/03tgsfw79,https://ror.org/00p4k0j84,https://ror.org/03tgsfw79,JP,JP,Fukuoka,Kobe,Kyushu University,Kobe University,education,education
+2,https://ror.org/00p4k0j84 -> https://ror.org/04f4wg107,https://ror.org/00p4k0j84,https://ror.org/04f4wg107,JP,JP,Fukuoka,Saga,Kyushu University,Saga University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/04j7mzp05,https://ror.org/00p4k0j84,https://ror.org/04j7mzp05,JP,JP,Fukuoka,Takamatsu,Kyushu University,Kagawa University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/04jhcmb20,https://ror.org/00p4k0j84,https://ror.org/04jhcmb20,JP,JP,Fukuoka,Kumamoto,Kyushu University,Kumamoto Gakuen University,education,education
+1,https://ror.org/00p4k0j84 -> https://ror.org/05kt9ap64,https://ror.org/00p4k0j84,https://ror.org/05kt9ap64,JP,JP,Fukuoka,Osaka,Kyushu University,Kindai University,education,education
+1,https://ror.org/00qg0kr10 -> https://ror.org/00ntfnx83,https://ror.org/00qg0kr10,https://ror.org/00ntfnx83,JP,JP,Tokyo,Tokyo,Tokyo University of Agriculture and Technology,Waseda University,education,education
+16,https://ror.org/00qg0kr10 -> https://ror.org/00qg0kr10,https://ror.org/00qg0kr10,https://ror.org/00qg0kr10,JP,JP,Tokyo,Tokyo,Tokyo University of Agriculture and Technology,Tokyo University of Agriculture and Technology,education,education
+2,https://ror.org/00qg0kr10 -> https://ror.org/00sjd5653,https://ror.org/00qg0kr10,https://ror.org/00sjd5653,JP,JP,Tokyo,Ibaraki,Tokyo University of Agriculture and Technology,Ibaraki University,education,education
+2,https://ror.org/00qg0kr10 -> https://ror.org/02syg0q74,https://ror.org/00qg0kr10,https://ror.org/02syg0q74,JP,JP,Tokyo,Hirosaki,Tokyo University of Agriculture and Technology,Hirosaki University,education,education
+1,https://ror.org/00qg0kr10 -> https://ror.org/03zyp6p76,https://ror.org/00qg0kr10,https://ror.org/03zyp6p76,JP,JP,Tokyo,Yokohama,Tokyo University of Agriculture and Technology,Yokohama National University,education,education
+1,https://ror.org/00qg0kr10 -> https://ror.org/048rj2z13,https://ror.org/00qg0kr10,https://ror.org/048rj2z13,JP,JP,Tokyo,Tokyo,Tokyo University of Agriculture and Technology,"Ministry of Education, Culture, Sports, Science and Technology",education,government
+4,https://ror.org/00sjd5653 -> https://ror.org/00sjd5653,https://ror.org/00sjd5653,https://ror.org/00sjd5653,JP,JP,Ibaraki,Ibaraki,Ibaraki University,Ibaraki University,education,education
+2,https://ror.org/00ws30h19 -> https://ror.org/00ws30h19,https://ror.org/00ws30h19,https://ror.org/00ws30h19,JP,JP,Tokyo,Tokyo,Tokyo Metropolitan University,Tokyo Metropolitan University,education,education
+1,https://ror.org/00ws30h19 -> https://ror.org/01nckkm68,https://ror.org/00ws30h19,https://ror.org/01nckkm68,JP,JP,Tokyo,Tokyo,Tokyo Metropolitan University,Sophia University,education,education
+1,https://ror.org/00ws30h19 -> https://ror.org/01zwcys39,https://ror.org/00ws30h19,https://ror.org/01zwcys39,JP,JP,Tokyo,Tokyo,Tokyo Metropolitan University,Meiji Gakuin University,education,education
+1,https://ror.org/00ws30h19 -> https://ror.org/02rqvrp93,https://ror.org/00ws30h19,https://ror.org/02rqvrp93,JP,JP,Tokyo,Tokyo,Tokyo Metropolitan University,Meiji University,education,education
+1,https://ror.org/00ws30h19 -> https://ror.org/047wxqn68,https://ror.org/00ws30h19,https://ror.org/047wxqn68,JP,JP,Tokyo,Tokyo,Tokyo Metropolitan University,Mejiro University,education,education
+5,https://ror.org/00x194q47 -> https://ror.org/00x194q47,https://ror.org/00x194q47,https://ror.org/00x194q47,JP,JP,Tokyo,Tokyo,Rikkyo University,Rikkyo University,education,education
+1,https://ror.org/00x194q47 -> https://ror.org/01692sz90,https://ror.org/00x194q47,https://ror.org/01692sz90,JP,JP,Tokyo,Tokyo,Rikkyo University,Juntendo University,education,education
+1,https://ror.org/00x194q47 -> https://ror.org/029smmd76,https://ror.org/00x194q47,https://ror.org/029smmd76,JP,JP,Tokyo,Okazaki,Rikkyo University,University of Human Environments,education,education
+1,https://ror.org/00x194q47 -> https://ror.org/04qszbx34,https://ror.org/00x194q47,https://ror.org/04qszbx34,JP,JP,Tokyo,Tokyo,Rikkyo University,University of the Sacred Heart,education,education
+1,https://ror.org/00xy44n04 -> https://ror.org/04cd75h10,https://ror.org/00xy44n04,https://ror.org/04cd75h10,JP,JP,Yamagata,Morioka,Yamagata University,Iwate University,education,education
+3,https://ror.org/00y809n33 -> https://ror.org/00y809n33,https://ror.org/00y809n33,https://ror.org/00y809n33,JP,JP,Tokyo,Tokyo,Tokyo University of the Arts,Tokyo University of the Arts,education,education
+1,https://ror.org/010996a78 -> https://ror.org/03qvqb743,https://ror.org/010996a78,https://ror.org/03qvqb743,JP,JP,Niigata,Hachiōji,International University of Japan,Chuo University,education,education
+2,https://ror.org/010hz0g26 -> https://ror.org/010hz0g26,https://ror.org/010hz0g26,https://ror.org/010hz0g26,JP,JP,Shimotsuke,Shimotsuke,Jichi Medical University,Jichi Medical University,education,education
+1,https://ror.org/0112mx960 -> https://ror.org/00ntfnx83,https://ror.org/0112mx960,https://ror.org/00ntfnx83,JP,JP,Tokyo,Tokyo,Tokyo Institute of Technology,Waseda University,education,education
+4,https://ror.org/0112mx960 -> https://ror.org/0112mx960,https://ror.org/0112mx960,https://ror.org/0112mx960,JP,JP,Tokyo,Tokyo,Tokyo Institute of Technology,Tokyo Institute of Technology,education,education
+1,https://ror.org/0112mx960 -> https://ror.org/02956yf07,https://ror.org/0112mx960,https://ror.org/02956yf07,JP,JP,Tokyo,Tsukuba,Tokyo Institute of Technology,University of Tsukuba,education,education
+1,https://ror.org/0112mx960 -> https://ror.org/02gfhhc90,https://ror.org/0112mx960,https://ror.org/02gfhhc90,JP,JP,Tokyo,Tokyo,Tokyo Institute of Technology,Komazawa Women's University,education,education
+1,https://ror.org/0112mx960 -> https://ror.org/039pch476,https://ror.org/0112mx960,https://ror.org/039pch476,JP,JP,Tokyo,Tōgane,Tokyo Institute of Technology,Josai International University,education,education
+1,https://ror.org/0112mx960 -> https://ror.org/053h75930,https://ror.org/0112mx960,https://ror.org/053h75930,JP,JP,Tokyo,Tokyo,Tokyo Institute of Technology,Bunkyo University,education,education
+1,https://ror.org/012tqgb57 -> https://ror.org/012tqgb57,https://ror.org/012tqgb57,https://ror.org/012tqgb57,JP,JP,Kyoto,Kyoto,Ryukoku University,Ryukoku University,education,education
+1,https://ror.org/0135d1r83 -> https://ror.org/0135d1r83,https://ror.org/0135d1r83,https://ror.org/0135d1r83,JP,JP,Yokohama,Yokohama,Yokohama City University,Yokohama City University,education,education
+1,https://ror.org/0151bmh98 -> https://ror.org/0151bmh98,https://ror.org/0151bmh98,https://ror.org/0151bmh98,JP,JP,Kobe,Kobe,University of Hyogo,University of Hyogo,education,education
+1,https://ror.org/01529vy56 -> https://ror.org/02956yf07,https://ror.org/01529vy56,https://ror.org/02956yf07,JP,JP,Tsu,Tsukuba,Mie University,University of Tsukuba,education,education
+1,https://ror.org/0155e5d19 -> https://ror.org/02956yf07,https://ror.org/0155e5d19,https://ror.org/02956yf07,JP,JP,Tokyo,Tsukuba,National Police Academy,University of Tsukuba,education,education
+5,https://ror.org/017hkng22 -> https://ror.org/017hkng22,https://ror.org/017hkng22,https://ror.org/017hkng22,JP,JP,Matsuyama,Matsuyama,Ehime University,Ehime University,education,education
+3,https://ror.org/017hkng22 -> https://ror.org/023v4bd62,https://ror.org/017hkng22,https://ror.org/023v4bd62,JP,JP,Matsuyama,Tsukuba,Ehime University,National Agriculture and Food Research Organization,education,government
+1,https://ror.org/017hkng22 -> https://ror.org/05f8a4p63,https://ror.org/017hkng22,https://ror.org/05f8a4p63,JP,JP,Matsuyama,Tokyo,Ehime University,Tamagawa University,education,education
+1,https://ror.org/01cg0k189 -> https://ror.org/03sf6p593,https://ror.org/01cg0k189,https://ror.org/03sf6p593,JP,JP,Tokyo,Tokyo,International Christian University,Showa Women's University,education,education
+1,https://ror.org/01dq60k83 -> https://ror.org/00ntfnx83,https://ror.org/01dq60k83,https://ror.org/00ntfnx83,JP,JP,Sendai,Tokyo,Tohoku University,Waseda University,education,education
+3,https://ror.org/01dq60k83 -> https://ror.org/00qg0kr10,https://ror.org/01dq60k83,https://ror.org/00qg0kr10,JP,JP,Sendai,Tokyo,Tohoku University,Tokyo University of Agriculture and Technology,education,education
+1,https://ror.org/01dq60k83 -> https://ror.org/00sjd5653,https://ror.org/01dq60k83,https://ror.org/00sjd5653,JP,JP,Sendai,Ibaraki,Tohoku University,Ibaraki University,education,education
+1,https://ror.org/01dq60k83 -> https://ror.org/012tqgb57,https://ror.org/01dq60k83,https://ror.org/012tqgb57,JP,JP,Sendai,Kyoto,Tohoku University,Ryukoku University,education,education
+14,https://ror.org/01dq60k83 -> https://ror.org/01dq60k83,https://ror.org/01dq60k83,https://ror.org/01dq60k83,JP,JP,Sendai,Sendai,Tohoku University,Tohoku University,education,education
+1,https://ror.org/01dq60k83 -> https://ror.org/01wmx5158,https://ror.org/01dq60k83,https://ror.org/01wmx5158,JP,JP,Sendai,Sendai,Tohoku University,Tohoku Bunka Gakuen University,education,education
+1,https://ror.org/01dq60k83 -> https://ror.org/03aptyv62,https://ror.org/01dq60k83,https://ror.org/03aptyv62,JP,JP,Sendai,Ueda,Tohoku University,Nagano University,education,education
+2,https://ror.org/01dq60k83 -> https://ror.org/0447kww10,https://ror.org/01dq60k83,https://ror.org/0447kww10,JP,JP,Sendai,Miyazaki,Tohoku University,University of Miyazaki,education,education
+3,https://ror.org/01dq60k83 -> https://ror.org/04cd75h10,https://ror.org/01dq60k83,https://ror.org/04cd75h10,JP,JP,Sendai,Morioka,Tohoku University,Iwate University,education,education
+1,https://ror.org/01dq60k83 -> https://ror.org/057zh3y96,https://ror.org/01dq60k83,https://ror.org/057zh3y96,JP,JP,Sendai,Tokyo,Tohoku University,The University of Tokyo,education,education
+1,https://ror.org/01fxdkm29 -> https://ror.org/00smwky98,https://ror.org/01fxdkm29,https://ror.org/00smwky98,JP,JP,Kyoto,Tokushima,Doshisha University,Tokushima Bunri University,education,education
+2,https://ror.org/01fxdkm29 -> https://ror.org/0172hvg27,https://ror.org/01fxdkm29,https://ror.org/0172hvg27,JP,JP,Kyoto,Toyohashi,Doshisha University,Aichi University,education,education
+10,https://ror.org/01fxdkm29 -> https://ror.org/01fxdkm29,https://ror.org/01fxdkm29,https://ror.org/01fxdkm29,JP,JP,Kyoto,Kyoto,Doshisha University,Doshisha University,education,education
+1,https://ror.org/01fxdkm29 -> https://ror.org/0210pwe06,https://ror.org/01fxdkm29,https://ror.org/0210pwe06,JP,JP,Kyoto,Nara-shi,Doshisha University,Tezukayama University,education,education
+3,https://ror.org/01fxdkm29 -> https://ror.org/0264cyj93,https://ror.org/01fxdkm29,https://ror.org/0264cyj93,JP,JP,Kyoto,Sagamihara,Doshisha University,Sagami Women's University,education,education
+1,https://ror.org/01fxdkm29 -> https://ror.org/02e2wvy23,https://ror.org/01fxdkm29,https://ror.org/02e2wvy23,JP,JP,Kyoto,Kyoto,Doshisha University,Kyoto Tachibana University,education,education
+1,https://ror.org/01h7cca57 -> https://ror.org/025h9kw94,https://ror.org/01h7cca57,https://ror.org/025h9kw94,JP,JP,Sapporo,Asahikawa,Sapporo Medical University,Asahikawa Medical University,education,education
+2,https://ror.org/01hjzeq58 -> https://ror.org/00sjd5653,https://ror.org/01hjzeq58,https://ror.org/00sjd5653,JP,JP,Chiba,Ibaraki,Chiba University,Ibaraki University,education,education
+1,https://ror.org/01hjzeq58 -> https://ror.org/012322w18,https://ror.org/01hjzeq58,https://ror.org/012322w18,JP,JP,Chiba,Tokyo,Chiba University,Otsuma Women's University,education,education
+2,https://ror.org/01hjzeq58 -> https://ror.org/01hjzeq58,https://ror.org/01hjzeq58,https://ror.org/01hjzeq58,JP,JP,Chiba,Chiba,Chiba University,Chiba University,education,education
+3,https://ror.org/01jhgy173 -> https://ror.org/05kt9ap64,https://ror.org/01jhgy173,https://ror.org/05kt9ap64,JP,JP,Osaka,Osaka,Kishiwada City Hospital,Kindai University,healthcare,education
+1,https://ror.org/01nckkm68 -> https://ror.org/00ntfnx83,https://ror.org/01nckkm68,https://ror.org/00ntfnx83,JP,JP,Tokyo,Tokyo,Sophia University,Waseda University,education,education
+1,https://ror.org/01nckkm68 -> https://ror.org/0172hvg27,https://ror.org/01nckkm68,https://ror.org/0172hvg27,JP,JP,Tokyo,Toyohashi,Sophia University,Aichi University,education,education
+1,https://ror.org/01nckkm68 -> https://ror.org/01gaw2478,https://ror.org/01nckkm68,https://ror.org/01gaw2478,JP,JP,Tokyo,Tokyo,Sophia University,Teikyo University,education,education
+3,https://ror.org/01nckkm68 -> https://ror.org/01nckkm68,https://ror.org/01nckkm68,https://ror.org/01nckkm68,JP,JP,Tokyo,Tokyo,Sophia University,Sophia University,education,education
+1,https://ror.org/01nckkm68 -> https://ror.org/01qw7a563,https://ror.org/01nckkm68,https://ror.org/01qw7a563,JP,JP,Tokyo,Tokyo,Sophia University,Tokyo Seitoku University,education,education
+1,https://ror.org/01nckkm68 -> https://ror.org/03gsvvm69,https://ror.org/01nckkm68,https://ror.org/03gsvvm69,JP,JP,Tokyo,Nagoya,Sophia University,Nagoya Gakuin University,education,education
+1,https://ror.org/01nckkm68 -> https://ror.org/04gpcyk21,https://ror.org/01nckkm68,https://ror.org/04gpcyk21,JP,JP,Tokyo,Tokyo,Sophia University,Japan Women's University,education,education
+1,https://ror.org/01p7qe739 -> https://ror.org/01p7qe739,https://ror.org/01p7qe739,https://ror.org/01p7qe739,JP,JP,Tokyo,Tokyo,Tokai University,Tokai University,education,education
+7,https://ror.org/01v1m2411 -> https://ror.org/01v1m2411,https://ror.org/01v1m2411,https://ror.org/01v1m2411,JP,JP,Kyoto,Kyoto,The Ritsumeikan Trust,The Ritsumeikan Trust,education,education
+1,https://ror.org/01v1m2411 -> https://ror.org/02gn38d51,https://ror.org/01v1m2411,https://ror.org/02gn38d51,JP,JP,Kyoto,Sapporo,The Ritsumeikan Trust,Hokkaido University of Education,education,education
+1,https://ror.org/01v1m2411 -> https://ror.org/05bx1gz93,https://ror.org/01v1m2411,https://ror.org/05bx1gz93,JP,JP,Kyoto,Utsunomiya,The Ritsumeikan Trust,Utsunomiya University,education,education
+1,https://ror.org/01w6wtk13 -> https://ror.org/01w6wtk13,https://ror.org/01w6wtk13,https://ror.org/01w6wtk13,JP,JP,Shizuoka,Shizuoka,Shizuoka University,Shizuoka University,education,education
+1,https://ror.org/01zwcys39 -> https://ror.org/01zwcys39,https://ror.org/01zwcys39,https://ror.org/01zwcys39,JP,JP,Tokyo,Tokyo,Meiji Gakuin University,Meiji Gakuin University,education,education
+1,https://ror.org/01zwcys39 -> https://ror.org/058h74p94,https://ror.org/01zwcys39,https://ror.org/058h74p94,JP,JP,Tokyo,Nagasaki,Meiji Gakuin University,Nagasaki University,education,education
+2,https://ror.org/021anqv82 -> https://ror.org/03fyvh407,https://ror.org/021anqv82,https://ror.org/03fyvh407,JP,JP,Tokyo,Koshigaya,Shirayuri University,Dokkyo Medical University Saitama Medical Center,education,healthcare
+1,https://ror.org/02278tr80 -> https://ror.org/02278tr80,https://ror.org/02278tr80,https://ror.org/02278tr80,JP,JP,Kitakyushu,Kitakyushu,Kyushu Institute of Technology,Kyushu Institute of Technology,education,education
+1,https://ror.org/0244rem06 -> https://ror.org/01692sz90,https://ror.org/0244rem06,https://ror.org/01692sz90,JP,JP,Matsumoto,Tokyo,Shinshu University,Juntendo University,education,education
+1,https://ror.org/0244rem06 -> https://ror.org/0244rem06,https://ror.org/0244rem06,https://ror.org/0244rem06,JP,JP,Matsumoto,Matsumoto,Shinshu University,Shinshu University,education,education
+1,https://ror.org/024yc3q36 -> https://ror.org/00sjd5653,https://ror.org/024yc3q36,https://ror.org/00sjd5653,JP,JP,Tottori,Ibaraki,Tottori University,Ibaraki University,education,education
+1,https://ror.org/024yc3q36 -> https://ror.org/0112mx960,https://ror.org/024yc3q36,https://ror.org/0112mx960,JP,JP,Tottori,Tokyo,Tottori University,Tokyo Institute of Technology,education,education
+2,https://ror.org/024yc3q36 -> https://ror.org/024yc3q36,https://ror.org/024yc3q36,https://ror.org/024yc3q36,JP,JP,Tottori,Tottori,Tottori University,Tottori University,education,education
+2,https://ror.org/024yc3q36 -> https://ror.org/02956yf07,https://ror.org/024yc3q36,https://ror.org/02956yf07,JP,JP,Tottori,Tsukuba,Tottori University,University of Tsukuba,education,education
+1,https://ror.org/024yc3q36 -> https://ror.org/02kpeqv85,https://ror.org/024yc3q36,https://ror.org/02kpeqv85,JP,JP,Tottori,Kyoto,Tottori University,Kyoto University,education,education
+1,https://ror.org/024yc3q36 -> https://ror.org/0441s6w50,https://ror.org/024yc3q36,https://ror.org/0441s6w50,JP,JP,Tottori,Matsudo,Tottori University,Seitoku University,education,education
+1,https://ror.org/024yc3q36 -> https://ror.org/04gpcyk21,https://ror.org/024yc3q36,https://ror.org/04gpcyk21,JP,JP,Tottori,Tokyo,Tottori University,Japan Women's University,education,education
+1,https://ror.org/024yc3q36 -> https://ror.org/057zh3y96,https://ror.org/024yc3q36,https://ror.org/057zh3y96,JP,JP,Tottori,Tokyo,Tottori University,The University of Tokyo,education,education
+1,https://ror.org/027mg2511 -> https://ror.org/01gfny940,https://ror.org/027mg2511,https://ror.org/01gfny940,JP,JP,Tokyo,Miyazaki,Tsuda University,Miyazaki Municipal University,education,education
+1,https://ror.org/027tyzk91 -> https://ror.org/027tyzk91,https://ror.org/027tyzk91,https://ror.org/027tyzk91,JP,JP,Tokyo,Tokyo,Tokyo University of Foreign Studies,Tokyo University of Foreign Studies,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/002rw7y37,https://ror.org/02956yf07,https://ror.org/002rw7y37,JP,JP,Tsukuba,Tokyo,University of Tsukuba,Aoyama Gakuin University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/0051kz410,https://ror.org/02956yf07,https://ror.org/0051kz410,JP,JP,Tsukuba,Mito,University of Tsukuba,Tokiwa University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/00ntfnx83,https://ror.org/02956yf07,https://ror.org/00ntfnx83,JP,JP,Tsukuba,Tokyo,University of Tsukuba,Waseda University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/010hz0g26,https://ror.org/02956yf07,https://ror.org/010hz0g26,JP,JP,Tsukuba,Shimotsuke,University of Tsukuba,Jichi Medical University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/013wq3j16,https://ror.org/02956yf07,https://ror.org/013wq3j16,JP,JP,Tsukuba,Atsugi,University of Tsukuba,Shohoku College,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/015q2z284,https://ror.org/02956yf07,https://ror.org/015q2z284,JP,JP,Tsukuba,Ibaraki,University of Tsukuba,Tsukuba International University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/01jaaym28,https://ror.org/02956yf07,https://ror.org/01jaaym28,JP,JP,Tsukuba,Matsue,University of Tsukuba,Shimane University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/01v1m2411,https://ror.org/02956yf07,https://ror.org/01v1m2411,JP,JP,Tsukuba,Kyoto,University of Tsukuba,The Ritsumeikan Trust,education,education
+32,https://ror.org/02956yf07 -> https://ror.org/02956yf07,https://ror.org/02956yf07,https://ror.org/02956yf07,JP,JP,Tsukuba,Tsukuba,University of Tsukuba,University of Tsukuba,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/02e16g702,https://ror.org/02956yf07,https://ror.org/02e16g702,JP,JP,Tsukuba,Sapporo,University of Tsukuba,Hokkaido University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/02kpeqv85,https://ror.org/02956yf07,https://ror.org/02kpeqv85,JP,JP,Tsukuba,Kyoto,University of Tsukuba,Kyoto University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/034zkkc78,https://ror.org/02956yf07,https://ror.org/034zkkc78,JP,JP,Tsukuba,Tokyo,University of Tsukuba,Teikyo Heisei University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/035t8zc32,https://ror.org/02956yf07,https://ror.org/035t8zc32,JP,JP,Tsukuba,Osaka,University of Tsukuba,Osaka University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/037s2db26,https://ror.org/02956yf07,https://ror.org/037s2db26,JP,JP,Tsukuba,Tokyo,University of Tsukuba,Gakushuin University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/03mezqr97,https://ror.org/02956yf07,https://ror.org/03mezqr97,JP,JP,Tsukuba,Okayama,University of Tsukuba,Shujitsu University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/04gpcyk21,https://ror.org/02956yf07,https://ror.org/04gpcyk21,JP,JP,Tsukuba,Tokyo,University of Tsukuba,Japan Women's University,education,education
+1,https://ror.org/02956yf07 -> https://ror.org/05jk51a88,https://ror.org/02956yf07,https://ror.org/05jk51a88,JP,JP,Tsukuba,Tokyo,University of Tsukuba,Nihon University,education,education
+2,https://ror.org/02cf1je33 -> https://ror.org/01hvx5h04,https://ror.org/02cf1je33,https://ror.org/01hvx5h04,JP,JP,Sakai,Osaka,Osaka Prefecture University,Osaka Metropolitan University,education,education
+1,https://ror.org/02cf1je33 -> https://ror.org/023v4bd62,https://ror.org/02cf1je33,https://ror.org/023v4bd62,JP,JP,Sakai,Tsukuba,Osaka Prefecture University,National Agriculture and Food Research Organization,education,government
+3,https://ror.org/02cf1je33 -> https://ror.org/02cf1je33,https://ror.org/02cf1je33,https://ror.org/02cf1je33,JP,JP,Sakai,Sakai,Osaka Prefecture University,Osaka Prefecture University,education,education
+1,https://ror.org/02cf1je33 -> https://ror.org/02z1n9q24,https://ror.org/02cf1je33,https://ror.org/02z1n9q24,JP,JP,Sakai,Okinawa,Osaka Prefecture University,University of the Ryukyus,education,education
+1,https://ror.org/02cf1je33 -> https://ror.org/02znffm54,https://ror.org/02cf1je33,https://ror.org/02znffm54,JP,JP,Sakai,Osaka,Osaka Prefecture University,Osaka Institute of Technology,education,education
+1,https://ror.org/02cf1je33 -> https://ror.org/05kt9ap64,https://ror.org/02cf1je33,https://ror.org/05kt9ap64,JP,JP,Sakai,Osaka,Osaka Prefecture University,Kindai University,education,education
+3,https://ror.org/02cgss904 -> https://ror.org/02cgss904,https://ror.org/02cgss904,https://ror.org/02cgss904,JP,JP,Kumamoto,Kumamoto,Kumamoto University,Kumamoto University,education,education
+1,https://ror.org/02cgss904 -> https://ror.org/03ss88z23,https://ror.org/02cgss904,https://ror.org/03ss88z23,JP,JP,Kumamoto,Kagoshima,Kumamoto University,Kagoshima University,education,education
+1,https://ror.org/02e16g702 -> https://ror.org/001wjeh94,https://ror.org/02e16g702,https://ror.org/001wjeh94,JP,JP,Sapporo,Ebetsu,Hokkaido University,Hokusho University,education,education
+2,https://ror.org/02e16g702 -> https://ror.org/014rqt829,https://ror.org/02e16g702,https://ror.org/014rqt829,JP,JP,Sapporo,Ebetsu,Hokkaido University,Rakuno Gakuen University,education,education
+1,https://ror.org/02e16g702 -> https://ror.org/024yc3q36,https://ror.org/02e16g702,https://ror.org/024yc3q36,JP,JP,Sapporo,Tottori,Hokkaido University,Tottori University,education,education
+1,https://ror.org/02e16g702 -> https://ror.org/026j3ca82,https://ror.org/02e16g702,https://ror.org/026j3ca82,JP,JP,Sapporo,Sapporo,Hokkaido University,Hokkaido Research Organization,education,facility
+46,https://ror.org/02e16g702 -> https://ror.org/02e16g702,https://ror.org/02e16g702,https://ror.org/02e16g702,JP,JP,Sapporo,Sapporo,Hokkaido University,Hokkaido University,education,education
+1,https://ror.org/02e16g702 -> https://ror.org/03hja9k84,https://ror.org/02e16g702,https://ror.org/03hja9k84,JP,JP,Sapporo,Sapporo,Hokkaido University,Fuji Women's University,education,education
+1,https://ror.org/02e16g702 -> https://ror.org/03tgsfw79,https://ror.org/02e16g702,https://ror.org/03tgsfw79,JP,JP,Sapporo,Kobe,Hokkaido University,Kobe University,education,education
+1,https://ror.org/02e16g702 -> https://ror.org/04rkxwr48,https://ror.org/02e16g702,https://ror.org/04rkxwr48,JP,JP,Sapporo,Fukui-shi,Hokkaido University,Jin-ai University,education,education
+1,https://ror.org/02e16g702 -> https://ror.org/057zh3y96,https://ror.org/02e16g702,https://ror.org/057zh3y96,JP,JP,Sapporo,Tokyo,Hokkaido University,The University of Tokyo,education,education
+1,https://ror.org/02e16g702 -> https://ror.org/05crbcr45,https://ror.org/02e16g702,https://ror.org/05crbcr45,JP,JP,Sapporo,Tokyo,Hokkaido University,Tokyo University of Agriculture,education,education
+1,https://ror.org/02hcx7n63 -> https://ror.org/02hwp6a56,https://ror.org/02hcx7n63,https://ror.org/02hwp6a56,JP,JP,Tokyo,Kanazawa,Toho University,Kanazawa University,education,education
+4,https://ror.org/02hwp6a56 -> https://ror.org/02hwp6a56,https://ror.org/02hwp6a56,https://ror.org/02hwp6a56,JP,JP,Kanazawa,Kanazawa,Kanazawa University,Kanazawa University,education,education
+1,https://ror.org/02hwp6a56 -> https://ror.org/03t78wx29,https://ror.org/02hwp6a56,https://ror.org/03t78wx29,JP,JP,Kanazawa,Hiroshima,Kanazawa University,Hiroshima University,education,education
+1,https://ror.org/02hxajc23 -> https://ror.org/02kpeqv85,https://ror.org/02hxajc23,https://ror.org/02kpeqv85,JP,JP,Kyoto,Kyoto,Kyoto City University of Arts,Kyoto University,education,education
+1,https://ror.org/02hxajc23 -> https://ror.org/05yge8w48,https://ror.org/02hxajc23,https://ror.org/05yge8w48,JP,JP,Kyoto,Tokyo,Kyoto City University of Arts,Ueno Gakuen University,education,education
+1,https://ror.org/02j6c0d67 -> https://ror.org/01v1m2411,https://ror.org/02j6c0d67,https://ror.org/01v1m2411,JP,JP,Yokohama,Kyoto,Kanagawa University,The Ritsumeikan Trust,education,education
+1,https://ror.org/02j6c0d67 -> https://ror.org/02e16g702,https://ror.org/02j6c0d67,https://ror.org/02e16g702,JP,JP,Yokohama,Sapporo,Kanagawa University,Hokkaido University,education,education
+1,https://ror.org/02j6c0d67 -> https://ror.org/059d6yn51,https://ror.org/02j6c0d67,https://ror.org/059d6yn51,JP,JP,Yokohama,Tokyo,Kanagawa University,Toyo University,education,education
+1,https://ror.org/02j6c0d67 -> https://ror.org/05jk51a88,https://ror.org/02j6c0d67,https://ror.org/05jk51a88,JP,JP,Yokohama,Tokyo,Kanagawa University,Nihon University,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/00krab219,https://ror.org/02kn6nx58,https://ror.org/00krab219,JP,JP,Tokyo,Tokyo,Keio University,Nippon Medical School,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/01nckkm68,https://ror.org/02kn6nx58,https://ror.org/01nckkm68,JP,JP,Tokyo,Tokyo,Keio University,Sophia University,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/01zwcys39,https://ror.org/02kn6nx58,https://ror.org/01zwcys39,JP,JP,Tokyo,Tokyo,Keio University,Meiji Gakuin University,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/021a26605,https://ror.org/02kn6nx58,https://ror.org/021a26605,JP,JP,Tokyo,Tokyo,Keio University,Tokyo University of Technology,education,education
+2,https://ror.org/02kn6nx58 -> https://ror.org/02956yf07,https://ror.org/02kn6nx58,https://ror.org/02956yf07,JP,JP,Tokyo,Tsukuba,Keio University,University of Tsukuba,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/02e16g702,https://ror.org/02kn6nx58,https://ror.org/02e16g702,JP,JP,Tokyo,Sapporo,Keio University,Hokkaido University,education,education
+33,https://ror.org/02kn6nx58 -> https://ror.org/02kn6nx58,https://ror.org/02kn6nx58,https://ror.org/02kn6nx58,JP,JP,Tokyo,Tokyo,Keio University,Keio University,education,education
+4,https://ror.org/02kn6nx58 -> https://ror.org/02qf2tx24,https://ror.org/02kn6nx58,https://ror.org/02qf2tx24,JP,JP,Tokyo,Nishinomiya,Keio University,Kwansei Gakuin University,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/02x73b849,https://ror.org/02kn6nx58,https://ror.org/02x73b849,JP,JP,Tokyo,Tokyo,Keio University,University of Electro-Communications,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/0370d1z23,https://ror.org/02kn6nx58,https://ror.org/0370d1z23,JP,JP,Tokyo,Kasugai,Keio University,Toyoda Gosei (Japan),education,company
+1,https://ror.org/02kn6nx58 -> https://ror.org/03m60k875,https://ror.org/02kn6nx58,https://ror.org/03m60k875,JP,JP,Tokyo,Kitakyushu,Keio University,Kyushu Women's University,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/03sf6p593,https://ror.org/02kn6nx58,https://ror.org/03sf6p593,JP,JP,Tokyo,Tokyo,Keio University,Showa Women's University,education,education
+1,https://ror.org/02kn6nx58 -> https://ror.org/041bf1s37,https://ror.org/02kn6nx58,https://ror.org/041bf1s37,JP,JP,Tokyo,Yokohama,Keio University,Kanto Gakuin University,education,education
+2,https://ror.org/02kn6nx58 -> https://ror.org/05ptpxn60,https://ror.org/02kn6nx58,https://ror.org/05ptpxn60,JP,JP,Tokyo,Shimonoseki,Keio University,University of East Asia,education,education
+2,https://ror.org/02kn6nx58 -> https://ror.org/05tc07s46,https://ror.org/02kn6nx58,https://ror.org/05tc07s46,JP,JP,Tokyo,Matsuyama,Keio University,Matsuyama University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/005pdtr14,https://ror.org/02kpeqv85,https://ror.org/005pdtr14,JP,JP,Kyoto,Tsukuba,Kyoto University,Japan International Research Center for Agricultural Sciences,education,facility
+1,https://ror.org/02kpeqv85 -> https://ror.org/00ktqrd38,https://ror.org/02kpeqv85,https://ror.org/00ktqrd38,JP,JP,Kyoto,Kyoto,Kyoto University,Kyoto Prefectural University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/00ntfnx83,https://ror.org/02kpeqv85,https://ror.org/00ntfnx83,JP,JP,Kyoto,Tokyo,Kyoto University,Waseda University,education,education
+5,https://ror.org/02kpeqv85 -> https://ror.org/00p4k0j84,https://ror.org/02kpeqv85,https://ror.org/00p4k0j84,JP,JP,Kyoto,Fukuoka,Kyoto University,Kyushu University,education,education
+3,https://ror.org/02kpeqv85 -> https://ror.org/00qg0kr10,https://ror.org/02kpeqv85,https://ror.org/00qg0kr10,JP,JP,Kyoto,Tokyo,Kyoto University,Tokyo University of Agriculture and Technology,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/012tqgb57,https://ror.org/02kpeqv85,https://ror.org/012tqgb57,JP,JP,Kyoto,Kyoto,Kyoto University,Ryukoku University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/0151bmh98,https://ror.org/02kpeqv85,https://ror.org/0151bmh98,JP,JP,Kyoto,Kobe,Kyoto University,University of Hyogo,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/017hkng22,https://ror.org/02kpeqv85,https://ror.org/017hkng22,JP,JP,Kyoto,Matsuyama,Kyoto University,Ehime University,education,education
+3,https://ror.org/02kpeqv85 -> https://ror.org/01dq60k83,https://ror.org/02kpeqv85,https://ror.org/01dq60k83,JP,JP,Kyoto,Sendai,Kyoto University,Tohoku University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/01hvx5h04,https://ror.org/02kpeqv85,https://ror.org/01hvx5h04,JP,JP,Kyoto,Osaka,Kyoto University,Osaka Metropolitan University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/01jaaym28,https://ror.org/02kpeqv85,https://ror.org/01jaaym28,JP,JP,Kyoto,Matsue,Kyoto University,Shimane University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/01k9bj230,https://ror.org/02kpeqv85,https://ror.org/01k9bj230,JP,JP,Kyoto,Hino,Kyoto University,Jissen Women's University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/01nw25822,https://ror.org/02kpeqv85,https://ror.org/01nw25822,JP,JP,Kyoto,Toyota,Kyoto University,"National Institute of Technology, Toyota College",education,education
+2,https://ror.org/02kpeqv85 -> https://ror.org/01v1m2411,https://ror.org/02kpeqv85,https://ror.org/01v1m2411,JP,JP,Kyoto,Kyoto,Kyoto University,The Ritsumeikan Trust,education,education
+3,https://ror.org/02kpeqv85 -> https://ror.org/01xxp6985,https://ror.org/02kpeqv85,https://ror.org/01xxp6985,JP,JP,Kyoto,Kochi,Kyoto University,Kōchi University,education,education
+2,https://ror.org/02kpeqv85 -> https://ror.org/024yc3q36,https://ror.org/02kpeqv85,https://ror.org/024yc3q36,JP,JP,Kyoto,Tottori,Kyoto University,Tottori University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/027tyzk91,https://ror.org/02kpeqv85,https://ror.org/027tyzk91,JP,JP,Kyoto,Tokyo,Kyoto University,Tokyo University of Foreign Studies,education,education
+3,https://ror.org/02kpeqv85 -> https://ror.org/02e16g702,https://ror.org/02kpeqv85,https://ror.org/02e16g702,JP,JP,Kyoto,Sapporo,Kyoto University,Hokkaido University,education,education
+145,https://ror.org/02kpeqv85 -> https://ror.org/02kpeqv85,https://ror.org/02kpeqv85,https://ror.org/02kpeqv85,JP,JP,Kyoto,Kyoto,Kyoto University,Kyoto University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/02rqvrp93,https://ror.org/02kpeqv85,https://ror.org/02rqvrp93,JP,JP,Kyoto,Tokyo,Kyoto University,Meiji University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/02sqfdy44,https://ror.org/02kpeqv85,https://ror.org/02sqfdy44,JP,JP,Kyoto,Satsumasendai,Kyoto University,Kagoshima Immaculate Heart University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/02v1sf687,https://ror.org/02kpeqv85,https://ror.org/02v1sf687,JP,JP,Kyoto,Kochi,Kyoto University,University of Kochi,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/02znffm54,https://ror.org/02kpeqv85,https://ror.org/02znffm54,JP,JP,Kyoto,Osaka,Kyoto University,Osaka Institute of Technology,education,education
+3,https://ror.org/02kpeqv85 -> https://ror.org/035t8zc32,https://ror.org/02kpeqv85,https://ror.org/035t8zc32,JP,JP,Kyoto,Osaka,Kyoto University,Osaka University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/03dhz6n86,https://ror.org/02kpeqv85,https://ror.org/03dhz6n86,JP,JP,Kyoto,Yokosuka,Kyoto University,Kanagawa University of Human Services,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/03hv1ad10,https://ror.org/02kpeqv85,https://ror.org/03hv1ad10,JP,JP,Kyoto,Akita,Kyoto University,Akita University,education,education
+4,https://ror.org/02kpeqv85 -> https://ror.org/03tgsfw79,https://ror.org/02kpeqv85,https://ror.org/03tgsfw79,JP,JP,Kyoto,Kobe,Kyoto University,Kobe University,education,education
+2,https://ror.org/02kpeqv85 -> https://ror.org/03zjb7z20,https://ror.org/02kpeqv85,https://ror.org/03zjb7z20,JP,JP,Kyoto,Fukushima,Kyoto University,Fukushima University,education,education
+3,https://ror.org/02kpeqv85 -> https://ror.org/046fm7598,https://ror.org/02kpeqv85,https://ror.org/046fm7598,JP,JP,Kyoto,Maebashi,Kyoto University,Gunma University,education,education
+3,https://ror.org/02kpeqv85 -> https://ror.org/048rj2z13,https://ror.org/02kpeqv85,https://ror.org/048rj2z13,JP,JP,Kyoto,Tokyo,Kyoto University,"Ministry of Education, Culture, Sports, Science and Technology",education,government
+1,https://ror.org/02kpeqv85 -> https://ror.org/04d139241,https://ror.org/02kpeqv85,https://ror.org/04d139241,JP,JP,Kyoto,Nagoya,Kyoto University,Tokai National Higher Education and Research System,education,education
+3,https://ror.org/02kpeqv85 -> https://ror.org/04j7mzp05,https://ror.org/02kpeqv85,https://ror.org/04j7mzp05,JP,JP,Kyoto,Takamatsu,Kyoto University,Kagawa University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/04mfefe23,https://ror.org/02kpeqv85,https://ror.org/04mfefe23,JP,JP,Kyoto,Kyoto,Kyoto University,Kyoto Notre Dame University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/057zh3y96,https://ror.org/02kpeqv85,https://ror.org/057zh3y96,JP,JP,Kyoto,Tokyo,Kyoto University,The University of Tokyo,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/05bhada84,https://ror.org/02kpeqv85,https://ror.org/05bhada84,JP,JP,Kyoto,Ikoma,Kyoto University,Nara Institute of Science and Technology,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/05bx1gz93,https://ror.org/02kpeqv85,https://ror.org/05bx1gz93,JP,JP,Kyoto,Utsunomiya,Kyoto University,Utsunomiya University,education,education
+1,https://ror.org/02kpeqv85 -> https://ror.org/05crbcr45,https://ror.org/02kpeqv85,https://ror.org/05crbcr45,JP,JP,Kyoto,Tokyo,Kyoto University,Tokyo University of Agriculture,education,education
+2,https://ror.org/02kpeqv85 -> https://ror.org/05kt9ap64,https://ror.org/02kpeqv85,https://ror.org/05kt9ap64,JP,JP,Kyoto,Osaka,Kyoto University,Kindai University,education,education
+3,https://ror.org/02pc6pc55 -> https://ror.org/02pc6pc55,https://ror.org/02pc6pc55,https://ror.org/02pc6pc55,JP,JP,Okayama,Okayama,Okayama University,Okayama University,education,education
+2,https://ror.org/02pc6pc55 -> https://ror.org/03tgsfw79,https://ror.org/02pc6pc55,https://ror.org/03tgsfw79,JP,JP,Okayama,Kobe,Okayama University,Kobe University,education,education
+1,https://ror.org/02pc6pc55 -> https://ror.org/04j7mzp05,https://ror.org/02pc6pc55,https://ror.org/04j7mzp05,JP,JP,Okayama,Takamatsu,Okayama University,Kagawa University,education,education
+1,https://ror.org/02qf2tx24 -> https://ror.org/00mrjbj15,https://ror.org/02qf2tx24,https://ror.org/00mrjbj15,JP,JP,Nishinomiya,Fukuyama,Kwansei Gakuin University,Fukuyama University,education,education
+7,https://ror.org/02qf2tx24 -> https://ror.org/02qf2tx24,https://ror.org/02qf2tx24,https://ror.org/02qf2tx24,JP,JP,Nishinomiya,Nishinomiya,Kwansei Gakuin University,Kwansei Gakuin University,education,education
+2,https://ror.org/02qf2tx24 -> https://ror.org/035t8zc32,https://ror.org/02qf2tx24,https://ror.org/035t8zc32,JP,JP,Nishinomiya,Osaka,Kwansei Gakuin University,Osaka University,education,education
+3,https://ror.org/02rqvrp93 -> https://ror.org/02rqvrp93,https://ror.org/02rqvrp93,https://ror.org/02rqvrp93,JP,JP,Tokyo,Tokyo,Meiji University,Meiji University,education,education
+1,https://ror.org/02s5jck73 -> https://ror.org/002rw7y37,https://ror.org/02s5jck73,https://ror.org/002rw7y37,JP,JP,Machida,Tokyo,J. F. Oberlin University,Aoyama Gakuin University,education,education
+1,https://ror.org/02s5jck73 -> https://ror.org/00bx6dj65,https://ror.org/02s5jck73,https://ror.org/00bx6dj65,JP,JP,Machida,Tokyo,J. F. Oberlin University,Hosei University,education,education
+1,https://ror.org/02s5jck73 -> https://ror.org/00ntfnx83,https://ror.org/02s5jck73,https://ror.org/00ntfnx83,JP,JP,Machida,Tokyo,J. F. Oberlin University,Waseda University,education,education
+1,https://ror.org/02skfsw40 -> https://ror.org/02dvjfw95,https://ror.org/02skfsw40,https://ror.org/02dvjfw95,JP,JP,Osaka,Hikone,Osaka City University,University of Shiga Prefecture,education,education
+1,https://ror.org/02skfsw40 -> https://ror.org/02skfsw40,https://ror.org/02skfsw40,https://ror.org/02skfsw40,JP,JP,Osaka,Osaka,Osaka City University,Osaka City University,education,education
+1,https://ror.org/02t9fsj94 -> https://ror.org/02t9fsj94,https://ror.org/02t9fsj94,https://ror.org/02t9fsj94,JP,JP,Obihiro,Obihiro,Obihiro University of Agriculture and Veterinary Medicine,Obihiro University of Agriculture and Veterinary Medicine,education,education
+3,https://ror.org/02z1n9q24 -> https://ror.org/02z1n9q24,https://ror.org/02z1n9q24,https://ror.org/02z1n9q24,JP,JP,Okinawa,Okinawa,University of the Ryukyus,University of the Ryukyus,education,education
+1,https://ror.org/02z1n9q24 -> https://ror.org/05d0pgx42,https://ror.org/02z1n9q24,https://ror.org/05d0pgx42,JP,JP,Okinawa,Nago,University of the Ryukyus,Meio University,education,education
+1,https://ror.org/03599d813 -> https://ror.org/00x194q47,https://ror.org/03599d813,https://ror.org/00x194q47,JP,JP,Tokyo,Tokyo,Ochanomizu University,Rikkyo University,education,education
+5,https://ror.org/03599d813 -> https://ror.org/03599d813,https://ror.org/03599d813,https://ror.org/03599d813,JP,JP,Tokyo,Tokyo,Ochanomizu University,Ochanomizu University,education,education
+1,https://ror.org/03599d813 -> https://ror.org/03fvwxc59,https://ror.org/03599d813,https://ror.org/03fvwxc59,JP,JP,Tokyo,Tokyo,Ochanomizu University,National Center For Child Health and Development,education,government
+1,https://ror.org/03599d813 -> https://ror.org/04a698174,https://ror.org/03599d813,https://ror.org/04a698174,JP,JP,Tokyo,Machida,Ochanomizu University,Tokyo Kasei Gakuin University,education,education
+1,https://ror.org/03599d813 -> https://ror.org/04hx9jj82,https://ror.org/03599d813,https://ror.org/04hx9jj82,JP,JP,Tokyo,Chiba,Ochanomizu University,Kanda University of International Studies,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/001et4e78,https://ror.org/035t8zc32,https://ror.org/001et4e78,JP,JP,Osaka,Hiroshima,Osaka University,Hiroshima City University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/00337p258,https://ror.org/035t8zc32,https://ror.org/00337p258,JP,JP,Osaka,Takarazuka,Osaka University,Koshien University,education,education
+3,https://ror.org/035t8zc32 -> https://ror.org/00ntfnx83,https://ror.org/035t8zc32,https://ror.org/00ntfnx83,JP,JP,Osaka,Tokyo,Osaka University,Waseda University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/00nthvx56,https://ror.org/035t8zc32,https://ror.org/00nthvx56,JP,JP,Osaka,Miki,Osaka University,Kansai University of International Studies,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/00pbv8y11,https://ror.org/035t8zc32,https://ror.org/00pbv8y11,JP,JP,Osaka,Otaru,Osaka University,Otaru University of Commerce,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/00qg0kr10,https://ror.org/035t8zc32,https://ror.org/00qg0kr10,JP,JP,Osaka,Tokyo,Osaka University,Tokyo University of Agriculture and Technology,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/01703db54,https://ror.org/035t8zc32,https://ror.org/01703db54,JP,JP,Osaka,Tsukuba,Osaka University,National Institute of Advanced Industrial Science and Technology,education,government
+1,https://ror.org/035t8zc32 -> https://ror.org/018v0zv10,https://ror.org/035t8zc32,https://ror.org/018v0zv10,JP,JP,Osaka,Kobe,Osaka University,Kobe Gakuin University,education,education
+2,https://ror.org/035t8zc32 -> https://ror.org/01dq60k83,https://ror.org/035t8zc32,https://ror.org/01dq60k83,JP,JP,Osaka,Sendai,Osaka University,Tohoku University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/01fxdkm29,https://ror.org/035t8zc32,https://ror.org/01fxdkm29,JP,JP,Osaka,Kyoto,Osaka University,Doshisha University,education,education
+3,https://ror.org/035t8zc32 -> https://ror.org/01v1m2411,https://ror.org/035t8zc32,https://ror.org/01v1m2411,JP,JP,Osaka,Kyoto,Osaka University,The Ritsumeikan Trust,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/02956yf07,https://ror.org/035t8zc32,https://ror.org/02956yf07,JP,JP,Osaka,Tsukuba,Osaka University,University of Tsukuba,education,education
+2,https://ror.org/035t8zc32 -> https://ror.org/02hwp6a56,https://ror.org/035t8zc32,https://ror.org/02hwp6a56,JP,JP,Osaka,Kanazawa,Osaka University,Kanazawa University,education,education
+2,https://ror.org/035t8zc32 -> https://ror.org/02kn6nx58,https://ror.org/035t8zc32,https://ror.org/02kn6nx58,JP,JP,Osaka,Tokyo,Osaka University,Keio University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/02kpeqv85,https://ror.org/035t8zc32,https://ror.org/02kpeqv85,JP,JP,Osaka,Kyoto,Osaka University,Kyoto University,education,education
+3,https://ror.org/035t8zc32 -> https://ror.org/02qf2tx24,https://ror.org/035t8zc32,https://ror.org/02qf2tx24,JP,JP,Osaka,Nishinomiya,Osaka University,Kwansei Gakuin University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/02std5y37,https://ror.org/035t8zc32,https://ror.org/02std5y37,JP,JP,Osaka,Chiba,Osaka University,Shukutoku University,education,education
+28,https://ror.org/035t8zc32 -> https://ror.org/035t8zc32,https://ror.org/035t8zc32,https://ror.org/035t8zc32,JP,JP,Osaka,Osaka,Osaka University,Osaka University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/037s2db26,https://ror.org/035t8zc32,https://ror.org/037s2db26,JP,JP,Osaka,Tokyo,Osaka University,Gakushuin University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/03bwsp312,https://ror.org/035t8zc32,https://ror.org/03bwsp312,JP,JP,Osaka,Kobe,Osaka University,Kobe Shoin Women's University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/03t78wx29,https://ror.org/035t8zc32,https://ror.org/03t78wx29,JP,JP,Osaka,Hiroshima,Osaka University,Hiroshima University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/03tgsfw79,https://ror.org/035t8zc32,https://ror.org/03tgsfw79,JP,JP,Osaka,Kobe,Osaka University,Kobe University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/03xg1f311,https://ror.org/035t8zc32,https://ror.org/03xg1f311,JP,JP,Osaka,Suita,Osaka University,Kansai University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/03zjb7z20,https://ror.org/035t8zc32,https://ror.org/03zjb7z20,JP,JP,Osaka,Fukushima,Osaka University,Fukushima University,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/049wrh220,https://ror.org/035t8zc32,https://ror.org/049wrh220,JP,JP,Osaka,Hashimoto,Osaka University,Hashimoto Municipal Hospital,education,healthcare
+1,https://ror.org/035t8zc32 -> https://ror.org/04g11bp59,https://ror.org/035t8zc32,https://ror.org/04g11bp59,JP,JP,Osaka,Osaka,Osaka University,Osaka University of Economics,education,education
+3,https://ror.org/035t8zc32 -> https://ror.org/057zh3y96,https://ror.org/035t8zc32,https://ror.org/057zh3y96,JP,JP,Osaka,Tokyo,Osaka University,The University of Tokyo,education,education
+1,https://ror.org/035t8zc32 -> https://ror.org/05t0s7273,https://ror.org/035t8zc32,https://ror.org/05t0s7273,JP,JP,Osaka,Hirakata,Osaka University,Kansai Gaidai University,education,education
+1,https://ror.org/03cxys317 -> https://ror.org/03cxys317,https://ror.org/03cxys317,https://ror.org/03cxys317,JP,JP,Yamaguchi,Yamaguchi,Yamaguchi University,Yamaguchi University,education,education
+1,https://ror.org/03dk6an77 -> https://ror.org/03t78wx29,https://ror.org/03dk6an77,https://ror.org/03t78wx29,JP,JP,Kure,Hiroshima,Hiroshima International University,Hiroshima University,education,education
+1,https://ror.org/03gz5xp73 -> https://ror.org/02kn6nx58,https://ror.org/03gz5xp73,https://ror.org/02kn6nx58,JP,JP,Tokyo,Tokyo,National Graduate Institute for Policy Studies,Keio University,education,education
+2,https://ror.org/03gz5xp73 -> https://ror.org/03gz5xp73,https://ror.org/03gz5xp73,https://ror.org/03gz5xp73,JP,JP,Tokyo,Tokyo,National Graduate Institute for Policy Studies,National Graduate Institute for Policy Studies,education,education
+1,https://ror.org/03gz5xp73 -> https://ror.org/03savr706,https://ror.org/03gz5xp73,https://ror.org/03savr706,JP,JP,Tokyo,Tokyo,National Graduate Institute for Policy Studies,"Temple University, Japan",education,education
+3,https://ror.org/03hv1ad10 -> https://ror.org/03hv1ad10,https://ror.org/03hv1ad10,https://ror.org/03hv1ad10,JP,JP,Akita,Akita,Akita University,Akita University,education,education
+1,https://ror.org/03jqhsn85 -> https://ror.org/03jqhsn85,https://ror.org/03jqhsn85,https://ror.org/03jqhsn85,JP,JP,Fukuoka,Fukuoka,Seinan Gakuin University,Seinan Gakuin University,education,education
+1,https://ror.org/03jzxkg37 -> https://ror.org/01nckkm68,https://ror.org/03jzxkg37,https://ror.org/01nckkm68,JP,JP,Tokyo,Tokyo,Senshu University,Sophia University,education,education
+1,https://ror.org/03jzxkg37 -> https://ror.org/03jzxkg37,https://ror.org/03jzxkg37,https://ror.org/03jzxkg37,JP,JP,Tokyo,Tokyo,Senshu University,Senshu University,education,education
+1,https://ror.org/03kjjhe36 -> https://ror.org/03kjjhe36,https://ror.org/03kjjhe36,https://ror.org/03kjjhe36,JP,JP,Tokyo,Tokyo,Tokyo Women's Medical University,Tokyo Women's Medical University,education,education
+1,https://ror.org/03mb27p64 -> https://ror.org/03mb27p64,https://ror.org/03mb27p64,https://ror.org/03mb27p64,JP,JP,Tokyo,Tokyo,Tokyo Woman's Christian University,Tokyo Woman's Christian University,education,education
+1,https://ror.org/03qvqb743 -> https://ror.org/01jaaym28,https://ror.org/03qvqb743,https://ror.org/01jaaym28,JP,JP,Hachiōji,Matsue,Chuo University,Shimane University,education,education
+1,https://ror.org/03qvqb743 -> https://ror.org/04qszbx34,https://ror.org/03qvqb743,https://ror.org/04qszbx34,JP,JP,Hachiōji,Tokyo,Chuo University,University of the Sacred Heart,education,education
+1,https://ror.org/03qvqb743 -> https://ror.org/05qp61e83,https://ror.org/03qvqb743,https://ror.org/05qp61e83,JP,JP,Hachiōji,Tokyo,Chuo University,Musashi University,education,education
+2,https://ror.org/03qvqb743 -> https://ror.org/05t0s7273,https://ror.org/03qvqb743,https://ror.org/05t0s7273,JP,JP,Hachiōji,Hirakata,Chuo University,Kansai Gaidai University,education,education
+2,https://ror.org/03ss88z23 -> https://ror.org/02z1n9q24,https://ror.org/03ss88z23,https://ror.org/02z1n9q24,JP,JP,Kagoshima,Okinawa,Kagoshima University,University of the Ryukyus,education,education
+3,https://ror.org/03ss88z23 -> https://ror.org/03ss88z23,https://ror.org/03ss88z23,https://ror.org/03ss88z23,JP,JP,Kagoshima,Kagoshima,Kagoshima University,Kagoshima University,education,education
+1,https://ror.org/03ss88z23 -> https://ror.org/04f4wg107,https://ror.org/03ss88z23,https://ror.org/04f4wg107,JP,JP,Kagoshima,Saga,Kagoshima University,Saga University,education,education
+1,https://ror.org/03t78wx29 -> https://ror.org/00xy44n04,https://ror.org/03t78wx29,https://ror.org/00xy44n04,JP,JP,Hiroshima,Yamagata,Hiroshima University,Yamagata University,education,education
+1,https://ror.org/03t78wx29 -> https://ror.org/01v1m2411,https://ror.org/03t78wx29,https://ror.org/01v1m2411,JP,JP,Hiroshima,Kyoto,Hiroshima University,The Ritsumeikan Trust,education,education
+1,https://ror.org/03t78wx29 -> https://ror.org/027tyzk91,https://ror.org/03t78wx29,https://ror.org/027tyzk91,JP,JP,Hiroshima,Tokyo,Hiroshima University,Tokyo University of Foreign Studies,education,education
+1,https://ror.org/03t78wx29 -> https://ror.org/03c5e1619,https://ror.org/03t78wx29,https://ror.org/03c5e1619,JP,JP,Hiroshima,Hiroshima,Hiroshima University,Yasuda Women's University,education,education
+12,https://ror.org/03t78wx29 -> https://ror.org/03t78wx29,https://ror.org/03t78wx29,https://ror.org/03t78wx29,JP,JP,Hiroshima,Hiroshima,Hiroshima University,Hiroshima University,education,education
+3,https://ror.org/03t78wx29 -> https://ror.org/048rj2z13,https://ror.org/03t78wx29,https://ror.org/048rj2z13,JP,JP,Hiroshima,Tokyo,Hiroshima University,"Ministry of Education, Culture, Sports, Science and Technology",education,government
+1,https://ror.org/03t78wx29 -> https://ror.org/05byzd324,https://ror.org/03t78wx29,https://ror.org/05byzd324,JP,JP,Hiroshima,Kure,Hiroshima University,Hiroshima Bunka Gakuen University,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/0151bmh98,https://ror.org/03tgsfw79,https://ror.org/0151bmh98,JP,JP,Kobe,Kobe,Kobe University,University of Hyogo,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/01dq60k83,https://ror.org/03tgsfw79,https://ror.org/01dq60k83,JP,JP,Kobe,Sendai,Kobe University,Tohoku University,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/01v1m2411,https://ror.org/03tgsfw79,https://ror.org/01v1m2411,JP,JP,Kobe,Kyoto,Kobe University,The Ritsumeikan Trust,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/02kpeqv85,https://ror.org/03tgsfw79,https://ror.org/02kpeqv85,JP,JP,Kobe,Kyoto,Kobe University,Kyoto University,education,education
+3,https://ror.org/03tgsfw79 -> https://ror.org/02qf2tx24,https://ror.org/03tgsfw79,https://ror.org/02qf2tx24,JP,JP,Kobe,Nishinomiya,Kobe University,Kwansei Gakuin University,education,education
+3,https://ror.org/03tgsfw79 -> https://ror.org/035t8zc32,https://ror.org/03tgsfw79,https://ror.org/035t8zc32,JP,JP,Kobe,Osaka,Kobe University,Osaka University,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/038bgk418,https://ror.org/03tgsfw79,https://ror.org/038bgk418,JP,JP,Kobe,Sōja,Kobe University,Okayama Prefectural University,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/03qvqb743,https://ror.org/03tgsfw79,https://ror.org/03qvqb743,JP,JP,Kobe,Hachiōji,Kobe University,Chuo University,education,education
+26,https://ror.org/03tgsfw79 -> https://ror.org/03tgsfw79,https://ror.org/03tgsfw79,https://ror.org/03tgsfw79,JP,JP,Kobe,Kobe,Kobe University,Kobe University,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/03weam126,https://ror.org/03tgsfw79,https://ror.org/03weam126,JP,JP,Kobe,Tokyo,Kobe University,Toyo Eiwa Jogakuin,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/048rj2z13,https://ror.org/03tgsfw79,https://ror.org/048rj2z13,JP,JP,Kobe,Tokyo,Kobe University,"Ministry of Education, Culture, Sports, Science and Technology",education,government
+1,https://ror.org/03tgsfw79 -> https://ror.org/04j7mzp05,https://ror.org/03tgsfw79,https://ror.org/04j7mzp05,JP,JP,Kobe,Takamatsu,Kobe University,Kagawa University,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/04wn7wc95,https://ror.org/03tgsfw79,https://ror.org/04wn7wc95,JP,JP,Kobe,Nagoya,Kobe University,Nagoya City University,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/05bx1gz93,https://ror.org/03tgsfw79,https://ror.org/05bx1gz93,JP,JP,Kobe,Utsunomiya,Kobe University,Utsunomiya University,education,education
+2,https://ror.org/03tgsfw79 -> https://ror.org/05crbcr45,https://ror.org/03tgsfw79,https://ror.org/05crbcr45,JP,JP,Kobe,Tokyo,Kobe University,Tokyo University of Agriculture,education,education
+1,https://ror.org/03tgsfw79 -> https://ror.org/05t70xh16,https://ror.org/03tgsfw79,https://ror.org/05t70xh16,JP,JP,Kobe,Kyoto,Kobe University,Kyoto Sangyo University,education,education
+1,https://ror.org/03thzz813 -> https://ror.org/05q041y44,https://ror.org/03thzz813,https://ror.org/05q041y44,JP,JP,Saitama,Tokyo,Meikai University,Kokugakuin University,education,education
+2,https://ror.org/03tj1w486 -> https://ror.org/00p4k0j84,https://ror.org/03tj1w486,https://ror.org/00p4k0j84,JP,JP,Fukuoka,Fukuoka,Haradoi Hospital,Kyushu University,healthcare,education
+1,https://ror.org/03xg1f311 -> https://ror.org/03a42q045,https://ror.org/03xg1f311,https://ror.org/03a42q045,JP,JP,Suita,Nara-shi,Kansai University,Nara University,education,education
+2,https://ror.org/03xg1f311 -> https://ror.org/03xg1f311,https://ror.org/03xg1f311,https://ror.org/03xg1f311,JP,JP,Suita,Suita,Kansai University,Kansai University,education,education
+1,https://ror.org/03xg1f311 -> https://ror.org/05kt9ap64,https://ror.org/03xg1f311,https://ror.org/05kt9ap64,JP,JP,Suita,Osaka,Kansai University,Kindai University,education,education
+1,https://ror.org/03zyp6p76 -> https://ror.org/01dq60k83,https://ror.org/03zyp6p76,https://ror.org/01dq60k83,JP,JP,Yokohama,Sendai,Yokohama National University,Tohoku University,education,education
+1,https://ror.org/03zyp6p76 -> https://ror.org/01p7qe739,https://ror.org/03zyp6p76,https://ror.org/01p7qe739,JP,JP,Yokohama,Tokyo,Yokohama National University,Tokai University,education,education
+5,https://ror.org/03zyp6p76 -> https://ror.org/03zyp6p76,https://ror.org/03zyp6p76,https://ror.org/03zyp6p76,JP,JP,Yokohama,Yokohama,Yokohama National University,Yokohama National University,education,education
+2,https://ror.org/0447kww10 -> https://ror.org/0447kww10,https://ror.org/0447kww10,https://ror.org/0447kww10,JP,JP,Miyazaki,Miyazaki,University of Miyazaki,University of Miyazaki,education,education
+1,https://ror.org/047khpn70 -> https://ror.org/021a26605,https://ror.org/047khpn70,https://ror.org/021a26605,JP,JP,Fujisawa,Tokyo,Keio University Shonan Fujisawa,Tokyo University of Technology,education,education
+4,https://ror.org/047khpn70 -> https://ror.org/047khpn70,https://ror.org/047khpn70,https://ror.org/047khpn70,JP,JP,Fujisawa,Fujisawa,Keio University Shonan Fujisawa,Keio University Shonan Fujisawa,education,education
+1,https://ror.org/047wxqn68 -> https://ror.org/00x194q47,https://ror.org/047wxqn68,https://ror.org/00x194q47,JP,JP,Tokyo,Tokyo,Mejiro University,Rikkyo University,education,education
+1,https://ror.org/04ajrmg05 -> https://ror.org/03bwsp312,https://ror.org/04ajrmg05,https://ror.org/03bwsp312,JP,JP,Nagoya,Kobe,Chukyo University,Kobe Shoin Women's University,education,education
+2,https://ror.org/04ajrmg05 -> https://ror.org/04ajrmg05,https://ror.org/04ajrmg05,https://ror.org/04ajrmg05,JP,JP,Nagoya,Nagoya,Chukyo University,Chukyo University,education,education
+1,https://ror.org/04ajrmg05 -> https://ror.org/04q5p4a74,https://ror.org/04ajrmg05,https://ror.org/04q5p4a74,JP,JP,Nagoya,Tokyo,Chukyo University,Seisen University,education,education
+1,https://ror.org/04ajrmg05 -> https://ror.org/04wn7wc95,https://ror.org/04ajrmg05,https://ror.org/04wn7wc95,JP,JP,Nagoya,Nagoya,Chukyo University,Nagoya City University,education,education
+1,https://ror.org/04cd75h10 -> https://ror.org/00xy44n04,https://ror.org/04cd75h10,https://ror.org/00xy44n04,JP,JP,Morioka,Yamagata,Iwate University,Yamagata University,education,education
+1,https://ror.org/04cd75h10 -> https://ror.org/017hkng22,https://ror.org/04cd75h10,https://ror.org/017hkng22,JP,JP,Morioka,Matsuyama,Iwate University,Ehime University,education,education
+1,https://ror.org/04cd75h10 -> https://ror.org/01dq60k83,https://ror.org/04cd75h10,https://ror.org/01dq60k83,JP,JP,Morioka,Sendai,Iwate University,Tohoku University,education,education
+6,https://ror.org/04cd75h10 -> https://ror.org/04cd75h10,https://ror.org/04cd75h10,https://ror.org/04cd75h10,JP,JP,Morioka,Morioka,Iwate University,Iwate University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/0051kz410,https://ror.org/04d139241,https://ror.org/0051kz410,JP,JP,Nagoya,Mito,Tokai National Higher Education and Research System,Tokiwa University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/005pdtr14,https://ror.org/04d139241,https://ror.org/005pdtr14,JP,JP,Nagoya,Tsukuba,Tokai National Higher Education and Research System,Japan International Research Center for Agricultural Sciences,education,facility
+1,https://ror.org/04d139241 -> https://ror.org/00p4k0j84,https://ror.org/04d139241,https://ror.org/00p4k0j84,JP,JP,Nagoya,Fukuoka,Tokai National Higher Education and Research System,Kyushu University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/00thekh91,https://ror.org/04d139241,https://ror.org/00thekh91,JP,JP,Nagoya,Nisshin,Tokai National Higher Education and Research System,Nagoya University of Commerce and Business,education,education
+1,https://ror.org/04d139241 -> https://ror.org/00x194q47,https://ror.org/04d139241,https://ror.org/00x194q47,JP,JP,Nagoya,Tokyo,Tokai National Higher Education and Research System,Rikkyo University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/00z9wtp09,https://ror.org/04d139241,https://ror.org/00z9wtp09,JP,JP,Nagoya,Okazaki,Tokai National Higher Education and Research System,Aichi Shukutoku University,education,education
+2,https://ror.org/04d139241 -> https://ror.org/0135d1r83,https://ror.org/04d139241,https://ror.org/0135d1r83,JP,JP,Nagoya,Yokohama,Tokai National Higher Education and Research System,Yokohama City University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/0151bmh98,https://ror.org/04d139241,https://ror.org/0151bmh98,JP,JP,Nagoya,Kobe,Tokai National Higher Education and Research System,University of Hyogo,education,education
+1,https://ror.org/04d139241 -> https://ror.org/01v1m2411,https://ror.org/04d139241,https://ror.org/01v1m2411,JP,JP,Nagoya,Kyoto,Tokai National Higher Education and Research System,The Ritsumeikan Trust,education,education
+1,https://ror.org/04d139241 -> https://ror.org/0244rem06,https://ror.org/04d139241,https://ror.org/0244rem06,JP,JP,Nagoya,Matsumoto,Tokai National Higher Education and Research System,Shinshu University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/02hwp6a56,https://ror.org/04d139241,https://ror.org/02hwp6a56,JP,JP,Nagoya,Kanazawa,Tokai National Higher Education and Research System,Kanazawa University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/02kpeqv85,https://ror.org/04d139241,https://ror.org/02kpeqv85,JP,JP,Nagoya,Kyoto,Tokai National Higher Education and Research System,Kyoto University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/02sps0775,https://ror.org/04d139241,https://ror.org/02sps0775,JP,JP,Nagoya,Kasugai,Tokai National Higher Education and Research System,Chubu University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/03c5e1619,https://ror.org/04d139241,https://ror.org/03c5e1619,JP,JP,Nagoya,Hiroshima,Tokai National Higher Education and Research System,Yasuda Women's University,education,education
+2,https://ror.org/04d139241 -> https://ror.org/03t78wx29,https://ror.org/04d139241,https://ror.org/03t78wx29,JP,JP,Nagoya,Hiroshima,Tokai National Higher Education and Research System,Hiroshima University,education,education
+2,https://ror.org/04d139241 -> https://ror.org/03xg1f311,https://ror.org/04d139241,https://ror.org/03xg1f311,JP,JP,Nagoya,Suita,Tokai National Higher Education and Research System,Kansai University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/042b6j696,https://ror.org/04d139241,https://ror.org/042b6j696,JP,JP,Nagoya,Nagoya,Tokai National Higher Education and Research System,Nanzan University,education,education
+3,https://ror.org/04d139241 -> https://ror.org/048rj2z13,https://ror.org/04d139241,https://ror.org/048rj2z13,JP,JP,Nagoya,Tokyo,Tokai National Higher Education and Research System,"Ministry of Education, Culture, Sports, Science and Technology",education,government
+46,https://ror.org/04d139241 -> https://ror.org/04d139241,https://ror.org/04d139241,https://ror.org/04d139241,JP,JP,Nagoya,Nagoya,Tokai National Higher Education and Research System,Tokai National Higher Education and Research System,education,education
+2,https://ror.org/04d139241 -> https://ror.org/04h42fc75,https://ror.org/04d139241,https://ror.org/04h42fc75,JP,JP,Nagoya,Nagoya,Tokai National Higher Education and Research System,Meijo University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/05kt9ap64,https://ror.org/04d139241,https://ror.org/05kt9ap64,JP,JP,Nagoya,Osaka,Tokai National Higher Education and Research System,Kindai University,education,education
+1,https://ror.org/04d139241 -> https://ror.org/05tvatp40,https://ror.org/04d139241,https://ror.org/05tvatp40,JP,JP,Nagoya,Gifu-shi,Tokai National Higher Education and Research System,Gifu Shotoku Gakuen University,education,education
+1,https://ror.org/04gpcyk21 -> https://ror.org/04gpcyk21,https://ror.org/04gpcyk21,https://ror.org/04gpcyk21,JP,JP,Tokyo,Tokyo,Japan Women's University,Japan Women's University,education,education
+1,https://ror.org/04h42fc75 -> https://ror.org/04h42fc75,https://ror.org/04h42fc75,https://ror.org/04h42fc75,JP,JP,Nagoya,Nagoya,Meijo University,Meijo University,education,education
+1,https://ror.org/04jqj7p05 -> https://ror.org/00x194q47,https://ror.org/04jqj7p05,https://ror.org/00x194q47,JP,JP,Tokyo,Tokyo,Hitotsubashi University,Rikkyo University,education,education
+1,https://ror.org/04jqj7p05 -> https://ror.org/01nckkm68,https://ror.org/04jqj7p05,https://ror.org/01nckkm68,JP,JP,Tokyo,Tokyo,Hitotsubashi University,Sophia University,education,education
+1,https://ror.org/04jqj7p05 -> https://ror.org/01v1m2411,https://ror.org/04jqj7p05,https://ror.org/01v1m2411,JP,JP,Tokyo,Kyoto,Hitotsubashi University,The Ritsumeikan Trust,education,education
+1,https://ror.org/04jqj7p05 -> https://ror.org/037s2db26,https://ror.org/04jqj7p05,https://ror.org/037s2db26,JP,JP,Tokyo,Tokyo,Hitotsubashi University,Gakushuin University,education,education
+4,https://ror.org/04jqj7p05 -> https://ror.org/04jqj7p05,https://ror.org/04jqj7p05,https://ror.org/04jqj7p05,JP,JP,Tokyo,Tokyo,Hitotsubashi University,Hitotsubashi University,education,education
+1,https://ror.org/04jqj7p05 -> https://ror.org/05snn5v50,https://ror.org/04jqj7p05,https://ror.org/05snn5v50,JP,JP,Tokyo,Tokyo,Hitotsubashi University,National Institute for Defense Studies,education,government
+1,https://ror.org/04k6gr834 -> https://ror.org/02kpeqv85,https://ror.org/04k6gr834,https://ror.org/02kpeqv85,JP,JP,Kyoto,Kyoto,Kyoto University Hospital,Kyoto University,healthcare,education
+1,https://ror.org/04k6gr834 -> https://ror.org/057zh3y96,https://ror.org/04k6gr834,https://ror.org/057zh3y96,JP,JP,Kyoto,Tokyo,Kyoto University Hospital,The University of Tokyo,healthcare,education
+1,https://ror.org/04q5p4a74 -> https://ror.org/04q5p4a74,https://ror.org/04q5p4a74,https://ror.org/04q5p4a74,JP,JP,Tokyo,Tokyo,Seisen University,Seisen University,education,education
+1,https://ror.org/04whwem28 -> https://ror.org/02cf1je33,https://ror.org/04whwem28,https://ror.org/02cf1je33,JP,JP,Tokyo,Sakai,Japan College of Social Work,Osaka Prefecture University,education,education
+1,https://ror.org/04ww21r56 -> https://ror.org/01dq60k83,https://ror.org/04ww21r56,https://ror.org/01dq60k83,JP,JP,Niigata,Sendai,Niigata University,Tohoku University,education,education
+1,https://ror.org/04ww21r56 -> https://ror.org/01jaaym28,https://ror.org/04ww21r56,https://ror.org/01jaaym28,JP,JP,Niigata,Matsue,Niigata University,Shimane University,education,education
+1,https://ror.org/04ww21r56 -> https://ror.org/04ww21r56,https://ror.org/04ww21r56,https://ror.org/04ww21r56,JP,JP,Niigata,Niigata,Niigata University,Niigata University,education,education
+1,https://ror.org/0504dfg48 -> https://ror.org/0504dfg48,https://ror.org/0504dfg48,https://ror.org/0504dfg48,JP,JP,Sendai,Sendai,Tohoku Gakuin University,Tohoku Gakuin University,education,education
+1,https://ror.org/0516ah480 -> https://ror.org/005pdtr14,https://ror.org/0516ah480,https://ror.org/005pdtr14,JP,JP,Hayama,Tsukuba,"The Graduate University for Advanced Studies, SOKENDAI",Japan International Research Center for Agricultural Sciences,education,facility
+1,https://ror.org/0516ah480 -> https://ror.org/01v1m2411,https://ror.org/0516ah480,https://ror.org/01v1m2411,JP,JP,Hayama,Kyoto,"The Graduate University for Advanced Studies, SOKENDAI",The Ritsumeikan Trust,education,education
+1,https://ror.org/051k3eh31 -> https://ror.org/00x194q47,https://ror.org/051k3eh31,https://ror.org/00x194q47,JP,JP,Tokyo,Tokyo,Tokyo Medical and Dental University,Rikkyo University,education,education
+1,https://ror.org/053h75930 -> https://ror.org/02gfhhc90,https://ror.org/053h75930,https://ror.org/02gfhhc90,JP,JP,Tokyo,Tokyo,Bunkyo University,Komazawa Women's University,education,education
+1,https://ror.org/053h75930 -> https://ror.org/039pch476,https://ror.org/053h75930,https://ror.org/039pch476,JP,JP,Tokyo,Tōgane,Bunkyo University,Josai International University,education,education
+2,https://ror.org/053h75930 -> https://ror.org/053h75930,https://ror.org/053h75930,https://ror.org/053h75930,JP,JP,Tokyo,Tokyo,Bunkyo University,Bunkyo University,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/005pdtr14,https://ror.org/057zh3y96,https://ror.org/005pdtr14,JP,JP,Tokyo,Tsukuba,The University of Tokyo,Japan International Research Center for Agricultural Sciences,education,facility
+1,https://ror.org/057zh3y96 -> https://ror.org/00n3e1d98,https://ror.org/057zh3y96,https://ror.org/00n3e1d98,JP,JP,Tokyo,Takasaki,The University of Tokyo,Takasaki University of Health and Welfare,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/00qg0kr10,https://ror.org/057zh3y96,https://ror.org/00qg0kr10,JP,JP,Tokyo,Tokyo,The University of Tokyo,Tokyo University of Agriculture and Technology,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/00vmdr162,https://ror.org/057zh3y96,https://ror.org/00vmdr162,JP,JP,Tokyo,Tokyo,The University of Tokyo,Kyoritsu Women's University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/00x194q47,https://ror.org/057zh3y96,https://ror.org/00x194q47,JP,JP,Tokyo,Tokyo,The University of Tokyo,Rikkyo University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/00z9wtp09,https://ror.org/057zh3y96,https://ror.org/00z9wtp09,JP,JP,Tokyo,Okazaki,The University of Tokyo,Aichi Shukutoku University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/012tqgb57,https://ror.org/057zh3y96,https://ror.org/012tqgb57,JP,JP,Tokyo,Kyoto,The University of Tokyo,Ryukoku University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/01cg0k189,https://ror.org/057zh3y96,https://ror.org/01cg0k189,JP,JP,Tokyo,Tokyo,The University of Tokyo,International Christian University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/01cpxhg33,https://ror.org/057zh3y96,https://ror.org/01cpxhg33,JP,JP,Tokyo,Nisshin,The University of Tokyo,Nagoya University of Arts and Sciences,education,education
+3,https://ror.org/057zh3y96 -> https://ror.org/01dq60k83,https://ror.org/057zh3y96,https://ror.org/01dq60k83,JP,JP,Tokyo,Sendai,The University of Tokyo,Tohoku University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/01fxdkm29,https://ror.org/057zh3y96,https://ror.org/01fxdkm29,JP,JP,Tokyo,Kyoto,The University of Tokyo,Doshisha University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/01gaw2478,https://ror.org/057zh3y96,https://ror.org/01gaw2478,JP,JP,Tokyo,Tokyo,The University of Tokyo,Teikyo University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/01hjzeq58,https://ror.org/057zh3y96,https://ror.org/01hjzeq58,JP,JP,Tokyo,Chiba,The University of Tokyo,Chiba University,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/01nckkm68,https://ror.org/057zh3y96,https://ror.org/01nckkm68,JP,JP,Tokyo,Tokyo,The University of Tokyo,Sophia University,education,education
+3,https://ror.org/057zh3y96 -> https://ror.org/01v1m2411,https://ror.org/057zh3y96,https://ror.org/01v1m2411,JP,JP,Tokyo,Kyoto,The University of Tokyo,The Ritsumeikan Trust,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/01w6wtk13,https://ror.org/057zh3y96,https://ror.org/01w6wtk13,JP,JP,Tokyo,Shizuoka,The University of Tokyo,Shizuoka University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/01zwcys39,https://ror.org/057zh3y96,https://ror.org/01zwcys39,JP,JP,Tokyo,Tokyo,The University of Tokyo,Meiji Gakuin University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/021a26605,https://ror.org/057zh3y96,https://ror.org/021a26605,JP,JP,Tokyo,Tokyo,The University of Tokyo,Tokyo University of Technology,education,education
+5,https://ror.org/057zh3y96 -> https://ror.org/023v4bd62,https://ror.org/057zh3y96,https://ror.org/023v4bd62,JP,JP,Tokyo,Tsukuba,The University of Tokyo,National Agriculture and Food Research Organization,education,government
+1,https://ror.org/057zh3y96 -> https://ror.org/027tyzk91,https://ror.org/057zh3y96,https://ror.org/027tyzk91,JP,JP,Tokyo,Tokyo,The University of Tokyo,Tokyo University of Foreign Studies,education,education
+3,https://ror.org/057zh3y96 -> https://ror.org/02956yf07,https://ror.org/057zh3y96,https://ror.org/02956yf07,JP,JP,Tokyo,Tsukuba,The University of Tokyo,University of Tsukuba,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/029smmd76,https://ror.org/057zh3y96,https://ror.org/029smmd76,JP,JP,Tokyo,Okazaki,The University of Tokyo,University of Human Environments,education,education
+3,https://ror.org/057zh3y96 -> https://ror.org/02e16g702,https://ror.org/057zh3y96,https://ror.org/02e16g702,JP,JP,Tokyo,Sapporo,The University of Tokyo,Hokkaido University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/02e4qbj88,https://ror.org/057zh3y96,https://ror.org/02e4qbj88,JP,JP,Tokyo,Saitama,The University of Tokyo,National Defense Medical College,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/02evnh647,https://ror.org/057zh3y96,https://ror.org/02evnh647,JP,JP,Tokyo,Saitama,The University of Tokyo,Saitama University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/02j6c0d67,https://ror.org/057zh3y96,https://ror.org/02j6c0d67,JP,JP,Tokyo,Yokohama,The University of Tokyo,Kanagawa University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/02kn6nx58,https://ror.org/057zh3y96,https://ror.org/02kn6nx58,JP,JP,Tokyo,Tokyo,The University of Tokyo,Keio University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/02rqvrp93,https://ror.org/057zh3y96,https://ror.org/02rqvrp93,JP,JP,Tokyo,Tokyo,The University of Tokyo,Meiji University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/02syg0q74,https://ror.org/057zh3y96,https://ror.org/02syg0q74,JP,JP,Tokyo,Hirosaki,The University of Tokyo,Hirosaki University,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/02yz8wm13,https://ror.org/057zh3y96,https://ror.org/02yz8wm13,JP,JP,Tokyo,Tokyo,The University of Tokyo,Tokyo Future University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/02z1n9q24,https://ror.org/057zh3y96,https://ror.org/02z1n9q24,JP,JP,Tokyo,Okinawa,The University of Tokyo,University of the Ryukyus,education,education
+5,https://ror.org/057zh3y96 -> https://ror.org/035t8zc32,https://ror.org/057zh3y96,https://ror.org/035t8zc32,JP,JP,Tokyo,Osaka,The University of Tokyo,Osaka University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/03fvwxc59,https://ror.org/057zh3y96,https://ror.org/03fvwxc59,JP,JP,Tokyo,Tokyo,The University of Tokyo,National Center For Child Health and Development,education,government
+4,https://ror.org/057zh3y96 -> https://ror.org/03jzxkg37,https://ror.org/057zh3y96,https://ror.org/03jzxkg37,JP,JP,Tokyo,Tokyo,The University of Tokyo,Senshu University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/03ss88z23,https://ror.org/057zh3y96,https://ror.org/03ss88z23,JP,JP,Tokyo,Kagoshima,The University of Tokyo,Kagoshima University,education,education
+6,https://ror.org/057zh3y96 -> https://ror.org/03tgsfw79,https://ror.org/057zh3y96,https://ror.org/03tgsfw79,JP,JP,Tokyo,Kobe,The University of Tokyo,Kobe University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/042b6j696,https://ror.org/057zh3y96,https://ror.org/042b6j696,JP,JP,Tokyo,Nagoya,The University of Tokyo,Nanzan University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/0447kww10,https://ror.org/057zh3y96,https://ror.org/0447kww10,JP,JP,Tokyo,Miyazaki,The University of Tokyo,University of Miyazaki,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/0480pdg65,https://ror.org/057zh3y96,https://ror.org/0480pdg65,JP,JP,Tokyo,Shizuoka,The University of Tokyo,Shizuoka Eiwa Gakuin University,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/048rj2z13,https://ror.org/057zh3y96,https://ror.org/048rj2z13,JP,JP,Tokyo,Tokyo,The University of Tokyo,"Ministry of Education, Culture, Sports, Science and Technology",education,government
+2,https://ror.org/057zh3y96 -> https://ror.org/04cd75h10,https://ror.org/057zh3y96,https://ror.org/04cd75h10,JP,JP,Tokyo,Morioka,The University of Tokyo,Iwate University,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/04d139241,https://ror.org/057zh3y96,https://ror.org/04d139241,JP,JP,Tokyo,Nagoya,The University of Tokyo,Tokai National Higher Education and Research System,education,education
+1,https://ror.org/057zh3y96 -> https://ror.org/04dt6bw53,https://ror.org/057zh3y96,https://ror.org/04dt6bw53,JP,JP,Tokyo,Tokyo,The University of Tokyo,Tokyo City University,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/04jqj7p05,https://ror.org/057zh3y96,https://ror.org/04jqj7p05,JP,JP,Tokyo,Tokyo,The University of Tokyo,Hitotsubashi University,education,education
+104,https://ror.org/057zh3y96 -> https://ror.org/057zh3y96,https://ror.org/057zh3y96,https://ror.org/057zh3y96,JP,JP,Tokyo,Tokyo,The University of Tokyo,The University of Tokyo,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/059d6yn51,https://ror.org/057zh3y96,https://ror.org/059d6yn51,JP,JP,Tokyo,Tokyo,The University of Tokyo,Toyo University,education,education
+3,https://ror.org/057zh3y96 -> https://ror.org/05bx1gz93,https://ror.org/057zh3y96,https://ror.org/05bx1gz93,JP,JP,Tokyo,Utsunomiya,The University of Tokyo,Utsunomiya University,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/05crbcr45,https://ror.org/057zh3y96,https://ror.org/05crbcr45,JP,JP,Tokyo,Tokyo,The University of Tokyo,Tokyo University of Agriculture,education,education
+2,https://ror.org/057zh3y96 -> https://ror.org/05jk51a88,https://ror.org/057zh3y96,https://ror.org/05jk51a88,JP,JP,Tokyo,Tokyo,The University of Tokyo,Nihon University,education,education
+1,https://ror.org/058h74p94 -> https://ror.org/0126xah18,https://ror.org/058h74p94,https://ror.org/0126xah18,JP,JP,Nagasaki,Chiba,Nagasaki University,Chiba University Hospital,education,healthcare
+3,https://ror.org/058h74p94 -> https://ror.org/0135d1r83,https://ror.org/058h74p94,https://ror.org/0135d1r83,JP,JP,Nagasaki,Yokohama,Nagasaki University,Yokohama City University,education,education
+1,https://ror.org/058h74p94 -> https://ror.org/058h74p94,https://ror.org/058h74p94,https://ror.org/058h74p94,JP,JP,Nagasaki,Nagasaki,Nagasaki University,Nagasaki University,education,education
+1,https://ror.org/059d6yn51 -> https://ror.org/00ntfnx83,https://ror.org/059d6yn51,https://ror.org/00ntfnx83,JP,JP,Tokyo,Tokyo,Toyo University,Waseda University,education,education
+1,https://ror.org/05bhada84 -> https://ror.org/05bhada84,https://ror.org/05bhada84,https://ror.org/05bhada84,JP,JP,Ikoma,Ikoma,Nara Institute of Science and Technology,Nara Institute of Science and Technology,education,education
+1,https://ror.org/05bx1gz93 -> https://ror.org/05crbcr45,https://ror.org/05bx1gz93,https://ror.org/05crbcr45,JP,JP,Utsunomiya,Tokyo,Utsunomiya University,Tokyo University of Agriculture,education,education
+8,https://ror.org/05crbcr45 -> https://ror.org/05crbcr45,https://ror.org/05crbcr45,https://ror.org/05crbcr45,JP,JP,Tokyo,Tokyo,Tokyo University of Agriculture,Tokyo University of Agriculture,education,education
+1,https://ror.org/05jk51a88 -> https://ror.org/02ws33e43,https://ror.org/05jk51a88,https://ror.org/02ws33e43,JP,JP,Tokyo,Nonoichi,Nihon University,Kanazawa Institute of Technology,education,education
+3,https://ror.org/05jk51a88 -> https://ror.org/05jk51a88,https://ror.org/05jk51a88,https://ror.org/05jk51a88,JP,JP,Tokyo,Tokyo,Nihon University,Nihon University,education,education
+1,https://ror.org/05kt9ap64 -> https://ror.org/05kt9ap64,https://ror.org/05kt9ap64,https://ror.org/05kt9ap64,JP,JP,Osaka,Osaka,Kindai University,Kindai University,education,education
+1,https://ror.org/05kzadn81 -> https://ror.org/01fxdkm29,https://ror.org/05kzadn81,https://ror.org/01fxdkm29,JP,JP,Nara-shi,Kyoto,Nara Women's University,Doshisha University,education,education
+1,https://ror.org/05n7t1e46 -> https://ror.org/059d6yn51,https://ror.org/05n7t1e46,https://ror.org/059d6yn51,JP,JP,Machida,Tokyo,Wako University,Toyo University,education,education
+1,https://ror.org/05n7t1e46 -> https://ror.org/05jk51a88,https://ror.org/05n7t1e46,https://ror.org/05jk51a88,JP,JP,Machida,Tokyo,Wako University,Nihon University,education,education
+1,https://ror.org/05tjaf288 -> https://ror.org/05tjaf288,https://ror.org/05tjaf288,https://ror.org/05tjaf288,JP,JP,Tokyo,Tokyo,Komazawa University,Komazawa University,education,education
